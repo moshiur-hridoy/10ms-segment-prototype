@@ -1,0 +1,406 @@
+{
+  "groups": [
+    {
+      "id": "grp_bio",
+      "title": "HSC 2027 অনলাইন ব্যাচ - বায়োলজি",
+      "courseId": "crs_hsc27",
+      "subject": "বায়োলজি",
+      "batch": "HSC 2027 · অনলাইন ব্যাচ",
+      "icon": "leaf",
+      "category": "academic",
+      "courseHomeUrl": "#",
+      "communityUrl": "#",
+      "subjects": [
+        {
+          "id": "sub_bio1",
+          "name": "বায়োলজি ১ম পত্র",
+          "icon": "leaf",
+          "progress": 62,
+          "url": "#"
+        },
+        {
+          "id": "sub_bio2",
+          "name": "বায়োলজি ২য় পত্র",
+          "icon": "leaf",
+          "progress": 38,
+          "url": "#"
+        }
+      ],
+      "folders": [
+        {
+          "id": "bio_f1",
+          "label": "Monthly Exam",
+          "url": "#",
+          "kind": "exam"
+        },
+        {
+          "id": "bio_f2",
+          "label": "Basic Building",
+          "url": "#"
+        },
+        {
+          "id": "bio_f3",
+          "label": "Weekly Exam",
+          "url": "#",
+          "kind": "exam"
+        },
+        {
+          "id": "bio_f4",
+          "label": "Orientation Class",
+          "url": "#"
+        },
+        {
+          "id": "bio_f5",
+          "label": "One Shot Class",
+          "url": "#"
+        },
+        {
+          "id": "bio_f6",
+          "label": "Model Test",
+          "url": "#",
+          "kind": "exam"
+        },
+        {
+          "id": "bio_f7",
+          "label": "ফাইনাল সাজেশন পিডিএফ",
+          "url": "#"
+        },
+        {
+          "id": "bio_f8",
+          "label": "Archive",
+          "url": "#"
+        }
+      ],
+      "continue": {
+        "type": "video",
+        "title": "প্রোটোপ্লাজম ও কোষঝিল্লি",
+        "url": "#",
+        "paperId": "sub_bio1"
+      }
+    },
+    {
+      "id": "grp_hmath",
+      "title": "HSC 2027 অনলাইন ব্যাচ - হায়ার ম্যাথ",
+      "courseId": "crs_hsc27",
+      "subject": "হায়ার ম্যাথ",
+      "batch": "HSC 2027 · অনলাইন ব্যাচ",
+      "icon": "calculator",
+      "category": "academic",
+      "courseHomeUrl": "#",
+      "communityUrl": "#",
+      "subjects": [
+        {
+          "id": "sub_hm1",
+          "name": "উচ্চতর গণিত ১ম পত্র",
+          "icon": "calculator",
+          "progress": 24,
+          "url": "#"
+        },
+        {
+          "id": "sub_hm2",
+          "name": "উচ্চতর গণিত ২য় পত্র",
+          "icon": "calculator",
+          "progress": 9,
+          "url": "#"
+        }
+      ],
+      "folders": [
+        {
+          "id": "hm_f1",
+          "label": "Monthly Exam",
+          "url": "#",
+          "kind": "exam"
+        },
+        {
+          "id": "hm_f2",
+          "label": "Basic Building",
+          "url": "#"
+        },
+        {
+          "id": "hm_f3",
+          "label": "Weekly Exam",
+          "url": "#",
+          "kind": "exam"
+        },
+        {
+          "id": "hm_f4",
+          "label": "Orientation Class",
+          "url": "#"
+        }
+      ],
+      "continue": {
+        "type": "video",
+        "title": "ম্যাট্রিক্স ও নির্ণায়ক: প্রাথমিক ধারণা",
+        "url": "#"
+      }
+    },
+    {
+      "id": "grp_chem",
+      "title": "HSC 2027 অনলাইন ব্যাচ - রসায়ন",
+      "courseId": "crs_hsc27",
+      "subject": "রসায়ন",
+      "batch": "HSC 2027 · অনলাইন ব্যাচ",
+      "icon": "flask",
+      "category": "academic",
+      "courseHomeUrl": "#",
+      "communityUrl": "#",
+      "subjects": [
+        {
+          "id": "sub_ch1",
+          "name": "রসায়ন ১ম পত্র",
+          "icon": "flask",
+          "progress": 47,
+          "url": "#"
+        },
+        {
+          "id": "sub_ch2",
+          "name": "রসায়ন ২য় পত্র",
+          "icon": "flask",
+          "progress": 15,
+          "url": "#"
+        }
+      ],
+      "folders": [
+        {
+          "id": "ch_f1",
+          "label": "Monthly Exam",
+          "url": "#",
+          "kind": "exam"
+        },
+        {
+          "id": "ch_f2",
+          "label": "Basic Building",
+          "url": "#"
+        },
+        {
+          "id": "ch_f3",
+          "label": "Weekly Exam",
+          "url": "#",
+          "kind": "exam"
+        },
+        {
+          "id": "ch_f4",
+          "label": "Orientation Class",
+          "url": "#"
+        },
+        {
+          "id": "ch_f5",
+          "label": "One Shot Class",
+          "url": "#"
+        },
+        {
+          "id": "ch_f6",
+          "label": "Model Test",
+          "url": "#",
+          "kind": "exam"
+        }
+      ],
+      "continue": {
+        "type": "quiz",
+        "title": "পর্যায় সারণি: কুইজ ২",
+        "url": "#"
+      }
+    },
+    {
+      "id": "grp_phy",
+      "title": "HSC 2027 অনলাইন ব্যাচ - ফিজিক্স",
+      "courseId": "crs_hsc27",
+      "subject": "ফিজিক্স",
+      "batch": "HSC 2027 · অনলাইন ব্যাচ",
+      "icon": "atom",
+      "category": "academic",
+      "courseHomeUrl": "#",
+      "communityUrl": "#",
+      "subjects": [
+        {
+          "id": "sub_ph1",
+          "name": "পদার্থবিজ্ঞান ১ম পত্র",
+          "icon": "atom",
+          "progress": 71,
+          "url": "#"
+        },
+        {
+          "id": "sub_ph2",
+          "name": "পদার্থবিজ্ঞান ২য় পত্র",
+          "icon": "atom",
+          "progress": 33,
+          "url": "#"
+        }
+      ],
+      "folders": [
+        {
+          "id": "ph_f1",
+          "label": "Monthly Exam",
+          "url": "#",
+          "kind": "exam"
+        },
+        {
+          "id": "ph_f2",
+          "label": "Basic Building",
+          "url": "#"
+        },
+        {
+          "id": "ph_f3",
+          "label": "Weekly Exam",
+          "url": "#",
+          "kind": "exam"
+        },
+        {
+          "id": "ph_f4",
+          "label": "Orientation Class",
+          "url": "#"
+        }
+      ],
+      "continue": {
+        "type": "video",
+        "title": "ভেক্টর ও এর প্রয়োগ",
+        "url": "#"
+      }
+    },
+    {
+      "id": "grp_bangla",
+      "title": "বাংলা, ইংরেজি ও আইসিটি অনলাইন ব্যাচ ২৬",
+      "subject": "বাংলা, ইংরেজি ও আইসিটি",
+      "batch": "অনলাইন ব্যাচ ২৬",
+      "icon": "book",
+      "category": "academic",
+      "courseHomeUrl": "#",
+      "communityUrl": "#",
+      "subjects": [
+        {
+          "id": "sub_bn1",
+          "name": "বাংলা ১ম পত্র",
+          "icon": "book",
+          "progress": 55,
+          "url": "#"
+        },
+        {
+          "id": "sub_ict",
+          "name": "আইসিটি",
+          "icon": "globe",
+          "progress": 20,
+          "url": "#"
+        }
+      ],
+      "folders": [
+        {
+          "id": "bn_f1",
+          "label": "Monthly Exam",
+          "url": "#",
+          "kind": "exam"
+        },
+        {
+          "id": "bn_f2",
+          "label": "Basic Building",
+          "url": "#"
+        },
+        {
+          "id": "bn_f3",
+          "label": "Weekly Exam",
+          "url": "#",
+          "kind": "exam"
+        },
+        {
+          "id": "bn_f4",
+          "label": "Orientation Class",
+          "url": "#"
+        }
+      ],
+      "continue": null
+    },
+    {
+      "id": "grp_ielts",
+      "title": "IELTS Programme",
+      "subject": "IELTS Programme",
+      "icon": "languages",
+      "category": "english",
+      "courseHomeUrl": "#",
+      "communityUrl": "#",
+      "subjects": [
+        {
+          "id": "sub_read",
+          "name": "Reading",
+          "icon": "book",
+          "progress": 40,
+          "url": "#"
+        },
+        {
+          "id": "sub_speak",
+          "name": "Speaking",
+          "icon": "mic",
+          "progress": 12,
+          "url": "#"
+        }
+      ],
+      "folders": [
+        {
+          "id": "ie_f1",
+          "label": "Mock Test",
+          "url": "#",
+          "kind": "exam"
+        },
+        {
+          "id": "ie_f2",
+          "label": "Band 7 Strategy",
+          "url": "#"
+        },
+        {
+          "id": "ie_f3",
+          "label": "Live Class Recordings",
+          "url": "#"
+        },
+        {
+          "id": "ie_f4",
+          "label": "Vocabulary",
+          "url": "#"
+        }
+      ],
+      "continue": {
+        "type": "video",
+        "title": "Skimming, scanning ও keyword strategy",
+        "url": "#"
+      }
+    },
+    {
+      "id": "grp_spoken",
+      "title": "Spoken English Junior",
+      "subject": "Spoken English Junior",
+      "icon": "mic",
+      "category": "english",
+      "courseHomeUrl": "#",
+      "subjects": [
+        {
+          "id": "sub_sp1",
+          "name": "Everyday Conversation",
+          "icon": "languages",
+          "progress": 80,
+          "url": "#"
+        },
+        {
+          "id": "sub_sp2",
+          "name": "Pronunciation",
+          "icon": "mic",
+          "progress": 64,
+          "url": "#"
+        }
+      ],
+      "folders": [
+        {
+          "id": "sp_f1",
+          "label": "Practice Sessions",
+          "url": "#"
+        },
+        {
+          "id": "sp_f2",
+          "label": "Worksheets",
+          "url": "#"
+        }
+      ],
+      "continue": {
+        "type": "video",
+        "title": "Introducing yourself confidently",
+        "url": "#"
+      }
+    }
+  ]
+}

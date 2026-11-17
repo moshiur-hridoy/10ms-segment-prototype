@@ -1,0 +1,1178 @@
+{
+  "papers": [
+    {
+      "id": "s_full",
+      "title": "উচ্চতর গণিত ২য় পত্র: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+      "course": "HSC 2027 অনলাইন ব্যাচ - উচ্চতর গণিত, যেখানে কোর্সের নাম অনেক লম্বা হতে পারে এবং দুই লাইনে ভেঙে যেতে পারে",
+      "archiveCourse": "HSC 26 Archive Class - Higher Math",
+      "chapters": [
+        {
+          "id": "ch_1",
+          "number": 1,
+          "title": "জটিল সংখ্যা",
+          "items": [
+            {
+              "id": "sh_65",
+              "kind": "sheet",
+              "title": "Lecture Sheet: অধ্যায় ১: জটিল সংখ্যা",
+              "source": "batch",
+              "url": "#",
+              "pages": 999,
+              "status": "done"
+            },
+            {
+              "id": "v_66",
+              "kind": "video",
+              "title": "জটিল সংখ্যা — পর্ব ১: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 3000,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "done"
+            },
+            {
+              "id": "e_67",
+              "kind": "exam",
+              "title": "Daily Exam: জটিল সংখ্যা — পর্ব ১: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "done",
+              "score": {
+                "got": 20,
+                "total": 20
+              }
+            },
+            {
+              "id": "s_68",
+              "kind": "slide",
+              "title": "Lecture Slide: জটিল সংখ্যা — পর্ব ১: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "done"
+            },
+            {
+              "id": "v_69",
+              "kind": "video",
+              "title": "জটিল সংখ্যা — পর্ব ২: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 3097,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "done"
+            },
+            {
+              "id": "e_70",
+              "kind": "exam",
+              "title": "Daily Exam: জটিল সংখ্যা — পর্ব ২: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "done",
+              "score": {
+                "got": 20,
+                "total": 20
+              }
+            },
+            {
+              "id": "s_71",
+              "kind": "slide",
+              "title": "Lecture Slide: জটিল সংখ্যা — পর্ব ২: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "done"
+            },
+            {
+              "id": "v_72",
+              "kind": "video",
+              "title": "জটিল সংখ্যা — পর্ব ৩: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 3194,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "done"
+            },
+            {
+              "id": "e_73",
+              "kind": "exam",
+              "title": "Daily Exam: জটিল সংখ্যা — পর্ব ৩: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "done",
+              "score": {
+                "got": 20,
+                "total": 20
+              }
+            },
+            {
+              "id": "s_74",
+              "kind": "slide",
+              "title": "Lecture Slide: জটিল সংখ্যা — পর্ব ৩: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "done"
+            }
+          ]
+        },
+        {
+          "id": "ch_2",
+          "number": 2,
+          "title": "জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+          "items": [
+            {
+              "id": "sh_75",
+              "kind": "sheet",
+              "title": "Lecture Sheet: অধ্যায় ২: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 120,
+              "status": "new"
+            },
+            {
+              "id": "v_76",
+              "kind": "video",
+              "title": "বহুপদী — পর্ব ১: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 3000,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_77",
+              "kind": "exam",
+              "title": "Daily Exam: বহুপদী — পর্ব ১: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_78",
+              "kind": "slide",
+              "title": "Lecture Slide: বহুপদী — পর্ব ১: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_79",
+              "kind": "video",
+              "title": "বহুপদী — পর্ব ২: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 3097,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_80",
+              "kind": "exam",
+              "title": "Daily Exam: বহুপদী — পর্ব ২: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_81",
+              "kind": "slide",
+              "title": "Lecture Slide: বহুপদী — পর্ব ২: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_82",
+              "kind": "video",
+              "title": "বহুপদী — পর্ব ৩: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 3194,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_83",
+              "kind": "exam",
+              "title": "Daily Exam: বহুপদী — পর্ব ৩: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_84",
+              "kind": "slide",
+              "title": "Lecture Slide: বহুপদী — পর্ব ৩: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_85",
+              "kind": "video",
+              "title": "বহুপদী — পর্ব ৪: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 3291,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_86",
+              "kind": "exam",
+              "title": "Daily Exam: বহুপদী — পর্ব ৪: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_87",
+              "kind": "slide",
+              "title": "Lecture Slide: বহুপদী — পর্ব ৪: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_88",
+              "kind": "video",
+              "title": "বহুপদী — পর্ব ৫: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 3388,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_89",
+              "kind": "exam",
+              "title": "Daily Exam: বহুপদী — পর্ব ৫: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_90",
+              "kind": "slide",
+              "title": "Lecture Slide: বহুপদী — পর্ব ৫: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_91",
+              "kind": "video",
+              "title": "বহুপদী — পর্ব ৬: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 3485,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_92",
+              "kind": "exam",
+              "title": "Daily Exam: বহুপদী — পর্ব ৬: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_93",
+              "kind": "slide",
+              "title": "Lecture Slide: বহুপদী — পর্ব ৬: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_94",
+              "kind": "video",
+              "title": "বহুপদী — পর্ব ৭: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 3582,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_95",
+              "kind": "exam",
+              "title": "Daily Exam: বহুপদী — পর্ব ৭: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_96",
+              "kind": "slide",
+              "title": "Lecture Slide: বহুপদী — পর্ব ৭: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_97",
+              "kind": "video",
+              "title": "বহুপদী — পর্ব ৮: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 3679,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_98",
+              "kind": "exam",
+              "title": "Daily Exam: বহুপদী — পর্ব ৮: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_99",
+              "kind": "slide",
+              "title": "Lecture Slide: বহুপদী — পর্ব ৮: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_100",
+              "kind": "video",
+              "title": "বহুপদী — পর্ব ৯: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 3776,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_101",
+              "kind": "exam",
+              "title": "Daily Exam: বহুপদী — পর্ব ৯: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_102",
+              "kind": "slide",
+              "title": "Lecture Slide: বহুপদী — পর্ব ৯: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_103",
+              "kind": "video",
+              "title": "বহুপদী — পর্ব ১০: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 3873,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_104",
+              "kind": "exam",
+              "title": "Daily Exam: বহুপদী — পর্ব ১০: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_105",
+              "kind": "slide",
+              "title": "Lecture Slide: বহুপদী — পর্ব ১০: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_106",
+              "kind": "video",
+              "title": "বহুপদী — পর্ব ১১: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 3970,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_107",
+              "kind": "exam",
+              "title": "Daily Exam: বহুপদী — পর্ব ১১: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_108",
+              "kind": "slide",
+              "title": "Lecture Slide: বহুপদী — পর্ব ১১: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_109",
+              "kind": "video",
+              "title": "বহুপদী — পর্ব ১২: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4067,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_110",
+              "kind": "exam",
+              "title": "Daily Exam: বহুপদী — পর্ব ১২: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_111",
+              "kind": "slide",
+              "title": "Lecture Slide: বহুপদী — পর্ব ১২: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_112",
+              "kind": "video",
+              "title": "বহুপদী — পর্ব ১৩: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4164,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_113",
+              "kind": "exam",
+              "title": "Daily Exam: বহুপদী — পর্ব ১৩: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_114",
+              "kind": "slide",
+              "title": "Lecture Slide: বহুপদী — পর্ব ১৩: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_115",
+              "kind": "video",
+              "title": "বহুপদী — পর্ব ১৪: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4261,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_116",
+              "kind": "exam",
+              "title": "Daily Exam: বহুপদী — পর্ব ১৪: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_117",
+              "kind": "slide",
+              "title": "Lecture Slide: বহুপদী — পর্ব ১৪: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_118",
+              "kind": "video",
+              "title": "বহুপদী — পর্ব ১৫: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4358,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_119",
+              "kind": "exam",
+              "title": "Daily Exam: বহুপদী — পর্ব ১৫: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_120",
+              "kind": "slide",
+              "title": "Lecture Slide: বহুপদী — পর্ব ১৫: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_121",
+              "kind": "video",
+              "title": "বহুপদী — পর্ব ১৬: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4455,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_122",
+              "kind": "exam",
+              "title": "Daily Exam: বহুপদী — পর্ব ১৬: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_123",
+              "kind": "slide",
+              "title": "Lecture Slide: বহুপদী — পর্ব ১৬: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_124",
+              "kind": "video",
+              "title": "বহুপদী — পর্ব ১৭: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4552,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_125",
+              "kind": "exam",
+              "title": "Daily Exam: বহুপদী — পর্ব ১৭: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_126",
+              "kind": "slide",
+              "title": "Lecture Slide: বহুপদী — পর্ব ১৭: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_127",
+              "kind": "video",
+              "title": "বহুপদী — পর্ব ১৮: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4649,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_128",
+              "kind": "exam",
+              "title": "Daily Exam: বহুপদী — পর্ব ১৮: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_129",
+              "kind": "slide",
+              "title": "Lecture Slide: বহুপদী — পর্ব ১৮: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_130",
+              "kind": "video",
+              "title": "বহুপদী — পর্ব ১৯: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4746,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_131",
+              "kind": "exam",
+              "title": "Daily Exam: বহুপদী — পর্ব ১৯: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_132",
+              "kind": "slide",
+              "title": "Lecture Slide: বহুপদী — পর্ব ১৯: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_133",
+              "kind": "video",
+              "title": "বহুপদী — পর্ব ২০: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4843,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_134",
+              "kind": "exam",
+              "title": "Daily Exam: বহুপদী — পর্ব ২০: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_135",
+              "kind": "slide",
+              "title": "Lecture Slide: বহুপদী — পর্ব ২০: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_136",
+              "kind": "video",
+              "title": "বহুপদী — পর্ব ২১: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4940,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_137",
+              "kind": "exam",
+              "title": "Daily Exam: বহুপদী — পর্ব ২১: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_138",
+              "kind": "slide",
+              "title": "Lecture Slide: বহুপদী — পর্ব ২১: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_139",
+              "kind": "video",
+              "title": "বহুপদী — পর্ব ২২: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 5037,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_140",
+              "kind": "exam",
+              "title": "Daily Exam: বহুপদী — পর্ব ২২: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_141",
+              "kind": "slide",
+              "title": "Lecture Slide: বহুপদী — পর্ব ২২: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_142",
+              "kind": "video",
+              "title": "বহুপদী — পর্ব ২৩: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 5134,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_143",
+              "kind": "exam",
+              "title": "Daily Exam: বহুপদী — পর্ব ২৩: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_144",
+              "kind": "slide",
+              "title": "Lecture Slide: বহুপদী — পর্ব ২৩: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_145",
+              "kind": "video",
+              "title": "বহুপদী — পর্ব ২৪: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 5231,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_146",
+              "kind": "exam",
+              "title": "Daily Exam: বহুপদী — পর্ব ২৪: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_147",
+              "kind": "slide",
+              "title": "Lecture Slide: বহুপদী — পর্ব ২৪: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_148",
+              "kind": "video",
+              "title": "বহুপদী — পর্ব ২৫: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 5328,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_149",
+              "kind": "exam",
+              "title": "Daily Exam: বহুপদী — পর্ব ২৫: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_150",
+              "kind": "slide",
+              "title": "Lecture Slide: বহুপদী — পর্ব ২৫: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_151",
+              "kind": "video",
+              "title": "বহুপদী — পর্ব ২৬: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 5425,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_152",
+              "kind": "exam",
+              "title": "Daily Exam: বহুপদী — পর্ব ২৬: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_153",
+              "kind": "slide",
+              "title": "Lecture Slide: বহুপদী — পর্ব ২৬: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_154",
+              "kind": "video",
+              "title": "বহুপদী — পর্ব ২৭: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 5522,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_155",
+              "kind": "exam",
+              "title": "Daily Exam: বহুপদী — পর্ব ২৭: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_156",
+              "kind": "slide",
+              "title": "Lecture Slide: বহুপদী — পর্ব ২৭: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_157",
+              "kind": "video",
+              "title": "বহুপদী — পর্ব ২৮: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 5619,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_158",
+              "kind": "exam",
+              "title": "Daily Exam: বহুপদী — পর্ব ২৮: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_159",
+              "kind": "slide",
+              "title": "Lecture Slide: বহুপদী — পর্ব ২৮: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_160",
+              "kind": "video",
+              "title": "বহুপদী — পর্ব ২৯: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 5716,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_161",
+              "kind": "exam",
+              "title": "Daily Exam: বহুপদী — পর্ব ২৯: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_162",
+              "kind": "slide",
+              "title": "Lecture Slide: বহুপদী — পর্ব ২৯: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_163",
+              "kind": "video",
+              "title": "বহুপদী — পর্ব ৩০: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 5813,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_164",
+              "kind": "exam",
+              "title": "Daily Exam: বহুপদী — পর্ব ৩০: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_165",
+              "kind": "slide",
+              "title": "Lecture Slide: বহুপদী — পর্ব ৩০: সমস্যা সমাধান",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_166",
+              "kind": "video",
+              "title": "আর্কাইভ বহুপদী — পর্ব ১: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "archive",
+              "url": "#",
+              "durationSec": 3000,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "started",
+              "watchedSec": 600
+            },
+            {
+              "id": "v_167",
+              "kind": "video",
+              "title": "আর্কাইভ বহুপদী — পর্ব ২: সমস্যা সমাধান",
+              "source": "archive",
+              "url": "#",
+              "durationSec": 3097,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "started",
+              "watchedSec": 600
+            },
+            {
+              "id": "v_168",
+              "kind": "video",
+              "title": "আর্কাইভ বহুপদী — পর্ব ৩: সমস্যা সমাধান",
+              "source": "archive",
+              "url": "#",
+              "durationSec": 3194,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "started",
+              "watchedSec": 600
+            },
+            {
+              "id": "v_169",
+              "kind": "video",
+              "title": "আর্কাইভ বহুপদী — পর্ব ৪: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "archive",
+              "url": "#",
+              "durationSec": 3291,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "started",
+              "watchedSec": 600
+            },
+            {
+              "id": "v_170",
+              "kind": "video",
+              "title": "আর্কাইভ বহুপদী — পর্ব ৫: সমস্যা সমাধান",
+              "source": "archive",
+              "url": "#",
+              "durationSec": 3388,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "started",
+              "watchedSec": 600
+            },
+            {
+              "id": "v_171",
+              "kind": "video",
+              "title": "আর্কাইভ বহুপদী — পর্ব ৬: সমস্যা সমাধান",
+              "source": "archive",
+              "url": "#",
+              "durationSec": 3485,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "started",
+              "watchedSec": 600
+            },
+            {
+              "id": "v_172",
+              "kind": "video",
+              "title": "আর্কাইভ বহুপদী — পর্ব ৭: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "archive",
+              "url": "#",
+              "durationSec": 3582,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "started",
+              "watchedSec": 600
+            },
+            {
+              "id": "v_173",
+              "kind": "video",
+              "title": "আর্কাইভ বহুপদী — পর্ব ৮: সমস্যা সমাধান",
+              "source": "archive",
+              "url": "#",
+              "durationSec": 3679,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "started",
+              "watchedSec": 600
+            },
+            {
+              "id": "v_174",
+              "kind": "video",
+              "title": "আর্কাইভ বহুপদী — পর্ব ৯: সমস্যা সমাধান",
+              "source": "archive",
+              "url": "#",
+              "durationSec": 3776,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "started",
+              "watchedSec": 600
+            },
+            {
+              "id": "v_175",
+              "kind": "video",
+              "title": "আর্কাইভ বহুপদী — পর্ব ১০: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+              "source": "archive",
+              "url": "#",
+              "durationSec": 3873,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "started",
+              "watchedSec": 600
+            },
+            {
+              "id": "v_176",
+              "kind": "video",
+              "title": "আর্কাইভ বহুপদী — পর্ব ১১: সমস্যা সমাধান",
+              "source": "archive",
+              "url": "#",
+              "durationSec": 3970,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "started",
+              "watchedSec": 600
+            },
+            {
+              "id": "v_177",
+              "kind": "video",
+              "title": "আর্কাইভ বহুপদী — পর্ব ১২: সমস্যা সমাধান",
+              "source": "archive",
+              "url": "#",
+              "durationSec": 4067,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "started",
+              "watchedSec": 600
+            }
+          ]
+        },
+        {
+          "id": "ch_3",
+          "number": 3,
+          "title": "দ্বিপদী বিস্তৃতি",
+          "items": [
+            {
+              "id": "x_178",
+              "kind": "exam",
+              "title": "Weekly Exam 03",
+              "source": "batch",
+              "url": "#",
+              "questions": 30,
+              "status": "done",
+              "score": {
+                "got": 0,
+                "total": 30
+              }
+            },
+            {
+              "id": "x_179",
+              "kind": "slide",
+              "title": "Formula Sheet (Very Important) — print this",
+              "source": "batch",
+              "url": "#",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "id": "ch_4",
+          "number": 4,
+          "title": "কণিক",
+          "items": [
+            {
+              "id": "v_180",
+              "kind": "video",
+              "title": "কণিক (আর্কাইভ)",
+              "source": "archive",
+              "url": "#",
+              "durationSec": 7200,
+              "publishedAt": "2025-01-02T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_181",
+              "kind": "exam",
+              "title": "Daily Exam: কণিক (আর্কাইভ)",
+              "source": "archive",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "id": "ch_5",
+          "number": 5,
+          "title": "Empty chapter with an English title that is quite long as well",
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "s_zero",
+      "title": "রসায়ন ১ম পত্র",
+      "course": "HSC 2027 অনলাইন ব্যাচ - রসায়ন",
+      "chapters": []
+    }
+  ]
+}

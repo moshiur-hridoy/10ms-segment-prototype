@@ -1,0 +1,151 @@
+/* ==========================================================================
+   Layer 1 · Primitives
+   Raw palettes. Components never use these: brand ramps (brands.css) and
+   semantic roles (modes.css) pick from them.
+   ========================================================================== */
+
+:root {
+  /* 10MS green (hue of #1cab55, the brand). Also the fixed "success" palette. */
+  --green-50: #e9fded;
+  --green-100: #d5fadc;
+  --green-200: #b4f1c1;
+  --green-300: #88e39e;
+  --green-400: #56cd7a;
+  --green-500: #1cab55;
+  --green-600: #1e8a46;
+  --green-700: #18763b;
+  --green-800: #155f2f;
+  --green-900: #154c27;
+  --green-950: #0f2a19;
+
+  /* Indigo: placeholder for a second brand (offline batches) until its colour is decided. */
+  --indigo-50: #eef2ff;
+  --indigo-100: #e0e7ff;
+  --indigo-200: #c7d2fe;
+  --indigo-300: #a5b4fc;
+  --indigo-400: #818cf8;
+  --indigo-500: #6366f1;
+  --indigo-600: #4f46e5;
+  --indigo-700: #4338ca;
+  --indigo-800: #3730a3;
+  --indigo-900: #312e81;
+  --indigo-950: #1e1b4b;
+
+  /* The steps below hold exactly the values the semantic roles use (modes.css aliases them),
+     so a ramp has only the steps in use: gaps in the numbering are deliberate. */
+  --white: #ffffff;
+
+  /* Cool grey, light-mode neutrals: surfaces, borders, text. */
+  --gray-25: #f9fafb;
+  --gray-50: #f6f7f9;
+  --gray-100: #e7e9ee;
+  --gray-200: #d5d9e0;
+  --gray-300: #c3c8d0;
+  --gray-500: #6b7280;
+  --gray-600: #4b5563;
+  --gray-900: #111827;
+
+  /* Sand, the warm neutrals of the experimental warm mode (the landing page's paper theme). */
+  --sand-50: #f5f4ef;
+  --sand-100: #e6e3da;
+
+  /* Ink, dark-mode neutrals (a bluer grey, so dark surfaces don't look muddy). */
+  --ink-100: #e6e8eb;
+  --ink-300: #aab2bd;
+  --ink-400: #8b95a1;
+  --ink-700: #3a424e;
+  --ink-750: #303846;
+  --ink-800: #232a34;
+  --ink-850: #1a2029;
+  --ink-900: #12171e;
+  --ink-950: #0b0f14;
+
+  /* Slate, the dark neutrals of lab `dark` (dark mode 2, DS70): Radix Colors' slate-dark scale, where each step
+     has one job (1–2 backgrounds, 3–5 component fills, 6–8 borders, 11 secondary text, 12 text).
+     A neutral base, not blue-black, so bright text glows less around Bangla's thin strokes.
+     Step 10 is raised from Radix's #777b84 to pass 4.5:1 on raised surfaces. */
+  --slate-1: #111113;
+  --slate-2: #18191b;
+  --slate-3: #212225;
+  --slate-4: #272a2d;
+  --slate-5: #2e3135;
+  --slate-6: #363a3f;
+  --slate-7: #43484e;
+  --slate-8: #5a6169;
+  --slate-10: #8e939b;
+  --slate-11: #b0b4ba;
+  --slate-12: #edeef0;
+
+  /* Graphite, the dark neutrals of lab `dark` v2 (DS71): built for daylight, where glare washes out small
+     steps. Page, card and raised are further apart than slate's, control outlines (6) reach 3:1 on a card
+     and on raised, and secondary text (11) stays near 10:1. */
+  --graphite-1: #0e0f11;
+  --graphite-2: #212226;
+  --graphite-3: #2e3035;
+  --graphite-4: #383a40;
+  --graphite-6: #767b84;
+  --graphite-10: #9ea3ab;
+  --graphite-11: #c4c8ce;
+  --graphite-12: #f3f4f6;
+
+  /* Onyx, the dark neutrals of lab `dark` v3 (DS72): sampled from a reference the designer chose (a monitoring
+     panel): near-black page, cards a shade up, filled controls (track 3, selected 5) rather than outlines.
+     Steps 7 (control outline, 3:1) and 10 (subtle text, 4.5:1 on raised) are added to that set. */
+  --onyx-1: #0b0c0f;
+  --onyx-2: #131519;
+  --onyx-3: #1b1d22;
+  --onyx-4: #23262c;
+  --onyx-5: #2c3037;
+  --onyx-7: #636873;
+  --onyx-10: #8c919a;
+  --onyx-11: #a9aeb7;
+  --onyx-12: #edeef2;
+
+  /* Status hues: soft tint (50 light, 950 dark), text on light (700), text on dark (300). */
+  --red-50: #fef1f1;
+  --red-300: #ff8a8a;
+  --red-400: #ff5c5c; /* live, dark */
+  --red-600: #dc2626; /* live, light */
+  --red-700: #c0262d;
+  --red-950: #33161a;
+
+  --amber-50: #fff6e5;
+  --amber-300: #f5b74a;
+  --amber-700: #a15c00;
+  --amber-950: #2e2108;
+
+  --blue-50: #eef4ff;
+  --blue-300: #8fb2ff;
+  --blue-700: #1d4fd7;
+  --blue-950: #14213d;
+
+  /* Violet: the secondary accent (highlight). */
+  --violet-50: #f3efff;
+  --violet-300: #c4b5fd;
+  --violet-700: #6d28d9;
+  --violet-950: #221a3a;
+
+  /* Orange: the streak flame. */
+  --orange-400: #fb923c;
+  --orange-600: #ea580c;
+
+  /* Clay: subject progress and folders (warm, like a notebook cover). */
+  --clay-300: #e0a674;
+  --clay-400: #d8975f;
+  --clay-500: #b0703f;
+  --clay-700: #8a5528;
+}
+
+/* Motion: three speeds and two curves, used by every transition and animation.
+   fast: feedback on the element itself (press, hover, colour) · base: something moving across
+   the screen (a tab indicator, a reveal) · slow: a shared element morphing between pages.
+   standard eases in and out; emphasis starts quick and settles, for things arriving. */
+:root {
+  --motion-fast: 150ms;
+  --motion-base: 240ms;
+  --motion-slow: 400ms;
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --ease-emphasis: cubic-bezier(0.2, 0.7, 0.2, 1);
+  /* A light spring (slight overshoot, settles): shapes that grow like the iPhone's Dynamic Island. */
+  --ease-spring: linear(0, 0.006, 0.025 2.8%, 0.101 6.1%, 0.539 18.9%, 0.721 25.3%, 0.849 31.5%, 0.937 38.1%, 0.968 41.8%, 0.991 45.7%, 1.006 50.1%, 1.015 55%, 1.017 63.9%, 1.001 85.9%, 1);
+}

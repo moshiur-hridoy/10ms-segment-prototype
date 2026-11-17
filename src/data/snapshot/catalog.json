@@ -1,0 +1,2720 @@
+{
+  "pages": [
+    {
+      "batch": {
+        "id": "hsc-27",
+        "name": "এইচএসসি ২৭",
+        "examYear": 2027
+      },
+      "batches": [
+        {
+          "id": "hsc-26",
+          "label": "HSC 26",
+          "url": "https://10minuteschool.com/hsc/hsc-26/"
+        },
+        {
+          "id": "hsc-27",
+          "label": "HSC 27",
+          "url": "https://10minuteschool.com/hsc/hsc-27/"
+        },
+        {
+          "id": "hsc-28",
+          "label": "HSC 28",
+          "url": "https://10minuteschool.com/hsc/hsc-28/"
+        }
+      ],
+      "layout": "picker",
+      "audience": null,
+      "highlights": [],
+      "billing": null,
+      "freeClassUrl": null,
+      "timeline": [],
+      "toppers": 950,
+      "subjects": [
+        {
+          "id": "physics",
+          "name": "ফিজিক্স",
+          "papers": 2,
+          "teachers": [
+            {
+              "name": "Sabbir Ahmed Rifat",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Sabbir_Ahmed_Rifat_120px_1733119954914.jpg",
+              "note": "RUET (7+ Years Exp)"
+            },
+            {
+              "name": "Ashfaq-Ur-Rahman",
+              "imageUrl": "https://lm10-cdn.10minuteschool.com/images/Ashfaq_Ur_Rahman_1792990098639.png",
+              "note": "BUET (4+ Years Exp)"
+            },
+            {
+              "name": "Md Minhajul Islam",
+              "imageUrl": "https://lm10-cdn.10minuteschool.com/images/Md_Minhajul_Islam_1792990034296.jpeg",
+              "note": "BUTEX (7+ Years Exp)"
+            }
+          ]
+        },
+        {
+          "id": "chemistry",
+          "name": "কেমিস্ট্রি",
+          "papers": 2,
+          "teachers": [
+            {
+              "name": "Aman Islam Siam",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Aman_Islam_Siam_1080px_1733119137211.jpg",
+              "note": "BUET (5+ Years Exp)"
+            },
+            {
+              "name": "Fardin Ihasan",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Fardin_Ihsan_1080px_1733119338551.jpg",
+              "note": "Dhaka College (7+ Years Exp)"
+            }
+          ]
+        },
+        {
+          "id": "math",
+          "name": "ম্যাথ",
+          "papers": 2,
+          "teachers": [
+            {
+              "name": "Tahmidul Yeasin Abid",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Abid_120_1742879450158.jpg",
+              "note": "BUET (3+ Years Exp)"
+            },
+            {
+              "name": "Md Kamrul Hasan Shovon",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Shovon_120_1742705081132.jpg",
+              "note": "DU (11+ Years Exp)"
+            },
+            {
+              "name": "Adittya Al-Rajhi",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Adittya_Al-Rajhi_120px_1732693254063.jpg",
+              "note": "DU (5+ Years Exp)"
+            },
+            {
+              "name": "Tahmid Sarker Arko",
+              "imageUrl": "https://lm10-cdn.10minuteschool.com/images/Tamzid_Sarkar_Arko_(1)_1792989831445.png",
+              "note": "BUTEX (3+ Years Exp)"
+            }
+          ]
+        },
+        {
+          "id": "biology",
+          "name": "বায়োলজি",
+          "papers": 2,
+          "teachers": [
+            {
+              "name": "Dr. Mehdi Mohammed",
+              "imageUrl": "https://lms10.s3.ap-southeast-1.amazonaws.com/crm/square_images/2022-10-06T10:20:34.295Z.jpeg",
+              "note": "Shaheed Suhrawardy Medical College (9+ Years Exp)"
+            },
+            {
+              "name": "Dr. Shamima Jahid Preeti",
+              "imageUrl": "https://lms10.s3.ap-southeast-1.amazonaws.com/crm/square_images/2022-10-06T10:19:34.771Z.jpeg",
+              "note": "Shaheed Suhrawardy Medical College (6+ Years Exp)"
+            },
+            {
+              "name": "Sumya Akter Mim",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Sumya_120_1742879273419.jpg",
+              "note": "Dhaka Medical College (5+ Years Exp)"
+            }
+          ]
+        },
+        {
+          "id": "bangla",
+          "name": "বাংলা",
+          "papers": 2,
+          "teachers": [
+            {
+              "name": "Farhan Sakib",
+              "imageUrl": "https://cdn.10minuteschool.com/images/quiz/course_instructor/Farhan_Sakib_120.jpg",
+              "note": "JU (10+ Years Exp)"
+            },
+            {
+              "name": "Mahbubul Newaz Farsim",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Newaz-Farsim---H_1705314437207.jpg",
+              "note": "DU (6+ Years Exp)"
+            },
+            {
+              "name": "Ridwan Kabir Beacon",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/becon_1729768642166.jpg",
+              "note": "DU (2+ Years Exp)"
+            }
+          ]
+        },
+        {
+          "id": "english",
+          "name": "ইংরেজি",
+          "papers": 2,
+          "teachers": [
+            {
+              "name": "Nayeem Durjoy",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Nayeem_Durjoy_1080x1080_1755425582935.jpg",
+              "note": "DU (5+ Years Exp)"
+            },
+            {
+              "name": "Munzereen Shahid",
+              "imageUrl": "https://cdn.10minuteschool.com/images/skills/lp/ms_onset.jpg",
+              "note": "MSc (English), University of Oxford (UK); BA, MA (English), University of Dhaka; IELTS: 8.5"
+            },
+            {
+              "name": "Md Parvez Gazi",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Parvez-Gazi---120x120_1764751250662.jpg",
+              "note": "DU (4+ Years Exp)"
+            },
+            {
+              "name": "Shifat Shahnewaz",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Sifat_Shahnewaz_120px_1733120231090.jpg",
+              "note": "ULAB (8+ Years Exp)"
+            }
+          ]
+        },
+        {
+          "id": "ict",
+          "name": "আইসিটি",
+          "papers": 1,
+          "teachers": [
+            {
+              "name": "Jaki Ahmed",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Jaki_Ahmed_1080px_1733119605338.jpg",
+              "note": "BRAC University (7+ Years Exp)"
+            },
+            {
+              "name": "Rawnak Mubtasim Rafid",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Rownak_120_1742705753359.jpg",
+              "note": "BUET (2+ Years Exp)"
+            }
+          ]
+        },
+        {
+          "id": "finance",
+          "name": "ফাইন্যান্স",
+          "papers": 2,
+          "teachers": [
+            {
+              "name": "SMR Raiyan",
+              "imageUrl": "https://cdn.10minuteschool.com/images/quiz/course_instructor/SMR_Raiyan_120_120.jpg.jpg",
+              "note": "DU (7+ Years Exp)"
+            },
+            {
+              "name": "Faiza Tasnim",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Faiza_120_1742886080127.jpg",
+              "note": "DU (5+ Years Exp)"
+            }
+          ]
+        },
+        {
+          "id": "accounting",
+          "name": "একাউন্টিং",
+          "papers": 2,
+          "teachers": [
+            {
+              "name": "Md. Abdullah Al Mahin",
+              "imageUrl": "https://lms10.s3.ap-southeast-1.amazonaws.com/crm/thumbnails/2022-10-18T12:21:26.411Z.jpg",
+              "note": "DU (6+ Years Exp)"
+            },
+            {
+              "name": "Md. Wasif Ahmmed Rion",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Rion-120x120_1771841672734.jpg",
+              "note": "5+ Years Exp"
+            },
+            {
+              "name": "Md Mahfuzur Rahaman Shojib",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Shojib-120x120_1771841379780.jpg",
+              "note": "JU (7+ Years Exp)"
+            }
+          ]
+        },
+        {
+          "id": "management",
+          "name": "ম্যানেজমেন্ট",
+          "papers": 2,
+          "teachers": [
+            {
+              "name": "MD. Kaif",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/MD%2C_Kaif_120px_1733119848664.jpg",
+              "note": "JnU (4+ Years Exp)"
+            },
+            {
+              "name": "Fariha Tabassum Pranty",
+              "imageUrl": "https://cdn.10minuteschool.com/images/quiz/course_instructor/Fariha_Tabassum_Pranty-updated-v3.png",
+              "note": "DU (4+ Years Exp)"
+            }
+          ]
+        },
+        {
+          "id": "marketing",
+          "name": "মার্কেটিং",
+          "papers": 2,
+          "teachers": [
+            {
+              "name": "SMR Raiyan",
+              "imageUrl": "https://cdn.10minuteschool.com/images/quiz/course_instructor/SMR_Raiyan_120_120.jpg.jpg",
+              "note": "DU (7+ Years Exp)"
+            },
+            {
+              "name": "Faiza Tasnim",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Faiza_120_1742886080127.jpg",
+              "note": "DU (5+ Years Exp)"
+            }
+          ]
+        },
+        {
+          "id": "geography",
+          "name": "জিওগ্রাফি",
+          "papers": 2,
+          "teachers": [
+            {
+              "name": "Yeasin Arafat Limon",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Yeasin_Arafat_Limon_120px_1733122256067.jpg",
+              "note": "BUP (6+ Years Exp)"
+            },
+            {
+              "name": "Al Rabby Siemens",
+              "imageUrl": "https://cdn.10minuteschool.com/images/quiz/course_instructor/bcs/Siemens_120.jpg",
+              "note": "JU (4+ Years Exp)"
+            }
+          ]
+        },
+        {
+          "id": "civics",
+          "name": "পৌরনীতি",
+          "papers": 2,
+          "teachers": [
+            {
+              "name": "Mahbubul Newaz Farsim",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Newaz-Farsim---H_1705314437207.jpg",
+              "note": "DU (6+ Years Exp)"
+            },
+            {
+              "name": "Farhan Sakib",
+              "imageUrl": "https://cdn.10minuteschool.com/images/quiz/course_instructor/Farhan_Sakib_120.jpg",
+              "note": "JU (10+ Years Exp)"
+            },
+            {
+              "name": "Sadia Afrin Tuly",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Sadia_Afreen_Tulii_1788938097113.png",
+              "note": "DU (5+ Years Exp)"
+            }
+          ]
+        },
+        {
+          "id": "economics",
+          "name": "ইকোনমিক্স",
+          "papers": 2,
+          "teachers": [
+            {
+              "name": "MD. Kaif",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/MD%2C_Kaif_120px_1733119848664.jpg",
+              "note": "JnU (4+ Years Exp)"
+            },
+            {
+              "name": "Afsana Rahman Preety",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Afsana-Rahman-Preety_1788939123119.png",
+              "note": "DU (1+ Years Exp)"
+            }
+          ]
+        }
+      ],
+      "streams": [
+        {
+          "id": "science",
+          "name": "বিজ্ঞান",
+          "groupSubjects": [
+            "physics",
+            "chemistry",
+            "math",
+            "biology"
+          ],
+          "compulsorySubjects": [
+            "bangla",
+            "english",
+            "ict"
+          ],
+          "productIds": [
+            "11361",
+            "10519",
+            "11218",
+            "11214",
+            "10524",
+            "10525",
+            "10526",
+            "10527",
+            "11219",
+            "11220",
+            "11221"
+          ]
+        },
+        {
+          "id": "business-studies",
+          "name": "ব্যবসায় শিক্ষা",
+          "groupSubjects": [
+            "finance",
+            "accounting",
+            "management",
+            "marketing"
+          ],
+          "compulsorySubjects": [
+            "bangla",
+            "english",
+            "ict"
+          ],
+          "productIds": [
+            "11362",
+            "10546",
+            "11222",
+            "11218",
+            "10542",
+            "10543",
+            "11223",
+            "11224",
+            "11219",
+            "11220"
+          ]
+        },
+        {
+          "id": "humanities",
+          "name": "মানবিক",
+          "groupSubjects": [
+            "geography",
+            "civics",
+            "economics"
+          ],
+          "compulsorySubjects": [
+            "bangla",
+            "english",
+            "ict"
+          ],
+          "productIds": [
+            "11363",
+            "10547",
+            "11225",
+            "11218",
+            "10544",
+            "11227",
+            "11226",
+            "11219",
+            "11220",
+            "11221"
+          ]
+        }
+      ],
+      "products": [
+        {
+          "id": "11361",
+          "title": "HSC 27 শেষ মুহূর্তের প্রস্তুতি কোর্স [বিজ্ঞান বিভাগ Bundle]",
+          "url": "https://10minuteschool.com/product/hsc-27-sesh-muhurter-prostuti-science/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/catalog/media/hsc-27-shesh-muhurtor-prostuti-course-biggyan-bibhag-bundle-sqr_1788940060736.jpg",
+          "kind": "finalPrep",
+          "subjects": [
+            "physics",
+            "chemistry",
+            "math",
+            "biology",
+            "bangla",
+            "english",
+            "ict"
+          ],
+          "price": {
+            "original": 2750,
+            "final": 2750
+          },
+          "enrolledCount": null,
+          "liveClassesPerWeek": null,
+          "facts": [
+            "৭টি বিষয় (পদার্থবিজ্ঞান, রসায়ন, উচ্চতর গণিত, জীববিজ্ঞান, বাংলা, ইংরেজি, ICT)",
+            "১৮০টি লাইভ ক্লাস",
+            "১৮০টি লেকচার স্লাইড",
+            "১০০+ অধ্যায়ভিত্তিক বোর্ড স্ট্যান্ডার্ড MCQ পরীক্ষা",
+            "১৩টি ফাইনাল মডেল টেস্ট + সল্ভ শিট",
+            "৭টি স্পেশাল জুম কনসালটেন্সি সেশন",
+            "সম্পূর্ণ ফ্রি এক্সক্লুসিভ সাজেশন",
+            "জুম ডাউট সলভ ক্লাস"
+          ]
+        },
+        {
+          "id": "10519",
+          "title": "HSC 27 অনলাইন ব্যাচ (ফিজিক্স, কেমিস্ট্রি, ম্যাথ, বায়োলজি)",
+          "url": "https://10minuteschool.com/product/hsc-27-science-group-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/HSC_OB_27/hsc-2027-online-batch-science-group-sqr-thumbnail-new.png",
+          "kind": "live",
+          "subjects": [
+            "physics",
+            "chemistry",
+            "math",
+            "biology"
+          ],
+          "price": {
+            "original": 6500,
+            "final": 6000
+          },
+          "enrolledCount": 3305,
+          "liveClassesPerWeek": 12,
+          "facts": [
+            "প্রতি সপ্তাহে ১২ টি লাইভ ক্লাস",
+            "ডেইলি, সাপ্তাহিক ও মাসিক এক্সাম",
+            "AI Doubt Solver"
+          ]
+        },
+        {
+          "id": "11218",
+          "title": "HSC 27 অনলাইন ব্যাচ ২.০ (বাংলা, ইংরেজি, তথ্য ও যোগাযোগ প্রযুক্তি)",
+          "url": "https://10minuteschool.com/product/hsc-27-online-batch-2-bangla-english-ict/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/HSC_OB_27/Batch_2/hsc-27-online-batch-2-bangla-english-ict-online-batch-sqr-thumbnail-1.jpg",
+          "kind": "live",
+          "subjects": [
+            "bangla",
+            "english",
+            "ict"
+          ],
+          "price": {
+            "original": 7150,
+            "final": 5500
+          },
+          "enrolledCount": null,
+          "liveClassesPerWeek": 6,
+          "facts": [
+            "বাংলা ১ম ও ২য়, ইংরেজি ১ম ও ২য় পত্র, ICT এই ৫টি বিষয়ের Board-based A+ প্রস্তুতি",
+            "প্রতি সপ্তাহে ৬টি লাইভ ক্লাস",
+            "বাংলা, ইংরেজি ও ICT ১.০ কোর্সের আর্কাইভ ক্লাস",
+            "অধ্যায়ভিত্তিক গোছানো লেকচার শিট",
+            "মাস্টার বুক",
+            "ডেইলি ও মান্থলি এক্সাম",
+            "ফেসবুক কমিউনিটি"
+          ]
+        },
+        {
+          "id": "11214",
+          "title": "HSC 27 Recorded Batch (Science)",
+          "url": "https://10minuteschool.com/product/hsc-science-course/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/HSC_Recorded_Batch/hsc-science-super-free-course-sqr-thumbnail.jpg",
+          "kind": "recorded",
+          "subjects": [
+            "physics",
+            "chemistry",
+            "math",
+            "biology",
+            "bangla",
+            "english",
+            "ict"
+          ],
+          "price": {
+            "original": 3000,
+            "final": 3000
+          },
+          "enrolledCount": 183,
+          "liveClassesPerWeek": null,
+          "facts": [
+            "বিজ্ঞান বিভাগের সবার জন্য",
+            "ফিজিক্স, কেমিস্ট্রি, ম্যাথ ও বায়োলজির অধ্যায়ভিত্তিক Oneshot ক্লাস",
+            "Unlimited MCQ প্র্যাকটিস এক্সাম",
+            "যেকোনো ডাউট ক্লিয়ার করার জন্য AI ডাউট সলভার - TenTen",
+            "HSC 26 ফিজিক্স, কেমিস্ট্রি, ম্যাথ, বায়োলজি - অনলাইন ব্যাচের আর্কাইভ ক্লাস",
+            "বাংলা, ইংরেজি ও ICT ফুল সিলেবাসের রেকর্ডেড ক্লাস"
+          ]
+        },
+        {
+          "id": "10524",
+          "title": "HSC 27 অনলাইন ব্যাচ - ফিজিক্স",
+          "url": "https://10minuteschool.com/product/hsc-27-physics-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/HSC_OB_27/hsc-27-physics-online-batch-sqr-thumbnail-new.png",
+          "kind": "live",
+          "subjects": [
+            "physics"
+          ],
+          "price": {
+            "original": 10000,
+            "final": 2500
+          },
+          "enrolledCount": 3501,
+          "liveClassesPerWeek": 3,
+          "facts": [
+            "প্রতি সপ্তাহে ৩টি লাইভ ক্লাস",
+            "ডেইলি, সাপ্তাহিক ও মাসিক এক্সাম",
+            "AI Doubt Solver"
+          ]
+        },
+        {
+          "id": "10525",
+          "title": "HSC 27 অনলাইন ব্যাচ - কেমিস্ট্রি",
+          "url": "https://10minuteschool.com/product/hsc-27-chemistry-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/HSC_OB_27/hsc-27-chemistry-online-batch-sqr-thumbnail.png",
+          "kind": "live",
+          "subjects": [
+            "chemistry"
+          ],
+          "price": {
+            "original": 10000,
+            "final": 2500
+          },
+          "enrolledCount": 3573,
+          "liveClassesPerWeek": 3,
+          "facts": [
+            "প্রতি সপ্তাহে ৩টি লাইভ ক্লাস",
+            "ডেইলি, সাপ্তাহিক ও মাসিক এক্সাম",
+            "AI Doubt Solver"
+          ]
+        },
+        {
+          "id": "10526",
+          "title": "HSC 27 অনলাইন ব্যাচ - ম্যাথ",
+          "url": "https://10minuteschool.com/product/hsc-27-math-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/HSC_OB_27/hsc-27-math-online-batch-sqr-thumbnail.png",
+          "kind": "live",
+          "subjects": [
+            "math"
+          ],
+          "price": {
+            "original": 10000,
+            "final": 2500
+          },
+          "enrolledCount": 3457,
+          "liveClassesPerWeek": 3,
+          "facts": [
+            "প্রতি সপ্তাহে ৩টি লাইভ ক্লাস",
+            "ডেইলি, সাপ্তাহিক ও মাসিক এক্সাম",
+            "AI Doubt Solver"
+          ]
+        },
+        {
+          "id": "10527",
+          "title": "HSC 27 অনলাইন ব্যাচ - বায়োলজি",
+          "url": "https://10minuteschool.com/product/hsc-27-biology-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/HSC_OB_27/hsc-27-biology-online-batch-sqr-thumbnail.png",
+          "kind": "live",
+          "subjects": [
+            "biology"
+          ],
+          "price": {
+            "original": 10000,
+            "final": 2500
+          },
+          "enrolledCount": 3550,
+          "liveClassesPerWeek": 3,
+          "facts": [
+            "প্রতি সপ্তাহে ৩টি লাইভ ক্লাস",
+            "ডেইলি, সাপ্তাহিক ও মাসিক এক্সাম",
+            "AI Doubt Solver"
+          ]
+        },
+        {
+          "id": "11219",
+          "title": "HSC 27 অনলাইন ব্যাচ - বাংলা ২.০",
+          "url": "https://10minuteschool.com/product/hsc-27-bangla-online-batch-2/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/HSC_OB_27/Batch_2/hsc-27-online-batch-2-bangla-sqr-thumbnail-new.jpg",
+          "kind": "live",
+          "subjects": [
+            "bangla"
+          ],
+          "price": {
+            "original": 3000,
+            "final": 2500
+          },
+          "enrolledCount": 2121,
+          "liveClassesPerWeek": 2,
+          "facts": [
+            "HSC ২০২৭ পরীক্ষার্থী (বিজ্ঞান/মানবিক/ব্যবসায় শিক্ষা)",
+            "বাংলা ১ম ও ২য় পত্র এই ২টি বিষয়ের Board-based A+ প্রস্তুতি",
+            "প্রতি সপ্তাহে ২টি লাইভ ক্লাস",
+            "বাংলা ১.০ কোর্সের আর্কাইভ ক্লাস",
+            "অধ্যায়ভিত্তিক গোছানো লেকচার শিট",
+            "মাস্টার বুক",
+            "ডেইলি ও মান্থলি এক্সাম",
+            "ফেসবুক কমিউনিটি"
+          ]
+        },
+        {
+          "id": "11220",
+          "title": "HSC 27 অনলাইন ব্যাচ - ইংরেজি ২.০",
+          "url": "https://10minuteschool.com/product/hsc-27-english-online-batch-2/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/HSC_OB_27/Batch_2/hsc-27-online-batch-2-english-sqr-thumbnail.jpg",
+          "kind": "live",
+          "subjects": [
+            "english"
+          ],
+          "price": {
+            "original": 3000,
+            "final": 2500
+          },
+          "enrolledCount": 2969,
+          "liveClassesPerWeek": 2,
+          "facts": [
+            "HSC ২০২৭ পরীক্ষার্থী (বিজ্ঞান/মানবিক/ব্যবসায় শিক্ষা)",
+            "ইংরেজি ১ম ও ২য় পত্র এই ২টি বিষয়ের Board-based A+ প্রস্তুতি",
+            "প্রতি সপ্তাহে ২টি লাইভ ক্লাস",
+            "ইংরেজি ১.০ কোর্সের আর্কাইভ ক্লাস",
+            "অধ্যায়ভিত্তিক গোছানো লেকচার শিট",
+            "মাস্টার বুক",
+            "ফেসবুক কমিউনিটি"
+          ]
+        },
+        {
+          "id": "11221",
+          "title": "HSC 27 অনলাইন ব্যাচ - ICT 2.0",
+          "url": "https://10minuteschool.com/product/hsc-27-ict-online-batch-2/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/HSC_OB_27/Batch_2/hsc-27-online-batch-2-ict-sqr-thumbnail.jpg",
+          "kind": "live",
+          "subjects": [
+            "ict"
+          ],
+          "price": {
+            "original": 3000,
+            "final": 2500
+          },
+          "enrolledCount": 2219,
+          "liveClassesPerWeek": 2,
+          "facts": [
+            "HSC ২০২৭ পরীক্ষার্থী (বিজ্ঞান/মানবিক/ব্যবসায় শিক্ষা)",
+            "ICT বিষয়ের Board-based A+ প্রস্তুতি",
+            "প্রতি সপ্তাহে ২টি লাইভ ক্লাস",
+            "ICT ১.০ কোর্সের আর্কাইভ ক্লাস",
+            "অধ্যায়ভিত্তিক গোছানো লেকচার শিট",
+            "মাস্টার বুক",
+            "ডেইলি ও মান্থলি এক্সাম",
+            "ফেসবুক কমিউনিটি"
+          ]
+        },
+        {
+          "id": "11362",
+          "title": "HSC 27 শেষ মুহূর্তের প্রস্তুতি কোর্স [ব্যবসায় শিক্ষা বিভাগ Bundle]",
+          "url": "https://10minuteschool.com/product/hsc-27-sesh-muhurter-prostuti-business-studies/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/catalog/media/hsc-27-shesh-muhurtor-prostuti-course-business-shikkha-bundle-sqr-thumbnail_1788940192044.jpg",
+          "kind": "finalPrep",
+          "subjects": [
+            "finance",
+            "accounting",
+            "management",
+            "marketing",
+            "bangla",
+            "english",
+            "ict"
+          ],
+          "price": {
+            "original": 2500,
+            "final": 2500
+          },
+          "enrolledCount": null,
+          "liveClassesPerWeek": null,
+          "facts": [
+            "৮টি বিষয় (হিসাববিজ্ঞান, ফিন্যান্স, মার্কেটিং, ম্যানেজমেন্ট, অর্থনীতি, বাংলা, ইংরেজি, ICT)",
+            "১৩৩টি লাইভ ক্লাস",
+            "১৩৩টি লেকচার স্লাইড",
+            "১৩৩টি ক্লাসভিত্তিক বোর্ড স্ট্যান্ডার্ড MCQ পরীক্ষা",
+            "১৫টি ফাইনাল মডেল টেস্ট + সল্ভ শিট",
+            "৮টি স্পেশাল জুম কনসালটেন্সি সেশন",
+            "সম্পূর্ণ ফ্রি এক্সক্লুসিভ সাজেশন নোট"
+          ]
+        },
+        {
+          "id": "10546",
+          "title": "HSC 27 অনলাইন ব্যাচ (ফাইন্যান্স ও একাউন্টিং)",
+          "url": "https://10minuteschool.com/product/hsc-27-finance-and-accounting-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/HSC_OB_27/hsc-27-finance-and-accounting-online-batch-sqr-thumbnail-updated.jpg",
+          "kind": "live",
+          "subjects": [
+            "finance",
+            "accounting"
+          ],
+          "price": {
+            "original": 4550,
+            "final": 3500
+          },
+          "enrolledCount": 1589,
+          "liveClassesPerWeek": 5,
+          "facts": [
+            "প্রতি সপ্তাহে ৫টি লাইভ ক্লাস",
+            "ডেইলি ও মাসিক এক্সাম",
+            "সাপ্তাহিক QnA সেশন",
+            "অধ্যায়ভিত্তিক লেকচার শীট"
+          ]
+        },
+        {
+          "id": "11222",
+          "title": "HSC 27 অনলাইন ব্যাচ (ম্যানেজমেন্ট ও মার্কেটিং)",
+          "url": "https://10minuteschool.com/product/hsc-27-management-and-marketing-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/HSC_OB_27/Batch_2/hsc-27-management-and-marketing-online-batch-2-sqr-thumbnail.jpg",
+          "kind": "live",
+          "subjects": [
+            "management",
+            "marketing"
+          ],
+          "price": {
+            "original": 5850,
+            "final": 4500
+          },
+          "enrolledCount": 145,
+          "liveClassesPerWeek": 4,
+          "facts": [
+            "ম্যানেজমেন্ট ১ম ও ২য়, মার্কেটিং ১ম ও ২য় পত্র এই ৪টি বিষয়ের Board-based A+ প্রস্তুতি",
+            "বোর্ড-প্যাটার্নে উত্তর লেখার প্র্যাকটিসের মাধ্যমে বেসিক Strong + CQ/MCQ প্রস্তুতি",
+            "প্রতি সপ্তাহে ৪ টি লাইভ ক্লাস",
+            "অধ্যায়ভিত্তিক গোছানো লেকচার শিট",
+            "ডেইলি ও মান্থলি এক্সাম",
+            "ফেসবুক কমিউনিটি"
+          ]
+        },
+        {
+          "id": "10542",
+          "title": "HSC 27 অনলাইন ব্যাচ - ফাইন্যান্স",
+          "url": "https://10minuteschool.com/product/hsc-27-finance-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/HSC_OB_27/hsc-27-finance-online-batch-sqr-thumbnail.jpg",
+          "kind": "live",
+          "subjects": [
+            "finance"
+          ],
+          "price": {
+            "original": 4000,
+            "final": 2000
+          },
+          "enrolledCount": 1677,
+          "liveClassesPerWeek": 2,
+          "facts": [
+            "প্রতি সপ্তাহে ২টি লাইভ ক্লাস",
+            "ডেইলি, ও মাসিক এক্সাম",
+            "সাপ্তাহিক QnA সেশন",
+            "অধ্যায়ভিত্তিক লেকচার শিট"
+          ]
+        },
+        {
+          "id": "10543",
+          "title": "HSC 27 অনলাইন ব্যাচ - একাউন্টিং",
+          "url": "https://10minuteschool.com/product/hsc-27-accounting-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/HSC_OB_27/hsc-27-accounting-online-batch-sqr-thumbnail-updated.jpg",
+          "kind": "live",
+          "subjects": [
+            "accounting"
+          ],
+          "price": {
+            "original": 4000,
+            "final": 2000
+          },
+          "enrolledCount": 2117,
+          "liveClassesPerWeek": 3,
+          "facts": [
+            "প্রতি সপ্তাহে ৩টি লাইভ ক্লাস",
+            "ডেইলি, ও মাসিক এক্সাম",
+            "সাপ্তাহিক QnA সেশন",
+            "অধ্যায়ভিত্তিক লেকচার শিট"
+          ]
+        },
+        {
+          "id": "11223",
+          "title": "HSC 27 অনলাইন ব্যাচ - ম্যানেজমেন্ট",
+          "url": "https://10minuteschool.com/product/hsc-27-management-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/HSC_OB_27/Batch_2/hsc-27-online-batch-2-management-sqr-thumbnail.jpg",
+          "kind": "live",
+          "subjects": [
+            "management"
+          ],
+          "price": {
+            "original": 4000,
+            "final": 2500
+          },
+          "enrolledCount": 244,
+          "liveClassesPerWeek": 2,
+          "facts": [
+            "HSC ২০২৭ পরীক্ষার্থী (ব্যবসায় শিক্ষা)",
+            "ম্যানেজমেন্ট ১ম ও ২য় পত্রের Board-based A+ প্রস্তুতি",
+            "বোর্ড-প্যাটার্নে উত্তর লেখার প্র্যাকটিসের মাধ্যমে বেসিক Strong + CQ/MCQ প্রস্তুতি",
+            "প্রতি সপ্তাহে ২টি লাইভ ক্লাস",
+            "অধ্যায়ভিত্তিক গোছানো লেকচার শিট",
+            "ডেইলি ও মান্থলি এক্সাম"
+          ]
+        },
+        {
+          "id": "11224",
+          "title": "HSC 27 অনলাইন ব্যাচ - মার্কেটিং",
+          "url": "https://10minuteschool.com/product/hsc-27-marketing-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/HSC_OB_27/Batch_2/hsc-27-online-batch-2-marketing-sqr-thumbnail.jpg",
+          "kind": "live",
+          "subjects": [
+            "marketing"
+          ],
+          "price": {
+            "original": 4000,
+            "final": 2500
+          },
+          "enrolledCount": 154,
+          "liveClassesPerWeek": 2,
+          "facts": [
+            "HSC ২০২৭ পরীক্ষার্থী (ব্যবসায় শিক্ষা)",
+            "মার্কেটিং ১ম ও ২য় পত্রের Board-based A+ প্রস্তুতি",
+            "বোর্ড-প্যাটার্নে উত্তর লেখার প্র্যাকটিসের মাধ্যমে বেসিক Strong + CQ/MCQ প্রস্তুতি",
+            "প্রতি সপ্তাহে ২টি লাইভ ক্লাস",
+            "অধ্যায়ভিত্তিক গোছানো লেকচার শিট",
+            "ডেইলি ও মান্থলি এক্সাম",
+            "ফেসবুক কমিউনিটি"
+          ]
+        },
+        {
+          "id": "11363",
+          "title": "HSC 27 শেষ মুহূর্তের প্রস্তুতি কোর্স [মানবিক বিভাগ Bundle]",
+          "url": "https://10minuteschool.com/product/hsc-27-sesh-muhurter-prostuti-humanities/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/catalog/media/hsc-27-shesh-muhurtor-prostuti-course-manobik-bibhag-bundle-sqr-thumbnail_1788940285851.jpg",
+          "kind": "finalPrep",
+          "subjects": [
+            "geography",
+            "civics",
+            "economics",
+            "bangla",
+            "english",
+            "ict"
+          ],
+          "price": {
+            "original": 2500,
+            "final": 2500
+          },
+          "enrolledCount": null,
+          "liveClassesPerWeek": null,
+          "facts": [
+            "৭টি বিষয় (অর্থনীতি, ভূগোল, পৌরনীতি ও সুশাসন, ইসলামের ইতিহাস ও সংস্কৃতি, বাংলা, ইংরেজি, ICT)",
+            "১০০টি লাইভ ক্লাস",
+            "১০০টি লেকচার স্লাইড",
+            "১০০টি অধ্যায়ভিত্তিক বোর্ড স্ট্যান্ডার্ড MCQ পরীক্ষা",
+            "১৩টি ফাইনাল মডেল টেস্ট + সল্ভ শিট",
+            "৭টি স্পেশাল জুম কনসালটেন্সি সেশন",
+            "সম্পূর্ণ ফ্রি এক্সক্লুসিভ সাজেশন"
+          ]
+        },
+        {
+          "id": "10547",
+          "title": "HSC 27 অনলাইন ব্যাচ (জিওগ্রাফি ও ইকোনমিক্স ২.০)",
+          "url": "https://10minuteschool.com/product/hsc-27-geography-and-economics-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/HSC_OB_27/hsc-27-geography-and-economics-online-batch-sqr-thumbnail-new.jpg",
+          "kind": "live",
+          "subjects": [
+            "geography",
+            "economics"
+          ],
+          "price": {
+            "original": 4550,
+            "final": 3500
+          },
+          "enrolledCount": 728,
+          "liveClassesPerWeek": 4,
+          "facts": [
+            "প্রতি সপ্তাহে ৪টি লাইভ ক্লাস",
+            "ডেইলি ও মাসিক এক্সাম",
+            "সাপ্তাহিক QnA সেশন",
+            "অধ্যায়ভিত্তিক লেকচার শীট"
+          ]
+        },
+        {
+          "id": "11225",
+          "title": "HSC 27 অনলাইন ব্যাচ (পৌরনীতি ও ইকোনমিক্স ২.০)",
+          "url": "https://10minuteschool.com/product/hsc-27-civics-and-economics-online-batch-2/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/HSC_OB_27/Batch_2/hsc-27-civics-and-economics-online-batch-2-sqr-thumbnail.jpg",
+          "kind": "live",
+          "subjects": [
+            "civics",
+            "economics"
+          ],
+          "price": {
+            "original": 5850,
+            "final": 4500
+          },
+          "enrolledCount": 150,
+          "liveClassesPerWeek": 4,
+          "facts": [
+            "পৌরনীতি ১ম-২য়, ইকোনমিক্স ১ম-২য় এই ৪টি বিষয়ের Board-based A+ প্রস্তুতি",
+            "বোর্ড-প্যাটার্নে উত্তর লেখার প্র্যাকটিসের মাধ্যমে বেসিক Strong + CQ/MCQ প্রস্তুতি",
+            "প্রতি সপ্তাহে ৪টি লাইভ ক্লাস",
+            "ইকোনমিক্স ১.০ কোর্সের আর্কাইভ ক্লাস",
+            "অধ্যায়ভিত্তিক গোছানো লেকচার শিট",
+            "ডেইলি ও মান্থলি এক্সাম",
+            "ফেসবুক কমিউনিটি"
+          ]
+        },
+        {
+          "id": "10544",
+          "title": "HSC 27 অনলাইন ব্যাচ - জিওগ্রাফি",
+          "url": "https://10minuteschool.com/product/hsc-27-geography-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/HSC_OB_27/hsc-27-geography-online-batch-sqr-thumbnail-new.jpg",
+          "kind": "live",
+          "subjects": [
+            "geography"
+          ],
+          "price": {
+            "original": 4000,
+            "final": 2000
+          },
+          "enrolledCount": 949,
+          "liveClassesPerWeek": 2,
+          "facts": [
+            "প্রতি সপ্তাহে ২টি লাইভ ক্লাস",
+            "ডেইলি, ও মাসিক এক্সাম",
+            "সাপ্তাহিক QnA সেশন",
+            "অধ্যায়ভিত্তিক লেকচার শিট"
+          ]
+        },
+        {
+          "id": "11227",
+          "title": "HSC 27 অনলাইন ব্যাচ - পৌরনীতি",
+          "url": "https://10minuteschool.com/product/hsc-27-civics-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/HSC_OB_27/Batch_2/hsc-27-online-batch-2-civics-thumbnail-new.jpg",
+          "kind": "live",
+          "subjects": [
+            "civics"
+          ],
+          "price": {
+            "original": 4000,
+            "final": 2500
+          },
+          "enrolledCount": 307,
+          "liveClassesPerWeek": null,
+          "facts": [
+            "HSC ২০২৭ পরীক্ষার্থী (মানবিক)",
+            "পৌরনীতি ১ম ও ২য় পত্রের Board-based A+ প্রস্তুতি",
+            "বোর্ড-প্যাটার্নে উত্তর লেখার প্র্যাকটিসের মাধ্যমে বেসিক Strong + CQ/MCQ প্রস্তুতি",
+            "লাইভ ক্লাস",
+            "অধ্যায়ভিত্তিক গোছানো লেকচার শিট",
+            "ডেইলি ও মান্থলি এক্সাম",
+            "ফেসবুক কমিউনিটি"
+          ]
+        },
+        {
+          "id": "11226",
+          "title": "HSC 27 অনলাইন ব্যাচ - ইকোনমিক্স ২.০",
+          "url": "https://10minuteschool.com/product/hsc-27-economics-online-batch-2/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/HSC_OB_27/Batch_2/hsc-27-online-batch-2-economics-sqr-thumbnail.jpg",
+          "kind": "live",
+          "subjects": [
+            "economics"
+          ],
+          "price": {
+            "original": 4000,
+            "final": 2500
+          },
+          "enrolledCount": 942,
+          "liveClassesPerWeek": 2,
+          "facts": [
+            "ইকোনমিক্স ১ম ও ২য় পত্র এই ২টি বিষয়ের Board-based A+ প্রস্তুতি",
+            "বোর্ড-প্যাটার্নে উত্তর লেখার প্র্যাকটিসের মাধ্যমে বেসিক Strong + CQ/MCQ প্রস্তুতি",
+            "প্রতি সপ্তাহে ২টি লাইভ ক্লাস",
+            "ইকোনমিক্স ১.০ কোর্সের আর্কাইভ ক্লাস",
+            "অধ্যায়ভিত্তিক গোছানো লেকচার শিট",
+            "ডেইলি ও মান্থলি এক্সাম",
+            "ফেসবুক কমিউনিটি"
+          ]
+        }
+      ],
+      "features": [
+        {
+          "title": "Live Interactive Classes",
+          "description": "রুটিন অনুযায়ী নিয়মিত Live Class, যেখানে Basic থেকে Advanced পর্যন্ত Concept সহজভাবে শেখানো হবে। Class চলাকালীনই থাকবে CQ ও MCQ Practice।",
+          "iconUrl": "https://cdn.10minuteschool.com/images/icons/Live_1765373111697.png"
+        },
+        {
+          "title": "Recorded & Archive Classes",
+          "description": "কোনো Live Class মিস হলেও চিন্তা নেই। App ও Website-এ যেকোনো সময় Recorded Class দেখার সুবিধা, সাথে থাকবে আগের Batch-এর Archive Classes।",
+          "iconUrl": "https://cdn.10minuteschool.com/images/icons/Video_1765373152058.png"
+        },
+        {
+          "title": "TenTen AI Doubt Solver",
+          "description": "২৪/৭ AI-এর সাহায্যে Text কিংবা Image দিয়ে যেকোনো Academic Doubt-এর দ্রুত ও নির্ভুল সমাধান। Live Class, Recorded Class এবং Exam Mode—সব জায়গাতেই থাকবে TenTen-এর Support।",
+          "iconUrl": "https://cdn.10minuteschool.com/images/icons/Group_2085664198_1782905356708.svg"
+        },
+        {
+          "title": "Subject-wise Masterbook",
+          "description": "প্রতিটি Subject-এর জন্য Paper-wise Masterbook। Smart Notes, Board Question Analysis, Admission Questions, Quick Revision, HSC 2026 Board Question & Solution এবং অতিরিক্ত Practice—সব একসাথে।",
+          "iconUrl": "https://cdn.10minuteschool.com/lms10/1f4da_1782905480990.webp"
+        },
+        {
+          "title": "Complete Exam System",
+          "description": "Daily Exam, Monthly Exam, Chapter-wise CQ Exam এবং HSC Standard-এর Full-length Model Test-এর মাধ্যমে নিয়মিত নিজের প্রস্তুতি যাচাই করার সুযোগ।",
+          "iconUrl": "https://cdn.10minuteschool.com/images/icons/Paper_1765373311296.png"
+        },
+        {
+          "title": "Regular Q&A Session",
+          "description": "নিয়মিত Live Q&A Session-এ শিক্ষার্থীরা সরাসরি শিক্ষকদের সাথে কথা বলে নিজেদের Doubt Clear করতে পারবে এবং গুরুত্বপূর্ণ Preparation Tips জানতে পারবে।",
+          "iconUrl": "https://cdn.10minuteschool.com/images/icons/ruler%26pen_1765373340198.png"
+        },
+        {
+          "title": "Performance Tracking & Rewards",
+          "description": "নিয়মিত Exam-এর মাধ্যমে নিজের Progress Track করার পাশাপাশি প্রতি মাসে Subject-wise Student of the Month নির্বাচিত হবে। সেরা শিক্ষার্থীদের জন্য থাকবে Exclusive Gifts ও Recognition।",
+          "iconUrl": "https://cdn.10minuteschool.com/images/icons/png-clipart-trophy-gold-cup-trophy-gold-and-brown-trophy-image-file-formats-medal-thumbnail-removebg-preview_%281%29_1782905827773.png"
+        },
+        {
+          "title": "Subject-wise Facebook Community",
+          "description": "প্রতিটি Subject-এর জন্য থাকবে আলাদা Facebook Community, যেখানে শিক্ষক ও সারা বাংলাদেশের শিক্ষার্থীরা একসাথে যুক্ত থাকবে। Notes Sharing, Tips, Shortcuts, Discussion এবং Doubt Solving—সবকিছু এক প্ল্যাটফর্মে।",
+          "iconUrl": "https://cdn.10minuteschool.com/images/icons/people_1765373395106.png"
+        }
+      ],
+      "testimonials": [
+        {
+          "name": "Zeba Anika",
+          "role": "Viqarunnisa Noon School and College",
+          "text": "SSC সময় ফিজিক্স ঠিকভাবে বুঝতাম না, তাই বিষয়টা তেমন ভালো লাগত না। কিন্তু এখন Rifat ভাইয়া এত সুন্দর করে বুঝান যে পড়তে সত্যিই ভালো লাগে, আর পরীক্ষাতেও ভালো নাম্বার পাচ্ছি।\nএভাবে সহজ করে বুঝিয়ে দেওয়ার জন্য অনেক ধন্যবাদ ভাইয়া 😇",
+          "imageUrl": "https://cdn.10minuteschool.com/images/page_builder/testimonials/authors/Zeba_1783178746472.jpeg"
+        },
+        {
+          "name": "নাঈমা মাহমুদ পূর্বা",
+          "role": "৭৯ তম, জাহাঙ্গীরনগর বিশ্ববিদ্যালয় - ই ইউনিট (বিজনেস স্টাডিজ অনুষদ)",
+          "text": "টেন মিনিট স্কুলের প্রতি আমি ভীষণরকমভাবে কৃতজ্ঞতা প্রকাশ করছি। সাফল্য অর্জনের জন্য প্রতিটা টিচারের কাছে আমি কৃতজ্ঞ কারণ তাঁদের প্রতিটা কথা, পরামর্শ, নির্দেশনা আমাকে অনেক সাহায্য করেছে। তাঁদের প্রতিটা কথায় ভরসা পেতাম। এছাড়া কোর্স, ফ্রি ক্লাস এবং মডেল টেস্ট আমার অবস্থান বুঝতে সহায়তা করেছে।",
+          "imageUrl": "https://cdn.10minuteschool.com/cpd_images/thumbnails/%E0%A6%A8%E0%A6%BE%E0%A6%88%E0%A6%AE%E0%A6%BE_%E0%A6%AE%E0%A6%BE%E0%A6%B9%E0%A6%AE%E0%A7%81%E0%A6%A6_%E0%A6%AA%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE_%E0%A7%AD%E0%A7%AF_%E0%A6%A4%E0%A6%AE_%E0%A6%9C%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%80%E0%A6%B0%E0%A6%A8%E0%A6%97%E0%A6%B0_%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F_%E0%A6%87_%E0%A6%87%E0%A6%89%E0%A6%A8%E0%A6%BF%E0%A6%9F_%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A6%A8%E0%A7%87%E0%A6%B8_%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%A1%E0%A6%BF%E0%A6%9C_%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A6%A6.jpg"
+        },
+        {
+          "name": "Md.Al-Mahdi",
+          "role": "Government Shah Sultan College",
+          "text": "আমি SSC পরীক্ষার সময় 10 MS-এ ফ্রি রিভিশন  লাইভ ক্লাস করেছিলাম। সেখানে দেখলাম  10 MS-এ যে সকল ভাইয়া রসায়ন পড়ায় তারা খুব সুন্দর ভাবে বুঝিয়ে দেয় এবং আমি সিদ্ধান্ত নিলাম HSC-তে তাদের কাছে পড়বো। বিশেষ করে ফারদিন ভাই ও সিয়াম ভাই যেভাবে পড়ায় আমার আর তা দুইবার পড়তে হয় না । যদিও আমি করছে দেরিতে ভর্তি হয়েছি কিন্তু রেকর্ডেড ক্লাস করে সেগুলো কভার করে নিচ্ছি । আমি খুবই উপকৃত হয়েছি যে রেকর্ডেড ক্লাস পাওয়া যায় । 10 MS-এ সকল শিক্ষকই সেরা।  ইনশাআল্লাহ নতুন বছরে তাদের সাথে আমার শেখার সময়টা খুব ভালো যাবে ❤️❤️",
+          "imageUrl": "https://cdn.10minuteschool.com/images/page_builder/testimonials/authors/10ms_-_Al_Mahadi_1783178910385.png"
+        },
+        {
+          "name": "Amrin Noor Tisha",
+          "role": "Shamsul Hoque Khan School and College",
+          "text": "টেন মিনিট স্কুলের সঙ্গে মাত্র ৩ মাসে একাউন্টিং সম্পর্কে অনেক কিছু শিখতে পারছি। প্রতিটি ক্লাস, পরীক্ষা এবং কুইজ প্রতিদিন নতুন কিছু শেখাচ্ছে। মাহিন ভাইয়া এত সুন্দরভাবে বোঝান যে সব মিলিয়ে এটি একটি অসাধারণ অভিজ্ঞতা। মাহিন ভাইকে এত সুন্দরভাবে বোঝানোর জন্য ধন্যবাদ 💖।",
+          "imageUrl": "https://cdn.10minuteschool.com/images/page_builder/testimonials/authors/Amrin_Noor_Tisha__1783179115412.jpeg"
+        },
+        {
+          "name": "ইয়াসিন খান",
+          "role": "১৬৩ তম, ঢাকা বিশ্ববিদ্যালয় - খ ইউনিট",
+          "text": "I have watched short guideline videos of 10 minute school,  which helped me to know which things to read. It shortened my syllabus and boosted my confidence .",
+          "imageUrl": "https://cdn.10minuteschool.com/cpd_images/thumbnails/%E0%A6%87%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B8%E0%A6%BF%E0%A6%A8_%E0%A6%96%E0%A6%BE%E0%A6%A8_%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE_%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F_%E0%A6%96_%E0%A6%87%E0%A6%89%E0%A6%A8%E0%A6%BF%E0%A6%9F.png"
+        },
+        {
+          "name": "Mitu Moni",
+          "role": "Government Suhrawardy College",
+          "text": "আমি কোর্সে ভর্তি হওয়ার পর থেকে বাংলা, ইংরেজি ও ICT-তে আমার college friends দের চেয়ে এগিয়ে আছি। Online-এ ক্লাস করলেও কখনোই মনে হয় না যে সেটা online; একদম real একটি অনুভূতি হয় ক্লাস করতে।10MS-এর সব vaiya এবং apu রা খুব ভালোভাবে সব topic বোঝান এবং বুঝতে সাহায্য করেন।English-এর ক্লাস তো একদম মনের মতো। 🥰At last, thank you so much, 10MS. ❤️",
+          "imageUrl": "https://cdn.10minuteschool.com/images/page_builder/testimonials/authors/Mitu_Moni_1783179822203.png"
+        },
+        {
+          "name": "নাসরিন সুলতানা",
+          "role": "৭৮০ তম, ঢাকা বিশ্ববিদ্যালয় - গ ইউনিট",
+          "text": "টেন মিনিট স্কুলের ক্লাস টেস্ট ও মডেল টেস্টগুলো আমার জন্য খুবই সহায়ক ছিল। এগুলো আমার অনেক ভুল ধরিয়ে দিয়েছে এবং নিজের দুর্বলতাগুলো চিহ্নিত করতে সাহায্য করেছে।",
+          "imageUrl": "https://cdn.10minuteschool.com/cpd_images/thumbnails/%E0%A6%A8%E0%A6%BE%E0%A6%B8%E0%A6%B0%E0%A6%BF%E0%A6%A8_%E0%A6%B8%E0%A7%81%E0%A6%B2%E0%A6%A4%E0%A6%BE%E0%A6%A8%E0%A6%BE_%E0%A7%AD%E0%A7%AE%E0%A7%A6_%E0%A6%A4%E0%A6%AE_%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE_%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F_%E0%A6%97_%E0%A6%87%E0%A6%89%E0%A6%A8%E0%A6%BF%E0%A6%9F.jpg"
+        },
+        {
+          "name": "Fatema Tuz Zohora",
+          "role": "Government Debendra College",
+          "text": "সেরা মানে সেরা। এটার উপরে কোনো কথা নেই। ব্যক্তিগতভাবে আমার কাছে এটি সবচেয়ে ভালো লাগে। কোর্সে যোগ দেওয়ার আগে ইউটিউবে অনেক ভাই আপুদের ভিডিও ক্লাস দেখেছি, কিন্তু টেন মিনিট স্কুলের ভাইয়া ও আপুদের পড়ানোর এবং শেখানোর দক্ষতা আমার কাছে অনেক ভালো লাগে এবং খুব ক্রিয়েটিভ মনে হয়। সত্যি বলতে, টেন মিনিট স্কুলে যোগ দেওয়ার পর যত ক্লাস করেছি, পড়ানোর এবং শেখানোর স্কিল কখনো বিরক্তিকর মনে হয়নি। বরং ভালো লেগেছে। মাঝে মাঝে ভাবি, যদি আমি ওই ভাইয়া বা ওই আপুর জায়গায় থাকতাম, তাহলে কত ভালো লাগত। আমি হাজার হাজার শিক্ষার্থীকে একসাথে পড়াতে পারতাম। আর একটা সিক্রেট, আমি চাই আপনাদের মতো টেন মিনিট স্কুলের শিক্ষক হতে। যদি আমার রেটিং হিস্ট্রি দেখেন, দেখবেন যত রেটিং দিয়েছি সব ৫/৫।\nবায়োলজি ডিপার্টমেন্ট মানে সেরা। মেহেদী ভাইয়া, সুমাইয়া আপু এবং প্রীতি আপু মানে প্রত্যেকেই একজন সত্যিকারের সায়েন্টিস্ট।",
+          "imageUrl": "https://cdn.10minuteschool.com/images/page_builder/testimonials/authors/Fatema_Tuz_Zohora__1783180114089.jpeg"
+        },
+        {
+          "name": "Abdus Sami",
+          "role": "Tongi Islamia Fazil Degree Madrasa",
+          "text": "ম্যাথ নিয়ে আমি খুব ভয় পেতাম, বিশেষ করে ত্রিকোণমিতিকে। কিন্তু 10 Minute School-এ শোভন ভাইয়া আর আবিদ ভাইয়ার ক্লাস করার পর থেকে ম্যাথ আমার কাছে একদম সহজ হয়ে গেছে। এখন আর আগের মতো কোনো সমস্যায় পড়তে হয় না।\nআবিদ ভাইয়া খুব মজা করে পড়ান, আর শোভন ভাইয়াও দারুণভাবে টপিকগুলো স্টেপ বাই স্টেপ বুঝিয়ে দেন। তাদের পড়ানোর ধরন এত সহজ যে কনফিউশন থাকেই না। তাই আমি ভাইয়াদের প্রতি আন্তরিকভাবে ধন্যবাদ জানাতে চাই।",
+          "imageUrl": "https://cdn.10minuteschool.com/images/page_builder/testimonials/authors/Abdus_Sami_1783180181935.jpeg"
+        },
+        {
+          "name": "Afra hossen eva",
+          "role": "Hathazari Government College",
+          "text": "টেন মিনিট স্কুলের বাংলা কোর্স মানেই সেরা। ফারহান ভাইয়ার মতো একজন শিক্ষক এত সহজভাবে ক্লাস নেন, সত্যিই ভাষায় প্রকাশ করা কঠিন। কীভাবে অনুভূতি প্রকাশ করবো বুঝি না, তবে সত্যি বলতে ফারহান ভাইয়া আর ফারসিম ভাইয়া দুজনেই খুব সুন্দরভাবে বাংলা পড়ান। কলেজ কিংবা অফলাইন প্ল্যাটফর্মের সাথে টেন মিনিট স্কুলের বাংলা কোর্সের তুলনাই হয় না, পার্থক্য অনেক বড়।\nমাশাআল্লাহ। আল্লাহ আপনাদের বরকত দিন। আমাদের পাশে থাকার জন্য অনেক ধন্যবাদ 💙",
+          "imageUrl": "https://cdn.10minuteschool.com/images/page_builder/testimonials/authors/Eva_1783180276201.jpeg"
+        },
+        {
+          "name": "মোহাম্মদ ফয়জুল ইসলাম তামিম",
+          "role": "১৪৭৩ তম, ঢাকা বিশ্ববিদ্যালয় - খ ইউনিট",
+          "text": "Helped me throughout the whole admission journey, especially English, Sumon bhai and Durjoy bhai's classes were so smooth and easy that I understood all their lessons. For GK, Avro bhai's classes were best and very enjoyable.",
+          "imageUrl": "https://cdn.10minuteschool.com/cpd_images/thumbnails/%E0%A6%AE%E0%A7%8B%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A6%A6_%E0%A6%AB%E0%A6%AF%E0%A6%BC%E0%A6%9C%E0%A7%81%E0%A6%B2_%E0%A6%87%E0%A6%B8%E0%A6%B2%E0%A6%BE%E0%A6%AE_%E0%A6%A4%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%AE_%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE_%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F_%E0%A6%96_%E0%A6%87%E0%A6%89%E0%A6%A8%E0%A6%BF%E0%A6%9F.jpg"
+        },
+        {
+          "name": "শালোমী সরকার",
+          "role": "Rafiqul Islam Women's College",
+          "text": "আমার কলেজের ফাইন্যান্স ক্লাসগুলোতে পড়া বোঝা অনেক কঠিন হয়ে যেত। কিছুই বুঝতে পারতাম না। কিন্তু টেন মিনিট স্কুলে ভর্তি হওয়ার পর থেকে আমি প্রতিটি বিষয়ে ভালো নম্বর পাচ্ছি। লাইভ ক্লাসগুলোতে ভাইয়া ও আপুরা এত সুন্দরভাবে বিষয়গুলো বোঝান যে বাইরে কোনো শিক্ষকের কাছে কোচিং করতে হয়নি। টেন মিনিট স্কুলে ভর্তি হওয়ার পর থেকেই পড়াশোনা অনেক সহজ হয়ে গেছে। টেন মিনিট স্কুলের সকল শিক্ষক এবং যারা পড়ানোর সাথে যুক্ত, তাদের সকলকে অসংখ্য ধন্যবাদ আমাদের পড়াশোনা এত সহজ করে দেওয়ার জন্য।",
+          "imageUrl": "https://cdn.10minuteschool.com/images/page_builder/testimonials/authors/%C3%A0%C2%A6%C2%B6%C3%A0%C2%A6%C2%BE%C3%A0%C2%A6%C2%B2%C3%A0%C2%A7%C2%87%C3%A0%C2%A6%C2%BE%C3%A0%C2%A6%C2%AE%C3%A0%C2%A7%C2%80_%C3%A0%C2%A6%C2%B8%C3%A0%C2%A6%C2%B0%C3%A0%C2%A6%C2%95%C3%A0%C2%A6%C2%BE%C3%A0%C2%A6%C2%B0__1783180396346.jpeg"
+        },
+        {
+          "name": "মেহেজাবীন চৌধুরী নোভা",
+          "role": "৫০৮ তম, ঢাকা বিশ্ববিদ্যালয় - খ ইউনিট। ৩য়, জাহাঙ্গীরনগর বিশ্ববিদ্যালয় (সমাজবিজ্ঞান অনুষদ)",
+          "text": "আমার 10 Minute School এর সাথে ২০২০ সাল থেকে যাত্রা শুরু, সেই থেকেই আমার SSC, HSC and Admission প্রতিটি ধাপেই 10MS এর অবদান অনস্বীকার্য। এক কথায় বলে প্রকাশ করা যাবেনা কততটা helpful ছিল",
+          "imageUrl": "https://cdn.10minuteschool.com/cpd_images/thumbnails/%E0%A6%AE%E0%A7%87%E0%A6%B9%E0%A7%87%E0%A6%9C%E0%A6%BE%E0%A6%AC%E0%A7%80%E0%A6%A8_%E0%A6%9A%E0%A7%8C%E0%A6%A7%E0%A7%81%E0%A6%B0%E0%A7%80_%E0%A6%A8%E0%A7%8B%E0%A6%AD%E0%A6%BE_%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE_%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC_-_%E0%A6%96_%E0%A6%87%E0%A6%89%E0%A6%A8%E0%A6%BF%E0%A6%9F.jpg"
+        },
+        {
+          "name": "সানন্দা সরকার শ্রেয়সী",
+          "role": "৩২৭ তম, ঢাকা বিশ্ববিদ্যালয় - খ ইউনিট",
+          "text": "কোর্সের ক্লাসগুলো ছিল খুবই উপকারী। বাংলা, ইংরেজি, সাধারণ জ্ঞানের বিভিন্ন বিষয় ভালোভাবে বুঝতে পেরেছি। তাছাড়াও বিভিন্ন সময়ে ভাইয়াদের পরীক্ষার সময় ব্যবস্থাপনার উপদেশগুলোও ছিল গুরুত্বপূর্ণ। ভাইয়ারা সবসময় অনেক আনন্দের সাথে পড়িয়েছেন। ভাইয়া, আপুদের অবদান কখনো ভুলতে পারবো না। এক কথায়, ঘরে বসে ভার্সিটি এডমিশন প্রিপারেশনের জন্য 10 Minute School সেরা।",
+          "imageUrl": "https://cdn.10minuteschool.com/cpd_images/thumbnails/%E0%A6%B8%E0%A6%BE%E0%A6%A8%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BE_%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0_%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AF%E0%A6%BC%E0%A6%B8%E0%A7%80_%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE_%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F_%E0%A6%96_%E0%A6%87%E0%A6%89%E0%A6%A8%E0%A6%BF%E0%A6%9F.jpg"
+        },
+        {
+          "name": "ফাতেমা মরিয়ম হক (খুশবু)",
+          "role": "১৮৫ তম, ঢাকা বিশ্ববিদ্যালয় - গ ইউনিট",
+          "text": "Daily exams, model tests, and lecture sheets helped me a lot. Many things were common in the exam from lecture sheet and exams. Daily exams also helped me to manage time perfectly.",
+          "imageUrl": "https://cdn.10minuteschool.com/cpd_images/thumbnails/%E0%A6%AB%E0%A6%BE%E0%A6%A4%E0%A7%87%E0%A6%AE%E0%A6%BE_%E0%A6%AE%E0%A6%B0%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%AE_%E0%A6%B9%E0%A6%95_%E0%A6%96%E0%A7%81%E0%A6%B6%E0%A6%AC%E0%A7%81_%E0%A7%A7%E0%A7%AE%E0%A7%AB_%E0%A6%A4%E0%A6%AE_%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE_%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F_%E0%A6%97_%E0%A6%87%E0%A6%89%E0%A6%A8%E0%A6%BF%E0%A6%9F.jpg"
+        },
+        {
+          "name": "Aiman jahan nahia",
+          "role": "Noakhali Government Mohila College",
+          "text": "আমি SSC-তে সায়েন্স গ্রুপে ছিলাম, কিন্তু রেজাল্ট খুব ভালো হয়নি। তাই সবার পরামর্শ অনুযায়ী আমি আমার গ্রুপ চেইঞ্জ করে মানবিক গ্রুপে এসেছি এবং টেন মিনিট স্কুলের কোর্সে ভর্তি হয়েছি। প্রথমে আমি বুঝতাম না কীভাবে করতে হবে, কিন্তু ধীরে ধীরে সব বুঝতে পারছি এবং ক্লাস করতে পারছি। ক্লাসগুলো আমার কাছে খুব ভালো লেগেছে। কাইফ ভাইয়া ও জাফর ভাইয়া দুজনই খুব সুন্দরভাবে পড়ান এবং বোঝান। এখন অর্থনীতি আমার কাছে অনেক সহজ একটি বিষয় হয়ে গেছে। এটি সম্ভব হয়েছে শুধুমাত্র ভাইয়ারা এত ভালোভাবে বোঝানোর কারণে। তাদের প্রতি আমি অনেক ধন্যবাদ জানাই। আমি জানি, তারা আমাদের জন্য অনেক পরিশ্রম করেন। তাদের জন্য অনেক ভালোবাসা রইল। 😇💖",
+          "imageUrl": "https://cdn.10minuteschool.com/images/page_builder/testimonials/authors/Aiman_jahan_nahia_1783179458179.jpeg"
+        },
+        {
+          "name": "মাইশা বিনতে খালেক",
+          "role": "৫৩২ তম, চট্টগ্রাম বিশ্ববিদ্যালয় - খ ইউনিট। ২২৬ তম, চট্টগ্রাম বিশ্ববিদ্যালয় - ঘ ইউনিট",
+          "text": "ক্লাসগুলো আমার সাফল্যে অনেক ভূমিকা রেখেছে। কেননা আমি অফলাইনে কোচিং করিনি। 10MS এর ম্যারাথন ফ্রি ক্লাসগুলোও অনেক উপকারি ছিলো।",
+          "imageUrl": "https://cdn.10minuteschool.com/cpd_images/thumbnails/%E0%A6%AE%E0%A6%BE%E0%A6%87%E0%A6%B6%E0%A6%BE_%E0%A6%AC%E0%A6%BF%E0%A6%A8%E0%A6%A4%E0%A7%87_%E0%A6%96%E0%A6%BE%E0%A6%B2%E0%A7%87%E0%A6%95_%E0%A6%9A%E0%A6%9F%E0%A7%8D%E0%A6%9F%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE_%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F_%E0%A6%98_%E0%A6%87%E0%A6%89%E0%A6%A8%E0%A6%BF%E0%A6%9F.jpg"
+        },
+        {
+          "name": "Diba Roy",
+          "role": "St. Francis Xavier's Girls' School and College",
+          "text": "আসলে Siam vaiya আর  Fardin vaiya is the best teacher । SSC তে আমার কাছে কেমিস্ট্রি খুব কঠিন লাগতো কিন্তু এখন ভাইয়াদের ক্লাস করার পর থেকে কেমিস্ট্রি আমার প্রিয় সাবজেক্ট হয়ে গেছে । আমি খুব ভালো ভাবে এখন বুঝি। ভাইয়ারা কঠিন টপিকগুলো ও এমন ভাবে বুঝিয়ে দেন যে বিষয়টা  আর ভয় লাগে না। উদহারন দিয়ে পড়ানোর কারণে সবকিছু পরিষ্কার ভাবে মাথায় থাকে ।পড়ার সময় ভাইয়াদের explantion গুলো সত্যিই অনেক helpful আর Chemistry তে আগ্রহ বাড়িয়ে দেয় ।",
+          "imageUrl": "https://cdn.10minuteschool.com/images/page_builder/testimonials/authors/Diba_Roy_1783178861340.jpeg"
+        },
+        {
+          "name": "জান্নাতুল তারজিমি রোজানা",
+          "role": "৬৫৬ তম, ঢাকা বিশ্ববিদ্যালয় - গ ইউনিট",
+          "text": "এই কোর্সের সবচেয়ে বড় ভূমিকা ছিল সঠিক দিকনির্দেশনা আর অধ্যবসায়ের পরিবেশ তৈরি করে দেওয়া। প্রশ্ন সমাধান, রিভিশন আর সাপোর্ট আমাকে প্রস্তুত হতে বিশেষভাবে সাহায্য করেছে,",
+          "imageUrl": "https://cdn.10minuteschool.com/cpd_images/thumbnails/%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A8%E0%A6%BE%E0%A6%A4%E0%A7%81%E0%A6%B2_%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%9C%E0%A6%BF%E0%A6%AE%E0%A6%BF_%E0%A6%B0%E0%A7%8B%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%BE_%E0%A7%AC%E0%A7%AB%E0%A7%AC_%E0%A6%A4%E0%A6%AE_%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE_%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F_%E0%A6%97_%E0%A6%87%E0%A6%89%E0%A6%A8%E0%A6%BF%E0%A6%9F.jpg"
+        },
+        {
+          "name": "Huma",
+          "role": "Kumudini Government College",
+          "text": "10 Minute School-এ ICT এখন আমার সবচেয়ে পছন্দের সাবজেক্ট।\nJaki ভাইয়া আর Rawnak ভাইয়ার ক্লাস দুটোই এত ভালো যে ভাষায় বোঝানো যায় না। দুজনেই আমার favourite ICT teacher। তাদের পড়ানো, শেখানো আর সাপোর্ট সবই 💯।\nInshallah আমি ভালো রেজাল্ট করব।\nএকদিন ভাইয়াদের গর্ব করে বলব,\n“ভাইয়া, আমি ভালো রেজাল্ট করতে পেরেছি।” 💙",
+          "imageUrl": "https://cdn.10minuteschool.com/images/page_builder/testimonials/authors/Huma_1783179901566.png"
+        },
+        {
+          "name": "Md.Siam Ali Lasker",
+          "role": "Abaipur Jamuna Sikder College",
+          "text": "আলহামদুলিল্লাহ, জিওগ্রাফি কোর্সটি অনেক ভালো লাগছে। টেন মিনিট স্কুলে না আসলে বুঝতাম না যে স্যাররা এখানে এতো সুন্দরভাবে পড়া বোঝান।",
+          "imageUrl": "https://cdn.10minuteschool.com/images/page_builder/testimonials/authors/Md%2CSiam_Ali_Lasker__1783180345140.jpeg"
+        }
+      ],
+      "faq": [
+        {
+          "question": "ক্লাস শুরু হওয়ার পর ভর্তি হলে, হয়ে যাওয়া ক্লাস গুলো কি পাওয়া যাবে?",
+          "answer": "হ্যাঁ, চার মাসের সাইকেলের যেকোনো সময় কোর্সে যুক্ত হলেই সেই সাইকেলের সকল কনটেন্টের এক্সেস দিয়ে দেওয়া হবে।"
+        },
+        {
+          "question": "কত দিন এক্সেস থাকবে ক্লাসের?",
+          "answer": "HSC এক্সাম শেষ হওয়া পর্যন্ত"
+        },
+        {
+          "question": "ক্লাস কোথায় হবে?",
+          "answer": "ক্লাস টেন মিনিট স্কুল অ্যাপে/ ওয়েবসাইটে হবে। Android অ্যাপের মিনিমাম ভার্সন 7.1.1 হতে হবে।"
+        },
+        {
+          "question": "ক্লাস করতে কী লাগবে?",
+          "answer": "মোবাইল/ল্যাপটপ/PC + ইন্টারনেট আর 10 Minute School অ্যাপে লগইন করলেই হবে।"
+        },
+        {
+          "question": "রেকর্ডেড ক্লাস, ক্লাসের স্লাইড কোথায় পাবো?",
+          "answer": "ক্লাস শেষ হওয়ার পরে তোমরা রেকর্ডেড ক্লাস টেন মিনিট স্কুল অ্যাপ এবং ওয়েবসাইটে পেয়ে যাবে।"
+        },
+        {
+          "question": "লাইভ ক্লাস শেষে রেকর্ডেড ভিডিও কতক্ষনের মধ্যে পাবো?",
+          "answer": "লাইভ ক্লাসের ১২ ঘণ্টার মধ্যে রেকর্ডেড ভিডিও অ্যাপের লাইব্রেরি সেকশন এ দেওয়া থাকবে"
+        },
+        {
+          "question": "লেকচার স্লাইড দেওয়া হবে?",
+          "answer": "হ্যাঁ, প্রতিটি ক্লাসের সাথেই টিচারের দাগানো লেকচার স্লাইড দিয়ে দেওয়া হবে।"
+        },
+        {
+          "question": "লেকচার শিট দেওয়া হবে?",
+          "answer": "হ্যাঁ, অধ্যায় ভিক্তিক লেকচার শিট দেওয়া হবে"
+        },
+        {
+          "question": "পরীক্ষা কোথায় নেওয়া হবে?",
+          "answer": "পরীক্ষা হবে টেন মিনিট স্কুল অ্যাপ/ওয়েবসাইট"
+        },
+        {
+          "question": "আরো প্রশ্ন থাকলে কী করবো?",
+          "answer": "যেকোনো সহায়তার জন্য 16910-এ কল করতে পারো।"
+        }
+      ],
+      "videoTestimonials": [
+        {
+          "name": "মেহজাবিন",
+          "role": "শিক্ষার্থী, ১০ম শ্রেণি",
+          "videoId": "xPgIpyx04bE",
+          "title": "আমাদের স্টুডেন্ট মেহজাবিনের স্বপ্নপূরণ 😇",
+          "imageUrl": "https://cdn.10minuteschool.com/images/banners/Thumbnail_%281%29_1763641112558.jpg"
+        },
+        {
+          "name": "সাবিহা এবং হাবিবা",
+          "role": "ঝাটিবেলাই সাদেক আলী উচ্চ বিদ্যালয়, সিরাজগঞ্জ",
+          "videoId": "L9NFfsYHpJU",
+          "title": "যমজ দুইবোন স্বপ্ন দেখে একসাথে ডাক্তার হবে। আমাদের জোড়া কৃতীর ক্লাসে সেরা হওয়ার জার্নি।",
+          "imageUrl": "https://cdn.10minuteschool.com/images/banners/Middle_Frame_1763649681448.jpg"
+        },
+        {
+          "name": "রিদওয়ান কবির বিকন",
+          "role": "ঢাকা বিশ্ববিদ্যালয় (বি ইউনিট - ১২তম)",
+          "videoId": "Ez4e1BMnVFc",
+          "title": "আমি যেন চান্স না পাই সেজন্য আরো ১০০ জন পড়াশোনা করছে।",
+          "imageUrl": "https://cdn.10minuteschool.com/k12/thumbnails_seg/%E0%A6%B0%E0%A6%BF%E0%A6%A6%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%A8%20%E0%A6%95%E0%A6%AC%E0%A6%BF%E0%A6%B0%20%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A6%A8_%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE%20%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC.jpg"
+        },
+        {
+          "name": "আতকিয়া এবং তাসফিয়া",
+          "role": "বি এ এফ শাহীন কলেজ",
+          "videoId": "owAIxAdc3oA",
+          "title": "দুই বোনই ক্লাসে ফার্স্ট!",
+          "imageUrl": "https://cdn.10minuteschool.com/images/banners/End_Frame_1763641249386.jpg"
+        },
+        {
+          "name": "জিসান",
+          "role": "গাজীপুর ক্যান্টমেন্ট পাবলিক স্কুল এন্ড কলেজ",
+          "videoId": "qiWVZ6uAxnU",
+          "title": "৪৬তম থেকে এক লাফে ক্লাসে ২য়!",
+          "imageUrl": "https://cdn.10minuteschool.com/images/banners/Start_Frame_1763641447080.jpg"
+        },
+        {
+          "name": "নাফিসা",
+          "role": "ঢাকা বিশ্ববিদ্যালয় (বি ইউনিট - ১২৩তম)",
+          "videoId": "CZgrqK5KWeQ",
+          "title": "ঢাবির ১২৩তম নাফিসার ভর্তিযুদ্ধ জয়ের স্ট্রাটেজি",
+          "imageUrl": "https://cdn.10minuteschool.com/k12/thumbnails_seg/%E0%A6%A8%E0%A6%BE%E0%A6%AB%E0%A6%BF%E0%A6%B8%E0%A6%BE_%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE%20%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC.jpg"
+        },
+        {
+          "name": "ইসরাত জাহান লামিয়া",
+          "role": "বেগম রোকেয়া কিশালয়া বালিকা উচ্চ বিদ্যালয়",
+          "videoId": "buYiU9v8AS0",
+          "title": "টেন মিনিট স্কুলের টিচারদের কাছে কৃতজ্ঞ!",
+          "imageUrl": "https://cdn.10minuteschool.com/images/banners/End_Frame_%281%29_1763641651144.jpg"
+        },
+        {
+          "name": "রাফসান",
+          "role": "শেখ রাসেল ক্যান্টনমেন্ট পাবলিক স্কুল এন্ড কলেজ",
+          "videoId": "aaRTwdL-u84",
+          "title": "রাফসান তার জীবনের সবচেয়ে বড় সার্টিফিকেট পেয়ে গেলো আজকে! 🥳",
+          "imageUrl": "https://cdn.10minuteschool.com/images/banners/End_Frame_%282%29_1763641787732.jpg"
+        },
+        {
+          "name": "অনিক মোল্লা",
+          "role": "ঢাকা বিশ্ববিদ্যালয় (সি ইউনিট - একাউন্টিং বিভাগ)",
+          "videoId": "be671_uNZiI",
+          "title": "ঢাকার বাইরে থেকেও ঢাকা বিশ্ববিদ্যালয়ের স্বপ্ন দেখা যায়?",
+          "imageUrl": "https://i.ytimg.com/vi/be671_uNZiI/hqdefault.jpg"
+        },
+        {
+          "name": "আরমানুল ইসলাম",
+          "role": "ঢাকা বিশ্ববিদ্যালয় (বি ইউনিট - ৩৬তম)",
+          "videoId": "27_6IB-IIYw",
+          "title": "আরমানুলের ঢাকা বিশ্ববিদ্যালয়ের B Unit এ ৩৬তম হওয়ার গল্প",
+          "imageUrl": "https://cdn.10minuteschool.com/k12/thumbnails_seg/%E0%A6%86%E0%A6%B0%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B2%20%E0%A6%87%E0%A6%B8%E0%A6%B2%E0%A6%BE%E0%A6%AE_%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE%20%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC.jpg"
+        },
+        {
+          "name": "জান্নাতুস শিরিয়া স্বচ্ছ",
+          "role": "ঢাকা বিশ্ববিদ্যালয় (বি ইউনিট - ৫৮তম)",
+          "videoId": "DcMlXPeei0Y",
+          "title": "ঢাবি B Unit এ ৫৮তম স্বচ্ছের স্বপ্ন জয়ের গল্প",
+          "imageUrl": "https://cdn.10minuteschool.com/k12/thumbnails_seg/%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A8%E0%A6%BE%E0%A6%A4%E0%A7%81%E0%A6%B8%20%E0%A6%B6%E0%A6%BF%E0%A6%B0%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%20%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%9A%E0%A7%8D%E0%A6%9B_%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE%20%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC.jpg"
+        },
+        {
+          "name": "শিঞ্জন বড়ুয়া",
+          "role": "ঢাকা বিশ্ববিদ্যালয় (বি ইউনিট - ৭৬তম)",
+          "videoId": "fm8aG5SjrYc",
+          "title": "ঢাকা বিশ্ববিদ্যালয়ের বি ইউনিটে ৭৬তম শিঞ্জনের স্বপ্ন জয়ের গল্প!",
+          "imageUrl": "https://cdn.10minuteschool.com/k12/thumbnails_seg/%E0%A6%B6%E0%A6%BF%E0%A6%9E%E0%A7%8D%E0%A6%9C%E0%A6%A8%20%E0%A6%AC%E0%A6%A1%E0%A6%BC%E0%A7%81%E0%A6%AF%E0%A6%BC%E0%A6%BE_%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE%20%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC.jpg"
+        },
+        {
+          "name": "মাহবুব",
+          "role": "ঢাকা বিশ্ববিদ্যালয় (সি ইউনিট - ১৮৭তম)",
+          "videoId": "ME2tPMmDShA",
+          "title": "এইচএসসির পরপরই ভর্তি পরীক্ষার প্রস্তুতি",
+          "imageUrl": "https://cdn.10minuteschool.com/k12/thumbnails_seg/%E0%A6%AE%E0%A6%BE%E0%A6%B9%E0%A6%AC%E0%A7%81%E0%A6%AC_%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE%20%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC.jpg"
+        },
+        {
+          "name": "সিয়াম",
+          "role": "ঢাকা বিশ্ববিদ্যালয় (সি ইউনিট - ২৩৮তম)",
+          "videoId": "wkhaGdMcpQk",
+          "title": "ঢাবিতে ২৩৮ তম সিয়ামের ভর্তি প্রস্তুতির স্ট্র্যাটেজি",
+          "imageUrl": "https://cdn.10minuteschool.com/k12/thumbnails_seg/%E0%A6%B8%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%AE_%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE%20%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC.jpg"
+        },
+        {
+          "name": "অর্পণ চক্রবর্তী",
+          "role": "চট্টগ্রাম বিশ্ববিদ্যালয় (১৮তম)",
+          "videoId": "q7-YlnGd9CU",
+          "title": "চাঁদপুর থেকে এসে চট্টগ্রাম বিশ্ববিদ্যালয় জয়!",
+          "imageUrl": "https://cdn.10minuteschool.com/k12/thumbnails_seg/%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%AA%E0%A6%A3%20%E0%A6%9A%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%80_%E0%A6%9A%E0%A6%9F%E0%A7%8D%E0%A6%9F%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%20%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC.jpg"
+        }
+      ]
+    },
+    {
+      "batch": {
+        "id": "hsc-28",
+        "name": "এইচএসসি ২৮",
+        "examYear": 2028
+      },
+      "batches": [
+        {
+          "id": "hsc-26",
+          "label": "HSC 26",
+          "url": "https://10minuteschool.com/hsc/hsc-26/"
+        },
+        {
+          "id": "hsc-27",
+          "label": "HSC 27",
+          "url": "https://10minuteschool.com/hsc/hsc-27/"
+        },
+        {
+          "id": "hsc-28",
+          "label": "HSC 28",
+          "url": "https://10minuteschool.com/hsc/hsc-28/"
+        }
+      ],
+      "layout": "bundle",
+      "audience": "SSC 2026 পরীক্ষার্থীদের জন্য",
+      "highlights": [
+        "ক্লাস শুরু সেপ্টেম্বর/অক্টোবর ২০২৬",
+        "১৬ মাস, ৪ মাসের ৪টি সাইকেল",
+        "বাংলা ভার্শন"
+      ],
+      "billing": {
+        "cycleMonths": 4,
+        "cycles": 4
+      },
+      "freeClassUrl": "https://10minuteschool.com/event/hsc-online-batch",
+      "timeline": [
+        {
+          "when": "সেপ্টেম্বর-অক্টোবর",
+          "what": "কলেজের ক্লাস শুরু"
+        },
+        {
+          "when": "ডিসেম্বর-জানুয়ারি",
+          "what": "অর্ধবার্ষিক এক্সাম"
+        },
+        {
+          "when": "মে-জুন",
+          "what": "ইয়ার ফাইনাল এক্সাম"
+        },
+        {
+          "when": "সেপ্টেম্বর-অক্টোবর",
+          "what": "প্রি-টেস্ট এক্সাম"
+        },
+        {
+          "when": "জানুয়ারি-ফেব্রুয়ারি",
+          "what": "টেস্ট এক্সাম"
+        }
+      ],
+      "toppers": 950,
+      "subjects": [
+        {
+          "id": "physics",
+          "name": "ফিজিক্স",
+          "papers": 2,
+          "teachers": [
+            {
+              "name": "Sabbir Ahmed Rifat",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Sabbir_Ahmed_Rifat_120px_1733119954914.jpg",
+              "note": "RUET (7+ Years Exp)"
+            },
+            {
+              "name": "Ashfaq-Ur-Rahman",
+              "imageUrl": "https://lm10-cdn.10minuteschool.com/images/Ashfaq_Ur_Rahman_1792990098639.png",
+              "note": "BUET (4+ Years Exp)"
+            },
+            {
+              "name": "Md Minhajul Islam",
+              "imageUrl": "https://lm10-cdn.10minuteschool.com/images/Md_Minhajul_Islam_1792990034296.jpeg",
+              "note": "BUTEX (7+ Years Exp)"
+            }
+          ]
+        },
+        {
+          "id": "chemistry",
+          "name": "কেমিস্ট্রি",
+          "papers": 2,
+          "teachers": [
+            {
+              "name": "Aman Islam Siam",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Aman_Islam_Siam_1080px_1733119137211.jpg",
+              "note": "BUET (5+ Years Exp)"
+            },
+            {
+              "name": "Fardin Ihasan",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Fardin_Ihsan_1080px_1733119338551.jpg",
+              "note": "Dhaka College (7+ Years Exp)"
+            }
+          ]
+        },
+        {
+          "id": "math",
+          "name": "ম্যাথ",
+          "papers": 2,
+          "teachers": [
+            {
+              "name": "Md Kamrul Hasan Shovon",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Shovon_120_1742705081132.jpg",
+              "note": "DU (11+ Years Exp)"
+            },
+            {
+              "name": "Adittya Al-Rajhi",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Adittya_Al-Rajhi_120px_1732693254063.jpg",
+              "note": "DU (5+ Years Exp)"
+            },
+            {
+              "name": "Tahmidul Yeasin Abid",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Abid_120_1742879450158.jpg",
+              "note": "BUET (3+ Years Exp)"
+            },
+            {
+              "name": "Tahmid Sarker Arko",
+              "imageUrl": "https://lm10-cdn.10minuteschool.com/images/Tamzid_Sarkar_Arko_(1)_1792989831445.png",
+              "note": "BUTEX (3+ Years Exp)"
+            }
+          ]
+        },
+        {
+          "id": "biology",
+          "name": "বায়োলজি",
+          "papers": 2,
+          "teachers": [
+            {
+              "name": "Sumya Akter Mim",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Sumya_120_1742879273419.jpg",
+              "note": "Dhaka Medical College (5+ Years Exp)"
+            },
+            {
+              "name": "Dr. Mehdi Mohammed",
+              "imageUrl": "https://lms10.s3.ap-southeast-1.amazonaws.com/crm/square_images/2022-10-06T10:20:34.295Z.jpeg",
+              "note": "Shaheed Suhrawardy Medical College (9+ Years Exp)"
+            },
+            {
+              "name": "Dr. Shamima Jahid Preeti",
+              "imageUrl": "https://lms10.s3.ap-southeast-1.amazonaws.com/crm/square_images/2022-10-06T10:19:34.771Z.jpeg",
+              "note": "Shaheed Suhrawardy Medical College (6+ Years Exp)"
+            },
+            {
+              "name": "Sidratul Moontaha Faruque Prapti",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Prapty-120x120_1775107096485.jpg",
+              "note": "Brac University (4+ Years Exp)"
+            }
+          ]
+        },
+        {
+          "id": "bangla",
+          "name": "বাংলা",
+          "papers": 2,
+          "teachers": [
+            {
+              "name": "Farhan Sakib",
+              "imageUrl": "https://cdn.10minuteschool.com/images/quiz/course_instructor/Farhan_Sakib_120.jpg",
+              "note": "JU (10+ Years Exp)"
+            },
+            {
+              "name": "Mahbubul Newaz Farsim",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Newaz-Farsim---H_1705314437207.jpg",
+              "note": "DU (6+ Years Exp)"
+            },
+            {
+              "name": "Ridwan Kabir Beacon",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/becon_1729768642166.jpg",
+              "note": "DU (2+ Years Exp)"
+            }
+          ]
+        },
+        {
+          "id": "english",
+          "name": "ইংরেজি",
+          "papers": 2,
+          "teachers": [
+            {
+              "name": "Nayeem Durjoy",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Nayeem_Durjoy_1080x1080_1755425582935.jpg",
+              "note": "DU (5+ Years Exp)"
+            },
+            {
+              "name": "Munzereen Shahid",
+              "imageUrl": "https://cdn.10minuteschool.com/images/skills/lp/ms_onset.jpg",
+              "note": "MSc (English), University of Oxford (UK); BA, MA (English), University of Dhaka; IELTS: 8.5"
+            },
+            {
+              "name": "Md Parvez Gazi",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Parvez-Gazi---120x120_1764751250662.jpg",
+              "note": "DU (4+ Years Exp)"
+            },
+            {
+              "name": "Shifat Shahnewaz",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Sifat_Shahnewaz_120px_1733120231090.jpg",
+              "note": "ULAB (8+ Years Exp)"
+            }
+          ]
+        },
+        {
+          "id": "ict",
+          "name": "আইসিটি",
+          "papers": 1,
+          "teachers": [
+            {
+              "name": "Jaki Ahmed",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Jaki_Ahmed_1080px_1733119605338.jpg",
+              "note": "BRAC University (7+ Years Exp)"
+            },
+            {
+              "name": "Rawnak Mubtasim Rafid",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Rownak_120_1742705753359.jpg",
+              "note": "BUET (2+ Years Exp)"
+            }
+          ]
+        },
+        {
+          "id": "finance",
+          "name": "ফাইন্যান্স",
+          "papers": 2,
+          "teachers": [
+            {
+              "name": "SMR Raiyan",
+              "imageUrl": "https://cdn.10minuteschool.com/images/quiz/course_instructor/SMR_Raiyan_120_120.jpg.jpg",
+              "note": "DU (7+ Years Exp)"
+            },
+            {
+              "name": "Faiza Tasnim",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Faiza_120_1742886080127.jpg",
+              "note": "DU (5+ Years Exp)"
+            }
+          ]
+        },
+        {
+          "id": "accounting",
+          "name": "একাউন্টিং",
+          "papers": 2,
+          "teachers": [
+            {
+              "name": "Md. Abdullah Al Mahin",
+              "imageUrl": "https://lms10.s3.ap-southeast-1.amazonaws.com/crm/thumbnails/2022-10-18T12:21:26.411Z.jpg",
+              "note": "DU (6+ Years Exp)"
+            },
+            {
+              "name": "Md. Wasif Ahmmed Rion",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Rion-120x120_%281%29_1775107589771.jpg",
+              "note": "5+ Years Exp"
+            },
+            {
+              "name": "Md Mahfuzur Rahaman Shojib",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Shojib-120x120_1771841379780.jpg",
+              "note": "JU (7+ Years Exp)"
+            }
+          ]
+        },
+        {
+          "id": "management",
+          "name": "ম্যানেজমেন্ট",
+          "papers": 2,
+          "teachers": [
+            {
+              "name": "MD. Kaif",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/MD%2C_Kaif_120px_1733119848664.jpg",
+              "note": "JnU (4+ Years Exp)"
+            },
+            {
+              "name": "Fariha Tabassum Pranty",
+              "imageUrl": "https://cdn.10minuteschool.com/images/quiz/course_instructor/Fariha_Tabassum_Pranty-updated-v3.png",
+              "note": "DU (4+ Years Exp)"
+            }
+          ]
+        },
+        {
+          "id": "marketing",
+          "name": "মার্কেটিং",
+          "papers": 2,
+          "teachers": [
+            {
+              "name": "SMR Raiyan",
+              "imageUrl": "https://cdn.10minuteschool.com/images/quiz/course_instructor/SMR_Raiyan_120_120.jpg.jpg",
+              "note": "DU (7+ Years Exp)"
+            },
+            {
+              "name": "Faiza Tasnim",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Faiza_120_1742886080127.jpg",
+              "note": "DU (5+ Years Exp)"
+            }
+          ]
+        },
+        {
+          "id": "geography",
+          "name": "জিওগ্রাফি",
+          "papers": 2,
+          "teachers": [
+            {
+              "name": "Yeasin Arafat Limon",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Yeasin_Arafat_Limon_120px_1733122256067.jpg",
+              "note": "BUP (6+ Years Exp)"
+            }
+          ]
+        },
+        {
+          "id": "civics",
+          "name": "পৌরনীতি",
+          "papers": 2,
+          "teachers": [
+            {
+              "name": "Farhan Sakib",
+              "imageUrl": "https://cdn.10minuteschool.com/images/quiz/course_instructor/Farhan_Sakib_120.jpg",
+              "note": "JU (10+ Years Exp)"
+            },
+            {
+              "name": "Mahbubul Newaz Farsim",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Newaz-Farsim---H_1705314437207.jpg",
+              "note": "DU (6+ Years Exp)"
+            },
+            {
+              "name": "Sadia Afrin Tuly",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Sadia_Afreen_Tulii_1788938097113.png",
+              "note": "DU (5+ Years Exp)"
+            }
+          ]
+        },
+        {
+          "id": "economics",
+          "name": "ইকোনমিক্স",
+          "papers": 2,
+          "teachers": [
+            {
+              "name": "MD. Kaif",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/MD%2C_Kaif_120px_1733119848664.jpg",
+              "note": "JnU (4+ Years Exp)"
+            },
+            {
+              "name": "Afsana Rahman Preety",
+              "imageUrl": "https://cdn.10ms.com/catalog/instructors/images/Afsana-Rahman-Preety_1788939123119.png",
+              "note": "DU (1+ Years Exp)"
+            }
+          ]
+        }
+      ],
+      "streams": [
+        {
+          "id": "science",
+          "name": "বিজ্ঞান",
+          "groupSubjects": [
+            "physics",
+            "chemistry",
+            "math",
+            "biology"
+          ],
+          "compulsorySubjects": [
+            "bangla",
+            "english",
+            "ict"
+          ],
+          "productIds": [
+            "11234",
+            "11233",
+            "11324",
+            "11245",
+            "11246",
+            "11247",
+            "11248",
+            "11237",
+            "11238",
+            "11239"
+          ]
+        },
+        {
+          "id": "business-studies",
+          "name": "ব্যবসায় শিক্ষা",
+          "groupSubjects": [
+            "finance",
+            "accounting",
+            "management",
+            "marketing"
+          ],
+          "compulsorySubjects": [
+            "bangla",
+            "english",
+            "ict"
+          ],
+          "productIds": [
+            "11235",
+            "11233",
+            "11325",
+            "11249",
+            "11250",
+            "11251",
+            "11252",
+            "11237",
+            "11238",
+            "11239"
+          ]
+        },
+        {
+          "id": "humanities",
+          "name": "মানবিক",
+          "groupSubjects": [
+            "geography",
+            "civics",
+            "economics"
+          ],
+          "compulsorySubjects": [
+            "bangla",
+            "english",
+            "ict"
+          ],
+          "productIds": [
+            "11236",
+            "11233",
+            "11326",
+            "11255",
+            "11254",
+            "11253",
+            "11237",
+            "11238",
+            "11239"
+          ]
+        }
+      ],
+      "products": [
+        {
+          "id": "11234",
+          "title": "HSC 28 অনলাইন ব্যাচ (ফিজিক্স, কেমিস্ট্রি, ম্যাথ, বায়োলজি)",
+          "url": "https://10minuteschool.com/product/hsc-28-online-batch-physics-chemistry-biology-higher-math/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/Thumbnails/hsc-28-ob-individual-course/bundle_new/hsc-28-online-batch-physics-chemistry-biology-higher-math-thumbnail.jpg",
+          "kind": "live",
+          "subjects": [
+            "physics",
+            "chemistry",
+            "math",
+            "biology"
+          ],
+          "price": {
+            "original": 4500,
+            "final": 4500
+          },
+          "enrolledCount": 2081,
+          "liveClassesPerWeek": null,
+          "facts": [
+            "ফিজিক্স, কেমিস্ট্রি, ম্যাথ ও বায়োলজির Board-based A+ প্রস্তুতি",
+            "সপ্তাহে ৬ দিন লাইভ ক্লাস",
+            "ডেইলি ও মান্থলি MCQ এক্সাম"
+          ],
+          "cycles": [
+            {
+              "name": "সাইকেল ১",
+              "subjects": [
+                {
+                  "subject": "physics",
+                  "chapters": [
+                    "অধ্যায় ২: ভেক্টর (১ম পত্র)",
+                    "অধ্যায় ৬ : মহাকর্ষ ও অভিকর্ষ (১ম পত্র)",
+                    "অধ্যায় ৪: নিউটনীয় বলবিদ্যা (১ম পত্র)",
+                    "অধ্যায় ১০ : আদর্শ গ্যাস ও গ্যাসের গতিত্বত্ত (১ম পত্র)",
+                    "অধ্যায় ১: ভৌতজগত ও পরিমাপ (১ম পত্র)"
+                  ]
+                },
+                {
+                  "subject": "chemistry",
+                  "chapters": [
+                    "অধ্যায় ২: গুণগত রসায়ন (১ম পত্র)",
+                    "অধ্যায় ৩: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন (১ম পত্র)"
+                  ]
+                },
+                {
+                  "subject": "math",
+                  "chapters": [
+                    "অধ্যায় ১: ম্যাট্রিকস ও নির্ণায়ক (১ম পত্র)",
+                    "অধ্যায় ৩: সরলরেখা (১ম পত্র)",
+                    "অধ্যায় ৪: বৃত্ত (১ম পত্র)",
+                    "অধ্যায় ৬: ত্রিকোণমিতিক অনুপাত (১ম পত্র)",
+                    "অধ্যায় ৭: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত (১ম পত্র)"
+                  ]
+                },
+                {
+                  "subject": "biology",
+                  "chapters": [
+                    "অধ্যায় ১: কোষ ও এর গঠন (১ম পত্র)",
+                    "অধ্যায় ২: কোষ বিভাজন (১ম পত্র)",
+                    "অধ্যায় ৩: কোষ রসায়ন (১ম পত্র)",
+                    "অধ্যায় ৫: শৈবাল ও ছত্রাক (১ম পত্র)",
+                    "অধ্যায় ১: প্রাণীর বিভিন্নতা ও শ্রেণিবিন্যাস (২য় পত্র)",
+                    "অধ্যায় ২: প্রানির পরিচিতি (২য় পত্র)"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "সাইকেল ২",
+              "subjects": [
+                {
+                  "subject": "physics",
+                  "chapters": [
+                    "অধ্যায় ৫: কাজ, শক্তি ও ক্ষমতা (১ম পত্র)",
+                    "অধ্যায় ৩: গতিবিদ্যা (১ম পত্র)",
+                    "অধ্যায় ৭: পদার্থের গাঠনিক ধর্ম (১ম পত্র)",
+                    "অধ্যায় ৮: পর্যাবৃত্ত গতি (১ম পত্র)",
+                    "অধ্যায় ১: তাপগতিবিদ্যা (২য় পত্র)"
+                  ]
+                },
+                {
+                  "subject": "chemistry",
+                  "chapters": [
+                    "অধ্যায় ৪: রাসায়নিক পরিবর্তন (১ম পত্র)",
+                    "অধ্যায় ১: পরিবেশ রসায়ন (২য় পত্র)"
+                  ]
+                },
+                {
+                  "subject": "math",
+                  "chapters": [
+                    "অধ্যায় ৮: ফাংশন ও ফাংশনের লেখচিত্র (১ম পত্র)",
+                    "অধ্যায় ২: ভেক্টর (১ম পত্র)",
+                    "অধ্যায় ৯: অন্তরীকরণ (১ম পত্র)",
+                    "অধ্যায় ১০: যোগজীকরণ (১ম পত্র)",
+                    "অধ্যায় ৩: জটিল সংখ্যা (২য় পত্র)"
+                  ]
+                },
+                {
+                  "subject": "biology",
+                  "chapters": [
+                    "অধ্যায় ৪: অণুজীব (১ম পত্র)",
+                    "অধ্যায় ৬: ব্রায়োফাইটা ও টেরেডোফাইটা (১ম পত্র)",
+                    "অধ্যায় ৩: পরিপাক ও শোষণ (২য় পত্র)",
+                    "অধ্যায় ৪: রক্ত ও সংবহন (২য় পত্র)",
+                    "অধ্যায় ৫: শ্বসন ও শ্বাসক্রিয়া (২য় পত্র)",
+                    "অধ্যায় ৭: চলন ও অঙ্গচালনা (২য় পত্র)"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "সাইকেল ৩",
+              "subjects": [
+                {
+                  "subject": "physics",
+                  "chapters": [
+                    "অধ্যায় ৯: তরঙ্গ (১ম পত্র)",
+                    "অধ্যায় ২: স্থির তড়িৎ (২য় পত্র)",
+                    "অধ্যায় ৩: চল তড়িৎ (২য় পত্র)",
+                    "অধ্যায় ৪: তড়িৎ প্রবাহের চৌম্বক ক্রিয়া ও চুম্বকত্ব (২য় পত্র)",
+                    "অধ্যায় ৫: তাড়িতচৌম্বকীয় অবেশ ও পরবর্তী প্রবাহ (২য় পত্র)"
+                  ]
+                },
+                {
+                  "subject": "chemistry",
+                  "chapters": [
+                    "অধ্যায় ২: জৈব রসায়ন (২য় পত্র)",
+                    "অধ্যায় ৫: কর্মমূখী রসায়ন (১ম পত্র)",
+                    "অধ্যায় ১: ল্যাবরেটরির রসায়ন (১ম পত্র)"
+                  ]
+                },
+                {
+                  "subject": "math",
+                  "chapters": [
+                    "অধ্যায় ৫: বিন্যাস ও সমাবেশ (১ম পত্র)",
+                    "অধ্যায় ১: বাস্তব সংখ্যা ও অসমতা (২য় পত্র)",
+                    "অধ্যায় ৪: বহুপদী ও বহুপদী সমীকরণ (২য় পত্র)",
+                    "অধ্যায় ৭: বিপরীত ত্রিকোণমিতি এবং ত্রিকোণমিতিক সমাধান (২য় পত্র)",
+                    "অধ্যায় ৬: কণিক (২য় পত্র)"
+                  ]
+                },
+                {
+                  "subject": "biology",
+                  "chapters": [
+                    "অধ্যায় ৭: নগ্নবীজী ও আবৃতবীজী উদ্ভিদ (১ম পত্র)",
+                    "অধ্যায় ৮: টিস্যু ও টিস্যুতন্ত্র (১ম পত্র)",
+                    "অধ্যায় ১০: উদ্ভিদ প্রজনন (১ম পত্র)",
+                    "অধ্যায় ৬: বর্জ্য ও নিষ্কাশন (২য় পত্র)",
+                    "অধ্যায় ১০: মানবদেহের প্রতিরক্ষা (২য় পত্র)",
+                    "অধ্যায় ৮: সমন্বয় ও নিয়ন্ত্রণ (২য় পত্র)"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "সাইকেল ৪",
+              "subjects": [
+                {
+                  "subject": "physics",
+                  "chapters": [
+                    "অধ্যায় ৬: জ্যামিতিক আলোকবিজ্ঞান (২য় পত্র)",
+                    "অধ্যায় ৭: ভৌত আলোকবিজ্ঞান (২য় পত্র)",
+                    "অধ্যায় ৮: আধুনিক পদার্থবিজ্ঞান (২য় পত্র)",
+                    "অধ্যায় ৯: পরমানুর মডেল এবং নিউক্লিয়ার পদার্থবিজ্ঞান (২য় পত্র)",
+                    "অধ্যায় ১০: সেমিকন্ডাক্টর ও ইলেক্ট্রনিক্স (২য় পত্র)",
+                    "অধ্যায় ১১: জ্যোতির্বিজ্ঞান (২য় পত্র)"
+                  ]
+                },
+                {
+                  "subject": "chemistry",
+                  "chapters": [
+                    "অধ্যায় ৩: পরিমাণগত রসায়ন (২য় পত্র)",
+                    "অধ্যায় ৪: তড়িৎ রসায়ন (২য় পত্র)",
+                    "অধ্যায় ৫: অর্থনৈতিক রসায়ন (২য় পত্র)"
+                  ]
+                },
+                {
+                  "subject": "math",
+                  "chapters": [
+                    "অধ্যায় ৫: দ্বিপদী বিস্তৃতি (২য় পত্র)",
+                    "অধ্যায় ৮: স্থিতিবিদ্যা (২য় পত্র)",
+                    "অধ্যায় ৯: সমতলে বস্তুকনার গতি (২য় পত্র)",
+                    "অধ্যায় ১০: বিস্তার পরিমাপ ও সম্ভাবনা (২য় পত্র)",
+                    "অধ্যায় ২ : যোগাশ্রয়ী প্রোগ্রাম (২য় পত্র)"
+                  ]
+                },
+                {
+                  "subject": "biology",
+                  "chapters": [
+                    "অধ্যায় ৯: উদ্ভিদ শারীরতত্ত্ব (১ম পত্র)",
+                    "অধ্যায় ১১: জীবপ্রযুক্তি (১ম পত্র)",
+                    "অধ্যায় ১২: জীবের পরিবেশ, বিস্তার ও সংরক্ষণ (১ম পত্র)",
+                    "অধ্যায় ১১: জিনতত্ত্ব ও বিবর্তন (২য় পত্র)",
+                    "অধ্যায় ১২: প্রাণীর আচরণ (২য় পত্র)",
+                    "অধ্যায় ৯: মানব জীবনের ধারাবাহিকতা (২য় পত্র)"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11233",
+          "title": "HSC 28 অনলাইন ব্যাচ (বাংলা, ইংরেজি, তথ্য ও যোগাযোগ প্রযুক্তি)",
+          "url": "https://10minuteschool.com/product/hsc-28-online-batch-bangla-english-ict/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/Thumbnails/hsc-28-ob-individual-course/bundle_new/hsc-28-online-batch-bangla-english-ict-thumbnail.jpg",
+          "kind": "live",
+          "subjects": [
+            "bangla",
+            "english",
+            "ict"
+          ],
+          "price": {
+            "original": 6100,
+            "final": 6100
+          },
+          "enrolledCount": 1691,
+          "liveClassesPerWeek": null,
+          "facts": [
+            "বাংলা, ইংরেজি, ICT বিষয়ের Board-based A+ প্রস্তুতি",
+            "সপ্তাহে ৬ দিন লাইভ ক্লাস",
+            "ডেইলি ও মান্থলি MCQ এক্সাম",
+            "বিষয়ভিত্তিক ৩টি আলাদা ফেইসবুক গ্রুপে 24/7 কনফিউশন ক্লিয়ার"
+          ]
+        },
+        {
+          "id": "11235",
+          "title": "HSC 28 অনলাইন ব্যাচ (ফাইন্যান্স, একাউন্টিং, ম্যানেজমেন্ট, মার্কেটিং)",
+          "url": "https://10minuteschool.com/product/hsc-28-online-batch-finance-accounting-management-marketing/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/Thumbnails/hsc-28-ob-individual-course/bundle_new/hsc-28-online-batch-finance-accounting-management-marketing-thumbnail.jpg",
+          "kind": "live",
+          "subjects": [
+            "finance",
+            "accounting",
+            "management",
+            "marketing"
+          ],
+          "price": {
+            "original": 7000,
+            "final": 7000
+          },
+          "enrolledCount": 878,
+          "liveClassesPerWeek": null,
+          "facts": [
+            "ফাইন্যান্স, অ্যাকাউন্টিং, ম্যানেজমেন্ট, মার্কেটিংয়ের Board-based A+ প্রস্তুতি",
+            "HSC27 ব্যাচের আর্কাইভ ক্লাস দিয়ে স্মার্ট রিভিশন",
+            "মাস্টারবুক",
+            "AI Doubt Solver (TenTen)",
+            "ডেইলি ও মান্থলি MCQ এক্সাম",
+            "Subject-wise Q&A Sessions",
+            "বিষয়ভিত্তিক ৪টি আলাদা ফেইসবুক গ্রুপে 24/7 কনফিউশন ক্লিয়ার"
+          ]
+        },
+        {
+          "id": "11236",
+          "title": "HSC 28 অনলাইন ব্যাচ (জিওগ্রাফি, ইকোনমিক্স, পৌরনীতি)",
+          "url": "https://10minuteschool.com/product/hsc-28-online-batch-geography-economics-civics/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/Thumbnails/hsc-28-ob-individual-course/bundle_new/hsc-28-online-batch-geography-economics-civics-thumbnail.jpg",
+          "kind": "live",
+          "subjects": [
+            "geography",
+            "economics",
+            "civics"
+          ],
+          "price": {
+            "original": 5000,
+            "final": 5000
+          },
+          "enrolledCount": 835,
+          "liveClassesPerWeek": null,
+          "facts": [
+            "জিওগ্রাফি, ইকোনমিক্স, পৌরনীতির Board-based A+ প্রস্তুতি",
+            "HSC27 ব্যাচের আর্কাইভ ক্লাস দিয়ে স্মার্ট রিভিশন",
+            "মাস্টারবুক",
+            "AI Doubt Solver (TenTen)",
+            "ডেইলি ও মান্থলি MCQ এক্সাম",
+            "Subject-wise Q&A Sessions",
+            "বিষয়ভিত্তিক ৩টি আলাদা ফেইসবুক গ্রুপে 24/7 কনফিউশন ক্লিয়ার"
+          ]
+        },
+        {
+          "id": "11324",
+          "title": "HSC 28 Free Batch (Science)",
+          "url": "https://10minuteschool.com/product/hsc-28-science-free-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/Thumbnails/hsc-28-ob-individual-course/hsc-28-science-free-batch-thumbnail.jpg",
+          "kind": "recorded",
+          "subjects": [
+            "physics",
+            "chemistry",
+            "math",
+            "biology",
+            "bangla",
+            "english",
+            "ict"
+          ],
+          "price": {
+            "original": 0,
+            "final": 0
+          },
+          "enrolledCount": null,
+          "liveClassesPerWeek": null,
+          "facts": [
+            "বিজ্ঞান বিভাগের সবার জন্য",
+            "অধ্যায় ভিত্তিক MCQ সলভ ক্লাস",
+            "ফিজিক্স, কেমিস্ট্রি, ম্যাথ ও বায়োলজির সিলেক্টিভ অধ্যায়ের Oneshot ক্লাস",
+            "Unlimited MCQ প্র্যাকটিস এক্সাম"
+          ]
+        },
+        {
+          "id": "11325",
+          "title": "HSC 28 Free Batch (Business Studies)",
+          "url": "https://10minuteschool.com/product/hsc-28-business-studies-free-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/Thumbnails/hsc-28-ob-individual-course/hsc-28-business-studiess-free-batch-thumbnail.jpg",
+          "kind": "recorded",
+          "subjects": [
+            "finance",
+            "accounting",
+            "management",
+            "marketing",
+            "bangla",
+            "english",
+            "ict"
+          ],
+          "price": {
+            "original": 0,
+            "final": 0
+          },
+          "enrolledCount": null,
+          "liveClassesPerWeek": null,
+          "facts": [
+            "ব্যবসায় শিক্ষা বিভাগের সবার জন্য",
+            "অধ্যায় ভিত্তিক MCQ সলভ ক্লাস",
+            "HSC 26 SMP (Business Studies) এর Selective আর্কাইভ ক্লাস",
+            "Unlimited MCQ প্র্যাকটিস এক্সাম",
+            "বাংলা ও ইংরেজির স্পেশাল প্লে-লিস্ট",
+            "ICT ওয়ান শট ক্লাস"
+          ]
+        },
+        {
+          "id": "11326",
+          "title": "HSC 28 Free Batch (Humanities)",
+          "url": "https://10minuteschool.com/product/hsc-28-humanities-free-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/Thumbnails/hsc-28-ob-individual-course/hsc-28-humanities-free-batch-thumbnail.jpg",
+          "kind": "recorded",
+          "subjects": [
+            "geography",
+            "economics",
+            "civics",
+            "bangla",
+            "english",
+            "ict"
+          ],
+          "price": {
+            "original": 0,
+            "final": 0
+          },
+          "enrolledCount": null,
+          "liveClassesPerWeek": null,
+          "facts": [
+            "মানবিক বিভাগের সবার জন্য",
+            "অধ্যায় ভিত্তিক MCQ সলভ ক্লাস",
+            "HSC 26 SMP (Humanities) এর Selective আর্কাইভ ক্লাস",
+            "Unlimited MCQ প্র্যাকটিস এক্সাম",
+            "বাংলা ও ইংরেজির স্পেশাল প্লে-লিস্ট",
+            "ICT ওয়ান শট ক্লাস"
+          ]
+        },
+        {
+          "id": "11237",
+          "title": "HSC 28 অনলাইন ব্যাচ - বাংলা",
+          "url": "https://10minuteschool.com/product/hsc-28-bangla-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/Thumbnails/hsc-28-ob-individual-course/hsc-28-bangla-online-batch-sqr-thumbnail.jpg",
+          "kind": "live",
+          "subjects": [
+            "bangla"
+          ],
+          "price": {
+            "original": 3000,
+            "final": 2500
+          },
+          "enrolledCount": 4653,
+          "liveClassesPerWeek": null,
+          "facts": [
+            "বাংলা ১ম ও ২য় পত্রের Board-based A+ প্রস্তুতি",
+            "বেসিক Strong + CQ/MCQ ফুল প্রস্তুতি (বোর্ড-প্যাটার্নে প্র্যাকটিস ফোকাস)",
+            "লাইভ ক্লাস + HSC27 আর্কাইভ ক্লাস দিয়ে স্মার্ট রিভিশন"
+          ]
+        },
+        {
+          "id": "11238",
+          "title": "HSC 28 অনলাইন ব্যাচ - ইংরেজি",
+          "url": "https://10minuteschool.com/product/hsc-english-28-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/Thumbnails/hsc-28-ob-individual-course/hsc-28-english-online-batch-sqr-thumbnail.jpg",
+          "kind": "live",
+          "subjects": [
+            "english"
+          ],
+          "price": {
+            "original": 3000,
+            "final": 2500
+          },
+          "enrolledCount": 6775,
+          "liveClassesPerWeek": null,
+          "facts": [
+            "ইংরেজি ১ম ও ২য় পত্রের Board-based A+ প্রস্তুতি",
+            "বেসিক Strong + প্র্যাকটিস ফোকাসড প্রস্তুতি",
+            "লাইভ ক্লাস + HSC27 আর্কাইভ ক্লাস দিয়ে স্মার্ট রিভিশন"
+          ]
+        },
+        {
+          "id": "11239",
+          "title": "HSC 28 অনলাইন ব্যাচ - ICT",
+          "url": "https://10minuteschool.com/product/hsc-28-ict-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/Thumbnails/hsc-28-ob-individual-course/hsc-28-ict-online-batch-sqr-thumbnail.jpg",
+          "kind": "live",
+          "subjects": [
+            "ict"
+          ],
+          "price": {
+            "original": 3000,
+            "final": 2500
+          },
+          "enrolledCount": 4604,
+          "liveClassesPerWeek": null,
+          "facts": [
+            "ICT Board-based A+ প্রস্তুতি",
+            "বেসিক Strong + CQ/MCQ ফুল প্রস্তুতি (বোর্ড-প্যাটার্নে প্র্যাকটিস ফোকাস)",
+            "লাইভ ক্লাস + HSC27 আর্কাইভ ক্লাস দিয়ে স্মার্ট রিভিশন"
+          ]
+        },
+        {
+          "id": "11245",
+          "title": "HSC 28 অনলাইন ব্যাচ - ফিজিক্স",
+          "url": "https://10minuteschool.com/product/hsc-28-physics-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/Thumbnails/hsc-28-ob-individual-course/hsc-28-physics-online-batch-sqr-thumbnail.jpg",
+          "kind": "live",
+          "subjects": [
+            "physics"
+          ],
+          "price": {
+            "original": 2500,
+            "final": 2000
+          },
+          "enrolledCount": 2359,
+          "liveClassesPerWeek": null,
+          "facts": [
+            "ফিজিক্স Board-based A+ প্রস্তুতি",
+            "বেসিক Strong + CQ/MCQ ফুল প্রস্তুতি (বোর্ড-প্যাটার্নে প্র্যাকটিস ফোকাস)",
+            "লাইভ ক্লাস + HSC27 আর্কাইভ ক্লাস দিয়ে স্মার্ট রিভিশন"
+          ]
+        },
+        {
+          "id": "11246",
+          "title": "HSC 28 অনলাইন ব্যাচ - কেমিস্ট্রি",
+          "url": "https://10minuteschool.com/product/hsc-28-chemistry-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/Thumbnails/hsc-28-ob-individual-course/hsc-28-chemistry-online-batch-sqr-thumbnail.jpg",
+          "kind": "live",
+          "subjects": [
+            "chemistry"
+          ],
+          "price": {
+            "original": 2500,
+            "final": 2000
+          },
+          "enrolledCount": 2406,
+          "liveClassesPerWeek": null,
+          "facts": [
+            "কেমিস্ট্রি Board-based A+ প্রস্তুতি",
+            "বেসিক Strong + CQ/MCQ ফুল প্রস্তুতি (বোর্ড-প্যাটার্নে প্র্যাকটিস ফোকাস)",
+            "লাইভ ক্লাস + HSC27 আর্কাইভ ক্লাস দিয়ে স্মার্ট রিভিশন"
+          ]
+        },
+        {
+          "id": "11247",
+          "title": "HSC 28 অনলাইন ব্যাচ - ম্যাথ",
+          "url": "https://10minuteschool.com/product/hsc-28-math-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/Thumbnails/hsc-28-ob-individual-course/hsc-28-math-online-batch-sqr-thumbnail.jpg",
+          "kind": "live",
+          "subjects": [
+            "math"
+          ],
+          "price": {
+            "original": 2500,
+            "final": 2000
+          },
+          "enrolledCount": 2343,
+          "liveClassesPerWeek": null,
+          "facts": [
+            "ম্যাথ Board-based A+ প্রস্তুতি",
+            "বেসিক Strong + CQ/MCQ ফুল প্রস্তুতি (বোর্ড-প্যাটার্নে প্র্যাকটিস ফোকাস)",
+            "লাইভ ক্লাস + HSC27 আর্কাইভ ক্লাস দিয়ে স্মার্ট রিভিশন"
+          ]
+        },
+        {
+          "id": "11248",
+          "title": "HSC 28 অনলাইন ব্যাচ - বায়োলজি",
+          "url": "https://10minuteschool.com/product/hsc-28-biology-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/Thumbnails/hsc-28-ob-individual-course/hsc-28-biology-online-batch-sqr-thumbnail-1.jpg",
+          "kind": "live",
+          "subjects": [
+            "biology"
+          ],
+          "price": {
+            "original": 2500,
+            "final": 2000
+          },
+          "enrolledCount": 2404,
+          "liveClassesPerWeek": null,
+          "facts": [
+            "বায়োলজি Board-based A+ প্রস্তুতি",
+            "বেসিক Strong + CQ/MCQ ফুল প্রস্তুতি (বোর্ড-প্যাটার্নে প্র্যাকটিস ফোকাস)",
+            "লাইভ ক্লাস + HSC27 আর্কাইভ ক্লাস দিয়ে স্মার্ট রিভিশন"
+          ]
+        },
+        {
+          "id": "11249",
+          "title": "HSC 28 অনলাইন ব্যাচ - ফাইন্যান্স",
+          "url": "https://10minuteschool.com/product/hsc-28-finance-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/Thumbnails/hsc-28-ob-individual-course/hsc-28-finance-online-batch-sqr-thumbnail.jpg",
+          "kind": "live",
+          "subjects": [
+            "finance"
+          ],
+          "price": {
+            "original": 2500,
+            "final": 1850
+          },
+          "enrolledCount": 1170,
+          "liveClassesPerWeek": null,
+          "facts": [
+            "ফাইন্যান্স ১ম ও ২য় পত্রের Board-based A+ প্রস্তুতি",
+            "বেসিক Strong + CQ/MCQ ফুল প্রস্তুতি (বোর্ড-প্যাটার্নে প্র্যাকটিস ফোকাস)",
+            "লাইভ ক্লাস + HSC27 আর্কাইভ ক্লাস দিয়ে স্মার্ট রিভিশন"
+          ]
+        },
+        {
+          "id": "11250",
+          "title": "HSC 28 অনলাইন ব্যাচ - একাউন্টিং",
+          "url": "https://10minuteschool.com/product/hsc-28-accounting-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/Thumbnails/hsc-28-ob-individual-course/hsc-28-accounting-online-batch-sqr-thumbnail.jpg",
+          "kind": "live",
+          "subjects": [
+            "accounting"
+          ],
+          "price": {
+            "original": 2500,
+            "final": 1850
+          },
+          "enrolledCount": 1303,
+          "liveClassesPerWeek": null,
+          "facts": [
+            "একাউন্টিং ১ম ও ২য় পত্রের Board-based A+ প্রস্তুতি",
+            "বেসিক Strong + CQ/MCQ ফুল প্রস্তুতি (বোর্ড-প্যাটার্নে প্র্যাকটিস ফোকাস)",
+            "লাইভ ক্লাস + HSC27 আর্কাইভ ক্লাস দিয়ে স্মার্ট রিভিশন"
+          ]
+        },
+        {
+          "id": "11251",
+          "title": "HSC 28 অনলাইন ব্যাচ - ম্যানেজমেন্ট",
+          "url": "https://10minuteschool.com/product/hsc-28-management-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/Thumbnails/hsc-28-ob-individual-course/hsc-28-management-online-batch-sqr-thumbnail.jpg",
+          "kind": "live",
+          "subjects": [
+            "management"
+          ],
+          "price": {
+            "original": 2500,
+            "final": 1850
+          },
+          "enrolledCount": 1141,
+          "liveClassesPerWeek": null,
+          "facts": [
+            "ম্যানেজমেন্ট ১ম ও ২য় পত্রের Board-based A+ প্রস্তুতি",
+            "বেসিক Strong + CQ/MCQ ফুল প্রস্তুতি (বোর্ড-প্যাটার্নে প্র্যাকটিস ফোকাস)",
+            "লাইভ ক্লাস + HSC27 আর্কাইভ ক্লাস দিয়ে স্মার্ট রিভিশন"
+          ]
+        },
+        {
+          "id": "11252",
+          "title": "HSC 28 অনলাইন ব্যাচ - মার্কেটিং",
+          "url": "https://10minuteschool.com/product/hsc-28-marketing-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/Thumbnails/hsc-28-ob-individual-course/hsc-28-marketing-online-batch-sqr-thumbnail.jpg",
+          "kind": "live",
+          "subjects": [
+            "marketing"
+          ],
+          "price": {
+            "original": 2500,
+            "final": 1850
+          },
+          "enrolledCount": 1076,
+          "liveClassesPerWeek": null,
+          "facts": [
+            "মার্কেটিং ১ম ও ২য় পত্রের Board-based A+ প্রস্তুতি",
+            "বেসিক Strong + CQ/MCQ ফুল প্রস্তুতি (বোর্ড-প্যাটার্নে প্র্যাকটিস ফোকাস)",
+            "লাইভ ক্লাস + HSC27 আর্কাইভ ক্লাস দিয়ে স্মার্ট রিভিশন"
+          ]
+        },
+        {
+          "id": "11253",
+          "title": "HSC 28 অনলাইন ব্যাচ - ইকোনমিক্স",
+          "url": "https://10minuteschool.com/product/hsc-28-economics-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/Thumbnails/hsc-28-ob-individual-course/hsc-28-economics-online-batch-sqr-thumbnail.jpg",
+          "kind": "live",
+          "subjects": [
+            "economics"
+          ],
+          "price": {
+            "original": 2500,
+            "final": 1850
+          },
+          "enrolledCount": 1806,
+          "liveClassesPerWeek": null,
+          "facts": [
+            "ইকোনমিক্স ১ম ও ২য় পত্রের Board-based A+ প্রস্তুতি",
+            "বেসিক Strong + CQ/MCQ ফুল প্রস্তুতি (বোর্ড-প্যাটার্নে প্র্যাকটিস ফোকাস)",
+            "লাইভ ক্লাস + HSC27 আর্কাইভ ক্লাস দিয়ে স্মার্ট রিভিশন"
+          ]
+        },
+        {
+          "id": "11254",
+          "title": "HSC 28 অনলাইন ব্যাচ - পৌরনীতি",
+          "url": "https://10minuteschool.com/product/hsc-28-civics-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/Thumbnails/hsc-28-ob-individual-course/hsc-28-civics-online-batch-sqr-thumbnail.jpg",
+          "kind": "live",
+          "subjects": [
+            "civics"
+          ],
+          "price": {
+            "original": 2500,
+            "final": 1850
+          },
+          "enrolledCount": 1242,
+          "liveClassesPerWeek": null,
+          "facts": [
+            "পৌরনীতি ১ম ও ২য় পত্রের Board-based A+ প্রস্তুতি",
+            "বেসিক Strong + CQ/MCQ ফুল প্রস্তুতি (বোর্ড-প্যাটার্নে প্র্যাকটিস ফোকাস)",
+            "লাইভ ক্লাস + HSC27 আর্কাইভ ক্লাস দিয়ে স্মার্ট রিভিশন"
+          ]
+        },
+        {
+          "id": "11255",
+          "title": "HSC 28 অনলাইন ব্যাচ - জিওগ্রাফি",
+          "url": "https://10minuteschool.com/product/hsc-28-geography-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/Thumbnails/hsc-28-ob-individual-course/hsc-28-geography-online-batch-sqr-thumbnail.jpg",
+          "kind": "live",
+          "subjects": [
+            "geography"
+          ],
+          "price": {
+            "original": 2500,
+            "final": 1850
+          },
+          "enrolledCount": 1098,
+          "liveClassesPerWeek": null,
+          "facts": [
+            "জিওগ্রাফি ১ম ও ২য় পত্রের Board-based A+ প্রস্তুতি",
+            "বেসিক Strong + CQ/MCQ ফুল প্রস্তুতি (বোর্ড-প্যাটার্নে প্র্যাকটিস ফোকাস)",
+            "লাইভ ক্লাস + HSC27 আর্কাইভ ক্লাস দিয়ে স্মার্ট রিভিশন"
+          ]
+        }
+      ],
+      "features": [
+        {
+          "title": "Live Interactive Classes",
+          "description": "রুটিন অনুযায়ী নিয়মিত Live Class, যেখানে Basic থেকে Advanced পর্যন্ত Concept সহজভাবে শেখানো হবে। Class চলাকালীনই থাকবে CQ ও MCQ Practice।",
+          "iconUrl": "https://cdn.10minuteschool.com/images/icons/Live_1765373111697.png"
+        },
+        {
+          "title": "Recorded & Archive Classes",
+          "description": "কোনো Live Class মিস হলেও চিন্তা নেই। App ও Website-এ যেকোনো সময় Recorded Class দেখার সুবিধা, সাথে থাকবে আগের Batch-এর Archive Classes।",
+          "iconUrl": "https://cdn.10minuteschool.com/images/icons/Video_1765373152058.png"
+        },
+        {
+          "title": "TenTen AI Doubt Solver",
+          "description": "২৪/৭ AI-এর সাহায্যে Text কিংবা Image দিয়ে যেকোনো Academic Doubt-এর দ্রুত ও নির্ভুল সমাধান। Live Class, Recorded Class এবং Exam Mode—সব জায়গাতেই থাকবে TenTen-এর Support।",
+          "iconUrl": "https://cdn.10minuteschool.com/images/icons/Group_2085664198_1782905356708.svg"
+        },
+        {
+          "title": "Subject-wise Masterbook",
+          "description": "প্রতিটি Subject-এর জন্য Paper-wise Masterbook। Smart Notes, Board Question Analysis, Admission Questions, Quick Revision, HSC 2026 Board Question & Solution এবং অতিরিক্ত Practice—সব একসাথে।",
+          "iconUrl": "https://cdn.10minuteschool.com/lms10/1f4da_1782905480990.webp"
+        },
+        {
+          "title": "Complete Exam System",
+          "description": "Daily Exam, Monthly Exam, Chapter-wise CQ Exam এবং HSC Standard-এর Full-length Model Test-এর মাধ্যমে নিয়মিত নিজের প্রস্তুতি যাচাই করার সুযোগ।",
+          "iconUrl": "https://cdn.10minuteschool.com/images/icons/Paper_1765373311296.png"
+        },
+        {
+          "title": "Regular Q&A Session",
+          "description": "নিয়মিত Live Q&A Session-এ শিক্ষার্থীরা সরাসরি শিক্ষকদের সাথে কথা বলে নিজেদের Doubt Clear করতে পারবে এবং গুরুত্বপূর্ণ Preparation Tips জানতে পারবে।",
+          "iconUrl": "https://cdn.10minuteschool.com/images/icons/ruler%26pen_1765373340198.png"
+        },
+        {
+          "title": "Performance Tracking & Rewards",
+          "description": "নিয়মিত Exam-এর মাধ্যমে নিজের Progress Track করার পাশাপাশি প্রতি মাসে Subject-wise Student of the Month নির্বাচিত হবে। সেরা শিক্ষার্থীদের জন্য থাকবে Exclusive Gifts ও Recognition।",
+          "iconUrl": "https://cdn.10minuteschool.com/images/icons/png-clipart-trophy-gold-cup-trophy-gold-and-brown-trophy-image-file-formats-medal-thumbnail-removebg-preview_%281%29_1782905827773.png"
+        },
+        {
+          "title": "Subject-wise Facebook Community",
+          "description": "প্রতিটি Subject-এর জন্য থাকবে আলাদা Facebook Community, যেখানে শিক্ষক ও সারা বাংলাদেশের শিক্ষার্থীরা একসাথে যুক্ত থাকবে। Notes Sharing, Tips, Shortcuts, Discussion এবং Doubt Solving—সবকিছু এক প্ল্যাটফর্মে।",
+          "iconUrl": "https://cdn.10minuteschool.com/images/icons/people_1765373395106.png"
+        }
+      ],
+      "testimonials": [
+        {
+          "name": "Zeba Anika",
+          "role": "Viqarunnisa Noon School and College",
+          "text": "SSC সময় ফিজিক্স ঠিকভাবে বুঝতাম না, তাই বিষয়টা তেমন ভালো লাগত না। কিন্তু এখন Rifat ভাইয়া এত সুন্দর করে বুঝান যে পড়তে সত্যিই ভালো লাগে, আর পরীক্ষাতেও ভালো নাম্বার পাচ্ছি।\nএভাবে সহজ করে বুঝিয়ে দেওয়ার জন্য অনেক ধন্যবাদ ভাইয়া 😇",
+          "imageUrl": "https://cdn.10minuteschool.com/images/page_builder/testimonials/authors/Zeba_1783178746472.jpeg"
+        },
+        {
+          "name": "নাঈমা মাহমুদ পূর্বা",
+          "role": "৭৯ তম, জাহাঙ্গীরনগর বিশ্ববিদ্যালয় - ই ইউনিট (বিজনেস স্টাডিজ অনুষদ)",
+          "text": "টেন মিনিট স্কুলের প্রতি আমি ভীষণরকমভাবে কৃতজ্ঞতা প্রকাশ করছি। সাফল্য অর্জনের জন্য প্রতিটা টিচারের কাছে আমি কৃতজ্ঞ কারণ তাঁদের প্রতিটা কথা, পরামর্শ, নির্দেশনা আমাকে অনেক সাহায্য করেছে। তাঁদের প্রতিটা কথায় ভরসা পেতাম। এছাড়া কোর্স, ফ্রি ক্লাস এবং মডেল টেস্ট আমার অবস্থান বুঝতে সহায়তা করেছে।",
+          "imageUrl": "https://cdn.10minuteschool.com/cpd_images/thumbnails/%E0%A6%A8%E0%A6%BE%E0%A6%88%E0%A6%AE%E0%A6%BE_%E0%A6%AE%E0%A6%BE%E0%A6%B9%E0%A6%AE%E0%A7%81%E0%A6%A6_%E0%A6%AA%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE_%E0%A7%AD%E0%A7%AF_%E0%A6%A4%E0%A6%AE_%E0%A6%9C%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%80%E0%A6%B0%E0%A6%A8%E0%A6%97%E0%A6%B0_%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F_%E0%A6%87_%E0%A6%87%E0%A6%89%E0%A6%A8%E0%A6%BF%E0%A6%9F_%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A6%A8%E0%A7%87%E0%A6%B8_%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%A1%E0%A6%BF%E0%A6%9C_%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A6%A6.jpg"
+        },
+        {
+          "name": "Md.Al-Mahdi",
+          "role": "Government Shah Sultan College",
+          "text": "আমি SSC পরীক্ষার সময় 10 MS-এ ফ্রি রিভিশন  লাইভ ক্লাস করেছিলাম। সেখানে দেখলাম  10 MS-এ যে সকল ভাইয়া রসায়ন পড়ায় তারা খুব সুন্দর ভাবে বুঝিয়ে দেয় এবং আমি সিদ্ধান্ত নিলাম HSC-তে তাদের কাছে পড়বো। বিশেষ করে ফারদিন ভাই ও সিয়াম ভাই যেভাবে পড়ায় আমার আর তা দুইবার পড়তে হয় না । যদিও আমি করছে দেরিতে ভর্তি হয়েছি কিন্তু রেকর্ডেড ক্লাস করে সেগুলো কভার করে নিচ্ছি । আমি খুবই উপকৃত হয়েছি যে রেকর্ডেড ক্লাস পাওয়া যায় । 10 MS-এ সকল শিক্ষকই সেরা।  ইনশাআল্লাহ নতুন বছরে তাদের সাথে আমার শেখার সময়টা খুব ভালো যাবে ❤️❤️",
+          "imageUrl": "https://cdn.10minuteschool.com/images/page_builder/testimonials/authors/10ms_-_Al_Mahadi_1783178910385.png"
+        },
+        {
+          "name": "Amrin Noor Tisha",
+          "role": "Shamsul Hoque Khan School and College",
+          "text": "টেন মিনিট স্কুলের সঙ্গে মাত্র ৩ মাসে একাউন্টিং সম্পর্কে অনেক কিছু শিখতে পারছি। প্রতিটি ক্লাস, পরীক্ষা এবং কুইজ প্রতিদিন নতুন কিছু শেখাচ্ছে। মাহিন ভাইয়া এত সুন্দরভাবে বোঝান যে সব মিলিয়ে এটি একটি অসাধারণ অভিজ্ঞতা। মাহিন ভাইকে এত সুন্দরভাবে বোঝানোর জন্য ধন্যবাদ 💖।",
+          "imageUrl": "https://cdn.10minuteschool.com/images/page_builder/testimonials/authors/Amrin_Noor_Tisha__1783179115412.jpeg"
+        },
+        {
+          "name": "ইয়াসিন খান",
+          "role": "১৬৩ তম, ঢাকা বিশ্ববিদ্যালয় - খ ইউনিট",
+          "text": "I have watched short guideline videos of 10 minute school,  which helped me to know which things to read. It shortened my syllabus and boosted my confidence .",
+          "imageUrl": "https://cdn.10minuteschool.com/cpd_images/thumbnails/%E0%A6%87%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B8%E0%A6%BF%E0%A6%A8_%E0%A6%96%E0%A6%BE%E0%A6%A8_%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE_%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F_%E0%A6%96_%E0%A6%87%E0%A6%89%E0%A6%A8%E0%A6%BF%E0%A6%9F.png"
+        },
+        {
+          "name": "Mitu Moni",
+          "role": "Government Suhrawardy College",
+          "text": "আমি কোর্সে ভর্তি হওয়ার পর থেকে বাংলা, ইংরেজি ও ICT-তে আমার college friends দের চেয়ে এগিয়ে আছি। Online-এ ক্লাস করলেও কখনোই মনে হয় না যে সেটা online; একদম real একটি অনুভূতি হয় ক্লাস করতে।10MS-এর সব vaiya এবং apu রা খুব ভালোভাবে সব topic বোঝান এবং বুঝতে সাহায্য করেন।English-এর ক্লাস তো একদম মনের মতো। 🥰At last, thank you so much, 10MS. ❤️",
+          "imageUrl": "https://cdn.10minuteschool.com/images/page_builder/testimonials/authors/Mitu_Moni_1783179822203.png"
+        },
+        {
+          "name": "নাসরিন সুলতানা",
+          "role": "৭৮০ তম, ঢাকা বিশ্ববিদ্যালয় - গ ইউনিট",
+          "text": "টেন মিনিট স্কুলের ক্লাস টেস্ট ও মডেল টেস্টগুলো আমার জন্য খুবই সহায়ক ছিল। এগুলো আমার অনেক ভুল ধরিয়ে দিয়েছে এবং নিজের দুর্বলতাগুলো চিহ্নিত করতে সাহায্য করেছে।",
+          "imageUrl": "https://cdn.10minuteschool.com/cpd_images/thumbnails/%E0%A6%A8%E0%A6%BE%E0%A6%B8%E0%A6%B0%E0%A6%BF%E0%A6%A8_%E0%A6%B8%E0%A7%81%E0%A6%B2%E0%A6%A4%E0%A6%BE%E0%A6%A8%E0%A6%BE_%E0%A7%AD%E0%A7%AE%E0%A7%A6_%E0%A6%A4%E0%A6%AE_%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE_%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F_%E0%A6%97_%E0%A6%87%E0%A6%89%E0%A6%A8%E0%A6%BF%E0%A6%9F.jpg"
+        },
+        {
+          "name": "Fatema Tuz Zohora",
+          "role": "Government Debendra College",
+          "text": "সেরা মানে সেরা। এটার উপরে কোনো কথা নেই। ব্যক্তিগতভাবে আমার কাছে এটি সবচেয়ে ভালো লাগে। কোর্সে যোগ দেওয়ার আগে ইউটিউবে অনেক ভাই আপুদের ভিডিও ক্লাস দেখেছি, কিন্তু টেন মিনিট স্কুলের ভাইয়া ও আপুদের পড়ানোর এবং শেখানোর দক্ষতা আমার কাছে অনেক ভালো লাগে এবং খুব ক্রিয়েটিভ মনে হয়। সত্যি বলতে, টেন মিনিট স্কুলে যোগ দেওয়ার পর যত ক্লাস করেছি, পড়ানোর এবং শেখানোর স্কিল কখনো বিরক্তিকর মনে হয়নি। বরং ভালো লেগেছে। মাঝে মাঝে ভাবি, যদি আমি ওই ভাইয়া বা ওই আপুর জায়গায় থাকতাম, তাহলে কত ভালো লাগত। আমি হাজার হাজার শিক্ষার্থীকে একসাথে পড়াতে পারতাম। আর একটা সিক্রেট, আমি চাই আপনাদের মতো টেন মিনিট স্কুলের শিক্ষক হতে। যদি আমার রেটিং হিস্ট্রি দেখেন, দেখবেন যত রেটিং দিয়েছি সব ৫/৫।\nবায়োলজি ডিপার্টমেন্ট মানে সেরা। মেহেদী ভাইয়া, সুমাইয়া আপু এবং প্রীতি আপু মানে প্রত্যেকেই একজন সত্যিকারের সায়েন্টিস্ট।",
+          "imageUrl": "https://cdn.10minuteschool.com/images/page_builder/testimonials/authors/Fatema_Tuz_Zohora__1783180114089.jpeg"
+        },
+        {
+          "name": "Abdus Sami",
+          "role": "Tongi Islamia Fazil Degree Madrasa",
+          "text": "ম্যাথ নিয়ে আমি খুব ভয় পেতাম, বিশেষ করে ত্রিকোণমিতিকে। কিন্তু 10 Minute School-এ শোভন ভাইয়া আর আবিদ ভাইয়ার ক্লাস করার পর থেকে ম্যাথ আমার কাছে একদম সহজ হয়ে গেছে। এখন আর আগের মতো কোনো সমস্যায় পড়তে হয় না।\nআবিদ ভাইয়া খুব মজা করে পড়ান, আর শোভন ভাইয়াও দারুণভাবে টপিকগুলো স্টেপ বাই স্টেপ বুঝিয়ে দেন। তাদের পড়ানোর ধরন এত সহজ যে কনফিউশন থাকেই না। তাই আমি ভাইয়াদের প্রতি আন্তরিকভাবে ধন্যবাদ জানাতে চাই।",
+          "imageUrl": "https://cdn.10minuteschool.com/images/page_builder/testimonials/authors/Abdus_Sami_1783180181935.jpeg"
+        },
+        {
+          "name": "Afra hossen eva",
+          "role": "Hathazari Government College",
+          "text": "টেন মিনিট স্কুলের বাংলা কোর্স মানেই সেরা। ফারহান ভাইয়ার মতো একজন শিক্ষক এত সহজভাবে ক্লাস নেন, সত্যিই ভাষায় প্রকাশ করা কঠিন। কীভাবে অনুভূতি প্রকাশ করবো বুঝি না, তবে সত্যি বলতে ফারহান ভাইয়া আর ফারসিম ভাইয়া দুজনেই খুব সুন্দরভাবে বাংলা পড়ান। কলেজ কিংবা অফলাইন প্ল্যাটফর্মের সাথে টেন মিনিট স্কুলের বাংলা কোর্সের তুলনাই হয় না, পার্থক্য অনেক বড়।\nমাশাআল্লাহ। আল্লাহ আপনাদের বরকত দিন। আমাদের পাশে থাকার জন্য অনেক ধন্যবাদ 💙",
+          "imageUrl": "https://cdn.10minuteschool.com/images/page_builder/testimonials/authors/Eva_1783180276201.jpeg"
+        },
+        {
+          "name": "মোহাম্মদ ফয়জুল ইসলাম তামিম",
+          "role": "১৪৭৩ তম, ঢাকা বিশ্ববিদ্যালয় - খ ইউনিট",
+          "text": "Helped me throughout the whole admission journey, especially English, Sumon bhai and Durjoy bhai's classes were so smooth and easy that I understood all their lessons. For GK, Avro bhai's classes were best and very enjoyable.",
+          "imageUrl": "https://cdn.10minuteschool.com/cpd_images/thumbnails/%E0%A6%AE%E0%A7%8B%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A6%A6_%E0%A6%AB%E0%A6%AF%E0%A6%BC%E0%A6%9C%E0%A7%81%E0%A6%B2_%E0%A6%87%E0%A6%B8%E0%A6%B2%E0%A6%BE%E0%A6%AE_%E0%A6%A4%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%AE_%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE_%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F_%E0%A6%96_%E0%A6%87%E0%A6%89%E0%A6%A8%E0%A6%BF%E0%A6%9F.jpg"
+        },
+        {
+          "name": "শালোমী সরকার",
+          "role": "Rafiqul Islam Women's College",
+          "text": "আমার কলেজের ফাইন্যান্স ক্লাসগুলোতে পড়া বোঝা অনেক কঠিন হয়ে যেত। কিছুই বুঝতে পারতাম না। কিন্তু টেন মিনিট স্কুলে ভর্তি হওয়ার পর থেকে আমি প্রতিটি বিষয়ে ভালো নম্বর পাচ্ছি। লাইভ ক্লাসগুলোতে ভাইয়া ও আপুরা এত সুন্দরভাবে বিষয়গুলো বোঝান যে বাইরে কোনো শিক্ষকের কাছে কোচিং করতে হয়নি। টেন মিনিট স্কুলে ভর্তি হওয়ার পর থেকেই পড়াশোনা অনেক সহজ হয়ে গেছে। টেন মিনিট স্কুলের সকল শিক্ষক এবং যারা পড়ানোর সাথে যুক্ত, তাদের সকলকে অসংখ্য ধন্যবাদ আমাদের পড়াশোনা এত সহজ করে দেওয়ার জন্য।",
+          "imageUrl": "https://cdn.10minuteschool.com/images/page_builder/testimonials/authors/%C3%A0%C2%A6%C2%B6%C3%A0%C2%A6%C2%BE%C3%A0%C2%A6%C2%B2%C3%A0%C2%A7%C2%87%C3%A0%C2%A6%C2%BE%C3%A0%C2%A6%C2%AE%C3%A0%C2%A7%C2%80_%C3%A0%C2%A6%C2%B8%C3%A0%C2%A6%C2%B0%C3%A0%C2%A6%C2%95%C3%A0%C2%A6%C2%BE%C3%A0%C2%A6%C2%B0__1783180396346.jpeg"
+        },
+        {
+          "name": "মেহেজাবীন চৌধুরী নোভা",
+          "role": "৫০৮ তম, ঢাকা বিশ্ববিদ্যালয় - খ ইউনিট। ৩য়, জাহাঙ্গীরনগর বিশ্ববিদ্যালয় (সমাজবিজ্ঞান অনুষদ)",
+          "text": "আমার 10 Minute School এর সাথে ২০২০ সাল থেকে যাত্রা শুরু, সেই থেকেই আমার SSC, HSC and Admission প্রতিটি ধাপেই 10MS এর অবদান অনস্বীকার্য। এক কথায় বলে প্রকাশ করা যাবেনা কততটা helpful ছিল",
+          "imageUrl": "https://cdn.10minuteschool.com/cpd_images/thumbnails/%E0%A6%AE%E0%A7%87%E0%A6%B9%E0%A7%87%E0%A6%9C%E0%A6%BE%E0%A6%AC%E0%A7%80%E0%A6%A8_%E0%A6%9A%E0%A7%8C%E0%A6%A7%E0%A7%81%E0%A6%B0%E0%A7%80_%E0%A6%A8%E0%A7%8B%E0%A6%AD%E0%A6%BE_%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE_%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC_-_%E0%A6%96_%E0%A6%87%E0%A6%89%E0%A6%A8%E0%A6%BF%E0%A6%9F.jpg"
+        },
+        {
+          "name": "সানন্দা সরকার শ্রেয়সী",
+          "role": "৩২৭ তম, ঢাকা বিশ্ববিদ্যালয় - খ ইউনিট",
+          "text": "কোর্সের ক্লাসগুলো ছিল খুবই উপকারী। বাংলা, ইংরেজি, সাধারণ জ্ঞানের বিভিন্ন বিষয় ভালোভাবে বুঝতে পেরেছি। তাছাড়াও বিভিন্ন সময়ে ভাইয়াদের পরীক্ষার সময় ব্যবস্থাপনার উপদেশগুলোও ছিল গুরুত্বপূর্ণ। ভাইয়ারা সবসময় অনেক আনন্দের সাথে পড়িয়েছেন। ভাইয়া, আপুদের অবদান কখনো ভুলতে পারবো না। এক কথায়, ঘরে বসে ভার্সিটি এডমিশন প্রিপারেশনের জন্য 10 Minute School সেরা।",
+          "imageUrl": "https://cdn.10minuteschool.com/cpd_images/thumbnails/%E0%A6%B8%E0%A6%BE%E0%A6%A8%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BE_%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0_%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AF%E0%A6%BC%E0%A6%B8%E0%A7%80_%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE_%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F_%E0%A6%96_%E0%A6%87%E0%A6%89%E0%A6%A8%E0%A6%BF%E0%A6%9F.jpg"
+        },
+        {
+          "name": "ফাতেমা মরিয়ম হক (খুশবু)",
+          "role": "১৮৫ তম, ঢাকা বিশ্ববিদ্যালয় - গ ইউনিট",
+          "text": "Daily exams, model tests, and lecture sheets helped me a lot. Many things were common in the exam from lecture sheet and exams. Daily exams also helped me to manage time perfectly.",
+          "imageUrl": "https://cdn.10minuteschool.com/cpd_images/thumbnails/%E0%A6%AB%E0%A6%BE%E0%A6%A4%E0%A7%87%E0%A6%AE%E0%A6%BE_%E0%A6%AE%E0%A6%B0%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%AE_%E0%A6%B9%E0%A6%95_%E0%A6%96%E0%A7%81%E0%A6%B6%E0%A6%AC%E0%A7%81_%E0%A7%A7%E0%A7%AE%E0%A7%AB_%E0%A6%A4%E0%A6%AE_%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE_%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F_%E0%A6%97_%E0%A6%87%E0%A6%89%E0%A6%A8%E0%A6%BF%E0%A6%9F.jpg"
+        },
+        {
+          "name": "Aiman jahan nahia",
+          "role": "Noakhali Government Mohila College",
+          "text": "আমি SSC-তে সায়েন্স গ্রুপে ছিলাম, কিন্তু রেজাল্ট খুব ভালো হয়নি। তাই সবার পরামর্শ অনুযায়ী আমি আমার গ্রুপ চেইঞ্জ করে মানবিক গ্রুপে এসেছি এবং টেন মিনিট স্কুলের কোর্সে ভর্তি হয়েছি। প্রথমে আমি বুঝতাম না কীভাবে করতে হবে, কিন্তু ধীরে ধীরে সব বুঝতে পারছি এবং ক্লাস করতে পারছি। ক্লাসগুলো আমার কাছে খুব ভালো লেগেছে। কাইফ ভাইয়া ও জাফর ভাইয়া দুজনই খুব সুন্দরভাবে পড়ান এবং বোঝান। এখন অর্থনীতি আমার কাছে অনেক সহজ একটি বিষয় হয়ে গেছে। এটি সম্ভব হয়েছে শুধুমাত্র ভাইয়ারা এত ভালোভাবে বোঝানোর কারণে। তাদের প্রতি আমি অনেক ধন্যবাদ জানাই। আমি জানি, তারা আমাদের জন্য অনেক পরিশ্রম করেন। তাদের জন্য অনেক ভালোবাসা রইল। 😇💖",
+          "imageUrl": "https://cdn.10minuteschool.com/images/page_builder/testimonials/authors/Aiman_jahan_nahia_1783179458179.jpeg"
+        },
+        {
+          "name": "মাইশা বিনতে খালেক",
+          "role": "৫৩২ তম, চট্টগ্রাম বিশ্ববিদ্যালয় - খ ইউনিট। ২২৬ তম, চট্টগ্রাম বিশ্ববিদ্যালয় - ঘ ইউনিট",
+          "text": "ক্লাসগুলো আমার সাফল্যে অনেক ভূমিকা রেখেছে। কেননা আমি অফলাইনে কোচিং করিনি। 10MS এর ম্যারাথন ফ্রি ক্লাসগুলোও অনেক উপকারি ছিলো।",
+          "imageUrl": "https://cdn.10minuteschool.com/cpd_images/thumbnails/%E0%A6%AE%E0%A6%BE%E0%A6%87%E0%A6%B6%E0%A6%BE_%E0%A6%AC%E0%A6%BF%E0%A6%A8%E0%A6%A4%E0%A7%87_%E0%A6%96%E0%A6%BE%E0%A6%B2%E0%A7%87%E0%A6%95_%E0%A6%9A%E0%A6%9F%E0%A7%8D%E0%A6%9F%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE_%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F_%E0%A6%98_%E0%A6%87%E0%A6%89%E0%A6%A8%E0%A6%BF%E0%A6%9F.jpg"
+        },
+        {
+          "name": "Diba Roy",
+          "role": "St. Francis Xavier's Girls' School and College",
+          "text": "আসলে Siam vaiya আর  Fardin vaiya is the best teacher । SSC তে আমার কাছে কেমিস্ট্রি খুব কঠিন লাগতো কিন্তু এখন ভাইয়াদের ক্লাস করার পর থেকে কেমিস্ট্রি আমার প্রিয় সাবজেক্ট হয়ে গেছে । আমি খুব ভালো ভাবে এখন বুঝি। ভাইয়ারা কঠিন টপিকগুলো ও এমন ভাবে বুঝিয়ে দেন যে বিষয়টা  আর ভয় লাগে না। উদহারন দিয়ে পড়ানোর কারণে সবকিছু পরিষ্কার ভাবে মাথায় থাকে ।পড়ার সময় ভাইয়াদের explantion গুলো সত্যিই অনেক helpful আর Chemistry তে আগ্রহ বাড়িয়ে দেয় ।",
+          "imageUrl": "https://cdn.10minuteschool.com/images/page_builder/testimonials/authors/Diba_Roy_1783178861340.jpeg"
+        },
+        {
+          "name": "জান্নাতুল তারজিমি রোজানা",
+          "role": "৬৫৬ তম, ঢাকা বিশ্ববিদ্যালয় - গ ইউনিট",
+          "text": "এই কোর্সের সবচেয়ে বড় ভূমিকা ছিল সঠিক দিকনির্দেশনা আর অধ্যবসায়ের পরিবেশ তৈরি করে দেওয়া। প্রশ্ন সমাধান, রিভিশন আর সাপোর্ট আমাকে প্রস্তুত হতে বিশেষভাবে সাহায্য করেছে,",
+          "imageUrl": "https://cdn.10minuteschool.com/cpd_images/thumbnails/%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A8%E0%A6%BE%E0%A6%A4%E0%A7%81%E0%A6%B2_%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%9C%E0%A6%BF%E0%A6%AE%E0%A6%BF_%E0%A6%B0%E0%A7%8B%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%BE_%E0%A7%AC%E0%A7%AB%E0%A7%AC_%E0%A6%A4%E0%A6%AE_%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE_%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F_%E0%A6%97_%E0%A6%87%E0%A6%89%E0%A6%A8%E0%A6%BF%E0%A6%9F.jpg"
+        },
+        {
+          "name": "Huma",
+          "role": "Kumudini Government College",
+          "text": "10 Minute School-এ ICT এখন আমার সবচেয়ে পছন্দের সাবজেক্ট।\nJaki ভাইয়া আর Rawnak ভাইয়ার ক্লাস দুটোই এত ভালো যে ভাষায় বোঝানো যায় না। দুজনেই আমার favourite ICT teacher। তাদের পড়ানো, শেখানো আর সাপোর্ট সবই 💯।\nInshallah আমি ভালো রেজাল্ট করব।\nএকদিন ভাইয়াদের গর্ব করে বলব,\n“ভাইয়া, আমি ভালো রেজাল্ট করতে পেরেছি।” 💙",
+          "imageUrl": "https://cdn.10minuteschool.com/images/page_builder/testimonials/authors/Huma_1783179901566.png"
+        },
+        {
+          "name": "Md.Siam Ali Lasker",
+          "role": "Abaipur Jamuna Sikder College",
+          "text": "আলহামদুলিল্লাহ, জিওগ্রাফি কোর্সটি অনেক ভালো লাগছে। টেন মিনিট স্কুলে না আসলে বুঝতাম না যে স্যাররা এখানে এতো সুন্দরভাবে পড়া বোঝান।",
+          "imageUrl": "https://cdn.10minuteschool.com/images/page_builder/testimonials/authors/Md%2CSiam_Ali_Lasker__1783180345140.jpeg"
+        }
+      ],
+      "faq": [
+        {
+          "question": "কোর্সগুলো কাদের জন্য?",
+          "answer": "SSC 2026 এবং ভবিষ্যৎ HSC 28 ব্যাচের জন্য"
+        },
+        {
+          "question": "কোর্সগুলো ইংরেজি ভার্শনের শিক্ষার্থীদের জন্য কি প্রযোজ্য?",
+          "answer": "না, কোর্সটি বাংলা ভার্শনের শিক্ষার্থীদের জন্য সাজানো হয়েছে।"
+        },
+        {
+          "question": "ক্লাস কবে থেকে শুরু?",
+          "answer": "সেপ্টেম্বর/অক্টোবর, ২০২৬ (সম্ভাব্য) [কলেজের ক্লাস শুরু হওয়া সাপেক্ষে ক্লাস শুরুর তারিখ ফাইনাল করা হবে]"
+        },
+        {
+          "question": "মাস্টারবুক কীভাবে পাবো?",
+          "answer": "কোর্সে ভর্তি হলে, কোর্সের সাথে মাস্টারবুক অর্ডার করতে পারবে। কলেজে ক্লাস শুরুর আগেই বই তোমার হাতে থাকবে।"
+        },
+        {
+          "question": "কত দিনের কোর্স?",
+          "answer": "১৬ মাসের (প্রতিটি সাইকেল ৪ মাসের)"
+        },
+        {
+          "question": "কত দিন এক্সেস থাকবে ক্লাসের?",
+          "answer": "HSC এক্সাম শেষ হওয়া পর্যন্ত"
+        },
+        {
+          "question": "সাইকেল গুলো কয় মাসের?",
+          "answer": "প্রতিটি সাইকেল চার মাসের হবে।"
+        },
+        {
+          "question": "ক্লাস শুরু হওয়ার পর ভর্তি হলে, হয়ে যাওয়া ক্লাস গুলো কি পাওয়া যাবে?",
+          "answer": "হ্যাঁ, চার মাসের সাইকেলের যেকোনো সময় কোর্সে যুক্ত হলেই সেই সাইকেলের সকল কনটেন্টের এক্সেস দিয়ে দেওয়া হবে।"
+        }
+      ],
+      "videoTestimonials": [
+        {
+          "name": "মেহজাবিন",
+          "role": "শিক্ষার্থী, ১০ম শ্রেণি",
+          "videoId": "xPgIpyx04bE",
+          "title": "আমাদের স্টুডেন্ট মেহজাবিনের স্বপ্নপূরণ 😇",
+          "imageUrl": "https://cdn.10minuteschool.com/images/banners/Thumbnail_%281%29_1763641112558.jpg"
+        },
+        {
+          "name": "সাবিহা এবং হাবিবা",
+          "role": "ঝাটিবেলাই সাদেক আলী উচ্চ বিদ্যালয়, সিরাজগঞ্জ",
+          "videoId": "L9NFfsYHpJU",
+          "title": "যমজ দুইবোন স্বপ্ন দেখে একসাথে ডাক্তার হবে। আমাদের জোড়া কৃতীর ক্লাসে সেরা হওয়ার জার্নি।",
+          "imageUrl": "https://cdn.10minuteschool.com/images/banners/Middle_Frame_1763649681448.jpg"
+        },
+        {
+          "name": "রিদওয়ান কবির বিকন",
+          "role": "ঢাকা বিশ্ববিদ্যালয় (বি ইউনিট - ১২তম)",
+          "videoId": "Ez4e1BMnVFc",
+          "title": "আমি যেন চান্স না পাই সেজন্য আরো ১০০ জন পড়াশোনা করছে।",
+          "imageUrl": "https://cdn.10minuteschool.com/k12/thumbnails_seg/%E0%A6%B0%E0%A6%BF%E0%A6%A6%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%A8%20%E0%A6%95%E0%A6%AC%E0%A6%BF%E0%A6%B0%20%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A6%A8_%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE%20%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC.jpg"
+        },
+        {
+          "name": "আতকিয়া এবং তাসফিয়া",
+          "role": "বি এ এফ শাহীন কলেজ",
+          "videoId": "owAIxAdc3oA",
+          "title": "দুই বোনই ক্লাসে ফার্স্ট!",
+          "imageUrl": "https://cdn.10minuteschool.com/images/banners/End_Frame_1763641249386.jpg"
+        },
+        {
+          "name": "জিসান",
+          "role": "গাজীপুর ক্যান্টমেন্ট পাবলিক স্কুল এন্ড কলেজ",
+          "videoId": "qiWVZ6uAxnU",
+          "title": "৪৬তম থেকে এক লাফে ক্লাসে ২য়!",
+          "imageUrl": "https://cdn.10minuteschool.com/images/banners/Start_Frame_1763641447080.jpg"
+        },
+        {
+          "name": "নাফিসা",
+          "role": "ঢাকা বিশ্ববিদ্যালয় (বি ইউনিট - ১২৩তম)",
+          "videoId": "CZgrqK5KWeQ",
+          "title": "ঢাবির ১২৩তম নাফিসার ভর্তিযুদ্ধ জয়ের স্ট্রাটেজি",
+          "imageUrl": "https://cdn.10minuteschool.com/k12/thumbnails_seg/%E0%A6%A8%E0%A6%BE%E0%A6%AB%E0%A6%BF%E0%A6%B8%E0%A6%BE_%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE%20%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC.jpg"
+        },
+        {
+          "name": "ইসরাত জাহান লামিয়া",
+          "role": "বেগম রোকেয়া কিশালয়া বালিকা উচ্চ বিদ্যালয়",
+          "videoId": "buYiU9v8AS0",
+          "title": "টেন মিনিট স্কুলের টিচারদের কাছে কৃতজ্ঞ!",
+          "imageUrl": "https://cdn.10minuteschool.com/images/banners/End_Frame_%281%29_1763641651144.jpg"
+        },
+        {
+          "name": "রাফসান",
+          "role": "শেখ রাসেল ক্যান্টনমেন্ট পাবলিক স্কুল এন্ড কলেজ",
+          "videoId": "aaRTwdL-u84",
+          "title": "রাফসান তার জীবনের সবচেয়ে বড় সার্টিফিকেট পেয়ে গেলো আজকে! 🥳",
+          "imageUrl": "https://cdn.10minuteschool.com/images/banners/End_Frame_%282%29_1763641787732.jpg"
+        },
+        {
+          "name": "অনিক মোল্লা",
+          "role": "ঢাকা বিশ্ববিদ্যালয় (সি ইউনিট - একাউন্টিং বিভাগ)",
+          "videoId": "be671_uNZiI",
+          "title": "ঢাকার বাইরে থেকেও ঢাকা বিশ্ববিদ্যালয়ের স্বপ্ন দেখা যায়?",
+          "imageUrl": "https://i.ytimg.com/vi/be671_uNZiI/hqdefault.jpg"
+        },
+        {
+          "name": "আরমানুল ইসলাম",
+          "role": "ঢাকা বিশ্ববিদ্যালয় (বি ইউনিট - ৩৬তম)",
+          "videoId": "27_6IB-IIYw",
+          "title": "আরমানুলের ঢাকা বিশ্ববিদ্যালয়ের B Unit এ ৩৬তম হওয়ার গল্প",
+          "imageUrl": "https://cdn.10minuteschool.com/k12/thumbnails_seg/%E0%A6%86%E0%A6%B0%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B2%20%E0%A6%87%E0%A6%B8%E0%A6%B2%E0%A6%BE%E0%A6%AE_%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE%20%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC.jpg"
+        },
+        {
+          "name": "জান্নাতুস শিরিয়া স্বচ্ছ",
+          "role": "ঢাকা বিশ্ববিদ্যালয় (বি ইউনিট - ৫৮তম)",
+          "videoId": "DcMlXPeei0Y",
+          "title": "ঢাবি B Unit এ ৫৮তম স্বচ্ছের স্বপ্ন জয়ের গল্প",
+          "imageUrl": "https://cdn.10minuteschool.com/k12/thumbnails_seg/%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A8%E0%A6%BE%E0%A6%A4%E0%A7%81%E0%A6%B8%20%E0%A6%B6%E0%A6%BF%E0%A6%B0%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%20%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%9A%E0%A7%8D%E0%A6%9B_%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE%20%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC.jpg"
+        },
+        {
+          "name": "শিঞ্জন বড়ুয়া",
+          "role": "ঢাকা বিশ্ববিদ্যালয় (বি ইউনিট - ৭৬তম)",
+          "videoId": "fm8aG5SjrYc",
+          "title": "ঢাকা বিশ্ববিদ্যালয়ের বি ইউনিটে ৭৬তম শিঞ্জনের স্বপ্ন জয়ের গল্প!",
+          "imageUrl": "https://cdn.10minuteschool.com/k12/thumbnails_seg/%E0%A6%B6%E0%A6%BF%E0%A6%9E%E0%A7%8D%E0%A6%9C%E0%A6%A8%20%E0%A6%AC%E0%A6%A1%E0%A6%BC%E0%A7%81%E0%A6%AF%E0%A6%BC%E0%A6%BE_%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE%20%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC.jpg"
+        },
+        {
+          "name": "মাহবুব",
+          "role": "ঢাকা বিশ্ববিদ্যালয় (সি ইউনিট - ১৮৭তম)",
+          "videoId": "ME2tPMmDShA",
+          "title": "এইচএসসির পরপরই ভর্তি পরীক্ষার প্রস্তুতি",
+          "imageUrl": "https://cdn.10minuteschool.com/k12/thumbnails_seg/%E0%A6%AE%E0%A6%BE%E0%A6%B9%E0%A6%AC%E0%A7%81%E0%A6%AC_%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE%20%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC.jpg"
+        },
+        {
+          "name": "সিয়াম",
+          "role": "ঢাকা বিশ্ববিদ্যালয় (সি ইউনিট - ২৩৮তম)",
+          "videoId": "wkhaGdMcpQk",
+          "title": "ঢাবিতে ২৩৮ তম সিয়ামের ভর্তি প্রস্তুতির স্ট্র্যাটেজি",
+          "imageUrl": "https://cdn.10minuteschool.com/k12/thumbnails_seg/%E0%A6%B8%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%AE_%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE%20%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC.jpg"
+        },
+        {
+          "name": "অর্পণ চক্রবর্তী",
+          "role": "চট্টগ্রাম বিশ্ববিদ্যালয় (১৮তম)",
+          "videoId": "q7-YlnGd9CU",
+          "title": "চাঁদপুর থেকে এসে চট্টগ্রাম বিশ্ববিদ্যালয় জয়!",
+          "imageUrl": "https://cdn.10minuteschool.com/k12/thumbnails_seg/%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%AA%E0%A6%A3%20%E0%A6%9A%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%80_%E0%A6%9A%E0%A6%9F%E0%A7%8D%E0%A6%9F%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%20%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC.jpg"
+        }
+      ]
+    }
+  ]
+}

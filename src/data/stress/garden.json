@@ -1,0 +1,284 @@
+{
+  "trees": [
+    {
+      "id": "tree_1",
+      "species": "apple",
+      "plantedDate": "2025-09-01",
+      "fruitedDate": "2025-10-02",
+      "longest": 30
+    },
+    {
+      "id": "tree_2",
+      "species": "mango",
+      "plantedDate": "2025-10-05",
+      "fruitedDate": "2025-11-05",
+      "longest": 31
+    },
+    {
+      "id": "tree_3",
+      "species": "lychee",
+      "plantedDate": "2025-11-08",
+      "fruitedDate": "2025-12-09",
+      "longest": 32
+    },
+    {
+      "id": "tree_4",
+      "species": "orange",
+      "plantedDate": "2025-12-12",
+      "fruitedDate": "2026-01-12",
+      "longest": 33
+    },
+    {
+      "id": "tree_5",
+      "species": "apple",
+      "plantedDate": "2026-01-15",
+      "fruitedDate": "2026-02-15",
+      "longest": 34
+    },
+    {
+      "id": "tree_6",
+      "species": "mango",
+      "plantedDate": "2026-02-18",
+      "fruitedDate": "2026-03-21",
+      "longest": 35
+    },
+    {
+      "id": "tree_7",
+      "species": "lychee",
+      "plantedDate": "2026-03-24",
+      "fruitedDate": "2026-04-24",
+      "longest": 36
+    },
+    {
+      "id": "tree_8",
+      "species": "orange",
+      "plantedDate": "2026-04-27",
+      "fruitedDate": "2026-05-28",
+      "longest": 37
+    },
+    {
+      "id": "tree_9",
+      "species": "apple",
+      "plantedDate": "2026-05-31",
+      "fruitedDate": "2026-07-01",
+      "longest": 38
+    },
+    {
+      "id": "tree_10",
+      "species": "mango",
+      "plantedDate": "2026-07-04",
+      "fruitedDate": "2026-08-04",
+      "longest": 30
+    },
+    {
+      "id": "tree_11",
+      "species": "lychee",
+      "plantedDate": "2026-08-07",
+      "fruitedDate": "2026-09-07",
+      "longest": 31
+    },
+    {
+      "id": "tree_12",
+      "species": "orange",
+      "plantedDate": "2026-09-10",
+      "fruitedDate": "2026-10-11",
+      "longest": 32
+    },
+    {
+      "id": "tree_13",
+      "species": "apple",
+      "plantedDate": "2026-10-14",
+      "fruitedDate": "2026-11-14",
+      "longest": 33
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-09-21",
+      "status": "watered"
+    },
+    {
+      "date": "2026-09-22",
+      "status": "watered"
+    },
+    {
+      "date": "2026-09-23",
+      "status": "watered"
+    },
+    {
+      "date": "2026-09-24",
+      "status": "watered"
+    },
+    {
+      "date": "2026-09-25",
+      "status": "watered"
+    },
+    {
+      "date": "2026-09-26",
+      "status": "watered"
+    },
+    {
+      "date": "2026-09-27",
+      "status": "watered"
+    },
+    {
+      "date": "2026-09-28",
+      "status": "watered"
+    },
+    {
+      "date": "2026-09-29",
+      "status": "watered"
+    },
+    {
+      "date": "2026-09-30",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-01",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-02",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-03",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-04",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-05",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-06",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-07",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-08",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-09",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-10",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-11",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-12",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-13",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-14",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-15",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-16",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-17",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-18",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-19",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-20",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-21",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-22",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-23",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-24",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-25",
+      "status": "watered"
+    }
+  ],
+  "badges": [
+    {
+      "id": "sprout",
+      "earnedDate": "2025-10-01"
+    },
+    {
+      "id": "seedling",
+      "earnedDate": "2025-10-01"
+    },
+    {
+      "id": "sapling",
+      "earnedDate": "2025-10-01"
+    },
+    {
+      "id": "young",
+      "earnedDate": "2025-10-01"
+    },
+    {
+      "id": "full",
+      "earnedDate": "2025-10-01"
+    },
+    {
+      "id": "bloom",
+      "earnedDate": "2025-10-01"
+    },
+    {
+      "id": "fruit",
+      "earnedDate": "2025-10-01"
+    },
+    {
+      "id": "water60",
+      "earnedDate": "2025-10-01"
+    },
+    {
+      "id": "water100",
+      "earnedDate": "2025-10-01"
+    },
+    {
+      "id": "water365",
+      "earnedDate": "2025-10-01"
+    }
+  ],
+  "totals": {
+    "watered": 402,
+    "harvested": 1288,
+    "lost": 4
+  }
+}

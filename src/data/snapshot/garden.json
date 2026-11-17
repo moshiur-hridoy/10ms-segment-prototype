@@ -1,0 +1,206 @@
+{
+  "trees": [
+    {
+      "id": "tree_1",
+      "species": "apple",
+      "plantedDate": "2026-06-02",
+      "fruitedDate": "2026-07-04",
+      "longest": 33
+    },
+    {
+      "id": "tree_2",
+      "species": "mango",
+      "plantedDate": "2026-07-06",
+      "fruitedDate": "2026-08-09",
+      "longest": 21
+    },
+    {
+      "id": "tree_3",
+      "species": "lychee",
+      "plantedDate": "2026-08-12",
+      "fruitedDate": "2026-09-18",
+      "longest": 26
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-09-21",
+      "status": "watered"
+    },
+    {
+      "date": "2026-09-22",
+      "status": "watered"
+    },
+    {
+      "date": "2026-09-23",
+      "status": "watered"
+    },
+    {
+      "date": "2026-09-24",
+      "status": "watered"
+    },
+    {
+      "date": "2026-09-25",
+      "status": "watered"
+    },
+    {
+      "date": "2026-09-26",
+      "status": "watered"
+    },
+    {
+      "date": "2026-09-27",
+      "status": "missed"
+    },
+    {
+      "date": "2026-09-28",
+      "status": "watered"
+    },
+    {
+      "date": "2026-09-29",
+      "status": "watered"
+    },
+    {
+      "date": "2026-09-30",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-01",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-02",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-03",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-04",
+      "status": "rained"
+    },
+    {
+      "date": "2026-10-05",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-06",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-07",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-08",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-09",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-10",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-11",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-12",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-13",
+      "status": "rained"
+    },
+    {
+      "date": "2026-10-14",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-15",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-16",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-17",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-18",
+      "status": "missed"
+    },
+    {
+      "date": "2026-10-19",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-20",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-21",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-22",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-23",
+      "status": "missed"
+    },
+    {
+      "date": "2026-10-24",
+      "status": "watered"
+    },
+    {
+      "date": "2026-10-25",
+      "status": "watered"
+    }
+  ],
+  "badges": [
+    {
+      "id": "sprout",
+      "earnedDate": "2026-06-03"
+    },
+    {
+      "id": "seedling",
+      "earnedDate": "2026-06-04"
+    },
+    {
+      "id": "sapling",
+      "earnedDate": "2026-06-06"
+    },
+    {
+      "id": "young",
+      "earnedDate": "2026-06-08"
+    },
+    {
+      "id": "full",
+      "earnedDate": "2026-06-15"
+    },
+    {
+      "id": "bloom",
+      "earnedDate": "2026-06-22"
+    },
+    {
+      "id": "fruit",
+      "earnedDate": "2026-07-04"
+    },
+    {
+      "id": "water60",
+      "earnedDate": "2026-08-05"
+    }
+  ],
+  "totals": {
+    "watered": 96,
+    "harvested": 86,
+    "lost": 1
+  }
+}

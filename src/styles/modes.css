@@ -1,0 +1,353 @@
+/* ==========================================================================
+   Layer 3 · Semantic roles, per mode (light / dark)
+   Every value here is a role, named exactly like its utility:
+   --color-brand-soft ↔ bg-brand-soft. Brand-coloured roles read the brand
+   ramp; everything else (success, status, neutrals) is fixed per mode.
+   Every text pair is contrast-checked to WCAG AA (≥ 4.5:1) — see PLAN.md §2.
+   UI roles (surfaces, borders, text, status, accents) only alias primitives: var(--gray-*) etc.,
+   never a raw hex, so in Figma each is an alias of a Primitives variable. Raw values are allowed
+   only for the data-viz hues (a validated set of their own) and the SuperPrep/book illustration
+   colours; tokens.test.ts enforces this.
+   The site is light-only for now; dark is kept checked for a later switch.
+   Warm is light with sand neutrals: an experiment, switched on with ?mode=warm (lib/theme.ts).
+   ========================================================================== */
+
+:root,
+[data-mode="light"],
+[data-mode="warm"] {
+  color-scheme: light;
+
+  /* Surfaces */
+  --color-bg: var(--gray-50);
+  --color-surface: var(--white);
+  --color-raised: var(--gray-25);
+  --color-shimmer: rgb(17 24 39 / 0.05); /* the band sweeping across a skeleton: a shade off the block */
+  /* A book's pages (SuperPrep): warm off-white. */
+  --color-paper: #fffdf7;
+  /* The open book (SuperPrep paper page). Page edges are a shade darker than the page; the
+     gutter shading curves into the binding: darkest at the spine, falling off fast, wider on
+     the left page (it turns away from the light) than on the right, which catches a faint crest. */
+  --color-paper-edge: #e4dccb;
+  --book-gutter-left: linear-gradient(to left, rgb(74 52 24 / 0.22) 0, rgb(74 52 24 / 0.13) 2px, rgb(74 52 24 / 0.075) 8px, rgb(74 52 24 / 0.04) 20px, rgb(74 52 24 / 0.018) 44px, rgb(74 52 24 / 0) 88px);
+  --book-gutter-right: linear-gradient(to right, rgb(74 52 24 / 0.2) 0, rgb(74 52 24 / 0.09) 2px, rgb(74 52 24 / 0.03) 7px, rgb(255 255 255 / 0.3) 13px, rgb(74 52 24 / 0.02) 24px, rgb(74 52 24 / 0.008) 40px, rgb(74 52 24 / 0) 64px);
+  /* A few sheets fanned out under the top page at each fore-edge, and the soft shadow they cast. */
+  --book-stack-left: -1px 0 0 var(--color-paper), -2px 0 0 var(--color-paper-edge), -3px 0 0 var(--color-paper), -4px 0 0 var(--color-paper-edge), -5px 0 0 var(--color-paper), -6px 0 0 var(--color-paper-edge), -4px 2px 6px rgb(52 36 16 / 0.22);
+  --book-stack-right: 1px 0 0 var(--color-paper), 2px 0 0 var(--color-paper-edge), 3px 0 0 var(--color-paper), 4px 0 0 var(--color-paper-edge), 5px 0 0 var(--color-paper), 6px 0 0 var(--color-paper-edge), 4px 2px 6px rgb(52 36 16 / 0.22);
+  /* The page block's tail edge: fine page lines, shading toward the board. */
+  --book-tail-edge: linear-gradient(180deg, rgb(74 52 24 / 0) 40%, rgb(74 52 24 / 0.12) 100%), repeating-linear-gradient(180deg, var(--color-paper) 0 1px, var(--color-paper-edge) 1px 1.5px, var(--color-paper) 1.5px 2.5px);
+  /* The book lying on the desk: a tight contact shadow plus a soft, low one. */
+  --shadow-book: 0 1px 1px rgb(52 36 16 / 0.1), 0 3px 6px -1px rgb(52 36 16 / 0.1), 0 22px 36px -16px rgb(52 36 16 / 0.32);
+  /* A sheet of paper lying on the exam clipboard. */
+  --clipboard-sheet-shadow: 0 1px 1px rgb(52 36 16 / 0.16), 0 2px 4px -1px rgb(52 36 16 / 0.18);
+  --color-overlay: rgb(255 255 255 / 0.72);
+  --color-border: var(--gray-100);
+  --color-border-strong: var(--gray-200);
+  --color-glass-edge: rgb(255 255 255 / 0.7); /* light rim on translucent controls */
+  --color-folder: var(--gray-200); /* back of a subject folder (course home), behind its books */
+  /* The library's bookcase (কোর্স ও বইসমূহ): a back wall darkening toward the board, and the board's
+     front face with a lit top edge and the shadow it casts below. */
+  --shelf-wall: linear-gradient(180deg, rgb(52 36 16 / 0) 0%, rgb(52 36 16 / 0.04) 100%);
+  --shelf-board: linear-gradient(180deg, rgb(255 255 255 / 0.95) 0, rgb(255 255 255 / 0) 2px), linear-gradient(180deg, var(--gray-100), var(--gray-200));
+  --shadow-shelf: 0 12px 18px -12px rgb(52 36 16 / 0.4);
+  /* A course's picture frame on the library shelf: a slim charcoal frame around a white mat. */
+  --color-frame: var(--gray-900);
+  --color-frame-mat: var(--white);
+
+  /* Text */
+  --color-text: var(--gray-900);
+  --color-muted: var(--gray-600);
+  --color-subtle: var(--gray-500);
+
+  /* Brand */
+  --color-brand: var(--brand-500); /* fills, icons, progress, focus ring */
+  --color-brand-text: var(--brand-700); /* brand-coloured text & links */
+  --color-brand-soft: var(--brand-50); /* tinted backgrounds */
+  --color-primary: var(--brand-700); /* primary button */
+  --color-primary-hover: var(--brand-800);
+  --color-primary-edge: var(--brand-900); /* raised button's bottom edge */
+  --color-on-primary: var(--white);
+  --color-hero: var(--brand-700); /* course hero; on-hero text = the primary button pair */
+  --color-on-hero: var(--white);
+
+  /* Status (success is always green, whatever the brand) */
+  --color-success: var(--green-700);
+  --color-success-soft: var(--green-50);
+  --color-warning: var(--amber-700);
+  --color-warning-soft: var(--amber-50);
+  --color-danger: var(--red-700);
+  --color-danger-soft: var(--red-50);
+  --color-info: var(--blue-700);
+  --color-info-soft: var(--blue-50);
+  --color-live: var(--red-600);
+  --color-live-soft: var(--red-50);
+  --color-ink: var(--ink-900); /* near-black fills: store buttons, a chat bubble */
+  --color-on-fill: var(--white); /* text on saturated fixed fills: live, class bands, player, promo */
+
+  /* Content roles */
+  --color-subject: var(--clay-500); /* subject progress, folders */
+  --color-subject-text: var(--clay-700); /* as text (6.2:1; --color-subject is only 4.0:1) */
+  --color-streak: var(--orange-600);
+  --color-highlight: var(--violet-700); /* secondary accent: exams, PDFs, community */
+  --color-highlight-soft: var(--violet-50);
+
+  /* Charts (learning report). Categorical order is fixed and validated with the dataviz
+     validator (CVD-safe, adjacent pairs): live class · video · exam · quiz. Exam and quiz sit
+     below 3:1 on white, so every chart carries a legend with values and a table view. */
+  --color-chart-cat-1: #2a78d6;
+  --color-chart-cat-2: #eb6834;
+  --color-chart-cat-3: #1baf7a;
+  --color-chart-cat-4: #eda100;
+  /* Sequential (one hue, light → dark) for magnitude: attendance heatmap, subject bars. */
+  --color-chart-seq-1: #cde2fb;
+  --color-chart-seq-2: #9ec5f4;
+  --color-chart-seq-3: #6da7ec;
+  --color-chart-seq-4: #2a78d6;
+  --color-chart-seq-5: #184f95;
+  --color-chart-seq-ink-low: var(--gray-900); /* text on steps 1–3 */
+  --color-chart-seq-ink-high: var(--white); /* text on steps 4–5 */
+  /* Status (attendance on time / late / absent): always with an icon and a label. */
+  --color-chart-good: #0ca30c;
+  --color-chart-warn: #fab219;
+  --color-chart-critical: #d03b3b;
+  --color-chart-muted: var(--gray-300); /* sparkline history, empty bar track */
+
+  /* Feature tints */
+  --grad-classes: linear-gradient(140deg, #ffe4e4 0%, #ffffff 40%);
+  --grad-subject: linear-gradient(-60deg, #ffffff 0%, #fff5e8 100%);
+  --grad-superprep: linear-gradient(180deg, #fff1df 0%, #ffe7cc 100%);
+  /* SuperPrep glow: the "Super" lettering spread across the top, peach at the left and violet at the right. */
+  --grad-superprep-glow: radial-gradient(75% 50% at 0% 0%, rgb(245 148 134 / 0.18) 0%, rgb(245 148 134 / 0) 100%), radial-gradient(75% 50% at 100% 0%, rgb(96 69 255 / 0.12) 0%, rgb(96 69 255 / 0) 100%);
+  --color-superprep-track: #eeeaf7; /* SuperPrep ring and bar tracks: a cool lilac grey, so the gradient arc reads on it */
+  /* Dashboard SuperPrep card: the glow over the white surface, with the "Super" gradient showing through a transparent 1px border. */
+  --bg-superprep-card: radial-gradient(75% 50% at 0% 0%, rgb(245 148 134 / 0.18) 0%, rgb(245 148 134 / 0) 100%) padding-box, radial-gradient(75% 50% at 100% 0%, rgb(96 69 255 / 0.12) 0%, rgb(96 69 255 / 0) 100%) padding-box, linear-gradient(var(--color-surface), var(--color-surface)) padding-box, var(--grad-superprep-edge) border-box;
+  --color-superprep-tile: #fff8f0; /* SuperPrep next-step tile */
+  --color-superprep-ink: #6045ff; /* violet text and marks on it (the logo's last stop, ≥ 4.5:1 on the tile) */
+  --grad-promo: linear-gradient(120deg, #1d4fd7 0%, #3b82f6 100%);
+  --grad-tenten: linear-gradient(135deg, #fff1f2 0%, #f5f0ff 100%); /* from its logo: red → blue */
+
+  /* Course hero: deep brand mesh. The light glows sit right and bottom, away from the title,
+     so on-hero text stays on the darkest part (≥ 5:1). */
+  --hero-mesh:
+    radial-gradient(55% 130% at 100% 0%, color-mix(in srgb, var(--brand-glow) 38%, transparent) 0%, transparent 65%),
+    radial-gradient(45% 110% at 78% 120%, color-mix(in srgb, var(--brand-400) 40%, transparent) 0%, transparent 60%),
+    radial-gradient(60% 140% at 0% 0%, color-mix(in srgb, var(--brand-shade) 55%, transparent) 0%, transparent 70%),
+    linear-gradient(115deg, var(--brand-ink) 0%, var(--brand-700) 60%, var(--brand-600) 100%);
+  /* Fine dot grid laid over the mesh (faded toward the title with a mask). */
+  --hero-dots: radial-gradient(rgb(255 255 255 / 0.16) 1px, transparent 1.5px) 0 0 / 14px 14px;
+
+  /* Elevation */
+  --shadow-card: 0 1px 2px rgb(16 24 40 / 0.04), 0 1px 3px rgb(16 24 40 / 0.06);
+  --shadow-raised: 0 4px 12px -2px rgb(16 24 40 / 0.08), 0 2px 4px -2px rgb(16 24 40 / 0.04);
+  --shadow-pop: 0 16px 40px -12px rgb(16 24 40 / 0.18);
+  /* Live Join button, mixed from the primary so it follows both modes: a soft glow under it, and
+     the still halo shown instead of the looping ring when motion is reduced (see live-ring). */
+  --shadow-live-drop: 0 4px 12px -4px color-mix(in oklab, var(--color-primary) 40%, transparent);
+  --shadow-live: 0 0 0 4px color-mix(in oklab, var(--color-primary) 16%, transparent), var(--shadow-live-drop);
+}
+
+/* Warm: the page and its hairlines in sand; every other role as light. */
+[data-mode="warm"] {
+  --color-bg: var(--sand-50);
+  --color-border: var(--sand-100);
+}
+
+[data-mode="dark"] {
+  color-scheme: dark;
+
+  --color-bg: var(--ink-950);
+  --color-surface: var(--ink-900);
+  --color-raised: var(--ink-850);
+  --color-shimmer: rgb(255 255 255 / 0.06);
+  --color-paper: #18171a;
+  --color-paper-edge: #2e2c32;
+  --book-gutter-left: linear-gradient(to left, rgb(0 0 0 / 0.6) 0, rgb(0 0 0 / 0.36) 2px, rgb(0 0 0 / 0.2) 8px, rgb(0 0 0 / 0.1) 20px, rgb(0 0 0 / 0.045) 44px, rgb(0 0 0 / 0) 88px);
+  --book-gutter-right: linear-gradient(to right, rgb(0 0 0 / 0.55) 0, rgb(0 0 0 / 0.25) 2px, rgb(0 0 0 / 0.08) 7px, rgb(255 255 255 / 0.03) 13px, rgb(0 0 0 / 0.05) 24px, rgb(0 0 0 / 0.02) 40px, rgb(0 0 0 / 0) 64px);
+  --book-stack-left: -1px 0 0 var(--color-paper), -2px 0 0 var(--color-paper-edge), -3px 0 0 var(--color-paper), -4px 0 0 var(--color-paper-edge), -5px 0 0 var(--color-paper), -6px 0 0 var(--color-paper-edge), -4px 2px 6px rgb(0 0 0 / 0.5);
+  --book-stack-right: 1px 0 0 var(--color-paper), 2px 0 0 var(--color-paper-edge), 3px 0 0 var(--color-paper), 4px 0 0 var(--color-paper-edge), 5px 0 0 var(--color-paper), 6px 0 0 var(--color-paper-edge), 4px 2px 6px rgb(0 0 0 / 0.5);
+  --book-tail-edge: linear-gradient(180deg, rgb(0 0 0 / 0) 40%, rgb(0 0 0 / 0.35) 100%), repeating-linear-gradient(180deg, var(--color-paper) 0 1px, var(--color-paper-edge) 1px 1.5px, var(--color-paper) 1.5px 2.5px);
+  --shadow-book: 0 1px 1px rgb(0 0 0 / 0.4), 0 3px 6px -1px rgb(0 0 0 / 0.4), 0 22px 36px -16px rgb(0 0 0 / 0.8);
+  --clipboard-sheet-shadow: 0 1px 1px rgb(0 0 0 / 0.5), 0 2px 4px -1px rgb(0 0 0 / 0.5);
+  --color-overlay: rgb(18 23 30 / 0.72);
+  --color-border: var(--ink-800);
+  --color-border-strong: var(--ink-750);
+  --color-glass-edge: rgb(255 255 255 / 0.1);
+  --color-folder: var(--ink-750);
+  --shelf-wall: linear-gradient(180deg, rgb(0 0 0 / 0) 0%, rgb(0 0 0 / 0.22) 100%);
+  --shelf-board: linear-gradient(180deg, rgb(255 255 255 / 0.1) 0, rgb(255 255 255 / 0) 2px), linear-gradient(180deg, var(--ink-750), var(--ink-850));
+  --shadow-shelf: 0 14px 20px -12px rgb(0 0 0 / 0.75);
+  --color-frame: var(--ink-300);
+  --color-frame-mat: var(--ink-800);
+
+  --color-text: var(--ink-100);
+  --color-muted: var(--ink-300);
+  --color-subtle: var(--ink-400);
+
+  --color-brand: var(--brand-500);
+  --color-brand-text: var(--brand-400);
+  --color-brand-soft: var(--brand-950);
+  --color-primary: var(--brand-500);
+  --color-primary-hover: var(--brand-400);
+  --color-primary-edge: var(--brand-700);
+  --color-on-primary: var(--ink-950);
+  --color-hero: var(--brand-800);
+  --color-on-hero: var(--white);
+
+  --color-success: var(--green-400);
+  --color-success-soft: var(--green-950);
+  --color-warning: var(--amber-300);
+  --color-warning-soft: var(--amber-950);
+  --color-danger: var(--red-300);
+  --color-danger-soft: var(--red-950);
+  --color-info: var(--blue-300);
+  --color-info-soft: var(--blue-950);
+  --color-live: var(--red-400);
+  --color-live-soft: var(--red-950);
+  --color-ink: var(--ink-700);
+  --color-on-fill: var(--white);
+
+  --color-subject: var(--clay-400);
+  --color-subject-text: var(--clay-300);
+  --color-streak: var(--orange-400);
+  --color-highlight: var(--violet-300);
+  --color-highlight-soft: var(--violet-950);
+
+  --color-chart-cat-1: #3987e5;
+  --color-chart-cat-2: #d95926;
+  --color-chart-cat-3: #199e70;
+  --color-chart-cat-4: #c98500;
+  /* Reversed: near-zero recedes toward the dark surface. */
+  --color-chart-seq-1: #13294a;
+  --color-chart-seq-2: #184f95;
+  --color-chart-seq-3: #256abf;
+  --color-chart-seq-4: #5598e7;
+  --color-chart-seq-5: #9ec5f4;
+  --color-chart-seq-ink-low: var(--white);
+  --color-chart-seq-ink-high: var(--ink-950);
+  --color-chart-good: #0ca30c;
+  --color-chart-warn: #fab219;
+  --color-chart-critical: #d03b3b;
+  --color-chart-muted: var(--ink-700);
+
+  --grad-classes: linear-gradient(140deg, #2a1517 0%, #12171e 45%);
+  --grad-subject: linear-gradient(-60deg, #12171e 0%, #2a2116 100%);
+  --grad-superprep: linear-gradient(180deg, #241a10 0%, #1d1610 100%);
+  --grad-superprep-glow: radial-gradient(75% 50% at 0% 0%, rgb(245 148 134 / 0.12) 0%, rgb(245 148 134 / 0) 100%), radial-gradient(75% 50% at 100% 0%, rgb(124 77 255 / 0.16) 0%, rgb(124 77 255 / 0) 100%);
+  --color-superprep-track: #2a2640;
+  --bg-superprep-card: radial-gradient(75% 50% at 0% 0%, rgb(245 148 134 / 0.12) 0%, rgb(245 148 134 / 0) 100%) padding-box, radial-gradient(75% 50% at 100% 0%, rgb(124 77 255 / 0.16) 0%, rgb(124 77 255 / 0) 100%) padding-box, linear-gradient(var(--color-surface), var(--color-surface)) padding-box, var(--grad-superprep-edge) border-box;
+  --color-superprep-tile: #211a13;
+  --color-superprep-ink: #a995ff;
+  --grad-promo: linear-gradient(120deg, #1a3a99 0%, #2856c7 100%);
+  --grad-tenten: linear-gradient(135deg, #2a1218 0%, #1e1733 100%);
+
+  --hero-mesh:
+    radial-gradient(55% 130% at 100% 0%, color-mix(in srgb, var(--brand-glow) 22%, transparent) 0%, transparent 65%),
+    radial-gradient(45% 110% at 78% 120%, color-mix(in srgb, var(--brand-400) 22%, transparent) 0%, transparent 60%),
+    linear-gradient(115deg, var(--brand-shade) 0%, var(--brand-800) 60%, var(--brand-700) 100%);
+
+  /* Dark mode uses lighter surfaces for elevation, not heavy shadows */
+  --shadow-card: 0 0 0 1px rgb(255 255 255 / 0.02);
+  --shadow-raised: 0 4px 16px -4px rgb(0 0 0 / 0.5);
+  --shadow-pop: 0 16px 40px -12px rgb(0 0 0 / 0.7);
+}
+
+/* Dark mode 2, lab `dark` v1 (design-audit DS70): Radix slate neutrals instead of the blue-black ink,
+   card borders a step stronger than Radix (step 7, 1.9:1 on a card; ink's were 1.24:1), a softer brand text,
+   and the tinted card washes replaced by a plain surface with a thin coloured top edge.
+   Status and live colours stay: they are also fills under white text.
+   Lab `dark` v1, kept live as ?lab=dark@1 or ?dark=1 while it is compared with v2 (lib/theme.ts). */
+[data-mode="dark"][data-dark="1"] {
+  --color-bg: var(--slate-1);
+  --color-surface: var(--slate-2);
+  --color-raised: var(--slate-3);
+  --color-overlay: rgb(17 17 19 / 0.72);
+  --color-border: var(--slate-7);
+  --color-border-strong: var(--slate-8);
+  --color-folder: var(--slate-6);
+  --shelf-board: linear-gradient(180deg, rgb(255 255 255 / 0.1) 0, rgb(255 255 255 / 0) 2px), linear-gradient(180deg, var(--slate-5), var(--slate-3));
+  --color-frame: var(--slate-11);
+  --color-frame-mat: var(--slate-4);
+  --color-ink: var(--slate-6);
+
+  --color-text: var(--slate-12);
+  --color-muted: var(--slate-11);
+  --color-subtle: var(--slate-10);
+
+  --color-brand-text: var(--brand-300);
+  --color-chart-muted: var(--slate-6);
+
+  /* A 2px coloured edge on top of a plain card, not a wash under the text. */
+  --grad-classes: linear-gradient(180deg, rgb(255 92 92 / 0.55) 0, rgb(255 92 92 / 0) 2px);
+  --grad-subject: none;
+  --grad-superprep: linear-gradient(var(--color-surface), var(--color-surface));
+  --grad-superprep-glow: linear-gradient(180deg, transparent 2px, var(--color-surface) 2px), linear-gradient(90deg, rgb(245 148 134 / 0.7), rgb(124 77 255 / 0.7));
+  --grad-tenten: linear-gradient(var(--color-surface), var(--color-surface));
+  --color-superprep-tile: var(--slate-3);
+  --color-superprep-track: var(--slate-5);
+  --bg-superprep-card: linear-gradient(var(--color-surface), var(--color-surface)) padding-box, var(--grad-superprep-edge) border-box;
+}
+
+/* Lab `dark` v2 (design-audit DS71): legible in daylight. Glare and reflections wash out small differences,
+   so the greys are further apart (card 1.2:1 on the page; slate's was 1.07:1), cards keep only a faint edge,
+   controls (secondary buttons, a hovered card) get a 3:1 outline, and text and secondary text are brighter.
+   No coloured washes or edge lines: plain cards. On with ?lab=dark or ?dark=2 (lib/theme.ts). */
+[data-mode="dark"][data-dark="2"] {
+  --color-bg: var(--graphite-1);
+  --color-surface: var(--graphite-2);
+  --color-raised: var(--graphite-3);
+  --color-overlay: rgb(14 15 17 / 0.72);
+  --color-border: var(--graphite-4);
+  --color-border-strong: var(--graphite-6);
+  --color-folder: var(--graphite-4);
+  --shelf-board: linear-gradient(180deg, rgb(255 255 255 / 0.1) 0, rgb(255 255 255 / 0) 2px), linear-gradient(180deg, var(--graphite-4), var(--graphite-2));
+  --color-frame: var(--graphite-11);
+  --color-frame-mat: var(--graphite-3);
+  --color-ink: var(--graphite-4);
+
+  --color-text: var(--graphite-12);
+  --color-muted: var(--graphite-11);
+  --color-subtle: var(--graphite-10);
+
+  --color-brand-text: var(--brand-300);
+  --color-chart-muted: var(--graphite-4);
+
+  --grad-classes: none;
+  --grad-subject: none;
+  --grad-superprep: linear-gradient(var(--color-surface), var(--color-surface));
+  --grad-superprep-glow: none;
+  --grad-tenten: linear-gradient(var(--color-surface), var(--color-surface));
+  --color-superprep-tile: var(--graphite-3);
+  --color-superprep-track: var(--graphite-4);
+  --bg-superprep-card: linear-gradient(var(--color-surface), var(--color-surface)) padding-box, var(--grad-superprep-edge) border-box;
+}
+
+/* Lab `dark` v3 (design-audit DS72): the reference panel's palette, near-black with soft steps; separation comes
+   from filled controls and type, not outlines. On with ?lab=dark or ?dark=3 (lib/theme.ts). */
+[data-mode="dark"][data-dark="3"] {
+  --color-bg: var(--onyx-1);
+  --color-surface: var(--onyx-2);
+  --color-raised: var(--onyx-3);
+  --color-overlay: rgb(11 12 15 / 0.72);
+  --color-border: var(--onyx-4);
+  --color-border-strong: var(--onyx-7);
+  --color-folder: var(--onyx-5);
+  --shelf-board: linear-gradient(180deg, rgb(255 255 255 / 0.1) 0, rgb(255 255 255 / 0) 2px), linear-gradient(180deg, var(--onyx-5), var(--onyx-3));
+  --color-frame: var(--onyx-11);
+  --color-frame-mat: var(--onyx-3);
+  --color-ink: var(--onyx-5);
+
+  --color-text: var(--onyx-12);
+  --color-muted: var(--onyx-11);
+  --color-subtle: var(--onyx-10);
+
+  --color-brand-text: var(--brand-300);
+  --color-chart-muted: var(--onyx-5);
+
+  --grad-classes: none;
+  --grad-subject: none;
+  --grad-superprep: linear-gradient(var(--color-surface), var(--color-surface));
+  --grad-superprep-glow: none;
+  --grad-tenten: linear-gradient(var(--color-surface), var(--color-surface));
+  --color-superprep-tile: var(--onyx-3);
+  --color-superprep-track: var(--onyx-5);
+  --bg-superprep-card: linear-gradient(var(--color-surface), var(--color-surface)) padding-box, var(--grad-superprep-edge) border-box;
+}

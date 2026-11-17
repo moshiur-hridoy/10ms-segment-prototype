@@ -1,0 +1,350 @@
+/* ==========================================================================
+   Tailwind mapping
+   `reference`: Tailwind doesn't emit these variables (modes.css and
+   components.css own the values, per mode and brand). `inline`: utilities
+   read the variable directly, so `bg-brand-soft` → var(--color-brand-soft).
+   ========================================================================== */
+
+/* Only our tokens exist: no default palette (bg-red-500, text-white …). */
+@theme {
+  --color-*: initial;
+}
+
+@theme inline reference {
+  --color-transparent: transparent;
+  --color-current: currentColor;
+
+  --color-bg: var(--color-bg);
+  --color-surface: var(--color-surface);
+  --color-raised: var(--color-raised);
+  --color-shimmer: var(--color-shimmer);
+  --color-overlay: var(--color-overlay);
+  --color-border: var(--color-border);
+  --color-border-strong: var(--color-border-strong);
+  --color-glass-edge: var(--color-glass-edge);
+  --color-folder: var(--color-folder);
+  --color-frame: var(--color-frame);
+  --color-frame-mat: var(--color-frame-mat);
+
+  --color-text: var(--color-text);
+  --color-muted: var(--color-muted);
+  --color-subtle: var(--color-subtle);
+
+  --color-brand: var(--color-brand);
+  --color-brand-text: var(--color-brand-text);
+  --color-brand-soft: var(--color-brand-soft);
+  --color-primary: var(--color-primary);
+  --color-primary-hover: var(--color-primary-hover);
+  --color-primary-edge: var(--color-primary-edge);
+  --color-on-primary: var(--color-on-primary);
+  --color-hero: var(--color-hero);
+  --color-on-hero: var(--color-on-hero);
+
+  --color-success: var(--color-success);
+  --color-success-soft: var(--color-success-soft);
+  --color-warning: var(--color-warning);
+  --color-warning-soft: var(--color-warning-soft);
+  --color-danger: var(--color-danger);
+  --color-danger-soft: var(--color-danger-soft);
+  --color-info: var(--color-info);
+  --color-info-soft: var(--color-info-soft);
+  --color-live: var(--color-live);
+  --color-on-fill: var(--color-on-fill);
+
+  --color-subject: var(--color-subject);
+  --color-subject-text: var(--color-subject-text);
+  --color-streak: var(--color-streak);
+  --color-highlight: var(--color-highlight);
+  --color-highlight-soft: var(--color-highlight-soft);
+
+  --color-chart-cat-1: var(--color-chart-cat-1);
+  --color-chart-cat-2: var(--color-chart-cat-2);
+  --color-chart-cat-3: var(--color-chart-cat-3);
+  --color-chart-cat-4: var(--color-chart-cat-4);
+  --color-chart-seq-1: var(--color-chart-seq-1);
+  --color-chart-seq-2: var(--color-chart-seq-2);
+  --color-chart-seq-3: var(--color-chart-seq-3);
+  --color-chart-seq-4: var(--color-chart-seq-4);
+  --color-chart-seq-5: var(--color-chart-seq-5);
+  --color-chart-seq-ink-low: var(--color-chart-seq-ink-low);
+  --color-chart-seq-ink-high: var(--color-chart-seq-ink-high);
+  --color-chart-good: var(--color-chart-good);
+  --color-chart-warn: var(--color-chart-warn);
+  --color-chart-critical: var(--color-chart-critical);
+  --color-chart-muted: var(--color-chart-muted);
+
+  --color-class-band-free: var(--color-class-band-free);
+  --color-class-band-class: var(--color-class-band-class);
+  --color-class-band-live: var(--color-class-band-live);
+  --color-class-band-hw: var(--color-class-band-hw);
+  --color-class-band-exam: var(--color-class-band-exam);
+  --color-class-band-new: var(--color-class-band-new);
+  --color-player: var(--color-player);
+  --color-superprep-orange: var(--color-superprep-orange);
+  --color-superprep-pink: var(--color-superprep-pink);
+  --color-superprep-violet: var(--color-superprep-violet);
+  --color-tenten-red: var(--color-tenten-red);
+  --color-tenten-violet: var(--color-tenten-violet);
+  --color-tenten-blue: var(--color-tenten-blue);
+  --color-superprep-track: var(--color-superprep-track);
+  --color-superprep-tile: var(--color-superprep-tile);
+  --color-superprep-ink: var(--color-superprep-ink);
+  --color-book-physics: var(--color-book-physics);
+  --color-book-chemistry: var(--color-book-chemistry);
+  --color-book-biology: var(--color-book-biology);
+  --color-book-math: var(--color-book-math);
+  --color-book-ict: var(--color-book-ict);
+  --color-book-bangla: var(--color-book-bangla);
+  --color-book-english: var(--color-book-english);
+  --color-book-other: var(--color-book-other);
+  --color-paper: var(--color-paper);
+  --color-ink: var(--color-ink);
+  --color-live-soft: var(--color-live-soft);
+  /* Landing tints (landing.css): grey in light mode, sand in warm. */
+  --color-tint-band: var(--tint-band);
+  --color-tint-band-edge: var(--tint-band-edge);
+  --color-tint-band-ink: var(--tint-band-ink);
+  --color-tint-band-ink-soft: var(--tint-band-ink-soft);
+  --color-tint-band-rule: var(--tint-band-rule);
+  --color-tint-band-dot: var(--tint-band-dot);
+  --color-tint-well: var(--tint-well);
+  --color-tint-photo: var(--tint-photo);
+  --color-tint-edge: var(--tint-edge);
+  --color-paper-edge: var(--color-paper-edge);
+
+  --shadow-card: var(--shadow-card);
+  --shadow-raised: var(--shadow-raised);
+  --shadow-pop: var(--shadow-pop);
+  --shadow-book: var(--shadow-book);
+  --shadow-live: var(--shadow-live);
+}
+
+@theme inline {
+  --font-sans: var(--font-inter), var(--font-bengali), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-fugaz), var(--font-inter), sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, var(--font-bengali), monospace;
+}
+
+/* Motion curves as utilities (ease-standard, ease-emphasis); values live in primitives.css.
+   Only these two: Tailwind's ease-in / ease-out / ease-in-out stay available for one-offs. */
+@theme inline reference {
+  --ease-standard: var(--ease-standard);
+  --ease-emphasis: var(--ease-emphasis);
+}
+
+/* Closed scales: only these exist (rounded-2xl, text-7xl … don't).
+   Radius 6 / 10 / 16 / 24 / full for UI; xs (4) only for data marks (bar tops, legend swatches).
+   Type 12 / 14 / 16 / 18 / 20 / 24 / 32, and 40 / 48 / 64 for display; 12px is the minimum. */
+@theme {
+  --radius-*: initial;
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+
+  --text-*: initial;
+  --text-xs: 0.75rem;
+  --text-xs--line-height: calc(1 / 0.75);
+  --text-sm: 0.875rem;
+  --text-sm--line-height: calc(1.25 / 0.875);
+  --text-base: 1rem;
+  --text-base--line-height: calc(1.5 / 1);
+  --text-lg: 1.125rem;
+  --text-lg--line-height: calc(1.75 / 1.125);
+  --text-xl: 1.25rem;
+  --text-xl--line-height: calc(1.75 / 1.25);
+  --text-2xl: 1.5rem;
+  --text-2xl--line-height: calc(2 / 1.5);
+  --text-3xl: 2rem;
+  --text-3xl--line-height: 1.25;
+  /* Display: the landing pages' big headlines (DS67). Not for the app's own pages. */
+  --text-4xl: 2.5rem;
+  --text-4xl--line-height: 1.15;
+  --text-5xl: 3rem;
+  --text-5xl--line-height: 1.1;
+  --text-6xl: 4rem;
+  --text-6xl--line-height: 1;
+
+  --animate-pulse-live: pulse-live 1.6s ease-in-out infinite;
+
+  @keyframes pulse-live {
+    0%, 100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--color-live) 45%, transparent); }
+    50% { box-shadow: 0 0 0 6px color-mix(in srgb, var(--color-live) 0%, transparent); }
+  }
+
+  /* Video player (P48): the arrows of a double-tap skip light up one after another. */
+  --animate-skip-arrow: skip-arrow 0.6s ease-in-out infinite;
+
+  @keyframes skip-arrow {
+    0%, 100% { opacity: 0.25; }
+    40% { opacity: 1; }
+  }
+
+  /* Lab `class` (P113): TenTen wobbles as it lands back at its side after a drag. */
+  --animate-wobble: wobble 0.6s ease-out 0.3s both;
+
+  @keyframes wobble {
+    0%, 100% { rotate: 0deg; }
+    25% { rotate: -14deg; }
+    50% { rotate: 10deg; }
+    75% { rotate: -5deg; }
+  }
+
+  /* End of a class (P52): a water drop falls onto the streak tree, once. */
+  --animate-drop-fall: drop-fall 0.9s ease-in 0.3s both;
+
+  @keyframes drop-fall {
+    0% { opacity: 0; translate: 0 -12px; }
+    30% { opacity: 1; }
+    80% { opacity: 1; translate: 0 6px; }
+    100% { opacity: 0; translate: 0 10px; }
+  }
+
+  /* Live Join button: a ring leaves the button's edge, grows a little outward and fades to
+     nothing, then starts again. Kept small and half-strength so it hints rather than shouts.
+     The glow under the button stays still. */
+  --animate-live-ring: live-ring 1.6s ease-out infinite;
+
+  @keyframes live-ring {
+    from { box-shadow: 0 0 0 0 color-mix(in oklab, var(--color-primary) 50%, transparent), var(--shadow-live-drop); }
+    to { box-shadow: 0 0 0 6px color-mix(in oklab, var(--color-primary) 0%, transparent), var(--shadow-live-drop); }
+  }
+
+  /* Task tiles: only things happening *now* move (live waves, open exam ticks). */
+  --animate-wave: wave 1.8s ease-in-out infinite;
+  --animate-tick: tick 3.2s ease-out infinite;
+
+  @keyframes wave {
+    0%, 100% { opacity: 0.25; }
+    40% { opacity: 1; }
+  }
+
+  /* Greeting card: each update slides up into place, and its segment fills over 5s.
+     The fill ending is what advances to the next update (see BriefTicker). */
+  --animate-brief-in: brief-in 0.35s ease-out;
+  --animate-brief-fill: brief-fill 5s linear forwards;
+
+  /* `scale` (not transform) so it composes with Tailwind v4's scale-x-* utilities. */
+  @keyframes brief-fill {
+    from { scale: 0 1; }
+    to { scale: 1 1; }
+  }
+
+  @keyframes brief-in {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Login: the form's parts rise into place one after another. Reduced motion stops it (globals.css). */
+  --animate-rise: rise 0.55s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  --animate-shake: shake 0.38s ease-in-out;
+
+  @keyframes rise {
+    from { opacity: 0; translate: 0 14px; }
+    to { opacity: 1; translate: 0 0; }
+  }
+
+  @keyframes shake {
+    0%, 100% { translate: 0 0; }
+    20%, 60% { translate: -5px 0; }
+    40%, 80% { translate: 5px 0; }
+  }
+
+  /* Onboarding (OB7): an answer lands on the student card like a rubber stamp. OB10: the student's
+     own "ready" stamp comes down hard (thunk) and the card gives under it (card-press); a cursor
+     blinks on the card while the name is typed (caret). */
+  --animate-stamp: stamp 0.42s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  --animate-thunk: thunk 0.42s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  --animate-card-press: card-press 0.36s ease-out 0.16s both;
+  --animate-caret: caret 1s steps(1) infinite;
+  /* OB14: the student's face hops onto the step of their class. */
+  --animate-hop: hop 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+
+  @keyframes hop {
+    0% { opacity: 0; translate: 0 -26px; scale: 0.6; }
+    60% { opacity: 1; translate: 0 3px; scale: 1.08; }
+    100% { opacity: 1; translate: 0 0; scale: 1; }
+  }
+
+  @keyframes stamp {
+    from { opacity: 0; scale: 1.5; }
+    to { opacity: 1; scale: 1; }
+  }
+
+  @keyframes thunk {
+    0% { opacity: 0; scale: 2; }
+    40% { opacity: 1; scale: 0.92; }
+    100% { opacity: 1; scale: 1; }
+  }
+
+  @keyframes card-press {
+    0%, 100% { scale: 1; }
+    35% { scale: 0.97; }
+  }
+
+  @keyframes caret {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+
+  /* Paths use pathLength="1": draw in, hold, fade, repeat. */
+  @keyframes tick {
+    0% { stroke-dashoffset: 1; opacity: 1; }
+    25%, 80% { stroke-dashoffset: 0; opacity: 1; }
+    100% { stroke-dashoffset: 0; opacity: 0; }
+  }
+}
+
+/* Text styles: the headings and big numbers, each a fixed size + weight + tracking, so a heading
+   can't drift and each maps 1:1 to a Figma text style. Smaller text stays a size utility plus a
+   weight (body = text-base/text-sm, label = text-sm font-semibold, caption = text-xs …).
+   Weights in use: 400 · 500 · 600 · 700; 800 only inside type-figure (tokens.test.ts). */
+@utility type-display {
+  /* Page title (style guide, data). */
+  font-size: var(--text-3xl);
+  line-height: var(--text-3xl--line-height);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+
+@utility type-headline {
+  /* Page title on product pages; a stat's value. */
+  font-size: var(--text-2xl);
+  line-height: var(--text-2xl--line-height);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+
+@utility type-title {
+  /* Section card title. */
+  font-size: var(--text-xl);
+  line-height: var(--text-xl--line-height);
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+@utility type-subtitle {
+  /* Compact (report) card title, a group heading inside a section. */
+  font-size: var(--text-lg);
+  line-height: var(--text-lg--line-height);
+  font-weight: 600;
+}
+
+@utility type-figure {
+  /* A big number that is the point of its card: streak days, a ring's percent, an exam score. */
+  font-size: var(--text-2xl);
+  line-height: var(--text-2xl--line-height);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Page widths: the four content columns (max-w-page …). Tailwind's own max-w-xl … stay for text measures. */
+@theme {
+  --container-page: 1360px; /* every page and the header */
+  --container-wide: 1200px; /* exam and practice screens */
+  --container-reading: 760px; /* one column to read: a question paper, a result */
+  --container-narrow: 560px; /* a dialog-sized column */
+  --container-column: 1008px; /* one column of cards, 960 inside the 24px sides (segment page, CT156) */
+}

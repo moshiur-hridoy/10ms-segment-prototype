@@ -1,0 +1,303 @@
+/* ==========================================================================
+   Layer 4 · Fixed component tokens
+   Same in every mode and brand: these colours belong to a product or an
+   illustration, not to the theme.
+   ========================================================================== */
+
+:root {
+  /* Class tile label bands: always white text (on-fill), all ≥ 4.6:1. */
+  --color-class-band-free: var(--blue-700);
+  --color-class-band-class: var(--gray-600);
+  --color-class-band-live: var(--red-600);
+  --color-class-band-hw: #b45309;
+  --color-class-band-exam: var(--violet-700);
+  --color-class-band-new: #e11d63;
+
+  /* Facebook's own logo blue (its brand rules: the "f" logo unaltered, in this blue). */
+  --color-facebook: #1877f2;
+
+  /* Video player stage: dark in both modes, like any player. */
+  --color-player: var(--ink-950);
+
+  /* SuperPrep product brand (from its logo gradient): ring, accents. */
+  --color-superprep-orange: #f59e42;
+  --color-superprep-pink: #e8456b;
+  --color-superprep-violet: #7c4dff;
+  /* The "Super" lettering as a hairline around the dashboard card (logo stops, pink for its red). */
+  --grad-superprep-edge: linear-gradient(135deg, #f4a14e 0%, #f59486 30%, #e8456b 60%, #6045ff 100%);
+
+  /* SuperPrep book covers, one per subject family. White text on each is ≥ 5:1. */
+  --color-book-physics: #1d5fc4;
+  --color-book-chemistry: #c2410c;
+  --color-book-biology: #15803d;
+  --color-book-math: #6d28d9;
+  --color-book-ict: #0e7490;
+  --color-book-bangla: #b91c1c;
+  --color-book-english: #4338ca;
+  --color-book-other: #475569;
+  /* Spine and page-edge shading laid over a cover. */
+  --book-spine: linear-gradient(90deg, rgb(0 0 0 / 0.28) 0%, rgb(0 0 0 / 0.08) 70%, rgb(255 255 255 / 0.12) 100%);
+  --book-sheen: linear-gradient(115deg, rgb(255 255 255 / 0.18) 0%, rgb(255 255 255 / 0) 45%);
+  /* A spine seen from the front: rounded, dark at both edges, a highlight just left of centre. */
+  --book-spine-round: linear-gradient(90deg, rgb(0 0 0 / 0.3) 0%, rgb(255 255 255 / 0.16) 35%, rgb(0 0 0 / 0.04) 60%, rgb(0 0 0 / 0.3) 100%);
+  /* A book still in its shrink-wrap (library, not owned yet): two gloss streaks, and the glint that
+     sweeps across on hover. */
+  --book-wrap: linear-gradient(115deg, rgb(255 255 255 / 0) 18%, rgb(255 255 255 / 0.5) 30%, rgb(255 255 255 / 0) 42%, rgb(255 255 255 / 0) 64%, rgb(255 255 255 / 0.3) 71%, rgb(255 255 255 / 0) 78%);
+  --book-wrap-glint: linear-gradient(105deg, rgb(255 255 255 / 0) 30%, rgb(255 255 255 / 0.7) 50%, rgb(255 255 255 / 0) 70%);
+  /* A printed book's page block seen from the side: fine leaves. And the paperback's hinge, the crease
+     just right of the spine. */
+  --book-leaves: repeating-linear-gradient(90deg, rgb(0 0 0 / 0) 0 2px, rgb(0 0 0 / 0.07) 2px 3px);
+  --book-hinge: linear-gradient(90deg, rgb(0 0 0 / 0) 0%, rgb(0 0 0 / 0.22) 45%, rgb(255 255 255 / 0.25) 55%, rgb(255 255 255 / 0) 100%);
+  /* A bundle tied with a gold satin ribbon (segment page masterbooks): the band across, the band down. */
+  --ribbon-across: linear-gradient(180deg, #a87b0a 0%, #f3cf5a 32%, #e3b12c 62%, #9c7108 100%);
+  --ribbon-down: linear-gradient(90deg, #a87b0a 0%, #f3cf5a 32%, #e3b12c 62%, #9c7108 100%);
+  /* The full plan's band on the segment page's offers (CT145): the ribbon's gold, lit in the middle, and its edge for the card's border. */
+  --plan-gold: linear-gradient(90deg, #d9a82a 0%, #f3cf5a 35%, #f8dd7e 50%, #f3cf5a 65%, #d9a82a 100%);
+  --plan-gold-edge: #d9a82a;
+  /* A dashboard subject group's colour (its books' colour), set per group inline; the shared subject colour until then. */
+  --group-color: var(--color-subject);
+  /* The picture frame's moulding catches light on its top edge; the picture sits recessed in the mat. */
+  --frame-edge: inset 0 1px 0 rgb(255 255 255 / 0.22), inset 0 0 0 1px rgb(0 0 0 / 0.3);
+  --frame-recess: inset 0 1px 3px rgb(0 0 0 / 0.35);
+  /* The open book (paper page), laid over the cover colour. Boards: book cloth, a lighter rim,
+     and the hinge darkening where the two boards meet the spine. */
+  --book-board-cloth: repeating-linear-gradient(0deg, rgb(255 255 255 / 0.035) 0 1px, rgb(0 0 0 / 0) 1px 3px);
+  --book-board-shade: linear-gradient(90deg, rgb(0 0 0 / 0.16) 0, rgb(0 0 0 / 0) 1.2%, rgb(255 255 255 / 0.06) 25%, rgb(0 0 0 / 0) 46%, rgb(0 0 0 / 0.32) 50%, rgb(0 0 0 / 0) 54%, rgb(255 255 255 / 0.06) 75%, rgb(0 0 0 / 0) 98.8%, rgb(0 0 0 / 0.16) 100%);
+  --book-board-bevel: inset 0 0 0 1px rgb(0 0 0 / 0.14), inset 0 1px 0 rgb(255 255 255 / 0.2);
+  /* The board's front edge under the page block (variant c): lit on top, darker below. */
+  --book-board-edge: linear-gradient(180deg, rgb(255 255 255 / 0.25) 0, rgb(255 255 255 / 0) 2px, rgb(0 0 0 / 0.25) 100%);
+  /* Pages dip into the binding at head and tail (an elliptical bite out of the page block). */
+  --book-pages-mask: radial-gradient(40px 5px at 50% 0, rgb(0 0 0 / 0) 96%, rgb(0 0 0) 100%) top / 100% 51% no-repeat, radial-gradient(40px 5px at 50% 100%, rgb(0 0 0 / 0) 96%, rgb(0 0 0) 100%) bottom / 100% 51% no-repeat;
+  /* Headband: the little striped cap at the top and bottom of the spine. */
+  --book-headband: linear-gradient(180deg, rgb(255 255 255 / 0.3), rgb(0 0 0 / 0.3)), repeating-linear-gradient(90deg, rgb(255 255 255 / 0.22) 0 1px, rgb(0 0 0 / 0) 1px 2px);
+  /* Satin ribbon bookmark: rounded across its width. */
+  --book-ribbon-sheen: linear-gradient(90deg, rgb(0 0 0 / 0.22) 0%, rgb(255 255 255 / 0.2) 45%, rgb(0 0 0 / 0.14) 100%);
+  /* Deep in the gutter the ribbon is lost in the fold's shadow; it surfaces near the tail. */
+  --book-ribbon-fade: linear-gradient(180deg, rgb(0 0 0 / 0) 0%, rgb(0 0 0) 45%);
+  /* The exam clipboard (practice set): a smooth board in the cover colour, lit from above, and a
+     brushed-steel clip (plate, rolled hinge, rivets, wire lever) with a hard contact shadow. */
+  --clipboard-board: linear-gradient(180deg, rgb(255 255 255 / 0.1) 0, rgb(255 255 255 / 0) 30%, rgb(0 0 0 / 0.08) 100%);
+  --clipboard-metal: linear-gradient(180deg, #f6f7f9 0%, #dfe3e8 30%, #c3c9d1 62%, #e9ecf0 78%, #9aa2ad 100%);
+  --clipboard-hinge: linear-gradient(180deg, #fff 0%, #b7bec8 55%, #8c95a1 100%);
+  --clipboard-rivet: radial-gradient(circle at 35% 35%, #fff 0, #b9c0c9 45%, #737c88 100%);
+  --clipboard-wire: #9aa2ad;
+  --clipboard-clip-shadow: inset 0 1px 0 rgb(255 255 255 / 0.7), inset 0 -2px 0 rgb(0 0 0 / 0.18), 0 1px 1px rgb(0 0 0 / 0.2), 0 4px 6px -2px rgb(0 0 0 / 0.35);
+
+  /* Quick-rail illustrations drawn in CSS (the rest are SVG assets). */
+  --icon-supersolve: linear-gradient(142deg, #fff 6%, #f10f0f 44%, #1528fa 90%);
+  --icon-supersolve-sheen: inset 0 3.5px 17px rgb(255 255 255 / 0.74);
+  --icon-call: linear-gradient(to bottom, #45e57f, #13b049);
+
+  /* TenTen product brand (from its logo: red → blue), softened for edges and accents. */
+  --color-tenten-red: #e11d48;
+  --color-tenten-violet: #7c3aed;
+  --color-tenten-blue: #2f45f5;
+  --tenten-edge: linear-gradient(120deg, var(--color-tenten-red) 0%, var(--color-tenten-violet) 50%, var(--color-tenten-blue) 100%);
+}
+
+/* The streak's apple tree (TreeScene). One palette, read by every stage; a scene's mood swaps
+   some of it: `thirsty` (not watered today) dulls the leaves and dries the soil, `dead` drains
+   the sky and the hills. Kept to a few tones per material, like a flat illustration with depth. */
+:root {
+  --tree-sky-top: #fdf7e1;
+  --tree-sky-bottom: #f6e3ae;
+  --tree-sun: #ffdf86;
+  --tree-cloud: #ffffff;
+  --tree-hill-back: #d3e6a4;
+  --tree-hill: #a2cd60;
+  --tree-hill-shade: #86b84b;
+  --tree-grass: #74a842;
+  --tree-flower: #fff8e6;
+  --tree-soil: #8b5b39;
+  --tree-soil-dark: #6a4229;
+  --tree-soil-light: #ab7a52;
+  --tree-trunk: #8f5d3d;
+  --tree-trunk-shade: #6b4128;
+  --tree-trunk-light: #b07b54;
+  --tree-stem: #6fa63e;
+  --tree-leaf-dark: #3d7832;
+  --tree-leaf: #5c9c3c;
+  --tree-leaf-light: #82bd4d;
+  --tree-leaf-glint: #b4dd74;
+  --tree-leaf-vein: #2c5b25;
+  --tree-seed: #9a6a43;
+  --tree-seed-light: #cfa274;
+  --tree-blossom: #fff7f9;
+  --tree-blossom-pink: #f5b6c7;
+  --tree-blossom-center: #f1bf48;
+  --tree-apple: #df433d;
+  --tree-apple-green: #a8c94a;
+  --tree-apple-shade: #a8262a;
+  --tree-apple-light: #fff3e8;
+  --tree-shadow: rgb(70 45 20 / 0.3);
+  --tree-water: #5fb4e8;
+  --tree-can: #4f97c9;
+  --tree-can-shade: #356f99;
+  --tree-can-light: #a9d6f2;
+  --tree-rain-cloud: #b9c6d3;
+  --tree-sparkle: #ffd45c;
+  --tree-water-soft: rgb(95 180 232 / 0.18);
+  /* Night: the moon, stars and fireflies (TreeScene with `minutes`). */
+  --tree-moon: #f4f0d8;
+  --tree-moon-shade: #c9c2a0;
+  --tree-star: #fff8dc;
+  --tree-firefly: #f8f07a;
+  --tree-moonlit: #dfe8ff;
+  /* The card's panel lifting off the tree's landscape. */
+  --tree-sheet-shadow: 0 -10px 24px -14px rgb(60 40 20 / 0.35);
+  --tree-dead-bark: #8d7b67;
+  --tree-dead-bark-shade: #6c5b4a;
+  --tree-dead-leaf: #c48d52;
+}
+
+/* Fruit trees after the first apple: each its own leaf tone, flowers and fruit. Before the moods,
+   so a thirsty or dead tree still dries out whatever it is. */
+.tree-scene {
+  --tree-mango: #f2b33d;
+  --tree-mango-green: #9cc24b;
+  --tree-mango-blush: #e8733b;
+  --tree-lychee: #d8384b;
+  --tree-lychee-green: #b8c55b;
+  --tree-orange: #f28a26;
+  --tree-orange-green: #a6c54a;
+}
+
+.tree-scene[data-species="mango"] {
+  --tree-leaf-dark: #2c6227;
+  --tree-leaf: #3f7d33;
+  --tree-leaf-light: #5e9b40;
+  --tree-leaf-glint: #8fc15d;
+  --tree-blossom: #f6e39b;
+  --tree-blossom-center: #e9b949;
+}
+
+.tree-scene[data-species="lychee"] {
+  --tree-leaf-dark: #39702e;
+  --tree-leaf: #528e39;
+  --tree-leaf-light: #77ae49;
+  --tree-blossom: #f3ebcf;
+  --tree-blossom-center: #d9c27a;
+}
+
+.tree-scene[data-species="orange"] {
+  --tree-leaf-dark: #2e6a35;
+  --tree-leaf: #44873f;
+  --tree-leaf-light: #67a74f;
+  --tree-leaf-glint: #9ecf6d;
+  --tree-blossom-pink: #ffffff;
+}
+
+.tree-scene[data-mood="thirsty"] {
+  --tree-leaf-dark: #5d7a37;
+  --tree-leaf: #86a14d;
+  --tree-leaf-light: #a7ba6a;
+  --tree-leaf-glint: #c8d394;
+  --tree-stem: #93a65a;
+  --tree-soil: #a6835f;
+  --tree-soil-dark: #8a6a4c;
+  --tree-soil-light: #c09d79;
+  --tree-hill: #b9cf7a;
+  --tree-hill-shade: #a3bb67;
+}
+
+.tree-scene[data-mood="dead"] {
+  --tree-sky-top: #f1eee6;
+  --tree-sky-bottom: #ded7c7;
+  --tree-sun: #f1e8cf;
+  --tree-hill-back: #e1dcc6;
+  --tree-hill: #cbc49c;
+  --tree-hill-shade: #b4ad86;
+  --tree-grass: #a59e72;
+  --tree-flower: #ece6d6;
+  --tree-soil: #9c7d62;
+  --tree-soil-dark: #7f634b;
+  --tree-soil-light: #b39478;
+}
+
+/* The bottom nav's height, while it shows (below `lg`, and not stepped aside): the page's
+   bottom padding, and the lift for anything else fixed to the bottom edge. */
+:root {
+  --bottom-nav-h: 0px;
+}
+@media (width < 64rem) {
+  :root:has(.bottom-nav):not(:has([data-no-bottom-nav])) {
+    --bottom-nav-h: calc(4rem + 1px + env(safe-area-inset-bottom));
+  }
+}
+
+/* The download bar (P141): 12px above whatever holds the bottom edge, the bottom nav, the "up next"
+   bar while it shows (`--up-next-h`, set by UpNext), or the screen edge; 24px from it on wide screens. */
+:root {
+  --up-next-h: 0px;
+}
+.bottom-toast {
+  bottom: max(calc(var(--bottom-nav-h) + 0.75rem), calc(var(--up-next-h) + 0.75rem), calc(env(safe-area-inset-bottom) + 0.75rem));
+}
+@media (width >= 64rem) {
+  .bottom-toast {
+    bottom: 1.5rem;
+  }
+}
+
+/*
+ * CT180 (lab `segment-home` v73): a shared link's upload. A dashed ring in the brand green, 4px outside the box, its
+ * even dashes (8px, 6px apart) marching around it; an SVG outline, so the dashes keep their length on every side.
+ * Still with reduced motion.
+ */
+.shared-ring {
+  position: absolute;
+  inset: -4px;
+  width: calc(100% + 8px);
+  height: calc(100% + 8px);
+  overflow: visible;
+  pointer-events: none;
+}
+.shared-ring rect {
+  fill: none;
+  stroke: var(--color-brand);
+  stroke-width: 2;
+  stroke-dasharray: 8 6;
+  animation: shared-march 1.4s linear infinite;
+}
+@keyframes shared-march {
+  to {
+    stroke-dashoffset: -28;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .shared-ring rect {
+    animation: none;
+  }
+}
+
+/*
+ * CT181 (lab `segment-home` v74): the shared upload's mark instead: a 2px grey border 4px outside the box, fading in and
+ * out (0 → 100% → 0) every 2 seconds. Steady with reduced motion.
+ */
+.shared-pulse {
+  position: absolute;
+  inset: -4px;
+  border: 2px solid var(--color-subtle);
+  border-radius: calc(var(--radius-lg) + 4px);
+  pointer-events: none;
+  animation: shared-pulse 2s ease-in-out infinite;
+}
+@keyframes shared-pulse {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .shared-pulse {
+    animation: none;
+  }
+}
+
+/* CT182 (v75): quieter, halfway between the subtle grey and the card it stands on (dark mode follows). */
+.shared-pulse-soft {
+  border-color: color-mix(in oklab, var(--color-subtle) 50%, var(--color-surface));
+}

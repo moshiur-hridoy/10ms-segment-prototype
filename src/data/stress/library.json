@@ -1,0 +1,470 @@
+{
+  "shelves": [
+    {
+      "id": "hsc27",
+      "kind": "batch",
+      "title": "HSC 27",
+      "subtitle": "অনলাইন ব্যাচ · পরীক্ষা ২০২৭",
+      "courseId": "crs_hsc27",
+      "catalogId": "hsc-27",
+      "groups": [
+        {
+          "id": "h27_phy",
+          "name": "ফিজিক্স",
+          "books": [
+            {
+              "id": "h27_phy_1",
+              "title": "১ম পত্র",
+              "kicker": "ফিজিক্স",
+              "family": "physics",
+              "state": "owned",
+              "url": "https://10minuteschool.com/product/hsc-27-physics-online-batch/",
+              "paperId": "sub_ph1"
+            },
+            {
+              "id": "h27_phy_2",
+              "title": "২য় পত্র",
+              "kicker": "ফিজিক্স",
+              "family": "physics",
+              "state": "owned",
+              "url": "https://10minuteschool.com/product/hsc-27-physics-online-batch/",
+              "paperId": "sub_ph2"
+            }
+          ]
+        },
+        {
+          "id": "h27_chem",
+          "name": "কেমিস্ট্রি",
+          "books": [
+            {
+              "id": "h27_chem_1",
+              "title": "১ম পত্র",
+              "kicker": "কেমিস্ট্রি",
+              "family": "chemistry",
+              "state": "owned",
+              "url": "https://10minuteschool.com/product/hsc-27-chemistry-online-batch/",
+              "paperId": "sub_ch1"
+            },
+            {
+              "id": "h27_chem_2",
+              "title": "২য় পত্র",
+              "kicker": "কেমিস্ট্রি",
+              "family": "chemistry",
+              "state": "owned",
+              "url": "https://10minuteschool.com/product/hsc-27-chemistry-online-batch/",
+              "paperId": "sub_ch2"
+            }
+          ]
+        },
+        {
+          "id": "h27_math",
+          "name": "হায়ার ম্যাথ",
+          "books": [
+            {
+              "id": "h27_math_1",
+              "title": "১ম পত্র",
+              "kicker": "হায়ার ম্যাথ",
+              "family": "math",
+              "state": "owned",
+              "url": "https://10minuteschool.com/product/hsc-27-math-online-batch/",
+              "paperId": "sub_hm1"
+            },
+            {
+              "id": "h27_math_2",
+              "title": "২য় পত্র",
+              "kicker": "হায়ার ম্যাথ",
+              "family": "math",
+              "state": "owned",
+              "url": "https://10minuteschool.com/product/hsc-27-math-online-batch/",
+              "paperId": "sub_hm2"
+            }
+          ]
+        },
+        {
+          "id": "h27_bio",
+          "name": "বায়োলজি",
+          "books": [
+            {
+              "id": "h27_bio_1",
+              "title": "১ম পত্র",
+              "kicker": "বায়োলজি",
+              "family": "biology",
+              "state": "owned",
+              "url": "https://10minuteschool.com/product/hsc-27-biology-online-batch/",
+              "paperId": "sub_bio1"
+            },
+            {
+              "id": "h27_bio_2",
+              "title": "২য় পত্র",
+              "kicker": "বায়োলজি",
+              "family": "biology",
+              "state": "owned",
+              "url": "https://10minuteschool.com/product/hsc-27-biology-online-batch/",
+              "paperId": "sub_bio2"
+            }
+          ]
+        },
+        {
+          "id": "h27_bn",
+          "name": "বাংলা",
+          "books": [
+            {
+              "id": "h27_bn_1",
+              "title": "১ম পত্র",
+              "kicker": "বাংলা",
+              "family": "bangla",
+              "state": "locked",
+              "url": "https://10minuteschool.com/product/hsc-27-bangla-online-batch-2/"
+            },
+            {
+              "id": "h27_bn_2",
+              "title": "২য় পত্র",
+              "kicker": "বাংলা",
+              "family": "bangla",
+              "state": "locked",
+              "url": "https://10minuteschool.com/product/hsc-27-bangla-online-batch-2/"
+            }
+          ]
+        },
+        {
+          "id": "h27_en",
+          "name": "ইংরেজি",
+          "books": [
+            {
+              "id": "h27_en_1",
+              "title": "১ম পত্র",
+              "kicker": "ইংরেজি",
+              "family": "english",
+              "state": "locked",
+              "url": "https://10minuteschool.com/product/hsc-27-english-online-batch-2/"
+            },
+            {
+              "id": "h27_en_2",
+              "title": "২য় পত্র",
+              "kicker": "ইংরেজি",
+              "family": "english",
+              "state": "locked",
+              "url": "https://10minuteschool.com/product/hsc-27-english-online-batch-2/"
+            }
+          ]
+        },
+        {
+          "id": "h27_ict",
+          "name": "আইসিটি",
+          "books": [
+            {
+              "id": "h27_ict_1",
+              "title": "আইসিটি",
+              "family": "ict",
+              "state": "locked",
+              "url": "https://10minuteschool.com/product/hsc-27-ict-online-batch-2/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hsc26",
+      "kind": "batch",
+      "title": "HSC 26",
+      "subtitle": "অনলাইন ব্যাচ · পরীক্ষা শেষ",
+      "past": true,
+      "groups": [
+        {
+          "id": "h26_bn",
+          "name": "বাংলা",
+          "books": [
+            {
+              "id": "h26_bn_1",
+              "title": "১ম পত্র",
+              "kicker": "বাংলা",
+              "family": "bangla",
+              "state": "owned",
+              "url": "#",
+              "paperId": "sub_bn1"
+            },
+            {
+              "id": "h26_bn_2",
+              "title": "২য় পত্র",
+              "kicker": "বাংলা",
+              "family": "bangla",
+              "state": "locked",
+              "url": "#"
+            }
+          ]
+        },
+        {
+          "id": "h26_ict",
+          "name": "আইসিটি",
+          "books": [
+            {
+              "id": "h26_ict_1",
+              "title": "আইসিটি",
+              "family": "ict",
+              "state": "owned",
+              "url": "#",
+              "paperId": "sub_ict"
+            }
+          ]
+        },
+        {
+          "id": "h26_en",
+          "name": "ইংরেজি",
+          "books": [
+            {
+              "id": "h26_en_1",
+              "title": "১ম পত্র",
+              "kicker": "ইংরেজি",
+              "family": "english",
+              "state": "locked",
+              "url": "#"
+            },
+            {
+              "id": "h26_en_2",
+              "title": "২য় পত্র",
+              "kicker": "ইংরেজি",
+              "family": "english",
+              "state": "locked",
+              "url": "#"
+            }
+          ]
+        },
+        {
+          "id": "h26_phy",
+          "name": "ফিজিক্স",
+          "books": [
+            {
+              "id": "h26_phy_1",
+              "title": "১ম পত্র",
+              "kicker": "ফিজিক্স",
+              "family": "physics",
+              "state": "locked",
+              "url": "#"
+            },
+            {
+              "id": "h26_phy_2",
+              "title": "২য় পত্র",
+              "kicker": "ফিজিক্স",
+              "family": "physics",
+              "state": "locked",
+              "url": "#"
+            }
+          ]
+        },
+        {
+          "id": "h26_chem",
+          "name": "কেমিস্ট্রি",
+          "books": [
+            {
+              "id": "h26_chem_1",
+              "title": "১ম পত্র",
+              "kicker": "কেমিস্ট্রি",
+              "family": "chemistry",
+              "state": "locked",
+              "url": "#"
+            },
+            {
+              "id": "h26_chem_2",
+              "title": "২য় পত্র",
+              "kicker": "কেমিস্ট্রি",
+              "family": "chemistry",
+              "state": "locked",
+              "url": "#"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ebooks",
+      "kind": "ebook",
+      "title": "ই-বুক",
+      "subtitle": "কেনা আর ফ্রি নেওয়া বই",
+      "groups": [
+        {
+          "id": "eb_phy",
+          "name": "ফিজিক্স",
+          "books": [
+            {
+              "id": "eb_phy_formula",
+              "title": "সূত্র ও শর্টকাট",
+              "kicker": "ফিজিক্স ১ম পত্র",
+              "family": "physics",
+              "state": "owned",
+              "url": "#"
+            }
+          ]
+        },
+        {
+          "id": "eb_chem",
+          "name": "কেমিস্ট্রি",
+          "books": [
+            {
+              "id": "eb_chem_react",
+              "title": "বিক্রিয়া হ্যান্ডবুক",
+              "kicker": "কেমিস্ট্রি ২য় পত্র",
+              "family": "chemistry",
+              "state": "owned",
+              "url": "#"
+            }
+          ]
+        },
+        {
+          "id": "eb_bio",
+          "name": "বায়োলজি",
+          "books": [
+            {
+              "id": "eb_bio_diagram",
+              "title": "চিত্র ও লেবেলিং",
+              "kicker": "বায়োলজি ১ম পত্র",
+              "family": "biology",
+              "state": "free",
+              "url": "#"
+            }
+          ]
+        }
+      ],
+      "suggestions": [
+        {
+          "id": "eb_math_mcq",
+          "title": "MCQ শর্টকাট",
+          "kicker": "হায়ার ম্যাথ",
+          "family": "math",
+          "state": "locked",
+          "url": "#",
+          "price": 150
+        },
+        {
+          "id": "eb_en_grammar",
+          "title": "Grammar Essentials",
+          "kicker": "ইংরেজি",
+          "family": "english",
+          "state": "locked",
+          "url": "#",
+          "price": 120
+        }
+      ],
+      "moreUrl": "#"
+    },
+    {
+      "id": "skills",
+      "kind": "skills",
+      "title": "স্কিলস",
+      "subtitle": "নিজের গতিতে শেখার কোর্স",
+      "groups": [
+        {
+          "id": "sk_owned",
+          "books": [
+            {
+              "id": "crs_money",
+              "title": "Money জ্ঞানী",
+              "kicker": "ফাইন্যান্স",
+              "family": "math",
+              "coverUrl": "https://cdn.10minuteschool.com/images/thumbnails/bkash/digital-financial-mastery-thumbnail.jpg",
+              "coverFit": "plate",
+              "state": "owned",
+              "url": "#",
+              "courseId": "crs_money"
+            },
+            {
+              "id": "crs_photo",
+              "title": "Basic Photography",
+              "kicker": "ফটোগ্রাফি",
+              "family": "chemistry",
+              "coverUrl": "https://cdn.10minuteschool.com/images/thumbnails/photography-course-in-bangladesh-thumbnail.jpg",
+              "coverFit": "plate",
+              "state": "owned",
+              "url": "#",
+              "courseId": "crs_photo"
+            }
+          ]
+        }
+      ],
+      "suggestions": [
+        {
+          "id": "sg_python",
+          "title": "Python দিয়ে Programming",
+          "kicker": "প্রোগ্রামিং",
+          "family": "ict",
+          "coverUrl": "https://cdn.10minuteschool.com/images/thumbnails/python-course-in-bangladesh-thumbnail-new.jpg",
+          "coverFit": "plate",
+          "state": "locked",
+          "url": "https://10minuteschool.com/product/python-programming-course/",
+          "price": 2500
+        },
+        {
+          "id": "sg_video",
+          "title": "Video Making",
+          "kicker": "ভিডিও",
+          "family": "bangla",
+          "coverUrl": "https://cdn.10minuteschool.com/images/thumbnails/skills/Video-Making-course-thumbnail-by-Sadman-Sadik-16x9.jpg",
+          "coverFit": "plate",
+          "state": "locked",
+          "url": "https://10minuteschool.com/product/video-making/",
+          "price": 1250
+        }
+      ],
+      "moreUrl": "https://10minuteschool.com/skills/"
+    },
+    {
+      "id": "english",
+      "kind": "english",
+      "title": "ইংলিশ",
+      "subtitle": "ইংরেজিতে কথা বলা আর লেখা",
+      "groups": [
+        {
+          "id": "en_owned",
+          "books": [
+            {
+              "id": "crs_eng_everyday",
+              "title": "English for Everyday",
+              "kicker": "ইংলিশ",
+              "family": "english",
+              "coverUrl": "https://cdn.10minuteschool.com/images/Thumbnails/english_for_everyday_16x9.png",
+              "coverFit": "plate",
+              "state": "owned",
+              "url": "#",
+              "courseId": "crs_eng_everyday"
+            },
+            {
+              "id": "crs_spoken",
+              "title": "ঘরে বসে Spoken English",
+              "kicker": "স্পোকেন",
+              "family": "biology",
+              "coverUrl": "https://cdn.10minuteschool.com/images/thumbnails/skills/ghore-boshe-Spoken-English-course-thumbnail-by-Munzereen-Shahid-16x9.jpg",
+              "coverFit": "plate",
+              "state": "owned",
+              "url": "#",
+              "courseId": "crs_spoken"
+            }
+          ]
+        }
+      ],
+      "suggestions": [
+        {
+          "id": "sg_ielts",
+          "title": "IELTS Course",
+          "kicker": "IELTS",
+          "family": "other",
+          "coverUrl": "https://cdn.10minuteschool.com/images/thumbnails/IELTS_new_16_9.png",
+          "coverFit": "plate",
+          "state": "locked",
+          "url": "https://10minuteschool.com/product/ielts-course/",
+          "price": 2950
+        },
+        {
+          "id": "sg_efp",
+          "title": "English Foundation Programme",
+          "kicker": "লাইভ কোর্স",
+          "family": "english",
+          "coverUrl": "https://cdn.10minuteschool.com/images/thumbnails/english-foundation-programme-sqr-thumbnail.png",
+          "coverFit": "plate",
+          "state": "locked",
+          "url": "https://10minuteschool.com/product/english-foundation-programme/",
+          "price": 7000
+        }
+      ],
+      "moreUrl": "https://10minuteschool.com/english/"
+    }
+  ]
+}

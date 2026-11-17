@@ -1,0 +1,45 @@
+{
+  "current": 2,
+  "best": 33,
+  "week": [
+    {
+      "date": "2026-10-24",
+      "completed": true
+    },
+    {
+      "date": "2026-10-25",
+      "completed": true
+    },
+    {
+      "date": "2026-10-26",
+      "completed": false
+    },
+    {
+      "date": "2026-10-27",
+      "completed": false
+    },
+    {
+      "date": "2026-10-28",
+      "completed": false
+    },
+    {
+      "date": "2026-10-29",
+      "completed": false
+    },
+    {
+      "date": "2026-10-30",
+      "completed": false
+    }
+  ],
+  "growth": 12,
+  "rain": {
+    "left": 2,
+    "max": 3
+  },
+  "species": "orange",
+  "today": {
+    "minutes": 4,
+    "quizzes": 0,
+    "goal": 10
+  }
+}

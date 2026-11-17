@@ -1,0 +1,198 @@
+{
+  "shelves": [
+    {
+      "id": "others",
+      "title": "তোমার শ্রেণির অন্যান্য কোর্সসমূহ",
+      "label": "অন্যান্য কোর্স",
+      "seeAllUrl": "https://10minuteschool.com/",
+      "items": [
+        {
+          "id": "prd_11173",
+          "title": "AI Course for Super Students: ChatGPT, Gemini ও প্রম্পট ইঞ্জিনিয়ারিং দিয়ে পড়াশোনা, প্রজেক্ট ও ক্যারিয়ারের জন্য সম্পূর্ণ গাইড",
+          "url": "https://10minuteschool.com/product/ai-for-super-students/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/ai_for_super_students/free-ai-course-for-super-students-study-with-ai.jpg",
+          "modality": "recorded",
+          "instructor": "Ayman Sadiq",
+          "price": null,
+          "isEnrolled": false
+        },
+        {
+          "id": "prd_10362",
+          "title": "Spoken English Junior",
+          "url": "https://10minuteschool.com/product/spoken-english-junior/",
+          "modality": "live_course",
+          "price": {
+            "original": 20000,
+            "final": 20000
+          },
+          "isEnrolled": false
+        },
+        {
+          "id": "prd_10386",
+          "title": "Python দিয়ে Programming",
+          "url": "https://10minuteschool.com/product/python-programming-course/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/python-course-in-bangladesh-thumbnail-new.jpg",
+          "modality": "recorded",
+          "instructor": "Niamul Hasan",
+          "price": {
+            "original": 2500,
+            "final": 2500
+          },
+          "isEnrolled": false
+        },
+        {
+          "id": "prd_153",
+          "title": "IELTS Course by Munzereen Shahid",
+          "url": "https://10minuteschool.com/product/ielts-course/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/IELTS_new_16_9.png",
+          "modality": "recorded",
+          "instructor": "Munzereen Shahid",
+          "price": {
+            "original": 4400,
+            "final": 2950
+          },
+          "isEnrolled": false
+        },
+        {
+          "id": "prd_10160",
+          "title": "Communication Masterclass by Tahsan Khan",
+          "url": "https://10minuteschool.com/product/communication-masterclass-by-tahsan-khan/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/skills/thumbnails/communication-masterclass-course-by-tahsan-khan-16x9.jpg",
+          "modality": "recorded",
+          "instructor": "Tahsan Khan",
+          "price": {
+            "original": 1250,
+            "final": 1250
+          },
+          "isEnrolled": false
+        },
+        {
+          "id": "prd_222",
+          "title": "Video Making",
+          "url": "https://10minuteschool.com/product/video-making/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/skills/Video-Making-course-thumbnail-by-Sadman-Sadik-16x9.jpg",
+          "modality": "recorded",
+          "instructor": "Sadman Sadik +1",
+          "price": {
+            "original": 1250,
+            "final": 1250
+          },
+          "isEnrolled": false
+        },
+        {
+          "id": "prd_owned",
+          "title": "Already owned course",
+          "url": "https://10minuteschool.com/product/ielts-live-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/batch-12-ielts-live-batch-thumbnails.jpg",
+          "modality": "crash_course",
+          "instructor": "Zawad Hasan Adib +3",
+          "price": {
+            "original": 10000,
+            "final": 8000
+          },
+          "isEnrolled": true
+        },
+        {
+          "id": "prd_10521_b",
+          "title": "HSC 27 অনলাইন ব্যাচ - বাংলা",
+          "url": "https://10minuteschool.com/product/hsc-27-bangla-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/HSC_OB_27/hsc-27-bangla-thumbnail.png",
+          "modality": "online_batch",
+          "instructor": "Ridwan Kabir Beacon +2",
+          "price": {
+            "original": 3000,
+            "final": 2000
+          },
+          "isEnrolled": false
+        },
+        {
+          "id": "prd_10522_b",
+          "title": "HSC 27 অনলাইন ব্যাচ - ইংরেজি",
+          "url": "https://10minuteschool.com/product/hsc-27-english-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/HSC_OB_27/hsc-27-english-thumbnail-updated.jpg",
+          "modality": "online_batch",
+          "instructor": "Farhat Fatiha Chowdhury +3",
+          "price": {
+            "original": 3000,
+            "final": 2000
+          },
+          "isEnrolled": false
+        },
+        {
+          "id": "prd_10523_b",
+          "title": "HSC 27 অনলাইন ব্যাচ - ICT",
+          "url": "https://10minuteschool.com/product/hsc-27-ict-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/HSC_OB_27/hsc-27-ict-thumbnail.png",
+          "modality": "online_batch",
+          "instructor": "Jaki Ahmed +2",
+          "price": {
+            "original": 3000,
+            "final": 2000
+          },
+          "isEnrolled": false
+        }
+      ]
+    },
+    {
+      "id": "owned",
+      "title": "সব কেনা হয়ে গেছে",
+      "label": "কেনা",
+      "items": [
+        {
+          "id": "prd_10521",
+          "title": "HSC 27 অনলাইন ব্যাচ - বাংলা",
+          "url": "https://10minuteschool.com/product/hsc-27-bangla-online-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/HSC_OB_27/hsc-27-bangla-thumbnail.png",
+          "modality": "online_batch",
+          "instructor": "Ridwan Kabir Beacon +2",
+          "price": {
+            "original": 3000,
+            "final": 2000
+          },
+          "isEnrolled": true
+        }
+      ]
+    },
+    {
+      "id": "english",
+      "title": "তোমার জন্য ইংলিশ কোর্স",
+      "label": "ইংলিশ কোর্স",
+      "items": [
+        {
+          "id": "prd_10365",
+          "title": "IELTS Content Bank - 10MS English Centre",
+          "url": "https://10minuteschool.com/product/complete-ielts-mock-test/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/Offline/ielts-content-bank-offline-centre-16x9.jpg",
+          "modality": "recorded",
+          "price": null,
+          "isEnrolled": false
+        },
+        {
+          "id": "prd_10360",
+          "title": "English Foundation Programme",
+          "url": "https://10minuteschool.com/product/english-foundation-programme/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/english-foundation-programme-sqr-thumbnail.png",
+          "modality": "live_course",
+          "price": {
+            "original": 7000,
+            "final": 7000
+          },
+          "isEnrolled": false
+        },
+        {
+          "id": "prd_10312",
+          "title": "IELTS LIVE Batch",
+          "url": "https://10minuteschool.com/product/ielts-live-batch/",
+          "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/batch-12-ielts-live-batch-thumbnails.jpg",
+          "modality": "crash_course",
+          "instructor": "Zawad Hasan Adib +3",
+          "price": {
+            "original": 10000,
+            "final": 8000
+          },
+          "isEnrolled": false
+        }
+      ]
+    }
+  ]
+}

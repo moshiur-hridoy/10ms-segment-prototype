@@ -1,0 +1,449 @@
+{
+  "isNew": true,
+  "learners": 2500,
+  "targetPct": 0,
+  "lastSubjectId": null,
+  "subjects": [
+    {
+      "id": "sp_phy1",
+      "name": "পদার্থবিজ্ঞান ১ম পত্র",
+      "family": "physics",
+      "coverUrl": null,
+      "chapters": [
+        {
+          "id": "sp_phy1_c2",
+          "number": 2,
+          "title": "ভেক্টর",
+          "questions": 412,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        },
+        {
+          "id": "sp_phy1_c3",
+          "number": 3,
+          "title": "গতিবিদ্যা",
+          "questions": 388,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        },
+        {
+          "id": "sp_phy1_c4",
+          "number": 4,
+          "title": "নিউটনিয়ান বলবিদ্যা",
+          "questions": 455,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        },
+        {
+          "id": "sp_phy1_c5",
+          "number": 5,
+          "title": "কাজ, শক্তি ও ক্ষমতা",
+          "questions": 301,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        }
+      ],
+      "reviewUrl": "#"
+    },
+    {
+      "id": "sp_phy2",
+      "name": "পদার্থবিজ্ঞান ২য় পত্র",
+      "family": "physics",
+      "coverUrl": null,
+      "chapters": [
+        {
+          "id": "sp_phy2_c1",
+          "number": 1,
+          "title": "তাপগতিবিদ্যা",
+          "questions": 366,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        },
+        {
+          "id": "sp_phy2_c2",
+          "number": 2,
+          "title": "স্থির তড়িৎ",
+          "questions": 340,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        },
+        {
+          "id": "sp_phy2_c3",
+          "number": 3,
+          "title": "চল তড়িৎ",
+          "questions": 298,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        }
+      ],
+      "reviewUrl": "#"
+    },
+    {
+      "id": "sp_chem1",
+      "name": "রসায়ন ১ম পত্র",
+      "family": "chemistry",
+      "coverUrl": null,
+      "chapters": [
+        {
+          "id": "sp_chem1_c2",
+          "number": 2,
+          "title": "গুণগত রসায়ন",
+          "questions": 347,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        },
+        {
+          "id": "sp_chem1_c3",
+          "number": 3,
+          "title": "মৌলের পর্যায়বৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+          "questions": 359,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        },
+        {
+          "id": "sp_chem1_c4",
+          "number": 4,
+          "title": "রাসায়নিক পরিবর্তন",
+          "questions": 432,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        },
+        {
+          "id": "sp_chem1_c5",
+          "number": 5,
+          "title": "কর্মমুখী রসায়ন",
+          "questions": 30,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        }
+      ],
+      "reviewUrl": "#"
+    },
+    {
+      "id": "sp_chem2",
+      "name": "রসায়ন ২য় পত্র",
+      "family": "chemistry",
+      "coverUrl": null,
+      "chapters": [
+        {
+          "id": "sp_chem2_c1",
+          "number": 1,
+          "title": "পরিবেশ রসায়ন",
+          "questions": 280,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        },
+        {
+          "id": "sp_chem2_c2",
+          "number": 2,
+          "title": "জৈব রসায়ন",
+          "questions": 510,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        },
+        {
+          "id": "sp_chem2_c3",
+          "number": 3,
+          "title": "পরিমাণগত রসায়ন",
+          "questions": 264,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        }
+      ],
+      "reviewUrl": "#"
+    },
+    {
+      "id": "sp_bio1",
+      "name": "জীববিজ্ঞান ১ম পত্র",
+      "family": "biology",
+      "coverUrl": null,
+      "chapters": [
+        {
+          "id": "sp_bio1_c1",
+          "number": 1,
+          "title": "কোষ ও এর গঠন",
+          "questions": 390,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        },
+        {
+          "id": "sp_bio1_c2",
+          "number": 2,
+          "title": "কোষ বিভাজন",
+          "questions": 262,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        },
+        {
+          "id": "sp_bio1_c3",
+          "number": 3,
+          "title": "কোষ রসায়ন",
+          "questions": 241,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        },
+        {
+          "id": "sp_bio1_c4",
+          "number": 4,
+          "title": "অণুজীব",
+          "questions": 198,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        }
+      ],
+      "reviewUrl": "#"
+    },
+    {
+      "id": "sp_bio2",
+      "name": "জীববিজ্ঞান ২য় পত্র",
+      "family": "biology",
+      "coverUrl": null,
+      "chapters": [
+        {
+          "id": "sp_bio2_c1",
+          "number": 1,
+          "title": "প্রাণীর বিভিন্নতা ও শ্রেণিবিন্যাস",
+          "questions": 344,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        },
+        {
+          "id": "sp_bio2_c2",
+          "number": 2,
+          "title": "প্রাণীর পরিচিতি",
+          "questions": 310,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        },
+        {
+          "id": "sp_bio2_c3",
+          "number": 3,
+          "title": "মানব শারীরতত্ত্ব: পরিপাক ও শোষণ",
+          "questions": 228,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        }
+      ],
+      "reviewUrl": "#"
+    },
+    {
+      "id": "sp_hm1",
+      "name": "উচ্চতর গণিত ১ম পত্র",
+      "family": "math",
+      "coverUrl": null,
+      "chapters": [
+        {
+          "id": "sp_hm1_c1",
+          "number": 1,
+          "title": "ম্যাট্রিক্স ও নির্ণায়ক",
+          "questions": 276,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        },
+        {
+          "id": "sp_hm1_c2",
+          "number": 2,
+          "title": "ভেক্টর",
+          "questions": 188,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        },
+        {
+          "id": "sp_hm1_c3",
+          "number": 3,
+          "title": "সরলরেখা",
+          "questions": 301,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        }
+      ],
+      "reviewUrl": "#"
+    },
+    {
+      "id": "sp_hm2",
+      "name": "উচ্চতর গণিত ২য় পত্র",
+      "family": "math",
+      "coverUrl": null,
+      "chapters": [
+        {
+          "id": "sp_hm2_c1",
+          "number": 1,
+          "title": "বাস্তব সংখ্যা ও অসমতা",
+          "questions": 154,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        },
+        {
+          "id": "sp_hm2_c3",
+          "number": 3,
+          "title": "জটিল সংখ্যা",
+          "questions": 212,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        }
+      ],
+      "reviewUrl": "#"
+    },
+    {
+      "id": "sp_ict",
+      "name": "তথ্য ও যোগাযোগ প্রযুক্তি",
+      "family": "ict",
+      "coverUrl": null,
+      "chapters": [
+        {
+          "id": "sp_ict_c1",
+          "number": 1,
+          "title": "বিশ্ব ও বাংলাদেশ প্রেক্ষিত",
+          "questions": 240,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        },
+        {
+          "id": "sp_ict_c3",
+          "number": 3,
+          "title": "সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+          "questions": 366,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        }
+      ],
+      "reviewUrl": "#"
+    },
+    {
+      "id": "sp_ban1",
+      "name": "বাংলা ১ম পত্র",
+      "family": "bangla",
+      "coverUrl": null,
+      "chapters": [
+        {
+          "id": "sp_ban1_c1",
+          "number": 1,
+          "title": "অপরিচিতা",
+          "questions": 120,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        },
+        {
+          "id": "sp_ban1_c2",
+          "number": 2,
+          "title": "বিলাসী",
+          "questions": 110,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        }
+      ],
+      "reviewUrl": "#"
+    },
+    {
+      "id": "sp_ban2",
+      "name": "বাংলা ২য় পত্র",
+      "family": "bangla",
+      "coverUrl": null,
+      "chapters": [
+        {
+          "id": "sp_ban2_c1",
+          "number": 1,
+          "title": "বাংলা উচ্চারণের নিয়ম",
+          "questions": 140,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        },
+        {
+          "id": "sp_ban2_c2",
+          "number": 2,
+          "title": "বাংলা বানানের নিয়ম",
+          "questions": 160,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        }
+      ],
+      "reviewUrl": "#"
+    },
+    {
+      "id": "sp_eng1",
+      "name": "English 1st Paper",
+      "family": "english",
+      "coverUrl": null,
+      "chapters": [
+        {
+          "id": "sp_eng1_c1",
+          "number": 1,
+          "title": "Unit 1: Education and Life",
+          "questions": 90,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        },
+        {
+          "id": "sp_eng1_c2",
+          "number": 2,
+          "title": "Unit 2: Art and Music",
+          "questions": 84,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        }
+      ],
+      "reviewUrl": "#"
+    },
+    {
+      "id": "sp_eng2",
+      "name": "English 2nd Paper",
+      "family": "english",
+      "coverUrl": null,
+      "chapters": [
+        {
+          "id": "sp_eng2_c1",
+          "number": 1,
+          "title": "Articles",
+          "questions": 80,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        },
+        {
+          "id": "sp_eng2_c2",
+          "number": 2,
+          "title": "Prepositions",
+          "questions": 96,
+          "correct": 0,
+          "wrong": 0,
+          "lastPracticedAt": null
+        }
+      ],
+      "reviewUrl": "#"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "enrolled": [
+    {
+      "id": "crs_hsc27",
+      "productId": "10519",
+      "title": "HSC 27 অনলাইন ব্যাচ (ফিজিক্স, কেমিস্ট্রি, ম্যাথ, বায়োলজি)",
+      "category": "academic",
+      "progress": 34,
+      "nextItems": [
+        "live",
+        "video",
+        "pdf"
+      ],
+      "courseHomeUrl": "#",
+      "batchType": "online",
+      "subjectCount": 4,
+      "lastActivityAt": "2026-10-25T14:20:00+06:00",
+      "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/HSC_OB_27/hsc-2027-online-batch-science-group-thumbnail-new.png"
+    },
+    {
+      "id": "crs_money",
+      "title": "Money জ্ঞানী: Digital Financial Mastery",
+      "category": "skills",
+      "progress": 0,
+      "nextItems": [
+        "video",
+        "note",
+        "quiz"
+      ],
+      "courseHomeUrl": "#",
+      "batchType": "recorded",
+      "badges": {
+        "earned": 0,
+        "total": 5
+      },
+      "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/bkash/digital-financial-mastery-thumbnail.jpg"
+    },
+    {
+      "id": "crs_eng_everyday",
+      "title": "English for Everyday",
+      "category": "english",
+      "progress": 0,
+      "nextItems": [
+        "video",
+        "note",
+        "quiz"
+      ],
+      "courseHomeUrl": "#",
+      "batchType": "recorded",
+      "thumbnailUrl": "https://cdn.10minuteschool.com/images/Thumbnails/english_for_everyday_16x9.png"
+    },
+    {
+      "id": "crs_photo",
+      "title": "Basic Photography Course",
+      "category": "skills",
+      "progress": 0,
+      "nextItems": [
+        "video",
+        "note",
+        "quiz"
+      ],
+      "courseHomeUrl": "#",
+      "batchType": "recorded",
+      "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/photography-course-in-bangladesh-thumbnail.jpg"
+    },
+    {
+      "id": "crs_spoken",
+      "title": "ঘরে বসে Spoken English",
+      "category": "english",
+      "progress": 0,
+      "nextItems": [
+        "video",
+        "note",
+        "quiz"
+      ],
+      "courseHomeUrl": "#",
+      "batchType": "recorded",
+      "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/skills/ghore-boshe-Spoken-English-course-thumbnail-by-Munzereen-Shahid-16x9.jpg"
+    }
+  ]
+}

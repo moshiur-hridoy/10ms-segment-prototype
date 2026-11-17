@@ -1,0 +1,15 @@
+{
+  "id": "u_rafi",
+  "name": "নতুন শিক্ষার্থী",
+  "avatarUrl": null,
+  "school": null,
+  "hotline": "16910",
+  "unreadMessages": 0,
+  "activeBatchId": "none",
+  "batches": [
+    {
+      "id": "none",
+      "label": "কোনো ব্যাচ নেই"
+    }
+  ]
+}

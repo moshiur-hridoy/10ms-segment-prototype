@@ -1,0 +1,20 @@
+{
+  "id": "u_rafi",
+  "name": "রাফি আহমেদ",
+  "avatarUrl": "/assets/avatar-2.png",
+  "school": "Dhaka College",
+  "hotline": "16910",
+  "unreadMessages": 1,
+  "activeBatchId": "hsc27-science",
+  "batches": [
+    {
+      "id": "hsc27-science",
+      "label": "এইচএসসি ২৭ - বিজ্ঞান",
+      "courseId": "crs_hsc27"
+    },
+    {
+      "id": "hsc26-business",
+      "label": "এইচএসসি ২৬ - ব্যবসায়"
+    }
+  ]
+}

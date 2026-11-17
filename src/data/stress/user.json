@@ -1,0 +1,36 @@
+{
+  "id": "u_rafi",
+  "name": "মোহাম্মদ আব্দুল্লাহ আল মামুন চৌধুরী সিদ্দিকী",
+  "avatarUrl": null,
+  "school": "Bangladesh University of Engineering and Technology School and College, Dhaka Cantonment Campus",
+  "hotline": "16910",
+  "unreadMessages": 120,
+  "activeBatchId": "b0",
+  "batches": [
+    {
+      "id": "b0",
+      "label": "এইচএসসি 26 - ব্যবসায় শিক্ষা (বাংলা ভার্সন) অনলাইন ব্যাচ",
+      "courseId": "crs_long"
+    },
+    {
+      "id": "b1",
+      "label": "এইচএসসি 26 - বিজ্ঞান"
+    },
+    {
+      "id": "b2",
+      "label": "এসএসসি 25 - মানবিক"
+    },
+    {
+      "id": "b3",
+      "label": "IELTS Programme"
+    },
+    {
+      "id": "b4",
+      "label": "Spoken English Junior"
+    },
+    {
+      "id": "b5",
+      "label": "Admission Test Preparation 2027"
+    }
+  ]
+}

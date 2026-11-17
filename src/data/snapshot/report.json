@@ -1,0 +1,5067 @@
+{
+ "classes": [
+  {
+   "id": "rc_crs_hsc27_1",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-07-04T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_2",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-07-04T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_3",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: কাজ, শক্তি ও ক্ষমতা",
+   "startsAt": "2026-07-05T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_4",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-07-05T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_5",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-07-06T20:00:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_6",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-07-06T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_7",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: নিউটনিয়ান বলবিদ্যা",
+   "startsAt": "2026-07-07T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_8",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-07-07T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_x_9",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-07-07T19:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_10",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ রসায়ন",
+   "startsAt": "2026-07-08T20:00:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_11",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: বৃত্ত",
+   "startsAt": "2026-07-08T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_12",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: নিউটনিয়ান বলবিদ্যা",
+   "startsAt": "2026-07-09T20:00:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_crs_hsc27_13",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: গুণগত রসায়ন",
+   "startsAt": "2026-07-09T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_x_14",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-07-09T19:00:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_15",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: ভেক্টর",
+   "startsAt": "2026-07-11T20:00:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_16",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-07-11T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_17",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-07-12T20:00:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_18",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-07-12T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_19",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: মহাকর্ষ",
+   "startsAt": "2026-07-13T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_20",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-07-13T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_21",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-07-14T20:00:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_crs_hsc27_22",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-07-14T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_x_23",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-07-14T19:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_24",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: মহাকর্ষ",
+   "startsAt": "2026-07-15T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_25",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: গুণগত রসায়ন",
+   "startsAt": "2026-07-15T21:30:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_crs_hsc27_26",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ রসায়ন",
+   "startsAt": "2026-07-16T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_27",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: বৃত্ত",
+   "startsAt": "2026-07-16T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_x_28",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-07-16T19:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_29",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-07-18T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_30",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-07-18T21:30:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_crs_hsc27_31",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: গতিবিদ্যা",
+   "startsAt": "2026-07-19T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_32",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-07-19T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_33",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-07-20T20:00:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_crs_hsc27_34",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-07-20T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_35",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: ভেক্টর",
+   "startsAt": "2026-07-21T20:00:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_36",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-07-21T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_x_37",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-07-21T19:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_38",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ রসায়ন",
+   "startsAt": "2026-07-22T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_39",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: বৃত্ত",
+   "startsAt": "2026-07-22T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_40",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: ভেক্টর",
+   "startsAt": "2026-07-23T20:00:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_crs_hsc27_41",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: গুণগত রসায়ন",
+   "startsAt": "2026-07-23T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_x_42",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-07-23T19:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_43",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: কাজ, শক্তি ও ক্ষমতা",
+   "startsAt": "2026-07-25T20:00:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_44",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-07-25T21:30:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_45",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-07-26T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_46",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-07-26T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_47",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: নিউটনিয়ান বলবিদ্যা",
+   "startsAt": "2026-07-27T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_48",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-07-27T21:30:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_49",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-07-28T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_50",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-07-28T21:30:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_x_51",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-07-28T19:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_52",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: নিউটনিয়ান বলবিদ্যা",
+   "startsAt": "2026-07-29T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_53",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: গুণগত রসায়ন",
+   "startsAt": "2026-07-29T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_54",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ রসায়ন",
+   "startsAt": "2026-07-30T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_55",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: বৃত্ত",
+   "startsAt": "2026-07-30T21:30:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_x_56",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-07-30T19:00:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_57",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-08-01T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_58",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-08-01T21:30:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_crs_hsc27_59",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: মহাকর্ষ",
+   "startsAt": "2026-08-02T20:00:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_60",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-08-02T21:30:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_crs_hsc27_61",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-08-03T20:00:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_crs_hsc27_62",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-08-03T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_63",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: কাজ, শক্তি ও ক্ষমতা",
+   "startsAt": "2026-08-04T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_64",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-08-04T21:30:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_x_65",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-08-04T19:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_66",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ রসায়ন",
+   "startsAt": "2026-08-05T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_67",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: বৃত্ত",
+   "startsAt": "2026-08-05T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_68",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: কাজ, শক্তি ও ক্ষমতা",
+   "startsAt": "2026-08-06T20:00:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_crs_hsc27_69",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: গুণগত রসায়ন",
+   "startsAt": "2026-08-06T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_x_70",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-08-06T19:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_71",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: গতিবিদ্যা",
+   "startsAt": "2026-08-08T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_72",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-08-08T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_73",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-08-09T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_74",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-08-09T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_75",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: ভেক্টর",
+   "startsAt": "2026-08-10T20:00:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_76",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-08-10T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_77",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-08-11T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_78",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-08-11T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_x_79",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-08-11T19:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_80",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: ভেক্টর",
+   "startsAt": "2026-08-12T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_81",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: গুণগত রসায়ন",
+   "startsAt": "2026-08-12T21:30:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_82",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ রসায়ন",
+   "startsAt": "2026-08-13T20:00:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_crs_hsc27_83",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: বৃত্ত",
+   "startsAt": "2026-08-13T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_x_84",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-08-13T19:00:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_85",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-08-15T20:00:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_crs_hsc27_86",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-08-15T21:30:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_crs_hsc27_87",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: নিউটনিয়ান বলবিদ্যা",
+   "startsAt": "2026-08-16T20:00:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_88",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-08-16T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_89",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-08-17T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_90",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-08-17T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_91",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: গতিবিদ্যা",
+   "startsAt": "2026-08-18T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_92",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-08-18T21:30:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_x_93",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-08-18T19:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_94",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ রসায়ন",
+   "startsAt": "2026-08-19T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_95",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: বৃত্ত",
+   "startsAt": "2026-08-19T21:30:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_crs_hsc27_96",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: গতিবিদ্যা",
+   "startsAt": "2026-08-20T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_97",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: গুণগত রসায়ন",
+   "startsAt": "2026-08-20T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_x_98",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-08-20T19:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_99",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: মহাকর্ষ",
+   "startsAt": "2026-08-22T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_100",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-08-22T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_101",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-08-23T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_102",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-08-23T21:30:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_103",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: কাজ, শক্তি ও ক্ষমতা",
+   "startsAt": "2026-08-24T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_104",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-08-24T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_105",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-08-25T20:00:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_crs_hsc27_106",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-08-25T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_x_107",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-08-25T19:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_108",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: কাজ, শক্তি ও ক্ষমতা",
+   "startsAt": "2026-08-26T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_109",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: গুণগত রসায়ন",
+   "startsAt": "2026-08-26T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_110",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ রসায়ন",
+   "startsAt": "2026-08-27T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_111",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: বৃত্ত",
+   "startsAt": "2026-08-27T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_x_112",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-08-27T19:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_113",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-08-29T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_114",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-08-29T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_115",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: ভেক্টর",
+   "startsAt": "2026-08-30T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_116",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-08-30T21:30:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_117",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-08-31T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_118",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-08-31T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_119",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: মহাকর্ষ",
+   "startsAt": "2026-09-01T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_120",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-09-01T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_x_121",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-09-01T19:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_122",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ রসায়ন",
+   "startsAt": "2026-09-02T20:00:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_crs_hsc27_123",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: বৃত্ত",
+   "startsAt": "2026-09-02T21:30:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_124",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: মহাকর্ষ",
+   "startsAt": "2026-09-03T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_125",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: গুণগত রসায়ন",
+   "startsAt": "2026-09-03T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_x_126",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-09-03T19:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_127",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: নিউটনিয়ান বলবিদ্যা",
+   "startsAt": "2026-09-05T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_128",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-09-05T21:30:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_crs_hsc27_129",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-09-06T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_130",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-09-06T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_131",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: গতিবিদ্যা",
+   "startsAt": "2026-09-07T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_132",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-09-07T21:30:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_crs_hsc27_133",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-09-08T20:00:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_crs_hsc27_134",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-09-08T21:30:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_x_135",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-09-08T19:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_136",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: গতিবিদ্যা",
+   "startsAt": "2026-09-09T20:00:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_137",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: গুণগত রসায়ন",
+   "startsAt": "2026-09-09T21:30:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_crs_hsc27_138",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ রসায়ন",
+   "startsAt": "2026-09-10T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_139",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: বৃত্ত",
+   "startsAt": "2026-09-10T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_x_140",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-09-10T19:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_141",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-09-12T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_142",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-09-12T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_143",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: কাজ, শক্তি ও ক্ষমতা",
+   "startsAt": "2026-09-13T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_144",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-09-13T21:30:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_145",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-09-14T20:00:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_146",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-09-14T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_147",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: নিউটনিয়ান বলবিদ্যা",
+   "startsAt": "2026-09-15T20:00:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_crs_hsc27_148",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-09-15T21:30:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_x_149",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-09-15T19:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_150",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ রসায়ন",
+   "startsAt": "2026-09-16T20:00:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_crs_hsc27_151",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: বৃত্ত",
+   "startsAt": "2026-09-16T21:30:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_152",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: নিউটনিয়ান বলবিদ্যা",
+   "startsAt": "2026-09-17T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_153",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: গুণগত রসায়ন",
+   "startsAt": "2026-09-17T21:30:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_x_154",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-09-17T19:00:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_155",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: ভেক্টর",
+   "startsAt": "2026-09-19T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_156",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-09-19T21:30:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_crs_hsc27_157",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-09-20T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_158",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-09-20T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_159",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: মহাকর্ষ",
+   "startsAt": "2026-09-21T20:00:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_crs_hsc27_160",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-09-21T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_161",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-09-22T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_162",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-09-22T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_x_163",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-09-22T19:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_164",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: মহাকর্ষ",
+   "startsAt": "2026-09-23T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_165",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: গুণগত রসায়ন",
+   "startsAt": "2026-09-23T21:30:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_crs_hsc27_166",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ রসায়ন",
+   "startsAt": "2026-09-24T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_167",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: বৃত্ত",
+   "startsAt": "2026-09-24T21:30:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_x_168",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-09-24T19:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_169",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-09-26T20:00:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_170",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-09-26T21:30:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_171",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: গতিবিদ্যা",
+   "startsAt": "2026-09-27T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_172",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-09-27T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_173",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-09-28T20:00:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_crs_hsc27_174",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-09-28T21:30:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_175",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: ভেক্টর",
+   "startsAt": "2026-09-29T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_176",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-09-29T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_x_177",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-09-29T19:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_178",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ রসায়ন",
+   "startsAt": "2026-09-30T20:00:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_179",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: বৃত্ত",
+   "startsAt": "2026-09-30T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_180",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: ভেক্টর",
+   "startsAt": "2026-10-01T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_181",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: গুণগত রসায়ন",
+   "startsAt": "2026-10-01T21:30:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_x_182",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-10-01T19:00:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_183",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: কাজ, শক্তি ও ক্ষমতা",
+   "startsAt": "2026-10-03T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_184",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-10-03T21:30:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_crs_hsc27_185",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-10-04T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_186",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-10-04T21:30:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_crs_hsc27_187",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: নিউটনিয়ান বলবিদ্যা",
+   "startsAt": "2026-10-05T20:00:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_crs_hsc27_188",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-10-05T21:30:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_189",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-10-06T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_190",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-10-06T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_x_191",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-10-06T19:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_192",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: নিউটনিয়ান বলবিদ্যা",
+   "startsAt": "2026-10-07T20:00:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_193",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: গুণগত রসায়ন",
+   "startsAt": "2026-10-07T21:30:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_194",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ রসায়ন",
+   "startsAt": "2026-10-08T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_195",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: বৃত্ত",
+   "startsAt": "2026-10-08T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_x_196",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-10-08T19:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_197",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-10-10T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_198",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-10-10T21:30:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_199",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: মহাকর্ষ",
+   "startsAt": "2026-10-11T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_200",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-10-11T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_201",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-10-12T20:00:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_crs_hsc27_202",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-10-12T21:30:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_203",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: কাজ, শক্তি ও ক্ষমতা",
+   "startsAt": "2026-10-13T20:00:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_204",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-10-13T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_x_205",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-10-13T19:00:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_206",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ রসায়ন",
+   "startsAt": "2026-10-14T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_207",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: বৃত্ত",
+   "startsAt": "2026-10-14T21:30:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_208",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: কাজ, শক্তি ও ক্ষমতা",
+   "startsAt": "2026-10-15T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_209",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: গুণগত রসায়ন",
+   "startsAt": "2026-10-15T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_x_210",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-10-15T19:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_211",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: গতিবিদ্যা",
+   "startsAt": "2026-10-17T20:00:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_212",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-10-17T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_213",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-10-18T20:00:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_214",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-10-18T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_215",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: ভেক্টর",
+   "startsAt": "2026-10-19T20:00:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_crs_hsc27_216",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: ল্যাবরেটরির নিরাপদ ব্যবহার",
+   "startsAt": "2026-10-19T21:30:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_217",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-10-20T20:00:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_218",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-10-20T21:30:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_x_219",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-10-20T19:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_220",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: ভেক্টর",
+   "startsAt": "2026-10-21T20:00:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_221",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: গুণগত রসায়ন",
+   "startsAt": "2026-10-21T21:30:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_222",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ রসায়ন",
+   "startsAt": "2026-10-22T20:00:00+06:00",
+   "status": "absent"
+  },
+  {
+   "id": "rc_crs_hsc27_223",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: বৃত্ত",
+   "startsAt": "2026-10-22T21:30:00+06:00",
+   "status": "late"
+  },
+  {
+   "id": "rc_x_224",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "title": "Spoken English: Daily conversation",
+   "startsAt": "2026-10-22T19:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_225",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: কোষ বিভাজন",
+   "startsAt": "2026-10-24T20:00:00+06:00",
+   "status": "ontime"
+  },
+  {
+   "id": "rc_crs_hsc27_226",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: সরলরেখা",
+   "startsAt": "2026-10-24T21:30:00+06:00",
+   "status": "absent"
+  }
+ ],
+ "study": [
+  {
+   "date": "2026-07-04",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-04",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-04",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "video",
+   "minutes": 60
+  },
+  {
+   "date": "2026-07-04",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "quiz",
+   "minutes": 10
+  },
+  {
+   "date": "2026-07-05",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-05",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-05",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "video",
+   "minutes": 60
+  },
+  {
+   "date": "2026-07-06",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-06",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "video",
+   "minutes": 60
+  },
+  {
+   "date": "2026-07-07",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-07",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-07",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "type": "live",
+   "minutes": 45
+  },
+  {
+   "date": "2026-07-07",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "video",
+   "minutes": 60
+  },
+  {
+   "date": "2026-07-07",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "quiz",
+   "minutes": 15
+  },
+  {
+   "date": "2026-07-08",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-08",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "video",
+   "minutes": 15
+  },
+  {
+   "date": "2026-07-09",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-09",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-09",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "video",
+   "minutes": 20
+  },
+  {
+   "date": "2026-07-09",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "exam",
+   "minutes": 40
+  },
+  {
+   "date": "2026-07-10",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "video",
+   "minutes": 60
+  },
+  {
+   "date": "2026-07-11",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-11",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "video",
+   "minutes": 15
+  },
+  {
+   "date": "2026-07-12",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-12",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "video",
+   "minutes": 60
+  },
+  {
+   "date": "2026-07-13",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-13",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-13",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "video",
+   "minutes": 20
+  },
+  {
+   "date": "2026-07-14",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-14",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-14",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "type": "live",
+   "minutes": 45
+  },
+  {
+   "date": "2026-07-14",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "video",
+   "minutes": 45
+  },
+  {
+   "date": "2026-07-15",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-15",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-15",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "quiz",
+   "minutes": 10
+  },
+  {
+   "date": "2026-07-16",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-16",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-16",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "type": "live",
+   "minutes": 45
+  },
+  {
+   "date": "2026-07-16",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "video",
+   "minutes": 60
+  },
+  {
+   "date": "2026-07-18",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-18",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-19",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-19",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-19",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "quiz",
+   "minutes": 10
+  },
+  {
+   "date": "2026-07-20",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-20",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-20",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "video",
+   "minutes": 20
+  },
+  {
+   "date": "2026-07-21",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-21",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "type": "live",
+   "minutes": 45
+  },
+  {
+   "date": "2026-07-21",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "video",
+   "minutes": 45
+  },
+  {
+   "date": "2026-07-22",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-22",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-22",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "quiz",
+   "minutes": 10
+  },
+  {
+   "date": "2026-07-23",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-23",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-23",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "type": "live",
+   "minutes": 45
+  },
+  {
+   "date": "2026-07-23",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "video",
+   "minutes": 60
+  },
+  {
+   "date": "2026-07-23",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "exam",
+   "minutes": 40
+  },
+  {
+   "date": "2026-07-24",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "video",
+   "minutes": 60
+  },
+  {
+   "date": "2026-07-26",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-26",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-26",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "video",
+   "minutes": 30
+  },
+  {
+   "date": "2026-07-27",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-27",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "video",
+   "minutes": 20
+  },
+  {
+   "date": "2026-07-28",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-28",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "type": "live",
+   "minutes": 45
+  },
+  {
+   "date": "2026-07-28",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "video",
+   "minutes": 15
+  },
+  {
+   "date": "2026-07-29",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-29",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-30",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-07-30",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "video",
+   "minutes": 20
+  },
+  {
+   "date": "2026-07-30",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "quiz",
+   "minutes": 10
+  },
+  {
+   "date": "2026-07-31",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "quiz",
+   "minutes": 20
+  },
+  {
+   "date": "2026-08-01",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-01",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-02",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-02",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "quiz",
+   "minutes": 10
+  },
+  {
+   "date": "2026-08-03",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-03",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-03",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "video",
+   "minutes": 60
+  },
+  {
+   "date": "2026-08-03",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "quiz",
+   "minutes": 20
+  },
+  {
+   "date": "2026-08-04",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-04",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-04",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "type": "live",
+   "minutes": 45
+  },
+  {
+   "date": "2026-08-04",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "video",
+   "minutes": 60
+  },
+  {
+   "date": "2026-08-04",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "quiz",
+   "minutes": 10
+  },
+  {
+   "date": "2026-08-05",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-05",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-05",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "video",
+   "minutes": 45
+  },
+  {
+   "date": "2026-08-05",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "quiz",
+   "minutes": 20
+  },
+  {
+   "date": "2026-08-06",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-06",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-06",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "type": "live",
+   "minutes": 45
+  },
+  {
+   "date": "2026-08-07",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "quiz",
+   "minutes": 10
+  },
+  {
+   "date": "2026-08-08",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-08",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-08",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "video",
+   "minutes": 15
+  },
+  {
+   "date": "2026-08-09",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-09",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-10",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-10",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "video",
+   "minutes": 30
+  },
+  {
+   "date": "2026-08-11",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-11",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-11",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "type": "live",
+   "minutes": 45
+  },
+  {
+   "date": "2026-08-12",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-12",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "video",
+   "minutes": 15
+  },
+  {
+   "date": "2026-08-12",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "quiz",
+   "minutes": 10
+  },
+  {
+   "date": "2026-08-13",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-13",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-13",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "video",
+   "minutes": 30
+  },
+  {
+   "date": "2026-08-13",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "quiz",
+   "minutes": 20
+  },
+  {
+   "date": "2026-08-14",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "video",
+   "minutes": 15
+  },
+  {
+   "date": "2026-08-15",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-15",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-15",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "video",
+   "minutes": 60
+  },
+  {
+   "date": "2026-08-16",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-17",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-17",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-17",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "quiz",
+   "minutes": 15
+  },
+  {
+   "date": "2026-08-18",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-18",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "type": "live",
+   "minutes": 45
+  },
+  {
+   "date": "2026-08-18",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "video",
+   "minutes": 15
+  },
+  {
+   "date": "2026-08-19",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-19",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-19",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "quiz",
+   "minutes": 10
+  },
+  {
+   "date": "2026-08-20",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-20",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-20",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "type": "live",
+   "minutes": 45
+  },
+  {
+   "date": "2026-08-20",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "video",
+   "minutes": 15
+  },
+  {
+   "date": "2026-08-20",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "quiz",
+   "minutes": 15
+  },
+  {
+   "date": "2026-08-20",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "exam",
+   "minutes": 40
+  },
+  {
+   "date": "2026-08-21",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "quiz",
+   "minutes": 20
+  },
+  {
+   "date": "2026-08-22",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-22",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-23",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-23",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "video",
+   "minutes": 20
+  },
+  {
+   "date": "2026-08-23",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "quiz",
+   "minutes": 10
+  },
+  {
+   "date": "2026-08-24",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-24",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-24",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "video",
+   "minutes": 20
+  },
+  {
+   "date": "2026-08-24",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "quiz",
+   "minutes": 20
+  },
+  {
+   "date": "2026-08-25",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-25",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-25",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "type": "live",
+   "minutes": 45
+  },
+  {
+   "date": "2026-08-25",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "video",
+   "minutes": 60
+  },
+  {
+   "date": "2026-08-25",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "quiz",
+   "minutes": 20
+  },
+  {
+   "date": "2026-08-26",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-26",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-27",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-27",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-27",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "type": "live",
+   "minutes": 45
+  },
+  {
+   "date": "2026-08-27",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "exam",
+   "minutes": 40
+  },
+  {
+   "date": "2026-08-28",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "video",
+   "minutes": 30
+  },
+  {
+   "date": "2026-08-29",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-29",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-30",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-30",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "video",
+   "minutes": 60
+  },
+  {
+   "date": "2026-08-31",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-31",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-08-31",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "video",
+   "minutes": 20
+  },
+  {
+   "date": "2026-09-01",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-01",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-01",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "type": "live",
+   "minutes": 45
+  },
+  {
+   "date": "2026-09-01",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "quiz",
+   "minutes": 15
+  },
+  {
+   "date": "2026-09-02",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-02",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "video",
+   "minutes": 45
+  },
+  {
+   "date": "2026-09-02",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "quiz",
+   "minutes": 10
+  },
+  {
+   "date": "2026-09-03",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-03",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-03",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "type": "live",
+   "minutes": 45
+  },
+  {
+   "date": "2026-09-03",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "video",
+   "minutes": 30
+  },
+  {
+   "date": "2026-09-03",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "quiz",
+   "minutes": 15
+  },
+  {
+   "date": "2026-09-03",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "exam",
+   "minutes": 40
+  },
+  {
+   "date": "2026-09-04",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "video",
+   "minutes": 45
+  },
+  {
+   "date": "2026-09-04",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "quiz",
+   "minutes": 10
+  },
+  {
+   "date": "2026-09-05",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-05",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-05",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "video",
+   "minutes": 30
+  },
+  {
+   "date": "2026-09-05",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "quiz",
+   "minutes": 15
+  },
+  {
+   "date": "2026-09-06",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-06",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-06",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "video",
+   "minutes": 15
+  },
+  {
+   "date": "2026-09-07",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-07",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-08",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-08",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "type": "live",
+   "minutes": 45
+  },
+  {
+   "date": "2026-09-08",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "quiz",
+   "minutes": 15
+  },
+  {
+   "date": "2026-09-09",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-09",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "video",
+   "minutes": 45
+  },
+  {
+   "date": "2026-09-10",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-10",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-10",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "type": "live",
+   "minutes": 45
+  },
+  {
+   "date": "2026-09-10",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "video",
+   "minutes": 60
+  },
+  {
+   "date": "2026-09-10",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "exam",
+   "minutes": 40
+  },
+  {
+   "date": "2026-09-11",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "video",
+   "minutes": 60
+  },
+  {
+   "date": "2026-09-11",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "quiz",
+   "minutes": 15
+  },
+  {
+   "date": "2026-09-12",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-12",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-12",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "video",
+   "minutes": 30
+  },
+  {
+   "date": "2026-09-13",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-13",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "video",
+   "minutes": 45
+  },
+  {
+   "date": "2026-09-13",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "quiz",
+   "minutes": 15
+  },
+  {
+   "date": "2026-09-14",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-14",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "video",
+   "minutes": 45
+  },
+  {
+   "date": "2026-09-15",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-15",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "type": "live",
+   "minutes": 45
+  },
+  {
+   "date": "2026-09-15",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "video",
+   "minutes": 60
+  },
+  {
+   "date": "2026-09-16",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-16",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "video",
+   "minutes": 45
+  },
+  {
+   "date": "2026-09-16",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "quiz",
+   "minutes": 10
+  },
+  {
+   "date": "2026-09-17",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-17",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "exam",
+   "minutes": 40
+  },
+  {
+   "date": "2026-09-18",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "quiz",
+   "minutes": 20
+  },
+  {
+   "date": "2026-09-19",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-19",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-19",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "video",
+   "minutes": 60
+  },
+  {
+   "date": "2026-09-20",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-20",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-20",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "video",
+   "minutes": 30
+  },
+  {
+   "date": "2026-09-21",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-21",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-21",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "video",
+   "minutes": 45
+  },
+  {
+   "date": "2026-09-21",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "quiz",
+   "minutes": 20
+  },
+  {
+   "date": "2026-09-22",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-22",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-22",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "type": "live",
+   "minutes": 45
+  },
+  {
+   "date": "2026-09-22",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "video",
+   "minutes": 60
+  },
+  {
+   "date": "2026-09-22",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "quiz",
+   "minutes": 10
+  },
+  {
+   "date": "2026-09-23",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-23",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-23",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "video",
+   "minutes": 60
+  },
+  {
+   "date": "2026-09-23",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "quiz",
+   "minutes": 15
+  },
+  {
+   "date": "2026-09-24",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-24",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "type": "live",
+   "minutes": 45
+  },
+  {
+   "date": "2026-09-24",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "video",
+   "minutes": 45
+  },
+  {
+   "date": "2026-09-24",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "quiz",
+   "minutes": 10
+  },
+  {
+   "date": "2026-09-26",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "video",
+   "minutes": 60
+  },
+  {
+   "date": "2026-09-27",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-27",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-27",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "video",
+   "minutes": 15
+  },
+  {
+   "date": "2026-09-27",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "quiz",
+   "minutes": 10
+  },
+  {
+   "date": "2026-09-28",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-28",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "video",
+   "minutes": 45
+  },
+  {
+   "date": "2026-09-28",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "quiz",
+   "minutes": 10
+  },
+  {
+   "date": "2026-09-29",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-29",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-29",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "type": "live",
+   "minutes": 45
+  },
+  {
+   "date": "2026-09-29",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "video",
+   "minutes": 15
+  },
+  {
+   "date": "2026-09-30",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-09-30",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "video",
+   "minutes": 30
+  },
+  {
+   "date": "2026-09-30",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "quiz",
+   "minutes": 15
+  },
+  {
+   "date": "2026-10-01",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-10-01",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-10-01",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "video",
+   "minutes": 15
+  },
+  {
+   "date": "2026-10-03",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-10-03",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-10-03",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "video",
+   "minutes": 20
+  },
+  {
+   "date": "2026-10-04",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-10-04",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-10-04",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "video",
+   "minutes": 45
+  },
+  {
+   "date": "2026-10-05",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-10-05",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "quiz",
+   "minutes": 10
+  },
+  {
+   "date": "2026-10-06",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-10-06",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-10-06",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "type": "live",
+   "minutes": 45
+  },
+  {
+   "date": "2026-10-07",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "quiz",
+   "minutes": 15
+  },
+  {
+   "date": "2026-10-08",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-10-08",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-10-08",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "type": "live",
+   "minutes": 45
+  },
+  {
+   "date": "2026-10-08",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "video",
+   "minutes": 60
+  },
+  {
+   "date": "2026-10-08",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "quiz",
+   "minutes": 15
+  },
+  {
+   "date": "2026-10-08",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "exam",
+   "minutes": 40
+  },
+  {
+   "date": "2026-10-10",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-10-11",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-10-11",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-10-12",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-10-12",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "video",
+   "minutes": 20
+  },
+  {
+   "date": "2026-10-12",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "quiz",
+   "minutes": 10
+  },
+  {
+   "date": "2026-10-13",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-10-14",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-10-14",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "video",
+   "minutes": 45
+  },
+  {
+   "date": "2026-10-15",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-10-15",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-10-15",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "type": "live",
+   "minutes": 45
+  },
+  {
+   "date": "2026-10-15",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "video",
+   "minutes": 45
+  },
+  {
+   "date": "2026-10-15",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "exam",
+   "minutes": 40
+  },
+  {
+   "date": "2026-10-16",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "video",
+   "minutes": 30
+  },
+  {
+   "date": "2026-10-17",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-10-18",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-10-19",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-10-19",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-10-19",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "video",
+   "minutes": 15
+  },
+  {
+   "date": "2026-10-20",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "type": "live",
+   "minutes": 45
+  },
+  {
+   "date": "2026-10-20",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "video",
+   "minutes": 60
+  },
+  {
+   "date": "2026-10-20",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "type": "quiz",
+   "minutes": 10
+  },
+  {
+   "date": "2026-10-22",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-10-22",
+   "courseId": "crs_spoken",
+   "subject": "Spoken English",
+   "type": "live",
+   "minutes": 45
+  },
+  {
+   "date": "2026-10-22",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "exam",
+   "minutes": 40
+  },
+  {
+   "date": "2026-10-24",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "type": "live",
+   "minutes": 80
+  },
+  {
+   "date": "2026-10-24",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "video",
+   "minutes": 45
+  },
+  {
+   "date": "2026-10-25",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "type": "video",
+   "minutes": 15
+  }
+ ],
+ "homework": [
+  {
+   "id": "hw_crs_hsc27_2026-07-05_0",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: হোমওয়ার্ক",
+   "dueAt": "2026-07-09T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-07-05_1",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: হোমওয়ার্ক",
+   "dueAt": "2026-07-09T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-07-05_2",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: হোমওয়ার্ক",
+   "dueAt": "2026-07-09T23:59:00+06:00",
+   "submitted": false,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-07-05_3",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: হোমওয়ার্ক",
+   "dueAt": "2026-07-09T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-07-12_0",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: হোমওয়ার্ক",
+   "dueAt": "2026-07-16T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-07-12_1",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: হোমওয়ার্ক",
+   "dueAt": "2026-07-16T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-07-12_2",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: হোমওয়ার্ক",
+   "dueAt": "2026-07-16T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-07-12_3",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: হোমওয়ার্ক",
+   "dueAt": "2026-07-16T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-07-19_0",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: হোমওয়ার্ক",
+   "dueAt": "2026-07-23T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-07-19_1",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: হোমওয়ার্ক",
+   "dueAt": "2026-07-23T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-07-19_2",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: হোমওয়ার্ক",
+   "dueAt": "2026-07-23T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-07-19_3",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: হোমওয়ার্ক",
+   "dueAt": "2026-07-23T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-07-26_0",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: হোমওয়ার্ক",
+   "dueAt": "2026-07-30T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-07-26_1",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: হোমওয়ার্ক",
+   "dueAt": "2026-07-30T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-07-26_2",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: হোমওয়ার্ক",
+   "dueAt": "2026-07-30T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-07-26_3",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: হোমওয়ার্ক",
+   "dueAt": "2026-07-30T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-08-02_0",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: হোমওয়ার্ক",
+   "dueAt": "2026-08-06T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-08-02_1",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: হোমওয়ার্ক",
+   "dueAt": "2026-08-06T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-08-02_2",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: হোমওয়ার্ক",
+   "dueAt": "2026-08-06T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-08-02_3",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: হোমওয়ার্ক",
+   "dueAt": "2026-08-06T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-08-09_0",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: হোমওয়ার্ক",
+   "dueAt": "2026-08-13T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-08-09_1",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: হোমওয়ার্ক",
+   "dueAt": "2026-08-13T23:59:00+06:00",
+   "submitted": false,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-08-09_2",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: হোমওয়ার্ক",
+   "dueAt": "2026-08-13T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-08-09_3",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: হোমওয়ার্ক",
+   "dueAt": "2026-08-13T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-08-16_0",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: হোমওয়ার্ক",
+   "dueAt": "2026-08-20T23:59:00+06:00",
+   "submitted": false,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-08-16_1",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: হোমওয়ার্ক",
+   "dueAt": "2026-08-20T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-08-16_2",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: হোমওয়ার্ক",
+   "dueAt": "2026-08-20T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-08-16_3",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: হোমওয়ার্ক",
+   "dueAt": "2026-08-20T23:59:00+06:00",
+   "submitted": false,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-08-23_0",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: হোমওয়ার্ক",
+   "dueAt": "2026-08-27T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-08-23_1",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: হোমওয়ার্ক",
+   "dueAt": "2026-08-27T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-08-23_2",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: হোমওয়ার্ক",
+   "dueAt": "2026-08-27T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-08-23_3",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: হোমওয়ার্ক",
+   "dueAt": "2026-08-27T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-08-30_0",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: হোমওয়ার্ক",
+   "dueAt": "2026-09-03T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-08-30_1",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: হোমওয়ার্ক",
+   "dueAt": "2026-09-03T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-08-30_2",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: হোমওয়ার্ক",
+   "dueAt": "2026-09-03T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-08-30_3",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: হোমওয়ার্ক",
+   "dueAt": "2026-09-03T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-09-06_0",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: হোমওয়ার্ক",
+   "dueAt": "2026-09-10T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-09-06_1",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: হোমওয়ার্ক",
+   "dueAt": "2026-09-10T23:59:00+06:00",
+   "submitted": false,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-09-06_2",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: হোমওয়ার্ক",
+   "dueAt": "2026-09-10T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-09-06_3",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: হোমওয়ার্ক",
+   "dueAt": "2026-09-10T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-09-13_0",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: হোমওয়ার্ক",
+   "dueAt": "2026-09-17T23:59:00+06:00",
+   "submitted": false,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-09-13_1",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: হোমওয়ার্ক",
+   "dueAt": "2026-09-17T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-09-13_2",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: হোমওয়ার্ক",
+   "dueAt": "2026-09-17T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-09-13_3",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: হোমওয়ার্ক",
+   "dueAt": "2026-09-17T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-09-20_0",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: হোমওয়ার্ক",
+   "dueAt": "2026-09-24T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-09-20_1",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: হোমওয়ার্ক",
+   "dueAt": "2026-09-24T23:59:00+06:00",
+   "submitted": false,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-09-20_2",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: হোমওয়ার্ক",
+   "dueAt": "2026-09-24T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-09-20_3",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: হোমওয়ার্ক",
+   "dueAt": "2026-09-24T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-09-27_0",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: হোমওয়ার্ক",
+   "dueAt": "2026-10-01T23:59:00+06:00",
+   "submitted": false,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-09-27_1",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: হোমওয়ার্ক",
+   "dueAt": "2026-10-01T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-09-27_2",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: হোমওয়ার্ক",
+   "dueAt": "2026-10-01T23:59:00+06:00",
+   "submitted": false,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-09-27_3",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: হোমওয়ার্ক",
+   "dueAt": "2026-10-01T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-10-04_0",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: হোমওয়ার্ক",
+   "dueAt": "2026-10-08T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-10-04_1",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: হোমওয়ার্ক",
+   "dueAt": "2026-10-08T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-10-04_2",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: হোমওয়ার্ক",
+   "dueAt": "2026-10-08T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-10-04_3",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: হোমওয়ার্ক",
+   "dueAt": "2026-10-08T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-10-11_0",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: হোমওয়ার্ক",
+   "dueAt": "2026-10-15T23:59:00+06:00",
+   "submitted": false,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-10-11_1",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: হোমওয়ার্ক",
+   "dueAt": "2026-10-15T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-10-11_2",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: হোমওয়ার্ক",
+   "dueAt": "2026-10-15T23:59:00+06:00",
+   "submitted": false,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-10-11_3",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: হোমওয়ার্ক",
+   "dueAt": "2026-10-15T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-10-18_0",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: হোমওয়ার্ক",
+   "dueAt": "2026-10-22T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-10-18_1",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: হোমওয়ার্ক",
+   "dueAt": "2026-10-22T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-10-18_2",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: হোমওয়ার্ক",
+   "dueAt": "2026-10-22T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-10-18_3",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: হোমওয়ার্ক",
+   "dueAt": "2026-10-22T23:59:00+06:00",
+   "submitted": true,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-10-25_0",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "title": "ফিজিক্স: হোমওয়ার্ক",
+   "dueAt": "2026-10-29T23:59:00+06:00",
+   "submitted": false,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-10-25_1",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "title": "রসায়ন: হোমওয়ার্ক",
+   "dueAt": "2026-10-29T23:59:00+06:00",
+   "submitted": false,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-10-25_2",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "title": "বায়োলজি: হোমওয়ার্ক",
+   "dueAt": "2026-10-29T23:59:00+06:00",
+   "submitted": false,
+   "url": "#"
+  },
+  {
+   "id": "hw_crs_hsc27_2026-10-25_3",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "title": "হায়ার ম্যাথ: হোমওয়ার্ক",
+   "dueAt": "2026-10-29T23:59:00+06:00",
+   "submitted": false,
+   "url": "#"
+  }
+ ],
+ "attempts": [
+  {
+   "id": "qa_crs_hsc27_2026-07-04",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-07-04T17:00:00+06:00",
+   "correct": 7,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-07-07",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-07-07T17:00:00+06:00",
+   "correct": 8,
+   "total": 10
+  },
+  {
+   "id": "ex_crs_hsc27_2026-07-09",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "kind": "exam",
+   "title": "Weekly Exam",
+   "takenAt": "2026-07-09T22:00:00+06:00",
+   "correct": 25,
+   "total": 30
+  },
+  {
+   "id": "qa_crs_hsc27_2026-07-15",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-07-15T17:00:00+06:00",
+   "correct": 9,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-07-19",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-07-19T17:00:00+06:00",
+   "correct": 5,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-07-22",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-07-22T17:00:00+06:00",
+   "correct": 5,
+   "total": 10
+  },
+  {
+   "id": "ex_crs_hsc27_2026-07-23",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "kind": "exam",
+   "title": "Weekly Exam",
+   "takenAt": "2026-07-23T22:00:00+06:00",
+   "correct": 28,
+   "total": 30
+  },
+  {
+   "id": "qa_crs_hsc27_2026-07-30",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-07-30T17:00:00+06:00",
+   "correct": 8,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-07-31",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-07-31T17:00:00+06:00",
+   "correct": 5,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-08-02",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-08-02T17:00:00+06:00",
+   "correct": 8,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-08-03",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-08-03T17:00:00+06:00",
+   "correct": 10,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-08-04",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-08-04T17:00:00+06:00",
+   "correct": 5,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-08-05",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-08-05T17:00:00+06:00",
+   "correct": 7,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-08-07",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-08-07T17:00:00+06:00",
+   "correct": 4,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-08-12",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-08-12T17:00:00+06:00",
+   "correct": 6,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-08-13",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-08-13T17:00:00+06:00",
+   "correct": 7,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-08-17",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-08-17T17:00:00+06:00",
+   "correct": 4,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-08-19",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-08-19T17:00:00+06:00",
+   "correct": 5,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-08-20",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-08-20T17:00:00+06:00",
+   "correct": 4,
+   "total": 10
+  },
+  {
+   "id": "ex_crs_hsc27_2026-08-20",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "kind": "exam",
+   "title": "Weekly Exam",
+   "takenAt": "2026-08-20T22:00:00+06:00",
+   "correct": 28,
+   "total": 30
+  },
+  {
+   "id": "qa_crs_hsc27_2026-08-21",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-08-21T17:00:00+06:00",
+   "correct": 4,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-08-23",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-08-23T17:00:00+06:00",
+   "correct": 6,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-08-24",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-08-24T17:00:00+06:00",
+   "correct": 10,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-08-25",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-08-25T17:00:00+06:00",
+   "correct": 4,
+   "total": 10
+  },
+  {
+   "id": "ex_crs_hsc27_2026-08-27",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "kind": "exam",
+   "title": "Weekly Exam",
+   "takenAt": "2026-08-27T22:00:00+06:00",
+   "correct": 28,
+   "total": 30
+  },
+  {
+   "id": "qa_crs_hsc27_2026-09-01",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-09-01T17:00:00+06:00",
+   "correct": 6,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-09-02",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-09-02T17:00:00+06:00",
+   "correct": 5,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-09-03",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-09-03T17:00:00+06:00",
+   "correct": 5,
+   "total": 10
+  },
+  {
+   "id": "ex_crs_hsc27_2026-09-03",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "kind": "exam",
+   "title": "Weekly Exam",
+   "takenAt": "2026-09-03T22:00:00+06:00",
+   "correct": 26,
+   "total": 30
+  },
+  {
+   "id": "qa_crs_hsc27_2026-09-04",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-09-04T17:00:00+06:00",
+   "correct": 4,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-09-05",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-09-05T17:00:00+06:00",
+   "correct": 10,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-09-08",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-09-08T17:00:00+06:00",
+   "correct": 9,
+   "total": 10
+  },
+  {
+   "id": "ex_crs_hsc27_2026-09-10",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "kind": "exam",
+   "title": "Weekly Exam",
+   "takenAt": "2026-09-10T22:00:00+06:00",
+   "correct": 14,
+   "total": 30
+  },
+  {
+   "id": "qa_crs_hsc27_2026-09-11",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-09-11T17:00:00+06:00",
+   "correct": 5,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-09-13",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-09-13T17:00:00+06:00",
+   "correct": 8,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-09-16",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-09-16T17:00:00+06:00",
+   "correct": 5,
+   "total": 10
+  },
+  {
+   "id": "ex_crs_hsc27_2026-09-17",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "kind": "exam",
+   "title": "Weekly Exam",
+   "takenAt": "2026-09-17T22:00:00+06:00",
+   "correct": 12,
+   "total": 30
+  },
+  {
+   "id": "qa_crs_hsc27_2026-09-18",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-09-18T17:00:00+06:00",
+   "correct": 5,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-09-21",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-09-21T17:00:00+06:00",
+   "correct": 6,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-09-22",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-09-22T17:00:00+06:00",
+   "correct": 10,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-09-23",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-09-23T17:00:00+06:00",
+   "correct": 9,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-09-24",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-09-24T17:00:00+06:00",
+   "correct": 7,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-09-27",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-09-27T17:00:00+06:00",
+   "correct": 7,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-09-28",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-09-28T17:00:00+06:00",
+   "correct": 6,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-09-30",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-09-30T17:00:00+06:00",
+   "correct": 6,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-10-05",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-10-05T17:00:00+06:00",
+   "correct": 7,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-10-07",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-10-07T17:00:00+06:00",
+   "correct": 8,
+   "total": 10
+  },
+  {
+   "id": "qa_crs_hsc27_2026-10-08",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-10-08T17:00:00+06:00",
+   "correct": 5,
+   "total": 10
+  },
+  {
+   "id": "ex_crs_hsc27_2026-10-08",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "kind": "exam",
+   "title": "Weekly Exam",
+   "takenAt": "2026-10-08T22:00:00+06:00",
+   "correct": 15,
+   "total": 30
+  },
+  {
+   "id": "qa_crs_hsc27_2026-10-12",
+   "courseId": "crs_hsc27",
+   "subject": "ফিজিক্স",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-10-12T17:00:00+06:00",
+   "correct": 5,
+   "total": 10
+  },
+  {
+   "id": "ex_crs_hsc27_2026-10-15",
+   "courseId": "crs_hsc27",
+   "subject": "বায়োলজি",
+   "kind": "exam",
+   "title": "Weekly Exam",
+   "takenAt": "2026-10-15T22:00:00+06:00",
+   "correct": 21,
+   "total": 30
+  },
+  {
+   "id": "qa_crs_hsc27_2026-10-20",
+   "courseId": "crs_hsc27",
+   "subject": "হায়ার ম্যাথ",
+   "kind": "quiz",
+   "title": "কুইজ",
+   "takenAt": "2026-10-20T17:00:00+06:00",
+   "correct": 7,
+   "total": 10
+  },
+  {
+   "id": "ex_crs_hsc27_2026-10-22",
+   "courseId": "crs_hsc27",
+   "subject": "রসায়ন",
+   "kind": "exam",
+   "title": "Weekly Exam",
+   "takenAt": "2026-10-22T22:00:00+06:00",
+   "correct": 19,
+   "total": 30
+  }
+ ]
+}

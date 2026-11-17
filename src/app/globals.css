@@ -1,0 +1,1063 @@
+@import "tailwindcss";
+
+/* Design tokens, in layers (see PLAN.md §2 "Theming"):
+   primitives → brand ramp (data-brand) → semantic roles (data-mode) → Tailwind utilities.
+   Components use only the semantic utilities, never raw hex or palette values. */
+@import "../styles/primitives.css";
+@import "../styles/brands.css";
+@import "../styles/modes.css";
+@import "../styles/components.css";
+@import "../styles/landing.css";
+@import "../styles/theme.css";
+
+/* The site is light-only for now (<html data-mode="light">). Dark tokens are kept,
+   contrast-checked, for when a mode switch is added back; the style guide previews them. */
+@custom-variant dark (&:where([data-mode="dark"], [data-mode="dark"] *));
+/* Lab `class` (P73, P74): the player's compact controls, for a finger or a narrow screen. */
+@custom-variant compact {
+  @media (pointer: coarse), (width < 40rem) {
+    @slot;
+  }
+}
+
+/* An OMR bubble filling in, like a pencil stroke. */
+@keyframes bubble-fill {
+  from {
+    transform: scale(0.35);
+    opacity: 0.4;
+  }
+}
+
+/* SuperPrep: a book opening on its spine, then its contents page settling in. */
+@keyframes book-open {
+  from {
+    opacity: 0;
+    transform: perspective(1600px) rotateY(-12deg) scale(0.98);
+  }
+}
+
+@keyframes page-in {
+  from {
+    opacity: 0;
+    transform: translateX(-12px);
+  }
+}
+
+/* The practice clipboard turning a sheet (PracticeRunner's <ViewTransition update>, typed by
+   direction). Forward: the sheet lifts from the clip's jaw and flips up over the clip, the next
+   one already lying under it. Back: the earlier sheet flips back down onto the stack. The pair
+   is the same element, so the old image goes above the new one when it is the one moving. */
+::view-transition-group(.sheet-next),
+::view-transition-group(.sheet-prev) {
+  animation: none;
+}
+
+::view-transition-old(.sheet-next),
+::view-transition-new(.sheet-next),
+::view-transition-old(.sheet-prev),
+::view-transition-new(.sheet-prev) {
+  height: auto;
+  mix-blend-mode: normal;
+  transform-origin: 50% 0;
+  animation: none;
+}
+
+::view-transition-old(.sheet-next) {
+  z-index: 1;
+  animation: sheet-lift 280ms cubic-bezier(0.5, 0, 0.75, 0) both;
+}
+
+::view-transition-new(.sheet-prev) {
+  animation: sheet-drop 320ms var(--ease-emphasis) both;
+}
+
+@keyframes sheet-lift {
+  0% {
+    transform: perspective(1600px) rotateX(0);
+    filter: drop-shadow(0 2px 4px rgb(52 36 16 / 0.2));
+  }
+  55% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: perspective(1600px) rotateX(105deg);
+    filter: drop-shadow(0 18px 18px rgb(52 36 16 / 0.25));
+  }
+}
+
+@keyframes sheet-drop {
+  0% {
+    opacity: 0;
+    transform: perspective(1600px) rotateX(105deg);
+  }
+  40% {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(.sheet-next),
+  ::view-transition-old(.sheet-prev) {
+    z-index: 1;
+    animation: nav-out 150ms ease-out both;
+  }
+
+  ::view-transition-new(.sheet-prev) {
+    animation: none;
+  }
+}
+
+/* Streak tree (TreeScene: `data-mood` and `data-action` on .tree-scene). At rest it only sways a
+   little in the breeze (droops while thirsty) and the clouds drift; each moment plays once. */
+.tree-plant,
+.tree-can,
+.tree-sparkle,
+.tree-pop,
+.tree-fall {
+  transform-box: view-box;
+}
+
+.tree-plant {
+  transform: scale(var(--s));
+  transform-origin: 100px 161px;
+}
+
+.tree-scene[data-mood="fresh"] .tree-plant {
+  animation: tree-sway 7s ease-in-out infinite;
+}
+
+.tree-scene[data-mood="thirsty"] .tree-plant {
+  transform: scale(var(--s)) rotate(-1.2deg) scaleY(0.97);
+  animation: tree-droop 9s ease-in-out infinite;
+}
+
+.tree-clouds {
+  animation: cloud-drift 24s ease-in-out infinite alternate;
+}
+
+.tree-scene[data-action="water"] .tree-plant {
+  animation:
+    tree-perk 1s 1.7s var(--ease-emphasis) both,
+    tree-sway 7s 2.7s ease-in-out infinite;
+}
+
+.tree-can {
+  animation: can-pour 2.4s ease-in-out both;
+}
+
+.tree-drop {
+  opacity: 0;
+  animation: drop-fall 650ms ease-in calc(550ms + var(--i) * 120ms) 2 both;
+}
+
+.tree-wet {
+  animation: soil-wet 1.6s 900ms ease-out both;
+}
+
+.tree-sparkle {
+  animation: sparkle-pop 900ms calc(var(--i) * 90ms) ease-out both;
+}
+
+.tree-scene[data-action="grow"] .tree-plant {
+  animation:
+    tree-grow 900ms var(--ease-emphasis) both,
+    tree-sway 7s 1s ease-in-out infinite;
+}
+
+.tree-scene[data-action="grow"] .tree-pop {
+  animation: pop-in 500ms calc(350ms + var(--i) * 70ms) var(--ease-emphasis) both;
+}
+
+.tree-raincloud {
+  animation: rain-cloud 3.2s ease-in-out both;
+}
+
+.tree-rain {
+  opacity: 0;
+  animation: rain-fall 600ms linear calc(500ms + var(--i) * 80ms) 4 both;
+}
+
+.tree-scene[data-action="wilt"] .tree-plant {
+  animation: tree-shiver 600ms ease-in-out both;
+}
+
+.tree-fall {
+  animation: leaf-fall 1.6s ease-in calc(var(--i) * 140ms) both;
+}
+
+.tree-scene[data-action="plant"] .tree-plant {
+  animation: tree-grow 700ms 200ms var(--ease-emphasis) both;
+}
+
+.tree-dirt {
+  animation: dirt-pop 700ms calc(var(--i) * 40ms) ease-out both;
+}
+
+/* Night in the tree's world: stars twinkle, fireflies drift and glow, each on its own beat. */
+.tree-star {
+  animation: star-twinkle 3.2s calc(var(--i) * -0.7s) ease-in-out infinite;
+}
+
+.tree-firefly {
+  filter: drop-shadow(0 0 2px var(--tree-firefly));
+  animation:
+    firefly-drift 6s calc(var(--i) * -1.3s) ease-in-out infinite alternate,
+    firefly-glow 1.8s calc(var(--i) * -0.5s) ease-in-out infinite;
+}
+
+@keyframes star-twinkle {
+  50% {
+    opacity: 0.35;
+  }
+}
+
+@keyframes firefly-drift {
+  33% {
+    transform: translate(5px, -4px);
+  }
+  66% {
+    transform: translate(-3px, -8px);
+  }
+  100% {
+    transform: translate(4px, 3px);
+  }
+}
+
+@keyframes firefly-glow {
+  0%,
+  100% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes tree-sway {
+  0%,
+  100% {
+    transform: scale(var(--s)) rotate(0);
+  }
+  30% {
+    transform: scale(var(--s)) rotate(0.9deg);
+  }
+  70% {
+    transform: scale(var(--s)) rotate(-0.7deg);
+  }
+}
+
+@keyframes tree-droop {
+  0%,
+  100% {
+    transform: scale(var(--s)) rotate(-1.2deg) scaleY(0.97);
+  }
+  50% {
+    transform: scale(var(--s)) rotate(-0.6deg) scaleY(0.975);
+  }
+}
+
+@keyframes tree-perk {
+  0% {
+    transform: scale(var(--s)) rotate(-1.2deg) scaleY(0.97);
+  }
+  55% {
+    transform: scale(calc(var(--s) * 1.05)) rotate(0.5deg);
+  }
+  100% {
+    transform: scale(var(--s));
+  }
+}
+
+@keyframes tree-grow {
+  0% {
+    opacity: 0.4;
+    transform: scale(calc(var(--s) * 0.8));
+  }
+  60% {
+    opacity: 1;
+    transform: scale(calc(var(--s) * 1.05));
+  }
+  100% {
+    transform: scale(var(--s));
+  }
+}
+
+@keyframes tree-shiver {
+  0%,
+  100% {
+    transform: scale(var(--s));
+  }
+  25% {
+    transform: scale(var(--s)) rotate(-2deg);
+  }
+  60% {
+    transform: scale(var(--s)) rotate(1.5deg);
+  }
+}
+
+@keyframes cloud-drift {
+  from {
+    transform: translateX(-6px);
+  }
+  to {
+    transform: translateX(8px);
+  }
+}
+
+@keyframes can-pour {
+  0% {
+    opacity: 0;
+    transform: translate(24px, -18px);
+  }
+  15% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+  28%,
+  72% {
+    transform: rotate(-26deg);
+  }
+  86% {
+    opacity: 1;
+    transform: rotate(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(18px, -12px);
+  }
+}
+
+@keyframes drop-fall {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0);
+  }
+  15% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-8px, 56px);
+  }
+}
+
+@keyframes soil-wet {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0.35;
+  }
+}
+
+@keyframes sparkle-pop {
+  0% {
+    opacity: 0;
+    transform: scale(0) rotate(0);
+  }
+  40% {
+    opacity: 1;
+    transform: scale(1.2) rotate(45deg);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.4) rotate(90deg);
+  }
+}
+
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  70% {
+    opacity: 1;
+    transform: scale(1.25);
+  }
+}
+
+@keyframes rain-cloud {
+  0% {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  20%,
+  80% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+}
+
+@keyframes rain-fall {
+  0% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+  20% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(46px);
+  }
+}
+
+@keyframes leaf-fall {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0) rotate(0);
+  }
+  50% {
+    transform: translate(8px, 40px) rotate(90deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-4px, 86px) rotate(200deg);
+  }
+}
+
+@keyframes dirt-pop {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0);
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(var(--dx), var(--dy));
+  }
+}
+
+/* The streak card around it: the count rolls like an odometer, "+1" floats up, a day's drop fills,
+   the line between watered days runs along, today's empty drop breathes. */
+@keyframes streak-roll-in {
+  from {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+}
+
+@keyframes streak-roll-out {
+  to {
+    opacity: 0;
+    transform: translateY(-70%);
+  }
+}
+
+@keyframes float-up {
+  0% {
+    opacity: 0;
+    transform: translateY(8px) scale(0.9);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-14px);
+  }
+}
+
+@keyframes day-fill {
+  0% {
+    transform: scale(0.3);
+  }
+  60% {
+    transform: scale(1.18);
+  }
+}
+
+@keyframes line-run {
+  from {
+    transform: scaleX(0);
+  }
+}
+
+@keyframes ring-breathe {
+  50% {
+    opacity: 0.55;
+    transform: scale(1.12);
+  }
+}
+
+@keyframes demo-progress {
+  from {
+    transform: scaleX(0);
+  }
+}
+
+/* The shelf's cover morphing into the open book (React <ViewTransition share="book">). */
+::view-transition-group(.book) {
+  animation-duration: var(--motion-slow);
+  animation-timing-function: var(--ease-emphasis);
+}
+
+/* Shared elements on the main paths: a subject card into its page header, a course cover into the
+   course hero. Quicker than the book: they only show where the thing went. */
+::view-transition-group(.subject),
+::view-transition-group(.course) {
+  animation-duration: var(--motion-base);
+  animation-timing-function: var(--ease-emphasis);
+}
+
+/* Subject page: opening an item narrows the syllabus into the rail left of the player, which
+   takes the folder links' place on the right (and back). The snapshots keep their own size, pinned top-left inside the moving box,
+   so the text never stretches; the box clips the tall list to the rail. The player rises in. */
+::view-transition-group(.syllabus) {
+  overflow: clip;
+  border-radius: var(--radius-lg);
+  animation-duration: var(--motion-base);
+  animation-timing-function: var(--ease-emphasis);
+}
+
+::view-transition-old(.syllabus),
+::view-transition-new(.syllabus) {
+  width: 100%;
+  height: 100%;
+  object-fit: none;
+  object-position: left top;
+}
+
+::view-transition-new(.player-in) {
+  animation: player-in var(--motion-base) var(--ease-emphasis) both;
+}
+
+::view-transition-old(.player-out) {
+  animation: nav-out 160ms ease-out both;
+}
+
+/* Phones and tablets have no rail: the list sits under the player, so it just appears there. */
+@media (max-width: 63.999rem) {
+  ::view-transition-group(.syllabus) {
+    animation: none;
+  }
+
+  ::view-transition-old(.syllabus) {
+    display: none;
+  }
+}
+
+/* Phones: the playlist capsule grows into the "up next" card and back. The box springs; the two
+   faces cross-fade at their own size, centred and clipped by the rounded box, so text never stretches. */
+::view-transition-group(.up-next) {
+  overflow: clip;
+  border-radius: var(--radius-xl);
+  animation-duration: 520ms;
+  animation-timing-function: var(--ease-spring);
+}
+
+::view-transition-old(.up-next),
+::view-transition-new(.up-next) {
+  width: 100%;
+  height: 100%;
+  object-fit: none;
+  object-position: center;
+}
+
+::view-transition-old(.up-next) {
+  animation: nav-out 140ms ease-out both;
+}
+
+::view-transition-new(.up-next) {
+  animation: nav-in 260ms 80ms ease-out both;
+}
+
+@keyframes player-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+}
+
+/* The header tab's underline glides from the old tab to the new one (NavTab names the active
+   tab's underline; the header itself holds still). z-index: above the header, which sits over the page. */
+::view-transition-group(nav-underline) {
+  z-index: 2;
+  animation-duration: var(--motion-base);
+  animation-timing-function: var(--ease-emphasis);
+}
+
+/* Page-to-page motion: a quick cross-fade of the page's content (PageMotion names it ".page"),
+   the same for every link, so moving around feels immediate. Only the content moves: the document
+   itself (root) holds still and the site header has its own name, so it stays put. Shared elements
+   (book, subject, course, syllabus) carry their own morph over it. */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+}
+
+body > header {
+  view-transition-name: site-header;
+}
+
+::view-transition-old(site-header) {
+  display: none;
+}
+
+::view-transition-group(site-header),
+::view-transition-new(site-header) {
+  animation: none;
+}
+
+/* Above the page, so the fading page never passes over the header. */
+::view-transition-group(site-header) {
+  z-index: 1;
+}
+
+::view-transition-old(.page) {
+  animation: nav-out 100ms ease-out both;
+}
+
+::view-transition-new(.page) {
+  animation: nav-in 150ms ease-out both;
+}
+
+@keyframes nav-out {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes nav-in {
+  from {
+    opacity: 0;
+  }
+}
+
+/* Streamed content arriving: the skeleton fades out and the content fades in, all sections alike. */
+::view-transition-old(.reveal-out) {
+  animation: nav-out 100ms ease-out both;
+}
+
+::view-transition-new(.reveal) {
+  animation: nav-in 150ms ease-out both;
+}
+
+/* The logo's "0" while a navigation is slow (<html data-nav-slow>, set by NavMotion after 300ms):
+   a ring runs round it. With reduced motion there is no ring, only a dimmer "0". */
+.logo-ring {
+  opacity: 0;
+  stroke-dasharray: 22 78;
+  transition: opacity 150ms ease-out;
+}
+
+:root[data-nav-slow] .logo-ring {
+  opacity: 1;
+  animation: logo-ring-run 900ms linear infinite;
+}
+
+@keyframes logo-ring-run {
+  to {
+    stroke-dashoffset: -100;
+  }
+}
+
+.logo-zero {
+  transition: opacity 150ms ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root[data-nav-slow] .logo-ring {
+    opacity: 0;
+    animation: none;
+  }
+
+  :root[data-nav-slow] .logo-zero {
+    opacity: 0.45;
+  }
+}
+
+/* The phone splash (Splash): white from the first paint; the logo fades in at 300ms, so a quick
+   load never shows it, and its ring runs as the header's does. The slow note at 4s, as for a slow
+   navigation. Leaving, the ring and note fade while the logo flies to the header. Hidden before
+   paint on wide screens and after the first visit, and once it is done (lib/splash.ts runs it). */
+.splash {
+  /* The sections fading in as they stream (Reveal) and the header are view transitions, drawn
+     above the page; without its own layer on top, the dashboard would flash through the splash. */
+  view-transition-name: splash;
+}
+
+::view-transition-group(splash) {
+  z-index: 10;
+}
+
+/* The header's logo waits while the splash's logo flies into its place. */
+:root[data-splash-flying] [data-site-logo] {
+  visibility: hidden;
+}
+
+::view-transition-group(splash),
+::view-transition-new(splash) {
+  animation: none;
+}
+
+::view-transition-old(splash) {
+  display: none;
+}
+
+:root[data-no-splash] .splash,
+:root[data-splash-done] .splash {
+  display: none;
+}
+
+.splash-logo {
+  animation: splash-in 240ms var(--ease-standard) 300ms both;
+}
+
+.splash .logo-ring {
+  opacity: 1;
+  animation: logo-ring-run 900ms linear infinite;
+}
+
+.splash-note {
+  opacity: 0;
+  animation: splash-in 240ms var(--ease-standard) 4000ms both;
+}
+
+.splash-leaving .logo-ring,
+.splash-leaving .splash-note {
+  opacity: 0;
+  transition: opacity 150ms ease-out;
+  animation-play-state: paused;
+}
+
+@keyframes splash-in {
+  from {
+    opacity: 0;
+    translate: 0 6px;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .splash-logo,
+  .splash-note {
+    animation-name: splash-fade;
+  }
+
+  .splash .logo-ring {
+    opacity: 0;
+    animation: none;
+  }
+}
+
+@keyframes splash-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* The same slow navigation, for when the ring is too small to notice (a phone on a slow network):
+   from ~1s a thin bar creeps along the top, and from 4s a note under the header says the network is slow. Both are
+   delays on the one attribute, so a navigation that commits sooner never shows them. The bar
+   slows as it goes and never reaches the end: it can't know how long the wait is. */
+.nav-bar {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 100;
+  height: 3px;
+  background: var(--color-brand);
+  transform-origin: left;
+  scale: 0 1;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 150ms ease-out;
+}
+
+:root[data-nav-slow] .nav-bar {
+  opacity: 1;
+  animation: nav-bar-creep 14s cubic-bezier(0.1, 0.6, 0.2, 1) 700ms both;
+}
+
+@keyframes nav-bar-creep {
+  to {
+    scale: 0.92 1;
+  }
+}
+
+/* Just under the 64px header: the bottom of the screen already holds fixed bars (playlist, switches). */
+.nav-slow-note {
+  position: fixed;
+  top: 4.75rem;
+  left: 50%;
+  z-index: 100;
+  translate: -50% -8px;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+:root[data-nav-slow] .nav-slow-note {
+  animation: nav-note-in 240ms var(--ease-standard) 3700ms both;
+}
+
+@keyframes nav-note-in {
+  to {
+    translate: -50% 0;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  /* No creeping: the bar appears at full width, the note just appears. */
+  :root[data-nav-slow] .nav-bar {
+    animation: nav-bar-show 1ms 700ms both;
+  }
+
+  :root[data-nav-slow] .nav-slow-note {
+    animation-duration: 1ms;
+  }
+}
+
+@keyframes nav-bar-show {
+  to {
+    scale: 1 1;
+    opacity: 0.6;
+  }
+}
+
+/* Skeleton blocks: a soft band sweeps across while content loads. Still with reduced motion. */
+@utility shimmer {
+  background-image: linear-gradient(90deg, transparent, var(--color-shimmer), transparent);
+  background-size: 40% 100%;
+  background-repeat: no-repeat;
+  background-position: -70% 0;
+
+  @media (prefers-reduced-motion: no-preference) {
+    animation: shimmer 1.4s ease-in-out infinite;
+  }
+}
+
+@keyframes shimmer {
+  to {
+    background-position: 170% 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
+}
+
+/* The bottom nav (BottomNav, below `lg`): the page ends above it (--bottom-nav-h, components.css),
+   and anything fixed to the bottom edge (the dashboard's routine switch) sits on top of it. A page
+   with its own bottom bar (the player's "up next", the catalogue's total) carries
+   `data-no-bottom-nav` and the nav steps aside. */
+body {
+  padding-bottom: var(--bottom-nav-h);
+}
+:root:has([data-no-bottom-nav]) .bottom-nav {
+  display: none;
+}
+
+/* Lab `class` v8 (P58): an open item's focus bar takes the place of the site header and the page's
+   breadcrumb and title on phones. */
+@media (width < 64rem) {
+  :root:has([data-focus-bar]) .site-header,
+  :root:has([data-focus-bar]) [data-page-head] {
+    display: none;
+  }
+  /* The lab badge moves up into the bar's empty right end instead of sitting on the video. */
+  :root:has([data-focus-bar]) .lab-badge {
+    top: calc(env(safe-area-inset-top) + 0.75rem) !important;
+  }
+}
+
+/* CT131: a thin band of light crosses the subject folder's "ফ্রি" tag in the last fifth of each cycle, then rests. */
+@keyframes tag-shine {
+  0%,
+  80% {
+    transform: translateX(0) skewX(-20deg);
+  }
+  100% {
+    transform: translateX(400%) skewX(-20deg);
+  }
+}
+.tag-shine {
+  transform: skewX(-20deg);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .tag-shine {
+    animation: tag-shine 5s ease-in-out 1s infinite;
+  }
+}
+
+/* The phone's playlist sheet rises from the bottom edge over a fading backdrop. */
+@keyframes sheet-up {
+  from {
+    translate: 0 100%;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+.sheet[open] {
+  animation: sheet-up var(--motion-base) var(--ease-emphasis);
+}
+
+.sheet[open]::backdrop {
+  animation: fade-in var(--motion-base) ease-out;
+}
+
+/* The streak popup: rises in the middle on larger screens (a sheet from the bottom on phones). */
+@media (min-width: 40rem) {
+  .streak-pop[open] {
+    animation: pop-rise var(--motion-slow) var(--ease-emphasis);
+  }
+}
+
+@keyframes pop-rise {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.96);
+  }
+}
+
+/* Progress arcs draw in from zero to their value. */
+@keyframes ring-draw {
+  from {
+    stroke-dasharray: 0 1000;
+  }
+}
+
+/* The ring round a pill filling up (Segmented `progress`; the rect uses pathLength="1"). Linear: it is a clock. */
+@keyframes pill-ring-fill {
+  from {
+    stroke-dashoffset: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.pill-ring {
+  stroke-dasharray: 1;
+  animation: pill-ring-fill linear both;
+}
+
+/* A shelf softly fading in after a switch: opacity only, so nothing shifts. */
+.shelf-fade {
+  animation: fade-in var(--motion-base) ease-out;
+}
+
+/* A tick drawing itself in, like a pen stroke (CheckMark; the path uses pathLength="1"). */
+@keyframes check-draw {
+  from {
+    stroke-dashoffset: 1;
+  }
+}
+
+/* The shared feel of anything clickable: `press` gives way slightly while held down; `lift` raises
+   a bordered card 2px on hover (rows stay flat and only change colour). `scale` and `translate`,
+   not transform, so they compose with other transforms and with view-transition morphs. */
+@utility press {
+  transition-property: scale, translate, box-shadow, border-color, background-color, color;
+  transition-duration: var(--motion-fast);
+  transition-timing-function: var(--ease-standard);
+
+  &:active {
+    scale: 0.985;
+  }
+}
+
+@utility lift {
+  @media (hover: hover) {
+    &:hover {
+      translate: 0 -2px;
+    }
+  }
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+html {
+  background: var(--color-bg);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: var(--font-sans);
+  line-height: 1.5;
+}
+
+/* In-page links (the greeting's updates) land below the sticky top bar. */
+section[id],
+h2[id] {
+  scroll-margin-top: 6rem;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-brand) 28%, transparent);
+}
+
+/* Dashboard subject groups (one open at a time): the opening group's content grows in from
+   nothing; closing is instant, so the opened header's place on screen is known at once and the
+   page can glide to it (subject-accordion.tsx). Browsers without `interpolate-size` just open. */
+details[name="subject-groups"] {
+  interpolate-size: allow-keywords;
+}
+details[name="subject-groups"]::details-content {
+  block-size: 0;
+  opacity: 0;
+  overflow: clip;
+}
+details[name="subject-groups"][open]::details-content {
+  block-size: auto;
+  opacity: 1;
+  transition:
+    block-size 340ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    opacity 240ms ease-out,
+    content-visibility 340ms allow-discrete;
+}
+
+/* In `base` so a component can replace it (e.g. `outline-none` plus its own ring). */
+@layer base {
+  :focus-visible {
+    outline: 2px solid var(--color-brand);
+    outline-offset: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "enrolled": [
+    {
+      "id": "crs_long",
+      "title": "উচ্চতর গণিত ২য় পত্র: জটিল সংখ্যা, বহুপদী সমীকরণ, দ্বিপদী বিস্তৃতি, কণিক, বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ — সম্পূর্ণ অধ্যায় রিভিশন ও প্রশ্ন সমাধান",
+      "category": "academic",
+      "progress": 100,
+      "nextItems": [],
+      "courseHomeUrl": "#",
+      "batchType": "recorded",
+      "badges": {
+        "earned": 12,
+        "total": 12
+      },
+      "lastActivityAt": "2026-10-20T10:00:00+06:00"
+    },
+    {
+      "id": "crs_hsc27",
+      "productId": "10519",
+      "title": "HSC 27 অনলাইন ব্যাচ (ফিজিক্স, কেমিস্ট্রি, ম্যাথ, বায়োলজি)",
+      "category": "academic",
+      "progress": 34,
+      "nextItems": [
+        "live"
+      ],
+      "courseHomeUrl": "#",
+      "batchType": "online",
+      "subjectCount": 4,
+      "lastActivityAt": "2026-10-25T14:20:00+06:00"
+    },
+    {
+      "id": "crs_ielts",
+      "title": "IELTS Programme",
+      "category": "english",
+      "progress": 1,
+      "nextItems": [],
+      "courseHomeUrl": "#",
+      "batchType": "recorded",
+      "badges": {
+        "earned": 1,
+        "total": 20
+      }
+    },
+    {
+      "id": "crs_money",
+      "title": "Money জ্ঞানী: Digital Financial Mastery",
+      "category": "skills",
+      "progress": 0,
+      "nextItems": [],
+      "courseHomeUrl": "#",
+      "batchType": "recorded",
+      "badges": {
+        "earned": 0,
+        "total": 5
+      },
+      "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/bkash/digital-financial-mastery-thumbnail.jpg"
+    },
+    {
+      "id": "crs_s0",
+      "title": "English for Everyday",
+      "category": "english",
+      "progress": 0,
+      "nextItems": [],
+      "courseHomeUrl": "#",
+      "thumbnailUrl": "https://cdn.10minuteschool.com/images/Thumbnails/english_for_everyday_16x9.png"
+    },
+    {
+      "id": "crs_s1",
+      "title": "Basic Photography Course",
+      "category": "skills",
+      "progress": 0,
+      "nextItems": [],
+      "courseHomeUrl": "#",
+      "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/photography-course-in-bangladesh-thumbnail.jpg"
+    },
+    {
+      "id": "crs_s2",
+      "title": "ঘরে বসে Spoken English",
+      "category": "english",
+      "progress": 0,
+      "nextItems": [],
+      "courseHomeUrl": "#",
+      "thumbnailUrl": "https://cdn.10minuteschool.com/images/thumbnails/skills/ghore-boshe-Spoken-English-course-thumbnail-by-Munzereen-Shahid-16x9.jpg"
+    },
+    {
+      "id": "crs_s3",
+      "title": "Microsoft Excel: শূন্য থেকে অ্যাডভান্সড পর্যন্ত সম্পূর্ণ গাইড, ড্যাশবোর্ড ও ডেটা অ্যানালাইসিস",
+      "category": "skills",
+      "progress": 0,
+      "nextItems": [],
+      "courseHomeUrl": "#"
+    },
+    {
+      "id": "crs_s4",
+      "title": "Freelancing Bootcamp",
+      "category": "skills",
+      "progress": 0,
+      "nextItems": [],
+      "courseHomeUrl": "#"
+    },
+    {
+      "id": "crs_s5",
+      "title": "Kids' English",
+      "category": "english",
+      "progress": 0,
+      "nextItems": [],
+      "courseHomeUrl": "#"
+    },
+    {
+      "id": "crs_s6",
+      "title": "Communication Hacks",
+      "category": "skills",
+      "progress": 0,
+      "nextItems": [],
+      "courseHomeUrl": "#"
+    },
+    {
+      "id": "crs_s7",
+      "title": "ভিডিও এডিটিং মাস্টারক্লাস",
+      "category": "skills",
+      "progress": 0,
+      "nextItems": [],
+      "courseHomeUrl": "#"
+    }
+  ]
+}

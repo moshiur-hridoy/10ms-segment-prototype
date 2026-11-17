@@ -1,0 +1,44 @@
+/* ==========================================================================
+   Layer 2 · Brand ramps
+   A brand theme only swaps this ramp; every semantic role reads --brand-*.
+   Contract each ramp must meet (on white / the light surface):
+     700 ≥ 4.5:1 (text, primary button)   500 ≥ 3:1 (fills, icons, focus)
+   Rule: data-mode must sit on the data-brand element or inside it. Semantic roles are
+   computed where data-mode is set, from the ramp inherited at that point (see modes.css).
+   ========================================================================== */
+
+:root,
+[data-brand="online"] {
+  --brand-50: var(--green-50);
+  --brand-100: var(--green-100);
+  --brand-200: var(--green-200);
+  --brand-300: var(--green-300);
+  --brand-400: var(--green-400);
+  --brand-500: var(--green-500);
+  --brand-600: var(--green-600);
+  --brand-700: var(--green-700);
+  --brand-800: var(--green-800);
+  --brand-900: var(--green-900);
+  --brand-950: var(--green-950);
+  /* Hero mesh accents: a neighbouring hue for the glow, and the deepest shades. */
+  --brand-glow: #2dd4bf;
+  --brand-ink: #134f29;
+  --brand-shade: #083018;
+}
+
+[data-brand="offline"] {
+  --brand-50: var(--indigo-50);
+  --brand-100: var(--indigo-100);
+  --brand-200: var(--indigo-200);
+  --brand-300: var(--indigo-300);
+  --brand-400: var(--indigo-400);
+  --brand-500: var(--indigo-500);
+  --brand-600: var(--indigo-600);
+  --brand-700: var(--indigo-700);
+  --brand-800: var(--indigo-800);
+  --brand-900: var(--indigo-900);
+  --brand-950: var(--indigo-950);
+  --brand-glow: #a78bfa;
+  --brand-ink: #2a2580;
+  --brand-shade: #120f3a;
+}

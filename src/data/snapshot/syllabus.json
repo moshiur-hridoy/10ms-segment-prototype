@@ -1,0 +1,1885 @@
+{
+  "papers": [
+    {
+      "id": "sub_bio1",
+      "title": "জীববিজ্ঞান ১ম পত্র",
+      "course": "HSC 27 Online Batch - Biology",
+      "archiveCourse": "HSC 26 Archive Class - Biology",
+      "chapters": [
+        {
+          "id": "ch_1",
+          "number": 1,
+          "title": "কোষ ও এর গঠন",
+          "items": [
+            {
+              "id": "sh_1",
+              "kind": "sheet",
+              "title": "Lecture Sheet: অধ্যায় ১: কোষ ও এর গঠন",
+              "source": "batch",
+              "url": "#",
+              "pages": 104,
+              "status": "done"
+            },
+            {
+              "id": "v_2",
+              "kind": "video",
+              "title": "কোষ, কোষ তত্ত্ব, RNA World Hypothesis,কোষ প্রাচীর",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 5240,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "done",
+              "youtubeId": "EwxIwrMDfDQ"
+            },
+            {
+              "id": "e_3",
+              "kind": "exam",
+              "title": "Daily Exam: কোষ, কোষ তত্ত্ব, RNA World Hypothesis,কোষ প্রাচীর",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "done",
+              "score": {
+                "got": 17,
+                "total": 20
+              }
+            },
+            {
+              "id": "s_4",
+              "kind": "slide",
+              "title": "Lecture Slide: কোষ, কোষ তত্ত্ব, RNA World Hypothesis,কোষ প্রাচীর",
+              "source": "batch",
+              "url": "#",
+              "pages": 42,
+              "status": "new"
+            },
+            {
+              "id": "v_5",
+              "kind": "video",
+              "title": "প্রোটোপ্লাজম ও কোষঝিল্লি",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4325,
+              "publishedAt": "2025-09-05T18:05:29+06:00",
+              "status": "started",
+              "watchedSec": 1830,
+              "youtubeId": "sZPXOB_eSKg"
+            },
+            {
+              "id": "e_6",
+              "kind": "exam",
+              "title": "Daily Exam: প্রোটোপ্লাজম ও কোষঝিল্লি",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_7",
+              "kind": "slide",
+              "title": "Lecture Slide: প্রোটোপ্লাজম ও কোষঝিল্লি",
+              "source": "batch",
+              "url": "#",
+              "pages": 36,
+              "status": "new"
+            },
+            {
+              "id": "v_8",
+              "kind": "video",
+              "title": "সাইটোপ্লাজম ও কোষীয় অঙ্গাণু: মাইটোকন্ড্রিয়া ও প্লাস্টিড",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 5410,
+              "publishedAt": "2025-09-09T18:05:29+06:00",
+              "status": "new",
+              "youtubeId": "7NE4qMG-4v8"
+            },
+            {
+              "id": "e_9",
+              "kind": "exam",
+              "title": "Daily Exam: সাইটোপ্লাজম ও কোষীয় অঙ্গাণু: মাইটোকন্ড্রিয়া ও প্লাস্টিড",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_10",
+              "kind": "slide",
+              "title": "Lecture Slide: সাইটোপ্লাজম ও কোষীয় অঙ্গাণু: মাইটোকন্ড্রিয়া ও প্লাস্টিড",
+              "source": "batch",
+              "url": "#",
+              "pages": 48,
+              "status": "new"
+            },
+            {
+              "id": "v_11",
+              "kind": "video",
+              "title": "রাইবোসোম, গলজি বস্তু, এন্ডোপ্লাজমিক রেটিকুলাম ও লাইসোসোম",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4980,
+              "publishedAt": "2025-09-12T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_12",
+              "kind": "exam",
+              "title": "Daily Exam: রাইবোসোম, গলজি বস্তু, এন্ডোপ্লাজমিক রেটিকুলাম ও লাইসোসোম",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_13",
+              "kind": "slide",
+              "title": "Lecture Slide: রাইবোসোম, গলজি বস্তু, এন্ডোপ্লাজমিক রেটিকুলাম ও লাইসোসোম",
+              "source": "batch",
+              "url": "#",
+              "pages": 38,
+              "status": "new"
+            },
+            {
+              "id": "v_14",
+              "kind": "video",
+              "title": "নিউক্লিয়াস ও ক্রোমোসোম",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4710,
+              "publishedAt": "2025-09-16T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_15",
+              "kind": "exam",
+              "title": "Daily Exam: নিউক্লিয়াস ও ক্রোমোসোম",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_16",
+              "kind": "slide",
+              "title": "Lecture Slide: নিউক্লিয়াস ও ক্রোমোসোম",
+              "source": "batch",
+              "url": "#",
+              "pages": 30,
+              "status": "new"
+            },
+            {
+              "id": "v_17",
+              "kind": "video",
+              "title": "DNA, RNA ও জেনেটিক কোড",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 5620,
+              "publishedAt": "2025-09-19T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_18",
+              "kind": "exam",
+              "title": "Daily Exam: DNA, RNA ও জেনেটিক কোড",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_19",
+              "kind": "slide",
+              "title": "Lecture Slide: DNA, RNA ও জেনেটিক কোড",
+              "source": "batch",
+              "url": "#",
+              "pages": 44,
+              "status": "new"
+            },
+            {
+              "id": "x_20",
+              "kind": "sheet",
+              "title": "অধ্যায় ১ এর গুরুত্বপূর্ণ সৃজনশীল প্রশ্ন (সমাধানসহ)",
+              "source": "batch",
+              "url": "#",
+              "pages": 18,
+              "status": "new"
+            },
+            {
+              "id": "x_21",
+              "kind": "exam",
+              "title": "Chapter Final: কোষ ও এর গঠন",
+              "source": "batch",
+              "url": "#",
+              "questions": 50,
+              "status": "new"
+            },
+            {
+              "id": "v_22",
+              "kind": "video",
+              "title": "কোষ ও কোষ তত্ত্ব (আর্কাইভ)",
+              "source": "archive",
+              "url": "#",
+              "durationSec": 4800,
+              "publishedAt": "2025-01-10T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "v_23",
+              "kind": "video",
+              "title": "কোষ প্রাচীর ও প্রোটোপ্লাজম",
+              "source": "archive",
+              "url": "#",
+              "durationSec": 5100,
+              "publishedAt": "2025-01-14T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_24",
+              "kind": "exam",
+              "title": "Daily Exam: কোষ প্রাচীর ও প্রোটোপ্লাজম",
+              "source": "archive",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "v_25",
+              "kind": "video",
+              "title": "কোষীয় অঙ্গাণু (১ম অংশ)",
+              "source": "archive",
+              "url": "#",
+              "durationSec": 4500,
+              "publishedAt": "2025-01-17T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "v_26",
+              "kind": "video",
+              "title": "কোষীয় অঙ্গাণু (২য় অংশ)",
+              "source": "archive",
+              "url": "#",
+              "durationSec": 4620,
+              "publishedAt": "2025-01-21T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "v_27",
+              "kind": "video",
+              "title": "নিউক্লিয়াস, DNA ও RNA",
+              "source": "archive",
+              "url": "#",
+              "durationSec": 5300,
+              "publishedAt": "2025-01-24T18:05:29+06:00",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "id": "ch_2",
+          "number": 2,
+          "title": "কোষ বিভাজন",
+          "items": [
+            {
+              "id": "sh_28",
+              "kind": "sheet",
+              "title": "Lecture Sheet: অধ্যায় ২: কোষ বিভাজন",
+              "source": "batch",
+              "url": "#",
+              "pages": 72,
+              "status": "new"
+            },
+            {
+              "id": "v_29",
+              "kind": "video",
+              "title": "কোষ চক্র ও অ্যামাইটোসিস",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4400,
+              "publishedAt": "2025-09-23T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_30",
+              "kind": "exam",
+              "title": "Daily Exam: কোষ চক্র ও অ্যামাইটোসিস",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new",
+              "classId": "v_29"
+            },
+            {
+              "id": "s_31",
+              "kind": "slide",
+              "title": "Lecture Slide: কোষ চক্র ও অ্যামাইটোসিস",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new",
+              "classId": "v_29"
+            },
+            {
+              "id": "v_32",
+              "kind": "video",
+              "title": "মাইটোসিস",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 5000,
+              "publishedAt": "2025-09-26T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_33",
+              "kind": "exam",
+              "title": "Daily Exam: মাইটোসিস",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new",
+              "classId": "v_32"
+            },
+            {
+              "id": "s_34",
+              "kind": "slide",
+              "title": "Lecture Slide: মাইটোসিস",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new",
+              "classId": "v_32"
+            },
+            {
+              "id": "v_35",
+              "kind": "video",
+              "title": "মিয়োসিস ও ক্রসিং ওভার",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 5500,
+              "publishedAt": "2025-09-30T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_36",
+              "kind": "exam",
+              "title": "Daily Exam: মিয়োসিস ও ক্রসিং ওভার",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new",
+              "classId": "v_35"
+            },
+            {
+              "id": "s_37",
+              "kind": "slide",
+              "title": "Lecture Slide: মিয়োসিস ও ক্রসিং ওভার",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new",
+              "classId": "v_35"
+            },
+            {
+              "id": "v_38",
+              "kind": "video",
+              "title": "কোষ বিভাজন: পুরো অধ্যায় রিভিশন",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 3600,
+              "publishedAt": "2025-10-03T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_39",
+              "kind": "exam",
+              "title": "Daily Exam: কোষ বিভাজন: পুরো অধ্যায় রিভিশন",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new",
+              "classId": "v_38"
+            },
+            {
+              "id": "v_40",
+              "kind": "video",
+              "title": "কোষ বিভাজন (আর্কাইভ)",
+              "source": "archive",
+              "url": "#",
+              "durationSec": 5200,
+              "publishedAt": "2025-01-28T18:05:29+06:00",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "id": "ch_3",
+          "number": 3,
+          "title": "কোষ রসায়ন",
+          "items": [
+            {
+              "id": "sh_41",
+              "kind": "sheet",
+              "title": "Lecture Sheet: অধ্যায় ৩: কোষ রসায়ন",
+              "source": "batch",
+              "url": "#",
+              "pages": 96,
+              "status": "new"
+            },
+            {
+              "id": "v_42",
+              "kind": "video",
+              "title": "কার্বোহাইড্রেট",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4900,
+              "publishedAt": "2025-10-07T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_43",
+              "kind": "exam",
+              "title": "Daily Exam: কার্বোহাইড্রেট",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_44",
+              "kind": "slide",
+              "title": "Lecture Slide: কার্বোহাইড্রেট",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_45",
+              "kind": "video",
+              "title": "অ্যামাইনো এসিড ও প্রোটিন",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 5100,
+              "publishedAt": "2025-10-10T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_46",
+              "kind": "exam",
+              "title": "Daily Exam: অ্যামাইনো এসিড ও প্রোটিন",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_47",
+              "kind": "slide",
+              "title": "Lecture Slide: অ্যামাইনো এসিড ও প্রোটিন",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_48",
+              "kind": "video",
+              "title": "লিপিড ও নিউক্লিক এসিড",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4700,
+              "publishedAt": "2025-10-14T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_49",
+              "kind": "exam",
+              "title": "Daily Exam: লিপিড ও নিউক্লিক এসিড",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_50",
+              "kind": "slide",
+              "title": "Lecture Slide: লিপিড ও নিউক্লিক এসিড",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_51",
+              "kind": "video",
+              "title": "এনজাইম",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 5300,
+              "publishedAt": "2025-10-17T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_52",
+              "kind": "exam",
+              "title": "Daily Exam: এনজাইম",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_53",
+              "kind": "slide",
+              "title": "Lecture Slide: এনজাইম",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "va_1",
+              "kind": "video",
+              "title": "ভিটামিন ও খনিজ লবণ",
+              "durationSec": 4380,
+              "publishedAt": "2025-02-04T18:05:29+06:00",
+              "source": "archive",
+              "url": "#",
+              "status": "new"
+            },
+            {
+              "id": "sa_1",
+              "kind": "slide",
+              "title": "Lecture Slide: ভিটামিন ও খনিজ লবণ",
+              "pages": 34,
+              "source": "archive",
+              "url": "#",
+              "status": "new"
+            },
+            {
+              "id": "ea_1",
+              "kind": "exam",
+              "title": "Daily Exam: ভিটামিন ও খনিজ লবণ",
+              "questions": 20,
+              "source": "archive",
+              "url": "#",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "id": "ch_5",
+          "number": 5,
+          "title": "শৈবাল ও ছত্রাক",
+          "items": [
+            {
+              "id": "sh_54",
+              "kind": "sheet",
+              "title": "Lecture Sheet: অধ্যায় ৫: শৈবাল ও ছত্রাক",
+              "source": "batch",
+              "url": "#",
+              "pages": 58,
+              "status": "new"
+            },
+            {
+              "id": "v_55",
+              "kind": "video",
+              "title": "শৈবাল: Ulothrix",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4200,
+              "publishedAt": "2025-10-24T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_56",
+              "kind": "exam",
+              "title": "Daily Exam: শৈবাল: Ulothrix",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_57",
+              "kind": "slide",
+              "title": "Lecture Slide: শৈবাল: Ulothrix",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "id": "ch_4",
+          "number": 4,
+          "title": "অণুজীব",
+          "items": [
+            {
+              "id": "sh_58",
+              "kind": "sheet",
+              "title": "Lecture Sheet: অধ্যায় ৪: অণুজীব",
+              "source": "batch",
+              "url": "#",
+              "pages": 80,
+              "status": "new"
+            },
+            {
+              "id": "v_59",
+              "kind": "video",
+              "title": "ভাইরাস",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 5000,
+              "publishedAt": "2025-10-21T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_60",
+              "kind": "exam",
+              "title": "Daily Exam: ভাইরাস",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_61",
+              "kind": "slide",
+              "title": "Lecture Slide: ভাইরাস",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            },
+            {
+              "id": "v_62",
+              "kind": "video",
+              "title": "ব্যাকটেরিয়া ও ম্যালেরিয়া পরজীবী",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 5400,
+              "publishedAt": "2025-10-23T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "e_63",
+              "kind": "exam",
+              "title": "Daily Exam: ব্যাকটেরিয়া ও ম্যালেরিয়া পরজীবী",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "s_64",
+              "kind": "slide",
+              "title": "Lecture Slide: ব্যাকটেরিয়া ও ম্যালেরিয়া পরজীবী",
+              "source": "batch",
+              "url": "#",
+              "pages": 40,
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "id": "ch_6",
+          "number": 6,
+          "title": "ব্রায়োফাইটা ও টেরিডোফাইটা",
+          "items": [
+            {
+              "id": "va_2",
+              "kind": "video",
+              "title": "ব্রায়োফাইটা: রিকসিয়ার গঠন ও জনুক্রম",
+              "durationSec": 4920,
+              "publishedAt": "2025-03-02T18:05:29+06:00",
+              "source": "archive",
+              "url": "#",
+              "status": "new"
+            },
+            {
+              "id": "sa_2",
+              "kind": "slide",
+              "title": "Lecture Slide: ব্রায়োফাইটা: রিকসিয়ার গঠন ও জনুক্রম",
+              "pages": 40,
+              "source": "archive",
+              "url": "#",
+              "status": "new"
+            },
+            {
+              "id": "ea_2",
+              "kind": "exam",
+              "title": "Daily Exam: ব্রায়োফাইটা: রিকসিয়ার গঠন ও জনুক্রম",
+              "questions": 20,
+              "source": "archive",
+              "url": "#",
+              "status": "new"
+            },
+            {
+              "id": "va_3",
+              "kind": "video",
+              "title": "টেরিডোফাইটা: টেরিসের বৈশিষ্ট্য",
+              "durationSec": 4560,
+              "publishedAt": "2025-03-06T18:05:29+06:00",
+              "source": "archive",
+              "url": "#",
+              "status": "new"
+            },
+            {
+              "id": "sa_3",
+              "kind": "slide",
+              "title": "Lecture Slide: টেরিডোফাইটা: টেরিসের বৈশিষ্ট্য",
+              "pages": 36,
+              "source": "archive",
+              "url": "#",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "id": "ch_7",
+          "number": 7,
+          "title": "নগ্নবীজী ও আবৃতবীজী উদ্ভিদ",
+          "items": []
+        },
+        {
+          "id": "ch_8",
+          "number": 8,
+          "title": "টিস্যু ও টিস্যুতন্ত্র",
+          "items": []
+        },
+        {
+          "id": "ch_9",
+          "number": 9,
+          "title": "উদ্ভিদ শারীরতত্ত্ব",
+          "items": []
+        },
+        {
+          "id": "ch_10",
+          "number": 10,
+          "title": "উদ্ভিদ প্রজনন",
+          "items": []
+        },
+        {
+          "id": "ch_11",
+          "number": 11,
+          "title": "জীবপ্রযুক্তি",
+          "items": []
+        },
+        {
+          "id": "ch_12",
+          "number": 12,
+          "title": "জীবের পরিবেশ, বিস্তার ও সংরক্ষণ",
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "sub_ph1",
+      "title": "পদার্থবিজ্ঞান ১ম পত্র",
+      "course": "HSC 27 Online Batch - Physics",
+      "archiveCourse": "HSC 26 Archive Class - Physics",
+      "chapters": [
+        {
+          "id": "ph1_c1",
+          "number": 1,
+          "title": "ভৌতজগৎ ও পরিমাপ",
+          "items": [
+            {
+              "id": "ph1_sh_1",
+              "kind": "sheet",
+              "title": "Lecture Sheet: অধ্যায় ১: ভৌতজগৎ ও পরিমাপ",
+              "source": "batch",
+              "url": "#",
+              "pages": 72,
+              "status": "done"
+            },
+            {
+              "id": "ph1_v_1_1",
+              "kind": "video",
+              "title": "পদার্থবিজ্ঞানের পরিসর ও মৌলিক রাশি",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 5100,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "done"
+            },
+            {
+              "id": "ph1_e_1_1",
+              "kind": "exam",
+              "title": "Daily Exam: পদার্থবিজ্ঞানের পরিসর ও মৌলিক রাশি",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "done",
+              "score": {
+                "got": 16,
+                "total": 20
+              }
+            },
+            {
+              "id": "ph1_s_1_1",
+              "kind": "slide",
+              "title": "Lecture Slide: পদার্থবিজ্ঞানের পরিসর ও মৌলিক রাশি",
+              "source": "batch",
+              "url": "#",
+              "pages": 34,
+              "status": "done"
+            },
+            {
+              "id": "ph1_v_1_2",
+              "kind": "video",
+              "title": "একক ও মাত্রা, মাত্রা বিশ্লেষণ",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4620,
+              "publishedAt": "2025-09-05T18:05:29+06:00",
+              "status": "started",
+              "watchedSec": 1500
+            },
+            {
+              "id": "ph1_e_1_2",
+              "kind": "exam",
+              "title": "Daily Exam: একক ও মাত্রা, মাত্রা বিশ্লেষণ",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "ph1_s_1_2",
+              "kind": "slide",
+              "title": "Lecture Slide: একক ও মাত্রা, মাত্রা বিশ্লেষণ",
+              "source": "batch",
+              "url": "#",
+              "pages": 38,
+              "status": "new"
+            },
+            {
+              "id": "ph1_v_1_3",
+              "kind": "video",
+              "title": "পরিমাপের ত্রুটি ও তাৎপর্যপূর্ণ অঙ্ক",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4980,
+              "publishedAt": "2025-09-08T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "ph1_e_1_3",
+              "kind": "exam",
+              "title": "Daily Exam: পরিমাপের ত্রুটি ও তাৎপর্যপূর্ণ অঙ্ক",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "ph1_s_1_3",
+              "kind": "slide",
+              "title": "Lecture Slide: পরিমাপের ত্রুটি ও তাৎপর্যপূর্ণ অঙ্ক",
+              "source": "batch",
+              "url": "#",
+              "pages": 42,
+              "status": "new"
+            },
+            {
+              "id": "ph1_a_1",
+              "kind": "video",
+              "title": "ভৌতজগৎ ও পরিমাপ (আর্কাইভ)",
+              "source": "archive",
+              "url": "#",
+              "durationSec": 4800,
+              "publishedAt": "2025-01-13T18:05:29+06:00",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "id": "ph1_c2",
+          "number": 2,
+          "title": "ভেক্টর",
+          "items": [
+            {
+              "id": "ph1_sh_2",
+              "kind": "sheet",
+              "title": "Lecture Sheet: অধ্যায় ২: ভেক্টর",
+              "source": "batch",
+              "url": "#",
+              "pages": 84,
+              "status": "new"
+            },
+            {
+              "id": "ph1_v_2_1",
+              "kind": "video",
+              "title": "স্কেলার ও ভেক্টর রাশি, ভেক্টরের যোগ",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 5100,
+              "publishedAt": "2025-09-11T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "ph1_e_2_1",
+              "kind": "exam",
+              "title": "Daily Exam: স্কেলার ও ভেক্টর রাশি, ভেক্টরের যোগ",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "ph1_s_2_1",
+              "kind": "slide",
+              "title": "Lecture Slide: স্কেলার ও ভেক্টর রাশি, ভেক্টরের যোগ",
+              "source": "batch",
+              "url": "#",
+              "pages": 34,
+              "status": "new"
+            },
+            {
+              "id": "ph1_v_2_2",
+              "kind": "video",
+              "title": "ভেক্টরের বিভাজন ও একক ভেক্টর",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4620,
+              "publishedAt": "2025-09-14T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "ph1_e_2_2",
+              "kind": "exam",
+              "title": "Daily Exam: ভেক্টরের বিভাজন ও একক ভেক্টর",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "ph1_s_2_2",
+              "kind": "slide",
+              "title": "Lecture Slide: ভেক্টরের বিভাজন ও একক ভেক্টর",
+              "source": "batch",
+              "url": "#",
+              "pages": 38,
+              "status": "new"
+            },
+            {
+              "id": "ph1_v_2_3",
+              "kind": "video",
+              "title": "ডট গুণন ও ক্রস গুণন",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4980,
+              "publishedAt": "2025-09-17T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "ph1_e_2_3",
+              "kind": "exam",
+              "title": "Daily Exam: ডট গুণন ও ক্রস গুণন",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "ph1_s_2_3",
+              "kind": "slide",
+              "title": "Lecture Slide: ডট গুণন ও ক্রস গুণন",
+              "source": "batch",
+              "url": "#",
+              "pages": 42,
+              "status": "new"
+            },
+            {
+              "id": "ph1_a_2",
+              "kind": "video",
+              "title": "ভেক্টর (আর্কাইভ)",
+              "source": "archive",
+              "url": "#",
+              "durationSec": 4800,
+              "publishedAt": "2025-01-13T18:05:29+06:00",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "id": "ph1_c3",
+          "number": 3,
+          "title": "গতিবিদ্যা",
+          "items": []
+        },
+        {
+          "id": "ph1_c4",
+          "number": 4,
+          "title": "নিউটনিয়ান বলবিদ্যা",
+          "items": []
+        },
+        {
+          "id": "ph1_c5",
+          "number": 5,
+          "title": "কাজ, শক্তি ও ক্ষমতা",
+          "items": []
+        },
+        {
+          "id": "ph1_c6",
+          "number": 6,
+          "title": "মহাকর্ষ ও অভিকর্ষ",
+          "items": []
+        },
+        {
+          "id": "ph1_c7",
+          "number": 7,
+          "title": "পদার্থের গাঠনিক ধর্ম",
+          "items": []
+        },
+        {
+          "id": "ph1_c8",
+          "number": 8,
+          "title": "পর্যাবৃত্ত গতি",
+          "items": []
+        },
+        {
+          "id": "ph1_c9",
+          "number": 9,
+          "title": "তরঙ্গ",
+          "items": []
+        },
+        {
+          "id": "ph1_c10",
+          "number": 10,
+          "title": "আদর্শ গ্যাস ও গ্যাসের গতিতত্ত্ব",
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "sub_ch1",
+      "title": "রসায়ন ১ম পত্র",
+      "course": "HSC 27 Online Batch - Chemistry",
+      "archiveCourse": "HSC 26 Archive Class - Chemistry",
+      "chapters": [
+        {
+          "id": "ch1_c1",
+          "number": 1,
+          "title": "ল্যাবরেটরির নিরাপদ ব্যবহার",
+          "items": [
+            {
+              "id": "ch1_sh_1",
+              "kind": "sheet",
+              "title": "Lecture Sheet: অধ্যায় ১: ল্যাবরেটরির নিরাপদ ব্যবহার",
+              "source": "batch",
+              "url": "#",
+              "pages": 72,
+              "status": "done"
+            },
+            {
+              "id": "ch1_v_1_1",
+              "kind": "video",
+              "title": "রসায়নে অনুসন্ধান বা গবেষণা প্রক্রিয়া",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 5100,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "done"
+            },
+            {
+              "id": "ch1_e_1_1",
+              "kind": "exam",
+              "title": "Daily Exam: রসায়নে অনুসন্ধান বা গবেষণা প্রক্রিয়া",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "done",
+              "score": {
+                "got": 16,
+                "total": 20
+              }
+            },
+            {
+              "id": "ch1_s_1_1",
+              "kind": "slide",
+              "title": "Lecture Slide: রসায়নে অনুসন্ধান বা গবেষণা প্রক্রিয়া",
+              "source": "batch",
+              "url": "#",
+              "pages": 34,
+              "status": "done"
+            },
+            {
+              "id": "ch1_v_1_2",
+              "kind": "video",
+              "title": "রসায়নে পরীক্ষাগার ব্যবহার ও নিরাপত্তা",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4620,
+              "publishedAt": "2025-09-05T18:05:29+06:00",
+              "status": "started",
+              "watchedSec": 1500
+            },
+            {
+              "id": "ch1_e_1_2",
+              "kind": "exam",
+              "title": "Daily Exam: রসায়নে পরীক্ষাগার ব্যবহার ও নিরাপত্তা",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "ch1_s_1_2",
+              "kind": "slide",
+              "title": "Lecture Slide: রসায়নে পরীক্ষাগার ব্যবহার ও নিরাপত্তা",
+              "source": "batch",
+              "url": "#",
+              "pages": 38,
+              "status": "new"
+            },
+            {
+              "id": "ch1_v_1_3",
+              "kind": "video",
+              "title": "কাচের যন্ত্রপাতি ও পরিমাপ",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4980,
+              "publishedAt": "2025-09-08T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "ch1_e_1_3",
+              "kind": "exam",
+              "title": "Daily Exam: কাচের যন্ত্রপাতি ও পরিমাপ",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "ch1_s_1_3",
+              "kind": "slide",
+              "title": "Lecture Slide: কাচের যন্ত্রপাতি ও পরিমাপ",
+              "source": "batch",
+              "url": "#",
+              "pages": 42,
+              "status": "new"
+            },
+            {
+              "id": "ch1_a_1",
+              "kind": "video",
+              "title": "ল্যাবরেটরির নিরাপদ ব্যবহার (আর্কাইভ)",
+              "source": "archive",
+              "url": "#",
+              "durationSec": 4800,
+              "publishedAt": "2025-01-13T18:05:29+06:00",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "id": "ch1_c2",
+          "number": 2,
+          "title": "গুণগত রসায়ন",
+          "items": [
+            {
+              "id": "ch1_sh_2",
+              "kind": "sheet",
+              "title": "Lecture Sheet: অধ্যায় ২: গুণগত রসায়ন",
+              "source": "batch",
+              "url": "#",
+              "pages": 84,
+              "status": "new"
+            },
+            {
+              "id": "ch1_v_2_1",
+              "kind": "video",
+              "title": "পরমাণু মডেল: রাদারফোর্ড ও বোর",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 5100,
+              "publishedAt": "2025-09-11T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "ch1_e_2_1",
+              "kind": "exam",
+              "title": "Daily Exam: পরমাণু মডেল: রাদারফোর্ড ও বোর",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "ch1_s_2_1",
+              "kind": "slide",
+              "title": "Lecture Slide: পরমাণু মডেল: রাদারফোর্ড ও বোর",
+              "source": "batch",
+              "url": "#",
+              "pages": 34,
+              "status": "new"
+            },
+            {
+              "id": "ch1_v_2_2",
+              "kind": "video",
+              "title": "কোয়ান্টাম সংখ্যা ও অরবিটাল",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4620,
+              "publishedAt": "2025-09-14T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "ch1_e_2_2",
+              "kind": "exam",
+              "title": "Daily Exam: কোয়ান্টাম সংখ্যা ও অরবিটাল",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "ch1_s_2_2",
+              "kind": "slide",
+              "title": "Lecture Slide: কোয়ান্টাম সংখ্যা ও অরবিটাল",
+              "source": "batch",
+              "url": "#",
+              "pages": 38,
+              "status": "new"
+            },
+            {
+              "id": "ch1_v_2_3",
+              "kind": "video",
+              "title": "ইলেকট্রন বিন্যাস ও আউফবাউ নীতি",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4980,
+              "publishedAt": "2025-09-17T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "ch1_e_2_3",
+              "kind": "exam",
+              "title": "Daily Exam: ইলেকট্রন বিন্যাস ও আউফবাউ নীতি",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "ch1_s_2_3",
+              "kind": "slide",
+              "title": "Lecture Slide: ইলেকট্রন বিন্যাস ও আউফবাউ নীতি",
+              "source": "batch",
+              "url": "#",
+              "pages": 42,
+              "status": "new"
+            },
+            {
+              "id": "ch1_a_2",
+              "kind": "video",
+              "title": "গুণগত রসায়ন (আর্কাইভ)",
+              "source": "archive",
+              "url": "#",
+              "durationSec": 4800,
+              "publishedAt": "2025-01-13T18:05:29+06:00",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "id": "ch1_c3",
+          "number": 3,
+          "title": "মৌলের পর্যায়বৃত্ত ধর্ম ও রাসায়নিক বন্ধন",
+          "items": []
+        },
+        {
+          "id": "ch1_c4",
+          "number": 4,
+          "title": "রাসায়নিক পরিবর্তন",
+          "items": []
+        },
+        {
+          "id": "ch1_c5",
+          "number": 5,
+          "title": "কর্মমুখী রসায়ন",
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "sub_hm1",
+      "title": "উচ্চতর গণিত ১ম পত্র",
+      "course": "HSC 27 Online Batch - Higher Math",
+      "archiveCourse": "HSC 26 Archive Class - Higher Math",
+      "chapters": [
+        {
+          "id": "hm1_c1",
+          "number": 1,
+          "title": "ম্যাট্রিক্স ও নির্ণায়ক",
+          "items": [
+            {
+              "id": "hm1_sh_1",
+              "kind": "sheet",
+              "title": "Lecture Sheet: অধ্যায় ১: ম্যাট্রিক্স ও নির্ণায়ক",
+              "source": "batch",
+              "url": "#",
+              "pages": 72,
+              "status": "done"
+            },
+            {
+              "id": "hm1_v_1_1",
+              "kind": "video",
+              "title": "ম্যাট্রিক্সের প্রকারভেদ ও যোগ-বিয়োগ",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 5100,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "done"
+            },
+            {
+              "id": "hm1_e_1_1",
+              "kind": "exam",
+              "title": "Daily Exam: ম্যাট্রিক্সের প্রকারভেদ ও যোগ-বিয়োগ",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "done",
+              "score": {
+                "got": 16,
+                "total": 20
+              }
+            },
+            {
+              "id": "hm1_s_1_1",
+              "kind": "slide",
+              "title": "Lecture Slide: ম্যাট্রিক্সের প্রকারভেদ ও যোগ-বিয়োগ",
+              "source": "batch",
+              "url": "#",
+              "pages": 34,
+              "status": "done"
+            },
+            {
+              "id": "hm1_v_1_2",
+              "kind": "video",
+              "title": "ম্যাট্রিক্সের গুণন",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4620,
+              "publishedAt": "2025-09-05T18:05:29+06:00",
+              "status": "started",
+              "watchedSec": 1500
+            },
+            {
+              "id": "hm1_e_1_2",
+              "kind": "exam",
+              "title": "Daily Exam: ম্যাট্রিক্সের গুণন",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "hm1_s_1_2",
+              "kind": "slide",
+              "title": "Lecture Slide: ম্যাট্রিক্সের গুণন",
+              "source": "batch",
+              "url": "#",
+              "pages": 38,
+              "status": "new"
+            },
+            {
+              "id": "hm1_v_1_3",
+              "kind": "video",
+              "title": "নির্ণায়ক ও বিপরীত ম্যাট্রিক্স",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4980,
+              "publishedAt": "2025-09-08T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "hm1_e_1_3",
+              "kind": "exam",
+              "title": "Daily Exam: নির্ণায়ক ও বিপরীত ম্যাট্রিক্স",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "hm1_s_1_3",
+              "kind": "slide",
+              "title": "Lecture Slide: নির্ণায়ক ও বিপরীত ম্যাট্রিক্স",
+              "source": "batch",
+              "url": "#",
+              "pages": 42,
+              "status": "new"
+            },
+            {
+              "id": "hm1_a_1",
+              "kind": "video",
+              "title": "ম্যাট্রিক্স ও নির্ণায়ক (আর্কাইভ)",
+              "source": "archive",
+              "url": "#",
+              "durationSec": 4800,
+              "publishedAt": "2025-01-13T18:05:29+06:00",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "id": "hm1_c2",
+          "number": 2,
+          "title": "ভেক্টর",
+          "items": [
+            {
+              "id": "hm1_sh_2",
+              "kind": "sheet",
+              "title": "Lecture Sheet: অধ্যায় ২: ভেক্টর",
+              "source": "batch",
+              "url": "#",
+              "pages": 84,
+              "status": "new"
+            },
+            {
+              "id": "hm1_v_2_1",
+              "kind": "video",
+              "title": "ভেক্টরের ধারণা ও যোগ",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 5100,
+              "publishedAt": "2025-09-11T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "hm1_e_2_1",
+              "kind": "exam",
+              "title": "Daily Exam: ভেক্টরের ধারণা ও যোগ",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "hm1_s_2_1",
+              "kind": "slide",
+              "title": "Lecture Slide: ভেক্টরের ধারণা ও যোগ",
+              "source": "batch",
+              "url": "#",
+              "pages": 34,
+              "status": "new"
+            },
+            {
+              "id": "hm1_v_2_2",
+              "kind": "video",
+              "title": "অবস্থান ভেক্টর ও বিভাজন সূত্র",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4620,
+              "publishedAt": "2025-09-14T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "hm1_e_2_2",
+              "kind": "exam",
+              "title": "Daily Exam: অবস্থান ভেক্টর ও বিভাজন সূত্র",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "hm1_s_2_2",
+              "kind": "slide",
+              "title": "Lecture Slide: অবস্থান ভেক্টর ও বিভাজন সূত্র",
+              "source": "batch",
+              "url": "#",
+              "pages": 38,
+              "status": "new"
+            },
+            {
+              "id": "hm1_v_2_3",
+              "kind": "video",
+              "title": "স্কেলার ও ভেক্টর গুণন",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4980,
+              "publishedAt": "2025-09-17T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "hm1_e_2_3",
+              "kind": "exam",
+              "title": "Daily Exam: স্কেলার ও ভেক্টর গুণন",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "hm1_s_2_3",
+              "kind": "slide",
+              "title": "Lecture Slide: স্কেলার ও ভেক্টর গুণন",
+              "source": "batch",
+              "url": "#",
+              "pages": 42,
+              "status": "new"
+            },
+            {
+              "id": "hm1_a_2",
+              "kind": "video",
+              "title": "ভেক্টর (আর্কাইভ)",
+              "source": "archive",
+              "url": "#",
+              "durationSec": 4800,
+              "publishedAt": "2025-01-13T18:05:29+06:00",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "id": "hm1_c3",
+          "number": 3,
+          "title": "সরলরেখা",
+          "items": []
+        },
+        {
+          "id": "hm1_c4",
+          "number": 4,
+          "title": "বৃত্ত",
+          "items": []
+        },
+        {
+          "id": "hm1_c5",
+          "number": 5,
+          "title": "বিন্যাস ও সমাবেশ",
+          "items": []
+        },
+        {
+          "id": "hm1_c6",
+          "number": 6,
+          "title": "ত্রিকোণমিতিক অনুপাত",
+          "items": []
+        },
+        {
+          "id": "hm1_c7",
+          "number": 7,
+          "title": "সংযুক্ত কোণের ত্রিকোণমিতিক অনুপাত",
+          "items": []
+        },
+        {
+          "id": "hm1_c8",
+          "number": 8,
+          "title": "ফাংশন ও ফাংশনের লেখচিত্র",
+          "items": []
+        },
+        {
+          "id": "hm1_c9",
+          "number": 9,
+          "title": "অন্তরীকরণ",
+          "items": []
+        },
+        {
+          "id": "hm1_c10",
+          "number": 10,
+          "title": "যোগজীকরণ",
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "sub_bio2",
+      "title": "জীববিজ্ঞান ২য় পত্র",
+      "course": "HSC 27 Online Batch - Biology",
+      "archiveCourse": "HSC 26 Archive Class - Biology",
+      "chapters": [
+        {
+          "id": "bio2_c1",
+          "number": 1,
+          "title": "প্রাণীর বিভিন্নতা ও শ্রেণিবিন্যাস",
+          "items": [
+            {
+              "id": "bio2_sh_1",
+              "kind": "sheet",
+              "title": "Lecture Sheet: অধ্যায় ১: প্রাণীর বিভিন্নতা ও শ্রেণিবিন্যাস",
+              "source": "batch",
+              "url": "#",
+              "pages": 72,
+              "status": "done"
+            },
+            {
+              "id": "bio2_v_1_1",
+              "kind": "video",
+              "title": "শ্রেণিবিন্যাসের নীতি ও ভিত্তি",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 5100,
+              "publishedAt": "2025-09-02T18:05:29+06:00",
+              "status": "done"
+            },
+            {
+              "id": "bio2_e_1_1",
+              "kind": "exam",
+              "title": "Daily Exam: শ্রেণিবিন্যাসের নীতি ও ভিত্তি",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "done",
+              "score": {
+                "got": 16,
+                "total": 20
+              }
+            },
+            {
+              "id": "bio2_s_1_1",
+              "kind": "slide",
+              "title": "Lecture Slide: শ্রেণিবিন্যাসের নীতি ও ভিত্তি",
+              "source": "batch",
+              "url": "#",
+              "pages": 34,
+              "status": "done"
+            },
+            {
+              "id": "bio2_v_1_2",
+              "kind": "video",
+              "title": "অমেরুদণ্ডী প্রাণীর পর্বসমূহ",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4620,
+              "publishedAt": "2025-09-05T18:05:29+06:00",
+              "status": "started",
+              "watchedSec": 1500
+            },
+            {
+              "id": "bio2_e_1_2",
+              "kind": "exam",
+              "title": "Daily Exam: অমেরুদণ্ডী প্রাণীর পর্বসমূহ",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "bio2_s_1_2",
+              "kind": "slide",
+              "title": "Lecture Slide: অমেরুদণ্ডী প্রাণীর পর্বসমূহ",
+              "source": "batch",
+              "url": "#",
+              "pages": 38,
+              "status": "new"
+            },
+            {
+              "id": "bio2_v_1_3",
+              "kind": "video",
+              "title": "কর্ডাটা পর্ব ও এর শ্রেণিসমূহ",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4980,
+              "publishedAt": "2025-09-08T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "bio2_e_1_3",
+              "kind": "exam",
+              "title": "Daily Exam: কর্ডাটা পর্ব ও এর শ্রেণিসমূহ",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "bio2_s_1_3",
+              "kind": "slide",
+              "title": "Lecture Slide: কর্ডাটা পর্ব ও এর শ্রেণিসমূহ",
+              "source": "batch",
+              "url": "#",
+              "pages": 42,
+              "status": "new"
+            },
+            {
+              "id": "bio2_a_1",
+              "kind": "video",
+              "title": "প্রাণীর বিভিন্নতা ও শ্রেণিবিন্যাস (আর্কাইভ)",
+              "source": "archive",
+              "url": "#",
+              "durationSec": 4800,
+              "publishedAt": "2025-01-13T18:05:29+06:00",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "id": "bio2_c2",
+          "number": 2,
+          "title": "প্রাণীর পরিচিতি",
+          "items": [
+            {
+              "id": "bio2_sh_2",
+              "kind": "sheet",
+              "title": "Lecture Sheet: অধ্যায় ২: প্রাণীর পরিচিতি",
+              "source": "batch",
+              "url": "#",
+              "pages": 84,
+              "status": "new"
+            },
+            {
+              "id": "bio2_v_2_1",
+              "kind": "video",
+              "title": "হাইড্রা: গঠন ও পুষ্টি",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 5100,
+              "publishedAt": "2025-09-11T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "bio2_e_2_1",
+              "kind": "exam",
+              "title": "Daily Exam: হাইড্রা: গঠন ও পুষ্টি",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "bio2_s_2_1",
+              "kind": "slide",
+              "title": "Lecture Slide: হাইড্রা: গঠন ও পুষ্টি",
+              "source": "batch",
+              "url": "#",
+              "pages": 34,
+              "status": "new"
+            },
+            {
+              "id": "bio2_v_2_2",
+              "kind": "video",
+              "title": "ঘাসফড়িং: গঠন ও পরিপাকতন্ত্র",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4620,
+              "publishedAt": "2025-09-14T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "bio2_e_2_2",
+              "kind": "exam",
+              "title": "Daily Exam: ঘাসফড়িং: গঠন ও পরিপাকতন্ত্র",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "bio2_s_2_2",
+              "kind": "slide",
+              "title": "Lecture Slide: ঘাসফড়িং: গঠন ও পরিপাকতন্ত্র",
+              "source": "batch",
+              "url": "#",
+              "pages": 38,
+              "status": "new"
+            },
+            {
+              "id": "bio2_v_2_3",
+              "kind": "video",
+              "title": "রুই মাছ: বাহ্যিক গঠন ও শ্বসন",
+              "source": "batch",
+              "url": "#",
+              "durationSec": 4980,
+              "publishedAt": "2025-09-17T18:05:29+06:00",
+              "status": "new"
+            },
+            {
+              "id": "bio2_e_2_3",
+              "kind": "exam",
+              "title": "Daily Exam: রুই মাছ: বাহ্যিক গঠন ও শ্বসন",
+              "source": "batch",
+              "url": "#",
+              "questions": 20,
+              "status": "new"
+            },
+            {
+              "id": "bio2_s_2_3",
+              "kind": "slide",
+              "title": "Lecture Slide: রুই মাছ: বাহ্যিক গঠন ও শ্বসন",
+              "source": "batch",
+              "url": "#",
+              "pages": 42,
+              "status": "new"
+            },
+            {
+              "id": "bio2_a_2",
+              "kind": "video",
+              "title": "প্রাণীর পরিচিতি (আর্কাইভ)",
+              "source": "archive",
+              "url": "#",
+              "durationSec": 4800,
+              "publishedAt": "2025-01-13T18:05:29+06:00",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "id": "bio2_c3",
+          "number": 3,
+          "title": "মানব শারীরতত্ত্ব: পরিপাক ও শোষণ",
+          "items": []
+        },
+        {
+          "id": "bio2_c4",
+          "number": 4,
+          "title": "মানব শারীরতত্ত্ব: রক্ত ও সঞ্চালন",
+          "items": []
+        },
+        {
+          "id": "bio2_c5",
+          "number": 5,
+          "title": "মানব শারীরতত্ত্ব: শ্বসন ও শ্বাসক্রিয়া",
+          "items": []
+        },
+        {
+          "id": "bio2_c6",
+          "number": 6,
+          "title": "মানব শারীরতত্ত্ব: বর্জ্য ও নিষ্কাশন",
+          "items": []
+        },
+        {
+          "id": "bio2_c7",
+          "number": 7,
+          "title": "মানব শারীরতত্ত্ব: চলন ও অঙ্গচালনা",
+          "items": []
+        },
+        {
+          "id": "bio2_c8",
+          "number": 8,
+          "title": "মানব শারীরতত্ত্ব: সমন্বয় ও নিয়ন্ত্রণ",
+          "items": []
+        },
+        {
+          "id": "bio2_c9",
+          "number": 9,
+          "title": "মানব জীবনের ধারাবাহিকতা",
+          "items": []
+        },
+        {
+          "id": "bio2_c10",
+          "number": 10,
+          "title": "মানবদেহের প্রতিরক্ষা",
+          "items": []
+        },
+        {
+          "id": "bio2_c11",
+          "number": 11,
+          "title": "জিনতত্ত্ব ও বিবর্তন",
+          "items": []
+        },
+        {
+          "id": "bio2_c12",
+          "number": 12,
+          "title": "প্রাণীর আচরণ",
+          "items": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,425 @@
+/* ==========================================================================
+   Landing pages (app/(landing)): what only they use. Joined the design system's stylesheet
+   on 1 Nov 2026 (design-audit LP10); the roles, scales and theme come from the other files.
+   Their <body> carries `.landing`.
+   ========================================================================== */
+
+/* Inter's open digits (ss01) on the landing's text. */
+body.landing {
+  font-feature-settings: "ss01";
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* LP9: the landing's UI tints follow the mode: grey by default, each the grey of the same
+   lightness as its warm original; warm mode keeps the originals. Drawn objects (the kraft
+   folder, receipt and notepad paper, photo frames, the chalk tray) keep their own colours. */
+:root {
+  --tint-band: var(--gray-100); /* a full-width section band (the English centres) */
+  --tint-band-edge: var(--gray-200);
+  --tint-band-ink: var(--gray-600);
+  --tint-band-ink-soft: var(--gray-500);
+  --tint-band-rule: var(--gray-300);
+  --tint-band-dot: var(--gray-600);
+  --tint-well: var(--gray-50); /* behind an image shown whole (contain) */
+  --tint-photo: var(--gray-100); /* a photo frame before its picture loads */
+  --tint-edge: var(--gray-200); /* the top edge of a panel rising over the page */
+}
+[data-mode="warm"] {
+  --tint-band: #f3ebdc;
+  --tint-band-edge: #e4d8c2;
+  --tint-band-ink: #5f5644;
+  --tint-band-ink-soft: #8a7a5e;
+  --tint-band-rule: #d9cbb0;
+  --tint-band-dot: #6f6352;
+  --tint-well: #f7f1e6;
+  --tint-photo: #efe9db;
+  --tint-edge: #e2d9c6;
+}
+
+/* L6: each audience has its own colour. Pastel ground + deep ink of the same hue (AA), taken
+   from the live site's class backpacks (blue 6, yellow 7, peach 8), the brand green, and the
+   SuperPrep / TenTen palettes of the dashboard redesign. */
+:root {
+  --card-junior: #dde9ff;  --card-junior-ink: #1f44b8;
+  --card-ssc: #ffedb0;     --card-ssc-ink: #774200;
+  --card-hsc: #d5fadc;     --card-hsc-ink: #155f2f;
+  --card-adm: #ffe2d8;     --card-adm-ink: #a3341a;
+  --card-eng: #ebe5ff;     --card-eng-ink: #4f33d1;
+
+  --grad-stage: radial-gradient(70% 60% at 0% 0%, rgb(245 148 134 / 0.45) 0%, rgb(245 148 134 / 0) 100%),
+    radial-gradient(60% 70% at 100% 100%, rgb(96 69 255 / 0.5) 0%, rgb(96 69 255 / 0) 100%),
+    linear-gradient(160deg, #18763b 0%, #0f2a19 100%);
+  --grad-live: linear-gradient(135deg, #fff1f1 0%, #ffffff 70%);
+  --marker: #ffe066;
+}
+
+
+/* The raised button from the dashboard: a lit top edge and a darker bottom edge. */
+.btn-primary {
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.22), 0 2px 0 var(--color-primary-edge);
+  transition: background var(--motion-fast) var(--ease-standard), transform var(--motion-fast) var(--ease-standard), box-shadow var(--motion-fast) var(--ease-standard);
+}
+.btn-primary:hover { background: var(--color-primary-hover); }
+.btn-primary:active { transform: translateY(2px); box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.22), 0 0 0 var(--color-primary-edge); }
+
+.btn-quiet {
+  background: var(--color-surface);
+  color: var(--color-text);
+  box-shadow: inset 0 0 0 1px var(--color-border-strong), 0 1px 0 var(--color-border-strong);
+  transition: transform var(--motion-fast) var(--ease-standard);
+}
+.btn-quiet:active { transform: translateY(1px); }
+
+/* Live dot: a ring that breathes out from the dot. */
+@keyframes dot-ring {
+  0% { transform: scale(1); opacity: 0.55; }
+  100% { transform: scale(2.6); opacity: 0; }
+}
+.live-dot { position: relative; }
+.live-dot::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  background: currentColor;
+  animation: dot-ring 1.6s var(--ease-standard) infinite;
+}
+
+/* Things arriving: short, time-based, a slight settle. No scroll-jacking. */
+@keyframes arrive {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: none; }
+}
+.rise { animation: arrive var(--motion-slow) var(--ease-emphasis) backwards; }
+
+/* Floating product cards in the hero stage: a slow, small bob. */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+.float { animation: float 5s ease-in-out infinite; }
+
+/* A highlighter stroke under a word (hand-drawn feel, not a template underline). */
+.marker {
+  background: linear-gradient(transparent 58%, var(--marker) 58%, var(--marker) 90%, transparent 90%);
+  padding: 0 0.08em;
+  border-radius: 0.1em;
+}
+
+/* ───────── L16: the blackboard hero ───────── */
+
+/* Chalk grain: a tiny noise tile used as a mask, so strokes break up like chalk on slate. */
+:root {
+  --chalk-noise: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.95' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  -4.2 0 0 0 3.3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  --dust: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='d'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 -9 5.2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23d)'/%3E%3C/svg%3E");
+  --slate: radial-gradient(38% 26% at 18% 28%, rgb(255 255 255 / 0.045) 0%, rgb(255 255 255 / 0) 70%),
+    radial-gradient(30% 22% at 64% 72%, rgb(255 255 255 / 0.035) 0%, rgb(255 255 255 / 0) 70%),
+    radial-gradient(26% 18% at 88% 18%, rgb(255 255 255 / 0.03) 0%, rgb(255 255 255 / 0) 70%),
+    linear-gradient(180deg, #19241e 0%, #121a15 100%);
+  --chalk: #f2efe6;
+  --chalk-yellow: #f4d35e;
+  --font-chalk: var(--font-inter), var(--font-bengali), sans-serif;
+}
+.font-chalk { font-family: var(--font-chalk); }
+
+.chalk {
+  -webkit-mask-image: var(--chalk-noise);
+  mask-image: var(--chalk-noise);
+  -webkit-mask-size: 180px;
+  mask-size: 180px;
+}
+
+/* A word being written: revealed left to right, like a stroke of chalk. */
+@keyframes chalk-write { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
+.chalk-write { animation: chalk-write 520ms var(--ease-standard) backwards; animation-delay: 160ms; }
+/* The whole sentence on first paint. `backwards`, so no clip stays on afterwards (menus can open below). */
+.chalk-write-slow { animation: chalk-write 1100ms var(--ease-standard) backwards; animation-delay: 150ms; }
+
+/* The duster passing over a word. */
+@keyframes duster { 0% { transform: translateX(-30%) rotate(-4deg); opacity: 0; } 15% { opacity: 1; } 85% { opacity: 1; } 100% { transform: translateX(120%) rotate(3deg); opacity: 0; } }
+.duster-pass { animation: duster 560ms var(--ease-standard) both; }
+
+/* Doodles draw on, then their labels appear. */
+@keyframes chalk-draw { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+.chalk-draw { stroke-dasharray: 1; stroke-dashoffset: 1; animation: chalk-draw 900ms var(--ease-standard) forwards; }
+@keyframes chalk-text { from { opacity: 0; } to { opacity: 1; } }
+.chalk-text { opacity: 0; animation: chalk-text 400ms ease forwards; animation-delay: 650ms; }
+
+/* L21: a page from a খাতা: blue ruled lines every 32px on warm paper (the red margin is drawn in markup). */
+.khata {
+  background-color: #fffdf7;
+  background-image: repeating-linear-gradient(180deg, transparent 0 31px, #dfe7f1 31px 32px);
+  background-position: 0 31px;
+}
+
+/* Gold foil, for the tag's class name. */
+.foil { background: linear-gradient(170deg, #f3dfa6 0%, #d9b86a 45%, #b48a3c 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+
+/* L32: a wall calendar's page turns up and over its spiral binding and goes behind the pad. */
+/* L50: a page turns as on a real wall calendar: its bottom comes toward you, it rises over the
+   binding showing its plain back, and drops away behind. The leaf keeps both faces in 3D, so the
+   fade is on the back face only (opacity on the leaf would flatten it). */
+@keyframes flip-leaf {
+  0% { transform: rotateX(0deg); }
+  100% { transform: rotateX(180deg); }
+}
+.flip-stage { perspective: 1400px; perspective-origin: 50% 0; }
+.flip-leaf { transform-origin: 50% 0; transform-style: preserve-3d; animation: flip-leaf 900ms cubic-bezier(0.5, 0.05, 0.3, 1) forwards; }
+.flip-face { backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.flip-back { transform: rotateX(180deg); animation: flip-back-out 900ms linear forwards; }
+/* L51: gone before the turn completes: the back fades from halfway and is clear by three quarters */
+@keyframes flip-back-out { 0%, 50% { opacity: 1; } 75%, 100% { opacity: 0; } }
+/* the lifted page's shadow on the page underneath, leaving as it rises */
+.flip-shade { background: linear-gradient(180deg, rgb(40 30 15 / 0.22), rgb(40 30 15 / 0.05) 70%); animation: flip-shade 900ms ease-out forwards; }
+@keyframes flip-shade { 0% { opacity: 0; } 15% { opacity: 1; } 100% { opacity: 0; } }
+
+/* L33: the arrows on the changeable words give a small double hop every few seconds, in turn,
+   until the visitor has changed a word. */
+@keyframes nudge {
+  0%, 74%, 100% { transform: translateY(0); }
+  80% { transform: translateY(0.09em); }
+  85% { transform: translateY(0); }
+  90% { transform: translateY(0.06em); }
+  95% { transform: translateY(0); }
+}
+.nudge { display: inline-block; }
+[data-nudge] .nudge { animation: nudge 3.4s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { [data-nudge] .nudge { animation: none; } }
+
+/* LP31: the same double hop, forward, on a link's arrow so it reads as clickable. On hover the
+   loop stops and the arrow holds forward. */
+@keyframes nudge-x {
+  0%, 74%, 100% { translate: 0; }
+  80% { translate: 3px 0; }
+  85% { translate: 0; }
+  90% { translate: 2px 0; }
+  95% { translate: 0; }
+}
+.nudge-x { animation: nudge-x 3.4s ease-in-out infinite; transition: translate var(--motion-fast) var(--ease-standard); }
+:hover > .nudge-x, :focus-visible > .nudge-x { animation: none; translate: 3px 0; }
+@media (prefers-reduced-motion: reduce) { .nudge-x { animation: none; } }
+
+/* Typing caret for the doubt-solving answer. */
+@keyframes caret { 50% { opacity: 0; } }
+.caret::after {
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  margin-left: 2px;
+  vertical-align: -0.15em;
+  background: currentColor;
+  animation: caret 1s steps(1) infinite;
+}
+
+/* Height reveal for the answer panel (0fr → 1fr). */
+.grow-open {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows var(--motion-slow) var(--ease-emphasis);
+}
+.grow-open[data-open="true"] { grid-template-rows: 1fr; }
+.grow-open > * { overflow: hidden; }
+
+/* L47: the purchase sheet rises into place. */
+@keyframes sheet-in { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: none; } }
+.sheet-in { animation: sheet-in 360ms var(--ease-emphasis) both; }
+
+/* L46: a short note that rises, stays, and fades (the amount just added to the total). */
+@keyframes flash { 0% { opacity: 0; transform: translateY(4px); } 12% { opacity: 1; transform: none; } 80% { opacity: 1; } 100% { opacity: 0; } }
+.flash { animation: flash 2.4s var(--ease-standard) forwards; }
+
+/* Paid: a rubber stamp comes down on the receipt, and paper confetti falls across the page.
+   Each confetti bit sets --x (start), --dx (drift), --r (spin), --d (duration) and --delay. */
+@keyframes stamp { 0% { opacity: 0; transform: rotate(-12deg) scale(1.9); } 55% { opacity: 1; transform: rotate(-12deg) scale(0.94); } 100% { opacity: 1; transform: rotate(-12deg) scale(1); } }
+.stamp { transform: rotate(-12deg); animation: stamp 420ms var(--ease-emphasis) 700ms both; }
+@keyframes confetti { from { transform: translate3d(0, -10vh, 0) rotate(0); } to { transform: translate3d(var(--dx), 110vh, 0) rotate(var(--r)); } }
+.confetti { --x: 50%; --dx: 0px; --r: 0deg; --d: 3s; --delay: 0ms; position: absolute; top: 0; left: var(--x); animation: confetti var(--d) cubic-bezier(0.25, 0.4, 0.45, 1) var(--delay) both; }
+@media (prefers-reduced-motion: reduce) {
+  .confetti { display: none; }
+}
+
+/* Reduced motion: globals.css stops every animation; the dot's ring goes altogether. */
+@media (prefers-reduced-motion: reduce) {
+  .live-dot::after { display: none; }
+}
+
+/* L47: a ring fills around the chosen centre's tab over 5 seconds; when it closes, the next centre
+   shows (the animation's end drives the turn). Pausing the card pauses the ring where it is. */
+@property --ring {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 0%;
+}
+@keyframes tab-ring { to { --ring: 100%; } }
+.tab-ring::before {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  border-radius: 9999px;
+  padding: 2px;
+  background: conic-gradient(var(--color-brand) var(--ring), rgb(0 0 0 / 0.08) 0);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0);
+  animation: tab-ring 5s linear forwards;
+  pointer-events: none;
+}
+[data-paused] .tab-ring::before { animation-play-state: paused; }
+@media (prefers-reduced-motion: reduce) {
+  .tab-ring::before { display: none; }
+}
+
+/* LP14: the end board's drop tags as scout badges — an embroidered cloth patch. Set
+   --badge-ground (the cloth) and --badge-thread (the embroidery) on the element.
+   .badge        the merrowed edge: a thick overlocked border of twisted thread
+   .badge-cloth  twill cloth inside it, with a running stitch just in from the edge
+   .badge-thread satin-stitched letters: fine thread lines, raised off the cloth */
+.badge {
+  /* Defaults; each tag sets its audience pair inline. */
+  --badge-ground: var(--color-paper);
+  --badge-thread: var(--color-text);
+  padding: 4px;
+  border-radius: 9999px;
+  background:
+    repeating-linear-gradient(120deg, rgb(255 255 255 / 0.2) 0 1px, transparent 1px 3px),
+    var(--badge-thread);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.3),
+    inset 0 -1.5px 0 rgb(0 0 0 / 0.35),
+    0 2px 0 rgb(0 0 0 / 0.3),
+    0 12px 18px -10px rgb(0 0 0 / 0.75);
+}
+.badge-cloth {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  padding: 0.5rem 1rem 0.5rem 1.15rem;
+  background:
+    repeating-linear-gradient(45deg, rgb(0 0 0 / 0.05) 0 1px, transparent 1px 3px),
+    repeating-linear-gradient(-45deg, rgb(255 255 255 / 0.16) 0 1px, transparent 1px 3px),
+    var(--badge-ground);
+  outline: 1.5px dashed color-mix(in srgb, var(--badge-thread) 50%, transparent);
+  outline-offset: -4px;
+  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 0.08), inset 0 0 8px rgb(0 0 0 / 0.14);
+  color: var(--badge-thread);
+}
+.badge-thread {
+  background: repeating-linear-gradient(78deg, var(--badge-thread) 0 1.3px, color-mix(in srgb, var(--badge-thread) 78%, white) 1.3px 2.2px);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 1px 0 rgb(255 255 255 / 0.55)) drop-shadow(0 -0.5px 0 rgb(0 0 0 / 0.3));
+}
+.badge-cloth svg {
+  filter: drop-shadow(0 1px 0 rgb(255 255 255 / 0.55));
+}
+/* Phones: a smaller badge. */
+.badge-sm {
+  padding: 3px;
+}
+.badge-sm .badge-cloth {
+  gap: 0.375rem;
+  padding: 0.375rem 0.75rem 0.375rem 0.875rem;
+  outline-offset: -3px;
+}
+
+/* ───────── LP40: the bento hero lab (?lab=bento, phones) ─────────
+   One material: frosted tiles on forest green, ivory type, a gold glow in one corner. */
+.bento {
+  --bento-ink: #f5f4ef;
+  color: var(--bento-ink);
+  background:
+    radial-gradient(90% 55% at 100% 0%, rgb(201 162 74 / 0.18) 0%, rgb(201 162 74 / 0) 60%),
+    linear-gradient(180deg, var(--green-950) 0%, #0c2416 100%);
+}
+.bento-bar { background: rgb(15 42 25 / 0.88); color: #f5f4ef; }
+.bento-btn { background: #f5f4ef; color: var(--green-950); }
+.bento-tile {
+  color: #f5f4ef;
+  background: rgb(255 255 255 / 0.07);
+  border: 1px solid rgb(255 255 255 / 0.13);
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.1);
+  transition: transform var(--motion-fast) var(--ease-standard), background var(--motion-fast) var(--ease-standard);
+}
+button.bento-tile:active { transform: scale(0.98); background: rgb(255 255 255 / 0.12); }
+.bento-tile-hi { background: linear-gradient(160deg, rgb(255 255 255 / 0.14) 0%, rgb(255 255 255 / 0.06) 100%); }
+.bento-chip { background: rgb(255 255 255 / 0.1); }
+/* The photo fades out from its bottom-right corner, so it has no hard edge and the labels sit on the tile, not the photo. */
+.bento-photo {
+  -webkit-mask-image: radial-gradient(120% 110% at 100% 100%, #000 38%, transparent 78%);
+  mask-image: radial-gradient(120% 110% at 100% 100%, #000 38%, transparent 78%);
+}
+.bento-seg { background: rgb(255 255 255 / 0.08); border: 1px solid rgb(255 255 255 / 0.14); }
+.bento-seg [aria-checked="true"] { background: #f5f4ef; color: var(--green-950); }
+.bento-link { color: #e2c983; }
+.bento-rule { border-color: rgb(255 255 255 / 0.14); }
+
+/* LP42: landing v2, the route line (phones). The bento's forest; the college stretch in gold, school in ivory,
+   English in sky. The line draws upward once on load, the stops rise from the bottom; nothing loops. */
+.route-gold { color: #e2c983; }
+.route-rail { transform-origin: bottom; }
+.route-rail-college { background: #e2c983; }
+.route-rail-school { background: rgb(245 244 239 / 0.42); }
+.route-draw { animation: route-draw 700ms var(--ease-emphasis) backwards; }
+@keyframes route-draw { from { transform: scaleY(0); } }
+.route-end { background: #e2c983; color: var(--green-950); }
+.route-dot-open { background: #e2c983; box-shadow: 0 0 0 3px rgb(226 201 131 / 0.22); }
+.route-dot-college { background: var(--green-950); border: 2px solid #e2c983; }
+.route-dot-school { background: var(--green-950); border: 2px solid rgb(245 244 239 / 0.7); }
+.route-dot-english { background: var(--green-950); border: 2px solid #9cc9ea; }
+.route-dot-here { background: #f5f4ef; box-shadow: 0 0 0 4px rgb(245 244 239 / 0.22); }
+.route-branch path { stroke: #9cc9ea; }
+.route-stop { transition: background var(--motion-fast) var(--ease-standard); }
+.route-stop:active { background: rgb(255 255 255 / 0.07); }
+.route-open { background: rgb(226 201 131 / 0.16); color: #ecd59a; }
+.route-here-tag { background: #f5f4ef; color: var(--green-950); }
+.route-chip { background: rgb(255 255 255 / 0.08); border: 1px solid rgb(255 255 255 / 0.16); }
+.route-chip:active { background: #f5f4ef; color: var(--green-950); }
+.route-english { background: rgb(156 201 234 / 0.07); }
+@media (prefers-reduced-motion: reduce) { .route-draw { animation: none; } }
+/* LP43: the route on the desktop blackboard. */
+.route-board-seg { background: rgb(255 255 255 / 0.06); border: 1px solid rgb(255 255 255 / 0.16); }
+.route-board-seg [aria-checked="true"] { background: var(--chalk); color: #121a15; }
+.route-board-dot { background: #16201a; border: 2px solid rgb(242 239 230 / 0.75); }
+.route-board-stop { transition: background var(--motion-fast) var(--ease-standard); }
+.route-board-stop:hover { background: rgb(255 255 255 / 0.05); }
+.route-board-chip { border: 1.5px solid rgb(242 239 230 / 0.35); }
+.route-board-chip:hover { background: rgb(255 255 255 / 0.06); }
+.route-board-chip-on, .route-board-group[aria-checked="true"] { background: var(--chalk-yellow); color: #121a15; border-color: var(--chalk-yellow); }
+.route-board-group { border: 1.5px solid rgb(244 211 94 / 0.5); color: var(--chalk-yellow); }
+
+/* LP41: the page under the bento hero. Ivory paper, one tinted band, forest for results and the end. */
+.bento-page { background: var(--sand-50); }
+.bento-band { background: #efeadf; border-color: var(--sand-100); }
+.bento-shade { background: linear-gradient(180deg, rgb(12 36 22 / 0) 35%, rgb(12 36 22 / 0.92) 100%); }
+.bento-gold { color: #e2c983; }
+.bento-play { background: rgb(245 244 239 / 0.92); color: var(--green-950); }
+.bento-chip-on { background: #f5f4ef; color: var(--green-950); }
+.bento-chip-off { border-color: rgb(255 255 255 / 0.18); background: rgb(255 255 255 / 0.06); color: #f5f4ef; }
+/* LP44: the desktop line draws left to right once. */
+.route-draw-x { transform-origin: left; animation: route-draw-x 800ms var(--ease-emphasis) backwards; }
+@keyframes route-draw-x { from { transform: scaleX(0); } }
+@media (prefers-reduced-motion: reduce) { .route-draw-x { animation: none; } }
+/* LP46: each desktop stop a card hanging from the line. Quiet glass for school, a yellow edge where a batch is open, ivory when picked. */
+.route-stem { background: rgb(242 239 230 / 0.35); }
+.route-stem-college { background: rgb(244 211 94 / 0.55); }
+.route-card {
+  background: rgb(255 255 255 / 0.04);
+  border: 1px solid rgb(242 239 230 / 0.16);
+  transition: background var(--motion-fast) var(--ease-standard), border-color var(--motion-fast) var(--ease-standard), transform var(--motion-fast) var(--ease-standard);
+}
+.route-card:hover { background: rgb(255 255 255 / 0.08); transform: translateY(-2px); }
+.route-card-open { background: rgb(244 211 94 / 0.06); border-color: rgb(244 211 94 / 0.38); }
+.route-sub { color: rgb(242 239 230 / 0.6); }
+.route-badge { color: var(--chalk-yellow); }
+.route-card-on, .route-card-on:hover { background: var(--chalk); border-color: var(--chalk); color: #121a15; transform: none; }
+.route-card-on .route-sub { color: rgb(18 26 21 / 0.6); }
+.route-card-on .route-badge { color: #7a5a00; }
+.route-card-on .route-board-group { border-color: rgb(18 26 21 / 0.25); color: #121a15; }
+.route-card-on .route-board-group[aria-checked="true"], .route-card-on .route-board-chip-on { background: #121a15; border-color: #121a15; color: var(--chalk); }
+.route-card-on .route-board-chip { border-color: rgb(18 26 21 / 0.3); }
+@media (prefers-reduced-motion: reduce) { .route-card:hover { transform: none; } }
