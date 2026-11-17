@@ -1588,6 +1588,7 @@
     "homeOfferMoreCount": "{n} more",
     "homeOfferFolderSample": "Annual exam revision class",
     "homeOfferFolderFiles": "{n} files",
+    "homeVideoFolders": ["Annual exam revision class", "Annual exam suggestion PDF", "English Grammar Basic to Advance", "Math exercise solutions", "Sample question solutions", "MasterBook free PDF", "Free class library", "Super student hacks", "NCTB books"],
     "homeFreeCourseTitle": "A free course for you",
     "homeFreeEnroll": "Enrol free",
     "homeFreeChapter": "Chapter {n}",

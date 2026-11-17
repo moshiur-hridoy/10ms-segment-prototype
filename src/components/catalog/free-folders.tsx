@@ -6,6 +6,7 @@ import {
   ChevronRight,
   ClipboardCheck,
   FileQuestion,
+  Folder,
   Lightbulb,
   Lock,
   NotebookText,
@@ -179,6 +180,8 @@ export function FreeFolders({
   const nameOf = (k: Kind) => (notesWithSuggestions && k === "note" ? l.homeFreeNoteSuggestion : kindOf(k).label(l));
   const two = phoneTwo && shown.length > 2;
   const inSheet = ofKind(kind).filter((i) => !subject || i.subject === subject);
+  // The designer's call: the videos' sheet holds folders (the team's collections), not a list of single videos.
+  const videoFolders = videoOnly && kind === "video" ? l.homeVideoFolders : null;
   const chip = (key: string, on: boolean, label: string, pick: () => void) => (
     <button
       key={key}
@@ -193,7 +196,7 @@ export function FreeFolders({
       {label}
     </button>
   );
-  const sheetSubjects = subjects.filter((s) => ofKind(kind).some((i) => i.subject === s.id));
+  const sheetSubjects = videoFolders ? [] : subjects.filter((s) => ofKind(kind).some((i) => i.subject === s.id));
 
   // CT186: the new uploads under a line per day.
   const dayOf = (iso: string) => {
@@ -213,7 +216,21 @@ export function FreeFolders({
               ]
             : [row(i)];
         })
-      : inSheet.map(row);
+      : videoFolders
+        ? videoFolders.map(folderRow)
+        : inSheet.map(row);
+
+  // As the "বার্ষিক পরীক্ষার Revision Class" upload row: a round, filled folder in the warning tint.
+  function folderRow(name: string) {
+    return (
+      <li key={name} className="flex items-center gap-3 rounded-md px-2 py-2.5 sm:gap-4">
+        <span aria-hidden className="grid size-14 shrink-0 place-items-center rounded-full border border-warning/25 bg-warning-soft text-warning">
+          <Folder className="size-6 fill-current" />
+        </span>
+        <span className="min-w-0 flex-1 font-semibold">{name}</span>
+      </li>
+    );
+  }
 
   function row(i: FreeShelfItem) {
     return (
@@ -333,7 +350,7 @@ export function FreeFolders({
                     <AppRow
                       icon={FREE_CLASS_ICON}
                       name={nameOf(k)}
-                      badge={fill(l.homeFreeCount, { n: fmt.number(list.length) })}
+                      badge={fill(l.homeFreeCount, { n: fmt.number(l.homeVideoFolders.length) })}
                       onOpen={() => open(k)}
                       className="sm:hidden"
                     />
@@ -341,7 +358,7 @@ export function FreeFolders({
                       <TypeFolder
                         kind={k}
                         name={nameOf(k)}
-                        badge={fill(l.homeFreeCount, { n: fmt.number(list.length) })}
+                        badge={fill(l.homeFreeCount, { n: fmt.number(l.homeVideoFolders.length) })}
                         onOpen={() => open(k)}
                         art={<Image src={FREE_CLASS_ICON} alt="" width={64} height={64} className="size-14 sm:size-16" />}
                       />
@@ -381,7 +398,9 @@ export function FreeFolders({
               )}
               <h3 id="home-free-sheet-title" className="type-subtitle">
                 {kind === "new" ? l.homeOfferNew : nameOf(kind)}
-                <span className="ml-2 text-sm font-semibold text-subtle">{fill(l.homeFreeCount, { n: fmt.number(inSheet.length) })}</span>
+                <span className="ml-2 text-sm font-semibold text-subtle">
+                  {fill(l.homeFreeCount, { n: fmt.number(videoFolders?.length ?? inSheet.length) })}
+                </span>
               </h3>
               <IconButton label={l.homeLoginClose} onClick={close} className="ml-auto">
                 <X className="size-5" aria-hidden />

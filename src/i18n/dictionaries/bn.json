@@ -1588,6 +1588,7 @@
     "homeOfferMoreCount": "আরও {n}টা",
     "homeOfferFolderSample": "বার্ষিক পরীক্ষার Revision Class",
     "homeOfferFolderFiles": "{n}টা ফাইল",
+    "homeVideoFolders": ["বার্ষিক পরীক্ষার Revision Class", "বার্ষিক পরীক্ষার সাজেশন PDF", "English Grammar Basic to Advance", "Math অনুশীলনীর প্রশ্ন সমাধান", "নমুনা প্রশ্ন সমাধান", "MasterBook Free PDF", "ফ্রি ক্লাস লাইব্রেরি", "সুপার স্টুডেন্ট হ্যাকস", "NCTB বইসমূহ"],
     "homeFreeCourseTitle": "তোমার জন্য ফ্রি কোর্স",
     "homeFreeEnroll": "ফ্রি এনরোল করো",
     "homeFreeChapter": "অধ্যায় {n}",
