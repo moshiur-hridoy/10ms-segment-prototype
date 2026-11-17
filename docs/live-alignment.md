@@ -114,6 +114,8 @@ Layout, section order, the folder and book illustrations, the class tiles and th
 - **Clickable cards:** keep the lift on hover (behaviour); no hover shadow.
 - **Inputs:** the live inputs sit behind login, so ours use the button radius (6px) and `1px var(--color-border)`. Derived, not measured.
 
+**New UI / Old UI toggle (17 Nov 2026).** The designer asked to keep the look from before the alignment one click away. The toggle at the bottom-right (or `?ui=old` / `?ui=new`) sets `data-skin="old"` on `<html>`, and `src/styles/modes.css` puts the old values back: the grey page, the `#E7E9EE` stroke, the `#18763B` green, the card shadow, 16px cards and pill buttons. New is the default and is where design work happens. Anything that differs by skin must be a token in that file.
+
 ## 5. How to work
 
 1. **Tokens first.** Change role tokens in `src/styles/modes.css` (light mode) and the scales in `theme.css`. Rebuild and look.

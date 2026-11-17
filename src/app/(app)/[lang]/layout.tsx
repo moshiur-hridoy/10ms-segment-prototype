@@ -9,6 +9,8 @@ import { getDictionary } from "@/i18n/get-dictionary";
 import { Splash } from "@/components/layout/splash";
 import { splashScript } from "@/lib/splash";
 import { themeScript } from "@/lib/theme";
+import { skinScript } from "@/lib/skin";
+import { SkinToggle } from "@/components/layout/skin-toggle";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -63,6 +65,7 @@ export default async function RootLayout({
     >
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+        <script dangerouslySetInnerHTML={{ __html: skinScript }} />
         <script dangerouslySetInnerHTML={{ __html: splashScript }} />
       </head>
       <body className="min-h-dvh bg-bg text-text">
@@ -72,6 +75,7 @@ export default async function RootLayout({
         <Suspense>
           <NavMotion label={t.common.loading} slowLabel={t.common.slowNetwork} />
         </Suspense>
+        <SkinToggle />
       </body>
     </html>
   );

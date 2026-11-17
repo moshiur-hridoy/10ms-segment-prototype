@@ -22,6 +22,11 @@
   --color-border: var(--color-border);
   --color-border-strong: var(--color-border-strong);
   --color-glass-edge: var(--color-glass-edge);
+  /* Roles that differ by skin (new / old, modes.css). */
+  --color-header: var(--color-header);
+  --color-field: var(--color-field);
+  --color-secondary-border: var(--color-secondary-border);
+  --color-secondary-text: var(--color-secondary-text);
   --color-folder: var(--color-folder);
   --color-frame: var(--color-frame);
   --color-frame-mat: var(--color-frame-mat);
@@ -113,6 +118,7 @@
   --color-paper-edge: var(--color-paper-edge);
 
   --shadow-card: var(--shadow-card);
+  --shadow-card-hover: var(--shadow-card-hover);
   --shadow-raised: var(--shadow-raised);
   --shadow-pop: var(--shadow-pop);
   --shadow-book: var(--shadow-book);

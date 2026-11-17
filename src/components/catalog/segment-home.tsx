@@ -1578,7 +1578,7 @@ function Offers({
                         )}
                         {/* The whole card is the link (to the store's page, where it's bought), so this is the button's look, not a second link. */}
                         {bundleButton && (
-                          <span className="mt-2 inline-flex h-9 w-fit items-center gap-1.5 rounded-button border-b-4 border-b-primary-edge bg-primary px-4 text-sm whitespace-nowrap text-on-primary transition-colors group-hover/bundle:bg-primary-hover">
+                          <span className="mt-2 inline-flex h-9 w-fit items-center gap-1.5 rounded-button border-b-(length:--button-edge) border-b-primary-edge bg-primary px-4 text-sm [font-weight:var(--button-weight)] whitespace-nowrap text-on-primary transition-colors group-hover/bundle:bg-primary-hover">
                             {l.homeBundleOpen}
                             <ArrowRight className="size-4" aria-hidden />
                           </span>

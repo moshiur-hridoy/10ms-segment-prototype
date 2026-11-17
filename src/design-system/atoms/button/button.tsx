@@ -13,8 +13,8 @@ const variants = {
   // Kept for the game-like moments (start an exam, submit an answer); the live edge now gives every
   // filled button the raised look, so it is the primary.
   raised: "bg-primary text-on-primary hover:bg-primary-hover",
-  // Live secondary: white, the card stroke, dark text.
-  secondary: "border border-border bg-surface text-text hover:bg-raised",
+  // New skin: white, the card stroke, dark text (live). Old skin: a stronger stroke and green text.
+  secondary: "border border-secondary-border bg-surface text-secondary-text hover:bg-raised",
   soft: "bg-brand-soft text-brand-text hover:brightness-95 dark:hover:brightness-125",
   ghost: "text-muted hover:bg-raised hover:text-text",
 } as const;
@@ -22,12 +22,12 @@ const variants = {
 /*
  * The live site's two button shapes (docs/live-alignment.md §3.4):
  *   button: 6px, and on a filled button a 4px darker bottom edge inside the height, weight 400
- *           (the academic page's "বিস্তারিত দেখো" and login)
+ *           (the academic page's "বিস্তারিত দেখো" and login). The old skin makes it a flat 600 pill.
  *   pill:   full round, no edge, weight 600 (the product page's buy and join buttons)
  * Default: pill for the 48px `lg` (buy, enroll, plan actions), button for everything smaller.
  */
 const shapes = {
-  button: "rounded-button font-normal",
+  button: "rounded-button [font-weight:var(--button-weight)]",
   pill: "rounded-full font-semibold",
 } as const;
 const filled = new Set<keyof typeof variants>(["primary", "live", "raised"]);
@@ -57,7 +57,7 @@ const base =
 export function Button({ variant = "primary", size = "md", shape, className, children, ...props }: AsButton | AsLink) {
   const form = shape ?? (size === "lg" ? "pill" : "button");
   const edged = form === "button" && filled.has(variant);
-  const classes = cn(base, shapes[form], edged && "border-b-4 border-b-primary-edge", variants[variant], sizes[size], className);
+  const classes = cn(base, shapes[form], edged && "border-b-(length:--button-edge) border-b-primary-edge", variants[variant], sizes[size], className);
   const content =
     variant === "live" ? (
       <>

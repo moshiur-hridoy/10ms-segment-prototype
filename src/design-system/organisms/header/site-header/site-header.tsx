@@ -60,7 +60,7 @@ export function SiteHeader({
   const courses = { label: t.nav.courses, Icon: BookSaved, active: current === "courses" };
 
   return (
-    <header className="site-header sticky top-0 z-40 border-b border-border bg-surface">
+    <header className="site-header sticky top-0 z-40 border-b border-border bg-header backdrop-blur-xl backdrop-saturate-150">
       <div className="mx-auto flex h-16 max-w-page items-center gap-2 px-4 sm:gap-3 sm:px-6">
         {/* The logo opens the public home page (the landing); the ড্যাশবোর্ড tab beside it opens the dashboard. */}
         <Link href={`/${lang}/hsc/hsc-28`} aria-label={t.nav.siteHome} className="shrink-0 text-text">
@@ -85,7 +85,7 @@ export function SiteHeader({
 
         <div className="flex-1" />
 
-        <label className="hidden h-10 w-56 items-center gap-2 rounded-full border border-border bg-surface px-3.5 text-sm transition-[border-color,box-shadow] hover:border-border-strong focus-within:border-brand focus-within:ring-3 focus-within:ring-brand/20 md:flex">
+        <label className="hidden h-10 w-56 items-center gap-2 rounded-full border border-border bg-field px-3.5 text-sm transition-[border-color,box-shadow] hover:border-border-strong focus-within:border-brand focus-within:ring-3 focus-within:ring-brand/20 md:flex">
           <Search className="size-4 shrink-0 text-subtle" aria-hidden />
           <input
             type="search"

@@ -150,8 +150,54 @@
 
 /* Green text on a tint: the CTA green is 4.24:1 on brand-soft and 4.32:1 on raised, short of 4.5.
    Inside a tinted box, "green" text falls back to the text colour (docs/live-alignment.md §4). */
-:is(.bg-brand-soft, .bg-raised):not([data-mode="dark"], [data-mode="dark"] *) {
+:root:not([data-skin="old"]) :is(.bg-brand-soft, .bg-raised):not([data-mode="dark"], [data-mode="dark"] *) {
   --color-brand-text: var(--color-text);
+}
+
+/* ==========================================================================
+   Skin: new (the live site's twin, the default) or old (the prototype's own look before the
+   alignment), switched with the "New UI / Old UI" toggle (lib/skin.ts sets data-skin on <html>).
+   The roles below differ by skin; they are declared on every mode element so each one reads its
+   own mode's colours (a dark band inside a light page included).
+   ========================================================================== */
+:root,
+[data-mode] {
+  --color-header: var(--color-surface);
+  --color-field: var(--color-surface);
+  --color-secondary-border: var(--color-border);
+  --color-secondary-text: var(--color-text);
+  --shadow-card-hover: none;
+  --button-edge: 4px; /* the live button's darker bottom edge */
+  --button-weight: 400;
+}
+
+[data-skin="old"],
+[data-skin="old"] [data-mode] {
+  --color-header: var(--color-overlay);
+  --color-field: var(--color-raised);
+  --color-secondary-border: var(--color-border-strong);
+  --color-secondary-text: var(--color-brand-text);
+  --shadow-card-hover: var(--shadow-raised);
+  --button-edge: 0px;
+  --button-weight: 600;
+  --radius-card: 16px;
+  --radius-button: 9999px;
+}
+
+/* Old skin, light: the grey page, the softer stroke, the darker green and the card shadow. */
+:root[data-skin="old"]:not([data-mode="dark"]) {
+  --color-bg: var(--gray-50);
+  --color-border: var(--gray-100);
+  --color-brand-text: var(--brand-700);
+  --color-primary: var(--brand-700);
+  --color-primary-hover: var(--brand-800);
+  --color-primary-edge: var(--brand-900);
+  --shadow-card: 0 1px 2px rgb(16 24 40 / 0.04), 0 1px 3px rgb(16 24 40 / 0.06);
+}
+
+:root[data-skin="old"][data-mode="warm"] {
+  --color-bg: var(--sand-50);
+  --color-border: var(--sand-100);
 }
 
 /* Warm: the page and its hairlines in sand; every other role as light. */

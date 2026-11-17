@@ -24,7 +24,7 @@ export function Card<T extends ElementType = "section">({ as, radius = "lg", ele
         "border border-border bg-surface",
         radius === "lg" ? "rounded-card" : "rounded-md",
         elevation === "pop" && "shadow-pop",
-        interactive && "press lift hover:border-border-strong",
+        interactive && "press lift hover:border-border-strong hover:shadow-card-hover",
         className,
       )}
       {...props}
