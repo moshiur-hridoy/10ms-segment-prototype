@@ -85,7 +85,7 @@ export function SiteHeader({
 
         <div className="flex-1" />
 
-        <label className="hidden h-10 w-56 items-center gap-2 rounded-full border border-border bg-raised px-3.5 text-sm transition-[border-color,box-shadow] hover:border-border-strong focus-within:border-brand focus-within:ring-3 focus-within:ring-brand/20 md:flex">
+        <label className="hidden h-10 w-56 items-center gap-2 rounded-full border border-border bg-surface px-3.5 text-sm transition-[border-color,box-shadow] hover:border-border-strong focus-within:border-brand focus-within:ring-3 focus-within:ring-brand/20 md:flex">
           <Search className="size-4 shrink-0 text-subtle" aria-hidden />
           <input
             type="search"

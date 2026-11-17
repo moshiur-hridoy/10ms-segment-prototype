@@ -933,7 +933,7 @@ export function LoginButton({
 }: {
   lang: Locale;
   label: string;
-  size?: "sm" | "md" | "lg";
+  size?: "xs" | "sm" | "md" | "lg";
   variant?: "primary" | "secondary";
 }) {
   const path = usePathname();

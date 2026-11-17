@@ -19,7 +19,7 @@ export async function VisitorHeader({ visitor, current = "none", ...props }: Sec
       current={current}
       guest
       publicNav={<GuestNav label={props.t.nav.primary} />}
-      actions={<LoginButton lang={props.lang} label={props.t.segment.login} />}
+      actions={<LoginButton lang={props.lang} label={props.t.segment.login} size="xs" />}
     />
   );
 }

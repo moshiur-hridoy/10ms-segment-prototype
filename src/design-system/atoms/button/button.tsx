@@ -33,6 +33,8 @@ const shapes = {
 const filled = new Set<keyof typeof variants>(["primary", "live", "raised"]);
 
 const sizes = {
+  /** The live header's login: 32px, 14px. */
+  xs: "h-8 gap-1.5 px-4 text-sm",
   sm: "h-9 gap-1.5 px-3 text-sm",
   md: "h-11 gap-2 px-5 text-base",
   lg: "h-12 gap-2 px-6 text-base",
