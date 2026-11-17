@@ -17,6 +17,8 @@
   --green-800: #155f2f;
   --green-900: #154c27;
   --green-950: #0f2a19;
+  /* The live site's CTA green (#149353) darkened just enough for white text and green text on white (4.51:1). */
+  --green-650: #12884d;
 
   /* Indigo: placeholder for a second brand (offline batches) until its colour is decided. */
   --indigo-50: #eef2ff;
@@ -39,6 +41,7 @@
   --gray-25: #f9fafb;
   --gray-50: #f6f7f9;
   --gray-100: #e7e9ee;
+  --gray-150: #e5e7eb; /* the live site's card and divider stroke */
   --gray-200: #d5d9e0;
   --gray-300: #c3c8d0;
   --gray-500: #6b7280;

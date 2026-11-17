@@ -134,6 +134,8 @@
 
 /* Closed scales: only these exist (rounded-2xl, text-7xl … don't).
    Radius 6 / 10 / 16 / 24 / full for UI; xs (4) only for data marks (bar tops, legend swatches).
+   Two live-site roles sit beside the scale: card (8, every section container) and button (6),
+   so containers and buttons match live while the content inside keeps its own radii.
    Type 12 / 14 / 16 / 18 / 20 / 24 / 32, and 40 / 48 / 64 for display; 12px is the minimum. */
 @theme {
   --radius-*: initial;
@@ -142,6 +144,8 @@
   --radius-md: 10px;
   --radius-lg: 16px;
   --radius-xl: 24px;
+  --radius-card: 8px;
+  --radius-button: 6px;
 
   --text-*: initial;
   --text-xs: 0.75rem;

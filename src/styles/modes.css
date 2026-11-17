@@ -17,8 +17,9 @@
 [data-mode="warm"] {
   color-scheme: light;
 
-  /* Surfaces */
-  --color-bg: var(--gray-50);
+  /* Surfaces. Light mode is a twin of the live site's skin (docs/live-alignment.md): white page,
+     #E5E7EB strokes, no card shadows. */
+  --color-bg: var(--white);
   --color-surface: var(--white);
   --color-raised: var(--gray-25);
   --color-shimmer: rgb(17 24 39 / 0.05); /* the band sweeping across a skeleton: a shade off the block */
@@ -40,7 +41,7 @@
   /* A sheet of paper lying on the exam clipboard. */
   --clipboard-sheet-shadow: 0 1px 1px rgb(52 36 16 / 0.16), 0 2px 4px -1px rgb(52 36 16 / 0.18);
   --color-overlay: rgb(255 255 255 / 0.72);
-  --color-border: var(--gray-100);
+  --color-border: var(--gray-150);
   --color-border-strong: var(--gray-200);
   --color-glass-edge: rgb(255 255 255 / 0.7); /* light rim on translucent controls */
   --color-folder: var(--gray-200); /* back of a subject folder (course home), behind its books */
@@ -60,11 +61,11 @@
 
   /* Brand */
   --color-brand: var(--brand-500); /* fills, icons, progress, focus ring */
-  --color-brand-text: var(--brand-700); /* brand-coloured text & links */
+  --color-brand-text: var(--brand-cta); /* brand-coloured text & links */
   --color-brand-soft: var(--brand-50); /* tinted backgrounds */
-  --color-primary: var(--brand-700); /* primary button */
-  --color-primary-hover: var(--brand-800);
-  --color-primary-edge: var(--brand-900); /* raised button's bottom edge */
+  --color-primary: var(--brand-cta); /* primary button */
+  --color-primary-hover: color-mix(in oklab, var(--color-primary) 90%, black);
+  --color-primary-edge: rgb(0 0 0 / 0.3); /* the live button's 4px bottom edge, laid over its fill */
   --color-on-primary: var(--white);
   --color-hero: var(--brand-700); /* course hero; on-hero text = the primary button pair */
   --color-on-hero: var(--white);
@@ -136,13 +137,21 @@
   --hero-dots: radial-gradient(rgb(255 255 255 / 0.16) 1px, transparent 1.5px) 0 0 / 14px 14px;
 
   /* Elevation */
-  --shadow-card: 0 1px 2px rgb(16 24 40 / 0.04), 0 1px 3px rgb(16 24 40 / 0.06);
+  /* Live cards cast no shadow (Card has none). What still uses this, a selected toggle thumb, gets the
+     card stroke drawn as a ring instead of a shadow. */
+  --shadow-card: 0 0 0 1px var(--color-border);
   --shadow-raised: 0 4px 12px -2px rgb(16 24 40 / 0.08), 0 2px 4px -2px rgb(16 24 40 / 0.04);
   --shadow-pop: 0 16px 40px -12px rgb(16 24 40 / 0.18);
   /* Live Join button, mixed from the primary so it follows both modes: a soft glow under it, and
      the still halo shown instead of the looping ring when motion is reduced (see live-ring). */
   --shadow-live-drop: 0 4px 12px -4px color-mix(in oklab, var(--color-primary) 40%, transparent);
   --shadow-live: 0 0 0 4px color-mix(in oklab, var(--color-primary) 16%, transparent), var(--shadow-live-drop);
+}
+
+/* Green text on a tint: the CTA green is 4.24:1 on brand-soft and 4.32:1 on raised, short of 4.5.
+   Inside a tinted box, "green" text falls back to the text colour (docs/live-alignment.md §4). */
+:is(.bg-brand-soft, .bg-raised):not([data-mode="dark"], [data-mode="dark"] *) {
+  --color-brand-text: var(--color-text);
 }
 
 /* Warm: the page and its hairlines in sand; every other role as light. */

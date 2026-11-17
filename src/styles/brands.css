@@ -20,6 +20,8 @@
   --brand-800: var(--green-800);
   --brand-900: var(--green-900);
   --brand-950: var(--green-950);
+  /* Green text and green buttons with white text: the live CTA green at 4.5:1. */
+  --brand-cta: var(--green-650);
   /* Hero mesh accents: a neighbouring hue for the glow, and the deepest shades. */
   --brand-glow: #2dd4bf;
   --brand-ink: #134f29;
@@ -38,6 +40,7 @@
   --brand-800: var(--indigo-800);
   --brand-900: var(--indigo-900);
   --brand-950: var(--indigo-950);
+  --brand-cta: var(--indigo-700);
   --brand-glow: #a78bfa;
   --brand-ink: #2a2580;
   --brand-shade: #120f3a;

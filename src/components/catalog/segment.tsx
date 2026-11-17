@@ -1282,6 +1282,7 @@ export function Plans({
                   {/* The full plan is two batches with no page of its own; its button opens the stream's own batch (section 9). */}
                   <Button
                     size="lg"
+                    shape="button"
                     variant={lead ? "primary" : "secondary"}
                     href={p.buy[0].url}
                     className={cn("w-full self-end", thumbSide && "max-sm:col-span-2")}
@@ -1348,7 +1349,7 @@ export function Plans({
                   </p>
                   {simple ? (
                     // The full plan is two batches with no page of its own; its button opens the stream's own batch (section 9).
-                    <Button size="lg" variant={p.full ? "primary" : "secondary"} href={p.buy[0].url} className="w-full">
+                    <Button size="lg" shape="button" variant={p.full ? "primary" : "secondary"} href={p.buy[0].url} className="w-full">
                       {l.homePlanDetails}
                       <ArrowRight className="size-4" aria-hidden />
                     </Button>
@@ -1505,7 +1506,7 @@ export function Plans({
                 <span className="truncate">{lastMinute.facts[1]}</span>
               </p>
             </div>
-            <Button size="lg" variant="secondary" href={lastMinute.url} className={cn("w-full self-end", thumbSide && "max-sm:col-span-2")}>
+            <Button size="lg" shape="button" variant="secondary" href={lastMinute.url} className={cn("w-full self-end", thumbSide && "max-sm:col-span-2")}>
               {l.homePlanDetails}
               <ArrowRight className="size-4" aria-hidden />
             </Button>
