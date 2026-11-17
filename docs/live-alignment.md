@@ -42,26 +42,27 @@ The home page is dark (black and glass, a landing page). The academic and produc
 
 Our tokens live in `src/styles/primitives.css` (raw colours), `modes.css` (light, dark and warm roles), `brands.css` (the brand scale) and `theme.css` (the Tailwind mapping, radius and type scales). Change the **role** tokens in `modes.css` and the scales in `theme.css`. Don't recolour components one by one.
 
-| Our token | Now | Live | Proposed | Status |
-|---|---|---|---|---|
-| `--color-bg` | `#F6F7F9` (gray-50) | `#FFFFFF` | Open: `#FFFFFF`, or keep a light grey (see Q1) | Decide |
-| `--color-surface` | `#FFFFFF` | `#FFFFFF` | Same | Matches |
-| `--color-raised` | `#F9FAFB` | `#F9FAFB` (chips) | Same | Matches |
-| `--color-border` | `#E7E9EE` | `#E5E7EB` | `#E5E7EB` | Change |
-| `--color-border-strong` | `#D5D9E0` | `#DBE1EB` (rare) | Keep | Matches closely |
-| `--color-text` | `#111827` | `#111827` | Same | Matches |
-| `--color-muted` | `#4B5563` | `#4B5563` | Same | Matches |
-| `--color-subtle` | `#6B7280` | `#6B7280` | Same | Matches |
-| `--color-brand` (fills, icons, progress) | `#1CAB55` | `#1CAB55` | Same | Matches |
-| `--color-brand-text` (green text, links) | `#18763B` | `#1CAB55` / `#149353` | `#12884D` | Change (rule 3.1) |
-| `--color-primary` (primary button fill) | `#18763B` | `#1CAB55` / `#149353` | `#12884D` | Change (rule 3.1) |
-| `--color-primary-hover` | `#155F2F` | n/a | about 10% darker than `#12884D` | Change |
-| `--shadow-card` | soft two-layer shadow | none | `none` (cards rely on the border) | Change |
-| `--radius-md` / `--radius-lg` (cards) | 10 / 16px | 8px (academic) | Open (see Q2) | Decide |
-| Button radius | per component | 6px (academic) or pill (product) | Open (see Q2) | Decide |
-| Fonts | Inter + Anek Bangla | Inter + Anek Bangla | Same | Matches |
+| Our token | Was | Now (live) | Source |
+|---|---|---|---|
+| `--color-bg` | `#F6F7F9` | `#FFFFFF` | Live page background (Q1) |
+| `--color-surface` | `#FFFFFF` | `#FFFFFF` | Matches |
+| `--color-raised` | `#F9FAFB` | `#F9FAFB` | Matches (live chips) |
+| `--color-border` | `#E7E9EE` | `#E5E7EB` (`--gray-150`) | Live card stroke |
+| `--color-text` · `--color-muted` · `--color-subtle` | `#111827` · `#4B5563` · `#6B7280` | same | Matches |
+| `--color-brand` (fills, icons, progress) | `#1CAB55` | `#1CAB55` | Matches |
+| `--color-brand-text` (green text, links) | `#18763B` | `#12884D` (`--green-650`) | Rule 3.1 |
+| `--color-primary` (green button fill) | `#18763B` | `#12884D` | Rule 3.1 |
+| `--color-primary-hover` | `#155F2F` | `#12884D` 10% darker | Rule 3.4 |
+| `--color-primary-edge` | `#154C27` | black at 30% over the button | Live: `border-bottom: 4px rgba(0,0,0,.3)` |
+| `--shadow-card` | soft two-layer shadow | `none` | Live: no card shadows |
+| `--radius-card` (new) | cards were 16px | `8px` | Live academic cards |
+| `--radius-button` (new) | buttons were pills | `6px` | Live academic buttons and login |
+| `--color-band` · `--color-on-band` (new) | none | `#172136` · white | Live academic hero band (Q3) |
+| Fonts | Inter + Anek Bangla | same | Matches |
 
-Most greys and text colours already match. **The visible differences are the page background, card shadows, card and button radius, and the button green.**
+The radius scale (`xs`…`xl`) is unchanged, so the content inside cards (class tiles, books, folders, icons) keeps its shape. Only the containers use `--radius-card`, and only buttons use `--radius-button`.
+
+Most greys and text colours already matched. **The visible differences were the page background, card shadows, card and button radius, and the button green.**
 
 ## 3. Rules
 
@@ -81,9 +82,13 @@ Most greys and text colours already match. **The visible differences are the pag
 - No double strokes. Where a card sits inside a card, the inner one uses `--color-raised` with no stroke, or a stroke with no fill.
 
 ### 3.4 Buttons
-- Heights: 44px on desktop and 40–48px on phone for primary actions; 32–36px for small ones.
-- Text 16px, weight 500–600.
-- Radius and edge follow Q2 once decided.
+Two families, both measured on the live site:
+
+| Button | Where | Shape | Size | Weight |
+|---|---|---|---|---|
+| Primary | Every green action on the segment and class pages ("বিস্তারিত দেখো", login) | `6px`, a 4px darker bottom edge (`rgba(0,0,0,.3)`) inside the height | 44px and 16px on desktop, 36px and 14px on phone; 32px and 14px small | 400 |
+| Buy / enroll | Buy, enroll and join-free actions | Pill, no edge | 48px, 16px | 600 |
+| Secondary | Next to either | Same shape as its family, white, `1px #E5E7EB`, `#111827` text | as its family | as its family |
 
 ### 3.5 What we keep from our design
 Layout, section order, the folder and book illustrations, the class tiles and their coloured bands, the subject colours, the TenTen and SuperPrep marks, the copy (তুমি form), the motion and the dark mode. These are content and identity, not skin.
@@ -94,13 +99,20 @@ Layout, section order, the folder and book illustrations, the class tiles and th
 - Text colours that fail contrast.
 - Inconsistencies the live audit lists (`audit/visual-consistency.md`, LG-03 and LG-04).
 
-## 4. Open questions (decide before changing tokens)
+## 4. Decisions (the designer, 17 Nov 2026)
 
-- **Q1. Page background.** Live is white everywhere. Our pages put white cards on a light grey.
-  - Option A: white page, with cards separated by their `#E5E7EB` stroke, like live.
-  - Option B: keep a very light grey (`#F9FAFB`) so cards still lift on phones.
-- **Q2. Radius and button shape.** The live academic page, closest to ours, uses 8px cards and 6px buttons with a darker bottom edge. The product page uses pills and 24px cards. Option A: follow the academic page for the segment page and class page, and keep the product page's pill only for buy buttons.
-- **Q3. Hero band.** Should the segment page's top (the batch title card) become a full-width dark navy band (`#172136`), as on the live academic page, or stay a white card?
+**The rule from now on: a twin design system.** This repo's design system is a twin of the live site's skin. Every colour, stroke, radius, shadow and button is the live value (or a rule in section 3 where live fails contrast). Content and identity stay ours (section 3.5). A student moving to the live site should not notice the change. New work in this repo follows the same rule.
+
+- **Q1, page background:** white, as live.
+- **Q2, radius and buttons:** the live values. The segment and class pages follow the live academic page: 8px cards, 6px buttons with the darker bottom edge. Buy and enroll buttons follow the live product page: pill, 48px.
+- **Q3, top of the segment page:** follow the live academic page's navy band. Shown side by side to the designer before it is applied.
+- **What changes:** each section's container (background, stroke, radius, shadow) and the shared elements (buttons, links, chips, inputs, header, green text).
+- **What stays:** icons and the inner content of every section: the class tiles and their coloured bands, the round upload icons and the folder icon, the app icons, the subject books and folders, illustrations and pictures, row layouts, text, order and behaviour.
+- **Green on a tint:** `#12884D` is 4.24:1 on `--color-brand-soft` and 4.32:1 on `--color-raised`, so text on a tint uses `--color-text`. No fourth green.
+- **Phone cards:** keep the 8px card and stroke on phone (live is flat there), so grouped sections still read as groups.
+- **Selected toggle thumbs:** with no shadow, they take a `1px var(--color-border)` stroke instead.
+- **Clickable cards:** keep the lift on hover (behaviour); no hover shadow.
+- **Inputs:** the live inputs sit behind login, so ours use the button radius (6px) and `1px var(--color-border)`. Derived, not measured.
 
 ## 5. How to work
 

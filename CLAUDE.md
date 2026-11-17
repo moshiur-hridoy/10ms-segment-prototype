@@ -10,7 +10,7 @@ Stack: Next.js 16 (App Router, Turbopack, `cacheComponents`), React 19, Tailwind
 Run it with `npm install`, then `npm run dev` (or `npm run build && npm start`), and open `/bn/hsc/hsc-28?stream=science`.
 
 ## Current goal: look like the live site
-Align the frontend with the live 10minuteschool.com, so a student moving from these pages to the live product page, cart or checkout feels it is one website. **Read [docs/live-alignment.md](docs/live-alignment.md) before any design change.** It has the measured live values, the token map, the rules and the open questions.
+Align the frontend with the live 10minuteschool.com, so a student moving from these pages to the live product page, cart or checkout feels it is one website. **The design system here is a twin of the live site's skin**, and every new change follows it. **Read [docs/live-alignment.md](docs/live-alignment.md) before any design change.** It has the measured live values, the token map, the rules and the designer's decisions.
 
 - **Skin, not layout.** Change backgrounds, strokes, greens, greys, radius, shadows, type and buttons. Keep the layout, sections, content and behaviour.
 - **Tokens first.** Change role tokens in `src/styles/modes.css` and the scales in `src/styles/theme.css`. Change a component in `src/design-system/` only when a token can't do it. Never hard-code colours in pages.
@@ -18,7 +18,7 @@ Align the frontend with the live 10minuteschool.com, so a student moving from th
 - **Green rule.**
   - Fills and icons use `#1CAB55`.
   - Green text, and green buttons with white text, use `#12884D` (the live CTA green, darkened to pass 4.5:1).
-- **Open questions first.** Q1–Q3 in the guideline are the designer's to decide; ask before changing those.
+- **Decisions are recorded.** Q1–Q3 are decided in section 4 of the guideline. Anything new that isn't covered there is the designer's call; ask first.
 - **Both sizes.** Every change is checked on desktop 1440 and phone 390, side by side with the matching live page.
 - **Frontend only.** No changes to data, routes, logic or copy unless the designer asks.
 
