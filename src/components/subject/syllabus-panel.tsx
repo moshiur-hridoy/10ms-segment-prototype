@@ -159,7 +159,8 @@ export function SyllabusPanel({ chapters, currentId, path, keep, lang, paperDone
     const current = r.id === currentId;
     const material = variant === "material";
     const pills = badges && r.kind === "video" && !material && !r.access;
-    // Outside the batch: the free class stands out in green; a class to buy or a material to log in for carries a lock.
+    // Outside the batch: the free class stands out in green with its tag where the others carry a lock (a class to buy or a
+    // material to log in for).
     const locked = r.access === "buy" || r.access === "login";
     const free = r.access === "free";
     const freeTag = free && (
@@ -197,13 +198,11 @@ export function SyllabusPanel({ chapters, currentId, path, keep, lang, paperDone
                 {r.meta && <span className="text-subtle"> · {r.meta}</span>}
               </span>
               {r.archive && <SourceTag archive label={s.archiveBadge} className="shrink-0" />}
-              {freeTag}
             </span>
           )}
           {variant === "flat" && <span className={cn("line-clamp-2 text-sm font-semibold", current && "text-brand-text")}>{r.title}</span>}
           {!material && (
             <span className={cn("flex min-w-0 items-center gap-1.5 text-xs text-subtle", pills && "flex-wrap gap-y-1")}>
-              {freeTag}
               {/* Every class says where it comes from ("লাইভ ক্লাস" names the class itself, so materials only get the archive tag). */}
               {(r.archive || (r.kind === "video" && !light)) && <SourceTag archive={r.archive} label={r.archive ? s.archiveBadge : s.liveBadge} />}
               <span className="truncate">
@@ -223,6 +222,8 @@ export function SyllabusPanel({ chapters, currentId, path, keep, lang, paperDone
           <NowPlaying label={s.nowPlaying} />
         ) : locked ? (
           <Lock className="size-4 shrink-0 text-subtle" role="img" aria-label={r.access === "buy" ? s.lockedBuyLabel : s.lockedLabel} />
+        ) : free ? (
+          freeTag
         ) : (
           !pills && !noMarks && <StatusMark status={r.status} progress={r.progress} label={r.statusLabel} />
         )}
