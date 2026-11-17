@@ -9,12 +9,10 @@
    only for the data-viz hues (a validated set of their own) and the SuperPrep/book illustration
    colours; tokens.test.ts enforces this.
    The site is light-only for now; dark is kept checked for a later switch.
-   Warm is light with sand neutrals: an experiment, switched on with ?mode=warm (lib/theme.ts).
    ========================================================================== */
 
 :root,
-[data-mode="light"],
-[data-mode="warm"] {
+[data-mode="light"] {
   color-scheme: light;
 
   /* Surfaces. Light mode is a twin of the live site's skin (docs/live-alignment.md): white page,
@@ -195,16 +193,6 @@
   --shadow-card: 0 1px 2px rgb(16 24 40 / 0.04), 0 1px 3px rgb(16 24 40 / 0.06);
 }
 
-:root[data-skin="old"][data-mode="warm"] {
-  --color-bg: var(--sand-50);
-  --color-border: var(--sand-100);
-}
-
-/* Warm: the page and its hairlines in sand; every other role as light. */
-[data-mode="warm"] {
-  --color-bg: var(--sand-50);
-  --color-border: var(--sand-100);
-}
 
 [data-mode="dark"] {
   color-scheme: dark;

@@ -11,35 +11,32 @@ const subscribe = (on: () => void) => {
 };
 
 /**
- * The reviewers' switch between the new UI (the live site's twin) and the old one, pinned to the bottom-right corner.
- * It only flips data-skin on <html> (lib/skin.ts); the page doesn't reload.
+ * The reviewers' switch, pinned to the bottom-right corner: off is the new UI (the live site's twin), on is the old
+ * one. It only flips data-skin on <html> (lib/skin.ts); the page doesn't reload. No visible label (the designer's
+ * call); screen readers and the tooltip name it.
  */
 export function SkinToggle() {
-  const skin = useSyncExternalStore(subscribe, readSkin, () => "new" as Skin);
-  const pick = (s: Skin) => {
-    setSkin(s);
+  const old = useSyncExternalStore(subscribe, readSkin, () => "new" as Skin) === "old";
+  const flip = () => {
+    setSkin(old ? "new" : "old");
     window.dispatchEvent(new Event(CHANGE));
   };
   return (
-    <div
-      role="group"
-      aria-label="UI"
-      className="fixed right-4 bottom-[max(1rem,env(safe-area-inset-bottom))] z-50 flex rounded-full border border-border bg-surface p-1 text-xs font-semibold shadow-pop"
+    <button
+      type="button"
+      role="switch"
+      aria-checked={old}
+      aria-label="Old UI"
+      title={old ? "Old UI" : "New UI"}
+      onClick={flip}
+      className="fixed right-4 bottom-[max(1rem,env(safe-area-inset-bottom))] z-50 grid place-items-center rounded-full border border-border bg-surface p-1.5 shadow-pop"
     >
-      {(["new", "old"] as const).map((s) => (
-        <button
-          key={s}
-          type="button"
-          aria-pressed={skin === s}
-          onClick={() => pick(s)}
-          className={cn(
-            "h-7 rounded-full px-3 transition-colors",
-            skin === s ? "bg-text text-surface" : "text-muted hover:text-text",
-          )}
-        >
-          {s === "new" ? "New UI" : "Old UI"}
-        </button>
-      ))}
-    </div>
+      <span className={cn("flex h-6 w-11 items-center rounded-full p-0.5 transition-colors", old ? "bg-text" : "bg-border-strong")}>
+        <span
+          aria-hidden
+          className={cn("size-5 rounded-full bg-surface shadow-raised transition-transform", old && "translate-x-5")}
+        />
+      </span>
+    </button>
   );
 }

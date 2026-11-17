@@ -105,7 +105,7 @@
   --color-paper: var(--color-paper);
   --color-ink: var(--color-ink);
   --color-live-soft: var(--color-live-soft);
-  /* Landing tints (landing.css): grey in light mode, sand in warm. */
+  /* Landing tints (landing.css). */
   --color-tint-band: var(--tint-band);
   --color-tint-band-edge: var(--tint-band-edge);
   --color-tint-band-ink: var(--tint-band-ink);

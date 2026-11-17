@@ -10,8 +10,7 @@ body.landing {
   -webkit-tap-highlight-color: transparent;
 }
 
-/* LP9: the landing's UI tints follow the mode: grey by default, each the grey of the same
-   lightness as its warm original; warm mode keeps the originals. Drawn objects (the kraft
+/* LP9: the landing's UI tints, each the grey of the same lightness as its original sand. Drawn objects (the kraft
    folder, receipt and notepad paper, photo frames, the chalk tray) keep their own colours. */
 :root {
   --tint-band: var(--gray-100); /* a full-width section band (the English centres) */
@@ -23,17 +22,6 @@ body.landing {
   --tint-well: var(--gray-50); /* behind an image shown whole (contain) */
   --tint-photo: var(--gray-100); /* a photo frame before its picture loads */
   --tint-edge: var(--gray-200); /* the top edge of a panel rising over the page */
-}
-[data-mode="warm"] {
-  --tint-band: #f3ebdc;
-  --tint-band-edge: #e4d8c2;
-  --tint-band-ink: #5f5644;
-  --tint-band-ink-soft: #8a7a5e;
-  --tint-band-rule: #d9cbb0;
-  --tint-band-dot: #6f6352;
-  --tint-well: #f7f1e6;
-  --tint-photo: #efe9db;
-  --tint-edge: #e2d9c6;
 }
 
 /* L6: each audience has its own colour. Pastel ground + deep ink of the same hue (AA), taken
