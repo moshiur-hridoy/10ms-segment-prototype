@@ -25,3 +25,8 @@ For editing, `npm run dev` instead of build + start.
 - Every PDF is the same sample lecture slide.
 - Subjects with a syllabus: Biology 1st and 2nd paper, Physics 1st paper, Chemistry 1st paper, Higher Math 1st paper.
   Other subjects open their routine.
+
+## Design alignment
+
+Work in progress: aligning the look with the live 10minuteschool.com. The guideline, the measured live values and the
+token map are in [docs/live-alignment.md](docs/live-alignment.md).
