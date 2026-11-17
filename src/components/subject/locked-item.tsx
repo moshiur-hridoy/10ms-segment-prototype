@@ -1,41 +1,38 @@
 import { Lock } from "lucide-react";
 import { Button } from "@/design-system/atoms/button";
 import { Card } from "@/design-system/atoms/card";
-import { LoginButton, UnlockList } from "@/components/catalog/segment";
+import { LoginButton } from "@/components/catalog/segment";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/get-dictionary";
 import type { SyllabusItem } from "@/lib/api";
 import { cn } from "@/lib/cn";
-import { fill } from "@/lib/format";
 
 /**
- * A guest opened a locked item (CT28): where the player would be, the class's cover behind a lock,
- * what logging in opens, and a way to a free class instead. The list beside it stays as it is.
+ * Someone outside the batch opened a locked item: where the player would be, the item's cover behind a lock, why it's
+ * locked, and the way in. `buy`: a class, which opens with the batch (see the plans). `login`: a material (slide, sheet,
+ * exam), which opens, downloads included, once logged in. Either way the paper's free class is one tap away.
  */
 export function LockedItem({
   item,
   title,
-  freeCount,
-  livePasses,
-  free,
+  reason,
+  freeHref,
+  plansHref,
   lang,
   t,
-  member,
 }: {
   item: SyllabusItem;
   title: string;
-  /** In the page's digits. */
-  freeCount: string;
-  livePasses: string;
-  /** A free class to open instead: this paper's first, else the segment page. */
-  free: { href: string; label: string };
+  reason: "buy" | "login";
+  /** The paper's free class; else the segment page. */
+  freeHref: { href: string; label: string };
+  plansHref: string;
   lang: Locale;
   t: Dictionary;
-  /** CT104: a free student (signed in): the class opens with the batch; the materials and SuperPrep are theirs already. */
-  member?: { plansHref: string; superprepHref: string };
 }) {
   const l = t.segment;
   const cover = Boolean(item.youtubeId);
+  const buy = reason === "buy";
   return (
     // The list leaves the page with an item open, so wide screens keep a reading width instead of a full-width empty stage.
     <Card id="player" className="mx-auto grid w-full max-w-2xl scroll-mt-24 overflow-hidden">
@@ -55,26 +52,20 @@ export function LockedItem({
       </div>
       <div className="grid gap-4 p-5 sm:p-6">
         <div className="grid gap-1">
-          <h2 className="type-title">{member ? l.lockTitleMember : l.lockTitle}</h2>
-          <p className="text-sm text-muted">{member ? l.lockLeadMember : fill(l.lockLead, { n: freeCount })}</p>
+          <h2 className="type-title">{buy ? l.lockBuyTitle : l.lockLoginTitle}</h2>
+          <p className="text-sm text-muted">{buy ? l.lockBuyLead : l.lockLoginLead}</p>
         </div>
-        {!member && <UnlockList n={livePasses} l={l} />}
         <div className="flex flex-wrap gap-2">
-          {member ? (
-            <Button href={member.plansHref} size="lg">
+          {buy ? (
+            <Button href={plansHref} size="lg">
               {l.seePlans}
             </Button>
           ) : (
             <LoginButton lang={lang} label={l.login} size="lg" />
           )}
-          <Button href={free.href} variant="secondary" size="lg">
-            {free.label}
+          <Button href={freeHref.href} variant="secondary" size="lg">
+            {freeHref.label}
           </Button>
-          {member && (
-            <Button href={member.superprepHref} variant="ghost" size="lg">
-              {l.seeSuperprep}
-            </Button>
-          )}
         </div>
       </div>
     </Card>

@@ -159,8 +159,8 @@ export function SyllabusPanel({ chapters, currentId, path, keep, lang, paperDone
     const current = r.id === currentId;
     const material = variant === "material";
     const pills = badges && r.kind === "video" && !material && !r.access;
-    // A guest (CT28): free classes stand out in green, everything else carries a lock.
-    const locked = r.access === "locked";
+    // Outside the batch: the free class stands out in green; a class to buy or a material to log in for carries a lock.
+    const locked = r.access === "buy" || r.access === "login";
     const free = r.access === "free";
     const freeTag = free && (
       <Badge tone="success" size="sm" className="shrink-0">
@@ -222,7 +222,7 @@ export function SyllabusPanel({ chapters, currentId, path, keep, lang, paperDone
         {current ? (
           <NowPlaying label={s.nowPlaying} />
         ) : locked ? (
-          <Lock className="size-4 shrink-0 text-subtle" role="img" aria-label={s.lockedLabel} />
+          <Lock className="size-4 shrink-0 text-subtle" role="img" aria-label={r.access === "buy" ? s.lockedBuyLabel : s.lockedLabel} />
         ) : (
           !pills && !noMarks && <StatusMark status={r.status} progress={r.progress} label={r.statusLabel} />
         )}

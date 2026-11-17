@@ -21,7 +21,7 @@ import { ResumeStrip } from "@/design-system/molecules/resume-strip";
 import { SubjectSkeleton } from "@/components/subject/subject-skeleton";
 import { SubjectPlaylist } from "@/components/subject/subject-playlist";
 import { SyllabusPanel } from "@/components/subject/syllabus-panel";
-import { itemHref } from "@/components/subject/types";
+import { itemHref, type PanelRow } from "@/components/subject/types";
 import { Viewer } from "@/components/subject/viewer";
 import { DEMO_AUDIENCE } from "@/components/subject/demo-audience";
 import { Breadcrumb } from "@/design-system/molecules/breadcrumb";
@@ -53,7 +53,6 @@ import { labVersion } from "@/lib/lab-version";
 import { createFormatter, fill } from "@/lib/format";
 import { subjectMorph, syllabusMorph } from "@/lib/motion";
 import { examHref } from "@/lib/superprep-links";
-import { LIVE_PASSES } from "@/lib/guest";
 import { visitorOf, type Visitor } from "@/lib/visitor";
 
 /*
@@ -150,15 +149,14 @@ async function SubjectContent({
   // Lab `concept` (O12): its own changes on top of class v53.
   const conceptV = labVersion("concept", sp.lab) ?? 0;
   const light = labV >= 24;
-  // A guest (CT28) has no progress and no course; the free classes open, the rest is locked.
-  // CT104 (lab `segment-home` v13): a free student who came from the segment page opens the class materials only.
-  const materialsOnly = who.free && labVersion("segment-home", sp.lab) !== null;
-  const [data, enrolledCourse, freeIds] = await Promise.all([
-    getSyllabus(bc, id, outside),
-    getPaperCourse(c, id),
-    // Prototype: every class and material opens for every visitor (null = nothing locked).
-    null as Set<string> | null,
-  ]);
+  const [data, enrolledCourse] = await Promise.all([getSyllabus(bc, id, outside), getPaperCourse(c, id)]);
+  // Outside the batch (the designer's rule): the paper's first class is free to watch; every other class opens with the
+  // batch (buy); every material (slide, sheet, exam) opens, downloads included, once logged in. In the batch: all open.
+  const freeVideo = outside
+    ? data?.chapters.flatMap((ch) => [...ch.batch.classes, ...ch.archive.classes].map((k) => k.video.id))[0]
+    : undefined;
+  const accessOf = (item: { id: string; kind: string }): PanelRow["access"] =>
+    !outside ? undefined : item.kind === "video" ? (item.id === freeVideo ? "free" : "buy") : guest ? "login" : undefined;
   const course = outside ? null : enrolledCourse;
   const fmt = createFormatter(lang, c.now);
   const s = t.syllabus;
@@ -232,7 +230,7 @@ async function SubjectContent({
       : [];
   const pct = data.total ? (data.done / data.total) * 100 : 0;
   const panel = {
-    chapters: freeIds ? withAccess(toPanelChapters(data.chapters, fmt, t, labV), freeIds) : toPanelChapters(data.chapters, fmt, t, labV),
+    chapters: outside ? withAccess(toPanelChapters(data.chapters, fmt, t, labV), accessOf) : toPanelChapters(data.chapters, fmt, t, labV),
     path,
     keep: keep.toString(),
     lang,
@@ -374,13 +372,9 @@ async function SubjectContent({
     );
   }
 
-  // A guest on a locked item (CT28): the lock card takes the player's place; the list stays beside it.
-  const locked = Boolean(freeIds && !freeIds.has(found.item.id));
-  const firstFree = materialsOnly
-    ? [...(freeIds ?? [])][0]
-    : freeIds
-      ? data.chapters.flatMap((ch) => ch.batch.classes.map((k) => k.video.id)).find((vid) => freeIds.has(vid))
-      : undefined;
+  // On a locked item the lock card takes the player's place; the list stays beside it.
+  const access = accessOf(found.item);
+  const lockReason = access === "buy" || access === "login" ? access : null;
   const next = nextClass(data.chapters, found.item);
   // "৩/৮": the open class among the classes of its group (this year's batch or the archive).
   const group = found.item.source === "archive" ? found.chapter.archive : found.chapter.batch;
@@ -462,18 +456,17 @@ async function SubjectContent({
       <div className="grid grid-cols-1 items-start gap-6 lg:grid-cols-[380px_minmax(0,1fr)] xl:grid-cols-[420px_minmax(0,1fr)] lg:has-[>[data-solo]]:mt-1 lg:has-[>[data-solo]]:grid-cols-1">
         {/* Rises in as the list moves aside; switching between items keeps it still. */}
         <ViewTransition enter="player-in" exit="player-out" default="none">
-          {locked ? (
+          {lockReason ? (
             <LockedItem
               item={found.item}
               title={stripPrefix(found.item.title)}
-              freeCount={fmt.number(freeIds?.size ?? 0)}
-              livePasses={fmt.number(LIVE_PASSES)}
-              free={
-                firstFree
-                  ? { href: itemHref(path, panel.keep, firstFree), label: materialsOnly ? t.segment.seeMaterials : t.segment.seeFree }
+              reason={lockReason}
+              freeHref={
+                freeVideo
+                  ? { href: itemHref(path, panel.keep, freeVideo), label: t.segment.seeFree }
                   : { href: home, label: t.segment.backToSegment }
               }
-              member={materialsOnly ? { plansHref: `${home}#plans`, superprepHref: `/${lang}/superprep` } : undefined}
+              plansHref={`${home}#plans`}
               lang={lang}
               t={t}
             />
@@ -490,6 +483,7 @@ async function SubjectContent({
               labV={labV}
               conceptV={conceptV}
               guest={outside}
+              download={!guest}
               fmt={fmt}
               t={t}
             />

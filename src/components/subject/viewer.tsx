@@ -49,6 +49,8 @@ type Props = {
   conceptV?: number;
   /** A guest (CT28): no attendance, since there is no student to have attended. */
   guest?: boolean;
+  /** Downloads need a login (the designer's rule): off for a visitor who isn't logged in. */
+  download?: boolean;
   fmt: Formatter;
   t: Dictionary;
 };
@@ -74,6 +76,7 @@ export function Viewer({
   labV = 0,
   conceptV = 0,
   guest = false,
+  download = true,
   fmt,
   t,
 }: Props) {
@@ -98,7 +101,7 @@ export function Viewer({
         <h1 className="type-title sm:text-2xl">{title}</h1>
       </div>
       <div className="flex shrink-0 gap-1">
-        {item.kind !== "exam" && (
+        {download && item.kind !== "exam" && (
           <DownloadButton
             id={item.id}
             title={title}
@@ -122,7 +125,7 @@ export function Viewer({
       {/* Lab `class` v15 (P67): write a note at this moment (a real video only: the stand-in has no clock). */}
       {/* Lab `class` v50 (P144): no notes, so no note button. */}
       {labV < 50 && item.kind === "video" && item.youtubeId && <NoteComposer item={item.id} locale={fmt.locale} labels={s.notes} />}
-      {item.kind !== "exam" && (
+      {download && item.kind !== "exam" && (
         <DownloadButton
           id={item.id}
           title={title}

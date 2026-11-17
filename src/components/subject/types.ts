@@ -19,8 +19,11 @@ export type PanelRow = {
   /** Watched share of a started video, 0–100. */
   progress?: number;
   archive: boolean;
-  /** A guest (CT28): `free` opens without logging in and looks it; `locked` shows a lock and asks for a login. */
-  access?: "free" | "locked";
+  /**
+   * Who may open it, for anyone outside the batch: `free` (the paper's one free class) opens for everyone and looks it;
+   * `buy` (every other class) opens with the batch; `login` (every material) opens once logged in. Unset: open.
+   */
+  access?: "free" | "buy" | "login";
 };
 
 export type PanelClass = PanelRow & {

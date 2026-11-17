@@ -753,7 +753,8 @@
       "collapse": "Put the chat back under the video"
     },
     "freeBadge": "Free",
-    "lockedLabel": "Log in to watch"
+    "lockedLabel": "Log in to watch",
+    "lockedBuyLabel": "Opens when you enrol"
   },
   "courseHome": {
     "crumbs": "Breadcrumb",
@@ -1477,6 +1478,10 @@
     "homeOpenTag": "Free for you",
     "lockTitleMember": "This class opens when you join the batch",
     "lockLeadMember": "Free: every slide and lecture sheet of this paper, and SuperPrep practice. Classes and exams open with the batch.",
+    "lockBuyTitle": "This class opens when you enrol",
+    "lockBuyLead": "One class of this paper is free. The others open when you join the batch.",
+    "lockLoginTitle": "Log in to open this",
+    "lockLoginLead": "Log in and every slide, sheet and exam of this paper opens, ready to download.",
     "seeMaterials": "See slides and sheets",
     "seePlans": "See the plans",
     "seeSuperprep": "Practise on SuperPrep",

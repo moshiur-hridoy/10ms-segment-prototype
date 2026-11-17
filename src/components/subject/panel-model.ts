@@ -84,9 +84,9 @@ export function toPanelChapters(chapters: ChapterView[], fmt: Formatter, t: Dict
   });
 }
 
-/** A guest's list (CT28): the free classes marked free, every other row locked. */
-export function withAccess(chapters: PanelChapter[], free: Set<string>): PanelChapter[] {
-  const mark = <T extends PanelRow>(r: T): T => ({ ...r, access: free.has(r.id) ? "free" : "locked" });
+/** The list for someone outside the batch: each row marked with who may open it (`accessOf`). */
+export function withAccess(chapters: PanelChapter[], accessOf: (r: PanelRow) => PanelRow["access"]): PanelChapter[] {
+  const mark = <T extends PanelRow>(r: T): T => ({ ...r, access: accessOf(r) });
   return chapters.map((c) => ({
     ...c,
     notes: c.notes.map(mark),
