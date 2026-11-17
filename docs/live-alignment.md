@@ -127,11 +127,11 @@ Layout, section order, the folder and book illustrations, the class tiles and th
 
 | Area | Background | Stroke | Green | Radius | Shadow | Type | Checked on both sizes |
 |---|---|---|---|---|---|---|---|
-| Header (guest) | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| Segment page: batch card / hero | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| Segment page: তোমার জন্য ফ্রি (rows, uploads, folders) | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| Segment page: subjects, free course, offers, masterbooks, English courses | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| Segment page: footer sections | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| Login pop-up | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| Class page: list panel, player, PDF reader | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| Buttons (primary, secondary, small) | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| Header (guest) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Segment page: batch card / hero | ✓ card | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ (navy band waits for Q3 review) |
+| Segment page: তোমার জন্য ফ্রি (rows, uploads, folders) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Segment page: subjects, free course, offers, masterbooks, English courses | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Segment page: footer sections | kept (dark band) | ✓ | ✓ | kept 24px (the live product page's card radius) | ✓ | ✓ | desktop only |
+| Login pop-up | ✓ | ✓ | ✓ | ✓ | pop shadow kept (§3.3) | ✓ | not yet looked at |
+| Class page: list panel, player, PDF reader | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | list panel on both; player and reader not yet looked at |
+| Buttons (primary, secondary, small) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
