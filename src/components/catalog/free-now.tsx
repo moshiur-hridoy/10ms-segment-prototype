@@ -427,7 +427,7 @@ export function FreeNow({
                       boxed
                         ? soft
                           ? cn("h-full rounded-lg bg-raised p-3 transition-colors hover:bg-border/60", roomRight && "pr-5")
-                          : "h-full rounded-lg border border-border bg-surface p-3 transition-colors hover:border-border-strong hover:bg-raised"
+                          : "h-full rounded-card border border-border bg-surface p-3 transition-colors hover:border-border-strong hover:bg-raised"
                         : "-mx-2 p-2 hover:bg-raised",
                     )}
                   >

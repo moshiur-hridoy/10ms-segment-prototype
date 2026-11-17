@@ -64,7 +64,7 @@ export function NoteComposer({ item, locale, labels: l }: { item: string; locale
           setResume(false);
         }}
         onClick={(e) => e.target === e.currentTarget && close()}
-        className="sheet mx-auto mt-auto mb-0 w-full max-w-lg rounded-t-lg border-0 bg-surface p-0 text-text shadow-pop backdrop:bg-text/30 sm:mb-auto sm:rounded-lg"
+        className="sheet mx-auto mt-auto mb-0 w-full max-w-lg rounded-t-card border-0 bg-surface p-0 text-text shadow-pop backdrop:bg-text/30 sm:mb-auto sm:rounded-card"
       >
         {at !== null && (
           <form method="dialog" onSubmit={(e) => (e.preventDefault(), save())} className="grid gap-3 p-4 pb-[max(1rem,env(safe-area-inset-bottom))]">

@@ -498,7 +498,7 @@ function DocStage({ item, fmt, t }: { item: SyllabusItem; fmt: Formatter; t: Dic
   if (item.kind !== "exam") return <PdfReader url={pdfUrl(item)} title={stripPrefix(item.title)} labels={s.reader} lang={fmt.locale} />;
   const scorePct = item.score && item.score.total ? (item.score.got / item.score.total) * 100 : null;
   return (
-    <div className="grid w-full place-items-center rounded-lg border border-border bg-raised px-6 py-12 sm:aspect-[16/7] sm:py-0">
+    <div className="grid w-full place-items-center rounded-card border border-border bg-raised px-6 py-12 sm:aspect-[16/7] sm:py-0">
       <div className="grid max-w-sm justify-items-center gap-4 text-center">
         <ItemIcon kind={item.kind} size="lg" />
         <div className="grid gap-1">

@@ -78,7 +78,7 @@ export function LoginPopup({
         onClose={() => void (document.documentElement.style.overflow = "")}
         // A click on the backdrop lands on the dialog itself.
         onClick={(e) => e.target === e.currentTarget && close()}
-        className="mx-auto mt-auto mb-0 max-h-[90dvh] w-full max-w-lg overflow-y-auto overscroll-contain rounded-t-lg border-0 bg-surface p-0 text-text shadow-pop backdrop:bg-text/40 md:my-auto md:rounded-lg"
+        className="mx-auto mt-auto mb-0 max-h-[90dvh] w-full max-w-lg overflow-y-auto overscroll-contain rounded-t-card border-0 bg-surface p-0 text-text shadow-pop backdrop:bg-text/40 md:my-auto md:rounded-card"
       >
         <div className="grid gap-2 p-5 pb-[max(1.5rem,env(safe-area-inset-bottom))] sm:p-6">
           <IconButton label={closeLabel} onClick={close} className="justify-self-end">

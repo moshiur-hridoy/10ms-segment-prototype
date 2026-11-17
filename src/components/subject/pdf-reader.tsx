@@ -124,9 +124,9 @@ export function PdfReader({ url, title, labels: l, lang }: { url: string; title:
         className={cn("flex flex-col gap-3", full ? "h-full snap-y snap-mandatory overflow-y-auto overscroll-contain p-3" : "max-lg:pb-56")}
       >
         {failed ? (
-          <p className="grid min-h-48 place-items-center rounded-lg border border-border bg-raised p-6 text-center text-sm text-muted">{l.error}</p>
+          <p className="grid min-h-48 place-items-center rounded-card border border-border bg-raised p-6 text-center text-sm text-muted">{l.error}</p>
         ) : !doc ? (
-          <p className="grid aspect-video place-items-center rounded-lg border border-border bg-raised text-sm text-muted">
+          <p className="grid aspect-video place-items-center rounded-card border border-border bg-raised text-sm text-muted">
             <span className="flex items-center gap-2">
               <span className="size-4 animate-spin rounded-full border-2 border-border border-t-brand" aria-hidden />
               {l.loading}

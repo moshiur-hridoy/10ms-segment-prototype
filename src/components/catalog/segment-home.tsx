@@ -874,7 +874,7 @@ function Books({
                   key={s.id}
                   className={cn("grid min-w-0 gap-2", phoneRow && (twoRows ? "max-sm:snap-start" : "max-sm:w-64 max-sm:shrink-0 max-sm:snap-start"))}
                 >
-                  <div className="overflow-hidden rounded-lg border border-border bg-gradient-to-b from-surface to-raised">
+                  <div className="overflow-hidden rounded-card border border-border bg-gradient-to-b from-surface to-raised">
                     <ul className="flex items-end justify-center gap-4 px-4 pt-6">
                       {books.map((b) => (
                         <li key={b.id}>
@@ -1578,7 +1578,7 @@ function Offers({
                         )}
                         {/* The whole card is the link (to the store's page, where it's bought), so this is the button's look, not a second link. */}
                         {bundleButton && (
-                          <span className="mt-2 inline-flex h-9 w-fit items-center gap-1.5 rounded-full bg-primary px-4 text-sm font-semibold whitespace-nowrap text-on-primary transition-colors group-hover/bundle:bg-primary-hover">
+                          <span className="mt-2 inline-flex h-9 w-fit items-center gap-1.5 rounded-button border-b-4 border-b-primary-edge bg-primary px-4 text-sm whitespace-nowrap text-on-primary transition-colors group-hover/bundle:bg-primary-hover">
                             {l.homeBundleOpen}
                             <ArrowRight className="size-4" aria-hidden />
                           </span>

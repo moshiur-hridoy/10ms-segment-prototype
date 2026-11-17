@@ -535,7 +535,7 @@ export function SegmentSkeleton({
   /** CT200 (v92): the uploads as 72px rows (a 56px circle, two lines), then the "+n" row. */
   uploadRows?: boolean;
 }) {
-  const card = "rounded-lg border border-border bg-surface";
+  const card = "rounded-card border border-border bg-surface";
   // A section's title and its line under it, 52px as on the page.
   const head = (w: string) => (
     <div className="grid gap-2">
@@ -693,7 +693,7 @@ export function SegmentSkeleton({
           <div className="@container">
             <div className="-mx-4 grid auto-cols-[15rem] grid-flow-col grid-rows-2 gap-x-4 gap-y-6 overflow-hidden px-4 sm:mx-0 sm:grid-flow-row sm:grid-cols-1 sm:grid-rows-none sm:px-0 @md:sm:grid-cols-2 @2xl:sm:grid-cols-3">
               {Array.from({ length: 7 }, (_, i) => (
-                <div key={i} className="overflow-hidden rounded-lg border border-border">
+                <div key={i} className="overflow-hidden rounded-card border border-border">
                   <div className="flex items-end justify-center gap-4 px-4 pt-6">
                     <Skeleton radius="md" className="aspect-[3/4] w-24 sm:w-26" />
                     {i < 6 && <Skeleton radius="md" className="aspect-[3/4] w-24 sm:w-26" />}

@@ -60,7 +60,7 @@ export function SiteHeader({
   const courses = { label: t.nav.courses, Icon: BookSaved, active: current === "courses" };
 
   return (
-    <header className="site-header sticky top-0 z-40 border-b border-border bg-overlay backdrop-blur-xl backdrop-saturate-150">
+    <header className="site-header sticky top-0 z-40 border-b border-border bg-surface">
       <div className="mx-auto flex h-16 max-w-page items-center gap-2 px-4 sm:gap-3 sm:px-6">
         {/* The logo opens the public home page (the landing); the ড্যাশবোর্ড tab beside it opens the dashboard. */}
         <Link href={`/${lang}/hsc/hsc-28`} aria-label={t.nav.siteHome} className="shrink-0 text-text">

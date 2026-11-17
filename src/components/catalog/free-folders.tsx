@@ -368,7 +368,7 @@ export function FreeFolders({
           // The page scrolls again unless another dialog (the login pop-up) is still open.
           onClose={() => !document.querySelector("dialog[open]") && lockScroll(false)}
           onClick={(e) => e.target === e.currentTarget && close()}
-          className="mx-auto mt-auto mb-0 max-h-[85dvh] w-full max-w-lg overflow-hidden rounded-t-lg border-0 bg-surface p-0 text-text shadow-pop backdrop:bg-text/40 md:my-auto md:rounded-lg"
+          className="mx-auto mt-auto mb-0 max-h-[85dvh] w-full max-w-lg overflow-hidden rounded-t-card border-0 bg-surface p-0 text-text shadow-pop backdrop:bg-text/40 md:my-auto md:rounded-card"
         >
           <div className="flex max-h-[85dvh] flex-col">
             <div className="flex items-center gap-3 px-5 pt-5 pb-3">

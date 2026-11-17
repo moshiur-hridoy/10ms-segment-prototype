@@ -305,8 +305,8 @@ export function SyllabusPanel({ chapters, currentId, path, keep, lang, paperDone
         sheet
           ? "h-full min-h-0"
           : page
-            ? "rounded-lg border border-border"
-            : "rounded-lg border border-border lg:sticky lg:top-20 lg:max-h-[calc(100dvh-6rem)]",
+            ? "rounded-card border border-border"
+            : "rounded-card border border-border lg:sticky lg:top-20 lg:max-h-[calc(100dvh-6rem)]",
         className,
       )}
     >

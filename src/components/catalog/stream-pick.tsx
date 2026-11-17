@@ -69,7 +69,7 @@ export function StreamPick({
       aria-labelledby="stream-pick-title"
       onClose={() => !document.querySelector("dialog[open]") && lock(false)}
       onClick={(e) => e.target === e.currentTarget && close()}
-      className="mx-auto mt-auto mb-0 w-full max-w-3xl overflow-hidden rounded-t-lg border-0 bg-surface p-0 text-text shadow-pop backdrop:bg-text/40 md:my-auto md:rounded-lg"
+      className="mx-auto mt-auto mb-0 w-full max-w-3xl overflow-hidden rounded-t-card border-0 bg-surface p-0 text-text shadow-pop backdrop:bg-text/40 md:my-auto md:rounded-card"
     >
       <div className="relative grid gap-6 p-5 pb-[calc(1.25rem+env(safe-area-inset-bottom))] sm:p-8">
         <IconButton label={closeLabel} onClick={close} className="absolute top-3 right-3">
