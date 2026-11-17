@@ -29,6 +29,8 @@ import type { FreeShelfItem } from "@/lib/api";
 import type { CatalogView } from "@/lib/api/catalog";
 import { cn } from "@/lib/cn";
 import { fill, type Formatter } from "@/lib/format";
+import { loginFor } from "./login-for";
+import { newUploads } from "@/lib/new-uploads";
 
 type L = Dictionary["segment"];
 type Kind = FreeShelfItem["kind"] | "suggestion" | "routine" | "exam" | "tenten";
@@ -50,8 +52,6 @@ const lockScroll = (on: boolean) => void (document.documentElement.style.overflo
 const kindOf = (k: Kind) => KINDS.find((x) => x.kind === k)!;
 /** CT186 (v78): opens the sheet of new uploads; "আরও দেখো" beside "নতুন আপলোড" (in `FreeNow`, above the folders) calls it. */
 export const OpenNewUploads = createContext<(() => void) | null>(null);
-/** How many of the newest uploads the sheet lists. */
-export const NEW_IN_SHEET = 12;
 
 function KindIcon({ kind, big = false }: { kind: Kind; big?: boolean }) {
   const { Icon, tone } = kindOf(kind);
@@ -154,11 +154,12 @@ export function FreeFolders({
   const [subject, setSubject] = useState<string | null>(null);
   const sheet = useRef<HTMLDialogElement>(null);
 
-  const page = (i: FreeShelfItem, keepAs: boolean) => `/${lang}/subject/${i.paperId}?${keepAs ? segment : segment.replace(/&as=[^&]*/, "")}`;
-  // A guest's tap asks for the login (the page's pop-up catches the link), then goes to the item's paper.
+  const page = (i: FreeShelfItem, keepAs: boolean) =>
+    `/${lang}/subject/${i.paperId}?${keepAs ? segment : segment.replace(/&as=[^&]*/, "")}&item=${i.id}&via=card`;
+  // A guest's tap asks for the login (the page's pop-up catches the link), then opens the item itself, a class playing.
   const hrefOf = (i: FreeShelfItem) => (signedIn ? page(i, true) : `/${lang}/login?next=${encodeURIComponent(page(i, false))}`);
   // The items come newest first; the dated ones lead.
-  const ofKind = (k: Kind | "new") => (k === "new" ? mine.filter((i) => i.at).slice(0, NEW_IN_SHEET) : mine.filter((i) => i.kind === k));
+  const ofKind = (k: Kind | "new") => (k === "new" ? newUploads(mine, subjects.map((s) => s.id)) : mine.filter((i) => i.kind === k));
 
   function open(k: Kind | "new") {
     setKind(k);
@@ -179,6 +180,8 @@ export function FreeFolders({
   // CT171: the notes' folder holds the suggestions too (none in the data yet, so its count is the notes').
   const nameOf = (k: Kind) => (notesWithSuggestions && k === "note" ? l.homeFreeNoteSuggestion : kindOf(k).label(l));
   const two = phoneTwo && shown.length > 2;
+  // The videos and the two apps as rows at every size: icon at the left, name and what it is beside it, on a soft grey.
+  const appRows = appIcons && videoOnly && !!practice;
   const inSheet = ofKind(kind).filter((i) => !subject || i.subject === subject);
   // The designer's call: the videos' sheet holds folders (the team's collections), not a list of single videos.
   const videoFolders = videoOnly && kind === "video" ? l.homeVideoFolders : null;
@@ -236,7 +239,12 @@ export function FreeFolders({
   function row(i: FreeShelfItem) {
     return (
       <li key={i.id}>
-        <Link href={hrefOf(i)} onClick={close} className="flex items-start gap-3 rounded-md px-2 py-2.5 hover:bg-raised">
+        <Link
+          href={hrefOf(i)}
+          onClick={close}
+          {...loginFor(i.kind === "video" ? "video" : "note", i.title, i.paper)}
+          className="flex items-start gap-3 rounded-md px-2 py-2.5 hover:bg-raised"
+        >
           <KindIcon kind={i.kind} />
           <span className="grid min-w-0 flex-1 gap-0.5">
             <span className="line-clamp-2 text-sm leading-snug font-semibold">{i.title}</span>
@@ -280,8 +288,10 @@ export function FreeFolders({
 
         <ul
           className={cn(
-            // CT189: fixed columns from the left, as many as fit before wrapping.
-            leftRow
+            appRows
+              ? "grid gap-2 sm:grid-cols-3 sm:gap-3"
+              : // CT189: fixed columns from the left, as many as fit before wrapping.
+                leftRow
               ? "grid grid-cols-3 gap-3 sm:grid-cols-[repeat(auto-fill,7rem)] sm:gap-4"
               : // CT185: three folders sit in one row on phones too.
                 two && shown.length === 3
@@ -316,10 +326,11 @@ export function FreeFolders({
                         name={nameOf(k)}
                         badge={k === "exam" ? l.homeFreeExamBadge : l.homeFreeTenTenBadge}
                         href={practice[k]}
-                        className="sm:hidden"
+                        tapped={k === "exam" ? loginFor("exam", nameOf(k), l.homeFreeExamBadge) : undefined}
+                        className={cn(!appRows && "sm:hidden")}
                       />
                     )}
-                    <div className={cn(appIcons && "max-sm:hidden")}>
+                    <div className={cn(appIcons && "max-sm:hidden", appRows && "hidden")}>
                       <TypeFolder
                         kind={k}
                         name={nameOf(k)}
@@ -353,9 +364,9 @@ export function FreeFolders({
                       name={nameOf(k)}
                       badge={fill(l.homeFreeCount, { n: fmt.number(l.homeVideoFolders.length) })}
                       onOpen={() => open(k)}
-                      className="sm:hidden"
+                      className={cn(!appRows && "sm:hidden")}
                     />
-                    <div className="max-sm:hidden">
+                    <div className={cn("max-sm:hidden", appRows && "hidden")}>
                       <TypeFolder
                         kind={k}
                         name={nameOf(k)}
@@ -447,6 +458,7 @@ function AppRow({
   badge,
   href,
   onOpen,
+  tapped,
   className,
 }: {
   icon: string;
@@ -454,11 +466,13 @@ function AppRow({
   badge: string;
   href?: string;
   onOpen?: () => void;
+  /** What was tapped, for the page's login pop-up. */
+  tapped?: ReturnType<typeof loginFor>;
   className?: string;
 }) {
   const body = (
     <>
-      <Image src={icon} alt="" width={40} height={40} className="size-10 shrink-0" />
+      <Image src={icon} alt="" width={48} height={48} className="size-11 shrink-0 sm:size-12" />
       <span className="grid min-w-0 gap-0.5 text-start">
         <span className="truncate text-sm font-semibold">{name}</span>
         <span className="truncate text-xs text-subtle">{badge}</span>
@@ -466,9 +480,10 @@ function AppRow({
       <ChevronRight className="ms-auto size-5 shrink-0 text-subtle" aria-hidden />
     </>
   );
-  const cls = cn("flex w-full items-center gap-3 rounded-md border border-border bg-surface p-3 press hover:bg-raised", className);
+  // A soft grey tile with the card stroke (the grey alone fades out on some screens); a stronger stroke on hover.
+  const cls = cn("flex w-full items-center gap-3 rounded-md border border-border bg-raised p-3 press hover:border-border-strong sm:p-4", className);
   return href ? (
-    <Link href={href} className={cls}>
+    <Link href={href} className={cls} {...tapped}>
       {body}
     </Link>
   ) : (

@@ -33,6 +33,8 @@ import { getDictionary, type Dictionary } from "@/i18n/get-dictionary";
 import {
   createDataContext,
   DEFAULT_SET_SIZE,
+  getCatalog,
+  getFreeShelf,
   getStreak,
   getPaperComing,
   getPaperCourse,
@@ -50,6 +52,7 @@ import {
 import { cn } from "@/lib/cn";
 import { LabProvider } from "@/lib/lab";
 import { labVersion } from "@/lib/lab-version";
+import { newUploads } from "@/lib/new-uploads";
 import { createFormatter, fill } from "@/lib/format";
 import { subjectMorph, syllabusMorph } from "@/lib/motion";
 import { examHref } from "@/lib/superprep-links";
@@ -149,14 +152,24 @@ async function SubjectContent({
   // Lab `concept` (O12): its own changes on top of class v53.
   const conceptV = labVersion("concept", sp.lab) ?? 0;
   const light = labV >= 24;
-  const [data, enrolledCourse] = await Promise.all([getSyllabus(bc, id, outside), getPaperCourse(c, id)]);
-  // Outside the batch (the designer's rule): the paper's first class is free to watch; every other class opens with the
+  // The segment page the visitor came from (`seg=hsc-28.science`, CT28).
+  const [segBatch, segStream] = typeof sp.seg === "string" ? sp.seg.split(".") : [];
+  const [data, enrolledCourse, shelf, segView] = await Promise.all([
+    getSyllabus(bc, id, outside),
+    getPaperCourse(c, id),
+    outside ? getFreeShelf(bc) : [],
+    outside ? getCatalog(c, segBatch || "hsc-28", segStream || null) : null,
+  ]);
+  // Outside the batch (the designer's rules): the paper's first class is free to watch, and so are the new uploads its
+  // segment page lists, so a student who taps one there and logs in gets the class; every other class opens with the
   // batch (buy); every material (slide, sheet, exam) opens, downloads included, once logged in. In the batch: all open.
   const freeVideo = outside
     ? data?.chapters.flatMap((ch) => [...ch.batch.classes, ...ch.archive.classes].map((k) => k.video.id))[0]
     : undefined;
+  const segSubjects = segView ? [...segView.stream.group, ...segView.stream.compulsory].map((s) => s.id) : [];
+  const freeVideos = new Set([...(freeVideo ? [freeVideo] : []), ...newUploads(shelf, segSubjects).map((i) => i.id)]);
   const accessOf = (item: { id: string; kind: string }): PanelRow["access"] =>
-    !outside ? undefined : item.kind === "video" ? (item.id === freeVideo ? "free" : "buy") : guest ? "login" : undefined;
+    !outside ? undefined : item.kind === "video" ? (freeVideos.has(item.id) ? "free" : "buy") : guest ? "login" : undefined;
   const course = outside ? null : enrolledCourse;
   const fmt = createFormatter(lang, c.now);
   const s = t.syllabus;
@@ -178,7 +191,6 @@ async function SubjectContent({
   const listHref = keep.size ? `${path}?${keep}` : path;
   // Has the student started this paper (a class watched or part-watched)? Only then is there somewhere to continue from.
   // A guest's way back is the segment page they came from (`seg=hsc-28.science`, CT28), keeping the lab and `?as=`.
-  const [segBatch, segStream] = typeof sp.seg === "string" ? sp.seg.split(".") : [];
   const segParams = new URLSearchParams();
   if (segStream) segParams.set("stream", segStream);
   for (const k of ["lab", "as"]) if (typeof sp[k] === "string") segParams.set(k, sp[k]);

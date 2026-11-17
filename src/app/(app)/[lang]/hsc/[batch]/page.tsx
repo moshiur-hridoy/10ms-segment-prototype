@@ -278,6 +278,8 @@ async function CatalogBody({
           title={t.segment.homeLoginTitle}
           lead={t.segment.homeLoginLead}
           closeLabel={t.segment.homeLoginClose}
+          titleFor={t.segment.homeLoginFor}
+          leadFor={t.segment.homeLoginForLead}
           off={!who.guest}
         >
           <SegmentHome

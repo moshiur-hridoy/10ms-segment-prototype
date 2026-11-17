@@ -18,7 +18,9 @@ import { freeEachSubject } from "@/lib/guest";
 import { freeOffers, offerTurns } from "@/data/segment-home";
 import { links } from "@/data/landing/site";
 import { dhakaDay } from "@/lib/time";
-import { NEW_IN_SHEET, OpenNewUploads } from "./free-folders";
+import { NEW_IN_SHEET } from "@/lib/new-uploads";
+import { OpenNewUploads } from "./free-folders";
+import { loginFor } from "./login-for";
 import { LoginButton } from "./segment";
 
 type L = Dictionary["segment"];
@@ -197,13 +199,15 @@ export function FreeNow({
     const rel = fmt.relativeDay(iso);
     return rel === "today" ? l.homeOfferToday : rel === "tomorrow" ? l.homeOfferTomorrow : fmt.weekday(iso);
   };
-  const join = signedIn ? (
-    <Button href={joinHref} size="sm" variant="secondary">
-      {l.homeJoin}
-    </Button>
-  ) : (
-    <LoginButton lang={lang} label={l.homeJoin} variant="secondary" />
-  );
+  // A guest's join names the class in the login pop-up and goes on to the join once signed in.
+  const join = (tapped?: ReturnType<typeof loginFor>) =>
+    signedIn ? (
+      <Button href={joinHref} size="sm" variant="secondary">
+        {l.homeJoin}
+      </Button>
+    ) : (
+      <LoginButton lang={lang} label={l.homeJoin} variant="secondary" next={joinHref} tapped={tapped} />
+    );
   const book = (
     <Button href={demoHref} size="sm" variant="secondary">
       {l.homeOfferBook}
@@ -243,8 +247,10 @@ export function FreeNow({
       .filter((i) => !newest.some((n) => n.id === i.id)).length;
     if (!today.length && !upcoming.length && !first && !demo && !trial && !newest.length) return null;
 
-    // As the folders' items: a guest's tap asks for the login (the page's pop-up catches the link), then goes to the item's paper.
-    const page = (i: FreeShelfItem, keepAs: boolean) => `/${lang}/subject/${i.paperId}?${keepAs ? segment : segment.replace(/&as=[^&]*/, "")}`;
+    // As the folders' items: a guest's tap asks for the login (the page's pop-up catches the link), then opens the item
+    // itself on its paper's page, a class playing (`via=card`).
+    const page = (i: FreeShelfItem, keepAs: boolean) =>
+      `/${lang}/subject/${i.paperId}?${keepAs ? segment : segment.replace(/&as=[^&]*/, "")}&item=${i.id}&via=card`;
     const hrefOf = (i: FreeShelfItem) => (signedIn ? page(i, true) : `/${lang}/login?next=${encodeURIComponent(page(i, false))}`);
     const when = (iso: string) => {
       const rel = fmt.relativeDay(iso);
@@ -284,7 +290,7 @@ export function FreeNow({
           title={topic ? `${c.subjectName} · ${topic}` : c.subjectName}
           pill={on ? { tone: "danger", text: l.homeOfferLiveNow } : { tone: "brand", text: l.homeOfferLiveFree, quiet: true }}
           meta={range(c)}
-          action={join}
+          action={join()}
           live={on}
         />
       );
@@ -343,7 +349,11 @@ export function FreeNow({
               return (
                 <li key={i.id} id={`up-${i.id}`} className="relative -mx-2 scroll-mt-24">
                   {shared && ringDone !== i.id && <span aria-hidden className={cn("shared-pulse", softPulse && "shared-pulse-soft")} />}
-                  <Link href={hrefOf(i)} className="group/up flex items-center gap-3 rounded-md p-2 transition-colors hover:bg-raised sm:gap-4">
+                  <Link
+                    href={hrefOf(i)}
+                    {...loginFor(video ? "video" : folder ? "folder" : "note", title, paper)}
+                    className="group/up flex items-center gap-3 rounded-md p-2 transition-colors hover:bg-raised sm:gap-4"
+                  >
                     <span
                       aria-hidden
                       className={cn(
@@ -422,6 +432,7 @@ export function FreeNow({
                     ))}
                   <Link
                     href={hrefOf(i)}
+                    {...loginFor(video ? "video" : "note", i.title, i.paper)}
                     className={cn(
                       "group/up flex items-center gap-3 rounded-md",
                       boxed
@@ -516,7 +527,11 @@ export function FreeNow({
                     title={topic ? `${first.subjectName} · ${topic}` : first.subjectName}
                     meta={liveBand && on ? `${l.homeOfferLiveNow} · ${range(first)}` : `${day(first.startsAt)} · ${range(first)}`}
                     // CT257: a class that hasn't started has no "জয়েন করো"; the button comes back while it is on.
-                    action={classBand && !on ? null : join}
+                    action={
+                      classBand && !on
+                        ? null
+                        : join(loginFor("live", topic ? `${first.subjectName} · ${topic}` : first.subjectName, range(first)))
+                    }
                     live={on}
                   />
                 );
@@ -630,7 +645,7 @@ export function FreeNow({
             title={c.subjectName}
             meta={`${day(c.startsAt)} · ${fmt.time(c.startsAt)} – ${fmt.time(c.endsAt)}`}
             live={on}
-            action={join}
+            action={join()}
           />,
         );
       }

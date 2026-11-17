@@ -24,6 +24,7 @@ import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { BOOK_COLOR, type BookFamily } from "@/design-system/foundations/book";
 import { Avatar } from "@/design-system/atoms/avatar";
 import { Button } from "@/design-system/atoms/button";
+import { loginFor } from "./login-for";
 import { Card } from "@/design-system/atoms/card";
 import { Receipt } from "@/design-system/molecules/receipt";
 import { SheetDialog } from "@/design-system/molecules/bottom-sheet";
@@ -930,19 +931,25 @@ export function LoginButton({
   label,
   size = "sm",
   variant = "primary",
+  next: then,
+  tapped,
 }: {
   lang: Locale;
   label: string;
   size?: "xs" | "sm" | "md" | "lg";
   variant?: "primary" | "secondary";
+  /** Where to go once signed in, in place of this page (a live class's join). */
+  next?: string;
+  /** What was tapped, for the page's login pop-up (`loginFor`). */
+  tapped?: ReturnType<typeof loginFor>;
 }) {
   const path = usePathname();
   const params = new URLSearchParams(useSearchParams());
   params.delete("as");
   const query = params.toString();
-  const next = path + (query ? `?${query}` : "");
+  const next = then ?? path + (query ? `?${query}` : "");
   return (
-    <Button href={`/${lang}/login${next ? `?next=${encodeURIComponent(next)}` : ""}`} size={size} variant={variant}>
+    <Button href={`/${lang}/login${next ? `?next=${encodeURIComponent(next)}` : ""}`} size={size} variant={variant} {...tapped}>
       {label}
     </Button>
   );
