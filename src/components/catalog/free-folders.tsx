@@ -228,6 +228,7 @@ export function FreeFolders({
           <Folder className="size-6 fill-current" />
         </span>
         <span className="min-w-0 flex-1 font-semibold">{name}</span>
+        <ChevronRight className="size-5 shrink-0 text-subtle" aria-hidden />
       </li>
     );
   }
